@@ -160,3 +160,19 @@ Promise.all([
 ])
   .then(([d, o]) => { ALL = d.protocols || []; ORG = o || {}; render(); })
   .catch(() => { $("todayGrid").innerHTML = "<p class='empty'>Could not load protocols.</p>"; });
+
+// Hero slideshow: a new protocol-type picture every 3 seconds
+(function () {
+  const slides = [...document.querySelectorAll("#slideshow .slide")];
+  const dots = document.getElementById("dots");
+  if (!slides.length || !dots) return;
+  let i = 0, timer;
+  slides.forEach((_, n) => { const d = document.createElement("i"); d.onclick = () => { go(n); restart(); }; dots.appendChild(d); });
+  const go = (n) => {
+    slides[i].classList.remove("on"); dots.children[i].classList.remove("on");
+    i = n; slides[i].classList.add("on"); dots.children[i].classList.add("on");
+  };
+  const restart = () => { clearInterval(timer); timer = setInterval(() => go((i + 1) % slides.length), 3000); };
+  dots.children[0].classList.add("on");
+  restart();
+})();

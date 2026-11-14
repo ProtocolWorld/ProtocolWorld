@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" width="640" height="470">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff8ea"/><stop offset="1" stop-color="#f5dfb8"/></linearGradient>
+<linearGradient id="cr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a82040"/><stop offset="1" stop-color="#4a0b17"/></linearGradient>
+<radialGradient id="gl" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#e9d3a4"/></radialGradient>
+</defs>
+<rect width="640" height="470" fill="url(#bg)"/>
+<circle cx="520" cy="90" r="150" fill="#f3d98b" opacity=".35"/><circle cx="90" cy="330" r="120" fill="#e8a0b4" opacity=".18"/>
+<path d="M80 230 q40 -70 90 -10 t90 0 t80 -20" fill="none" stroke="#2f8f9d" stroke-width="26" stroke-linecap="round"/><circle cx="106" cy="212" r="3" fill="#4a0b17"/><g transform="translate(400,120)"><ellipse cx="0" cy="40" rx="24" ry="48" fill="#4a0b17"/><circle cx="0" cy="-18" r="22" fill="#8f1a30"/><circle cx="-9" cy="-22" r="8" fill="#ffd3d9"/><circle cx="9" cy="-22" r="8" fill="#ffd3d9"/><ellipse cx="-52" cy="22" rx="46" ry="19" transform="rotate(-28 -52 22)" fill="#fff" stroke="#c9983a" stroke-width="3" opacity=".9"/><ellipse cx="52" cy="22" rx="46" ry="19" transform="rotate(28 52 22)" fill="#fff" stroke="#c9983a" stroke-width="3" opacity=".9"/></g><g transform="translate(300,300)"><ellipse cx="0" cy="0" rx="72" ry="30" fill="#c9983a"/><path d="M68 0 l46 -30 v60z" fill="#8f1a30"/><circle cx="-40" cy="-6" r="6" fill="#4a0b17"/><line x1="-30" y1="-22" x2="-30" y2="22" stroke="#4a0b17" stroke-width="3"/><line x1="-12" y1="-22" x2="-12" y2="22" stroke="#4a0b17" stroke-width="3"/><line x1="6" y1="-22" x2="6" y2="22" stroke="#4a0b17" stroke-width="3"/><line x1="24" y1="-22" x2="24" y2="22" stroke="#4a0b17" stroke-width="3"/><line x1="42" y1="-22" x2="42" y2="22" stroke="#4a0b17" stroke-width="3"/></g>
+<rect y="388" width="640" height="82" fill="url(#cr)"/><rect y="388" width="640" height="4" fill="#c9983a"/>
+<text x="320" y="428" text-anchor="middle" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#fff8ea">Model Organisms</text>
+<text x="320" y="454" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#f3d98b">C. elegans · Drosophila · zebrafish · mouse</text>
+</svg>

@@ -109,7 +109,12 @@ footer p{margin:0;font-size:.85rem;opacity:.8}
 /* HERO ART */
 .hero-art{position:relative}
 .hero-art .art{width:100%;display:block;border-radius:28px;box-shadow:0 30px 60px -25px rgba(69,10,22,.5),0 0 0 6px #fff,0 0 0 8px var(--gold)}
-.hero-art .badge{position:absolute;left:-18px;top:-22px;width:84px;filter:drop-shadow(0 10px 10px rgba(69,10,22,.4));animation:float 6s ease-in-out infinite}
+.slideshow{position:relative;aspect-ratio:640/470;border-radius:28px;overflow:hidden;box-shadow:0 30px 60px -25px rgba(69,10,22,.5),0 0 0 6px #fff,0 0 0 8px var(--gold);background:#fff8ea}
+.slideshow .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s ease}
+.slideshow .slide.on{opacity:1}
+.dots{display:flex;justify-content:center;gap:8px;margin-top:20px}
+.dots i{width:9px;height:9px;border-radius:50%;background:#d9c7a0;transition:.3s;cursor:pointer}
+.dots i.on{background:var(--crimson);width:24px;border-radius:6px}
 
 /* TYPES */
 .types{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:18px}
@@ -121,7 +126,7 @@ footer p{margin:0;font-size:.85rem;opacity:.8}
 .type p{margin:0;font-size:.85rem;color:var(--muted);flex:1}
 .type .count{margin-top:8px;font-size:.75rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--crimson)}
 .type.empty-type .count{color:#a59a8d}
-@media(max-width:820px){.hero-art .badge{width:64px;left:-6px;top:-18px}}
+
 
 .more-wrap{text-align:center;margin-top:28px}.more-wrap .btn{cursor:pointer;font:inherit;font-weight:600}
 
