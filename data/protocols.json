@@ -82,6 +82,142 @@
         }
       ],
       "daily": true
+    },
+    {
+      "title": "Genomic DNA Extraction from Mammalian Cells",
+      "category": "Molecular Biology",
+      "date": "2026-11-14",
+      "duration": "1 day (overnight lysis optional)",
+      "summary": "Proteinase K lysis followed by phenol-chloroform extraction and ethanol precipitation to recover high-molecular-weight genomic DNA from cultured mammalian cells.",
+      "keywords": "genomic DNA gDNA extraction phenol chloroform proteinase K ethanol precipitation",
+      "sources": [
+        {
+          "citation": "Thermo Fisher Scientific. How to Use Phenol-Chloroform for DNA Purification (protocol page).",
+          "link": "https://www.thermofisher.com/us/en/home/references/protocols/nucleic-acid-purification-and-analysis/dna-extraction-protocols/phenol-chloroform-extraction.html"
+        },
+        {
+          "citation": "University of Pennsylvania, Department of Genetics. Protocol for Isolating High-Molecular-Weight DNA from Mouse Tails (credited on the page to Hogan et al., Manipulating the Mouse Embryo, Cold Spring Harbor, 1986).",
+          "link": "https://genetics.med.upenn.edu/?p=774"
+        },
+        {
+          "citation": "OpenWetWare (Lidstrom lab). Genomic DNA extraction (phenol/chloroform protocol; microbial-cell oriented, used here for buffer and handling comparison). Last edited 2014.",
+          "link": "https://openwetware.org/wiki/Lidstrom:Genomic_DNA_extraction"
+        }
+      ],
+      "word_file": "uploads/genomic-dna-extraction-from-mammalian-cells.docx",
+      "pptx_file": "uploads/genomic-dna-extraction-from-mammalian-cells.pptx"
+    },
+    {
+      "title": "Protein Extraction from Mammalian Cells (RIPA Lysis)",
+      "category": "Protein Analysis",
+      "date": "2026-11-14",
+      "duration": "1.5 hours",
+      "summary": "Ice-cold RIPA lysis with protease and phosphatase inhibitors, clarification by centrifugation and BCA quantification to prepare lysates for Western blotting and immunoassays.",
+      "keywords": "RIPA lysis protein extraction western blot protease inhibitors BCA",
+      "sources": [
+        {
+          "citation": "Fortis Life Sciences. Cell Lysate Preparation - RIPA Buffer Method (protocol page).",
+          "link": "https://www.fortislife.com/protocols/antibody-protocols/cell-lysate-preparation-ripa-method"
+        },
+        {
+          "citation": "AAT Bioquest. Example Protocol: Cell Lysis for Downstream Protein Research (application note 02.0226.240430r1).",
+          "link": "https://www.aatbio.com/resources/application-notes/example-protocol-cell-lysis-for-downstream-protein-research"
+        },
+        {
+          "citation": "Boster Biological Technology. RIPA Lysis Buffer, product AR0105 (product page with protocol).",
+          "link": "https://bosterbio.com/ripa-lysis-buffer-ar0105.html"
+        },
+        {
+          "citation": "OpenWetWare (Jacobs lab). Protocol: Total Protein Isolation using RIPA buffer (2006-2008).",
+          "link": "https://openwetware.org/wiki/Jacobs:Protocol_Total_Protein_Isolation_using_RIPA_buffer"
+        }
+      ],
+      "word_file": "uploads/protein-extraction-from-mammalian-cells-ripa-lysis.docx",
+      "pptx_file": "uploads/protein-extraction-from-mammalian-cells-ripa-lysis.pptx"
+    },
+    {
+      "title": "Thawing Cryopreserved Cells",
+      "category": "Cell Culture",
+      "date": "2026-11-14",
+      "duration": "45 minutes plus 24 h recovery",
+      "summary": "Rapid 37 C thaw, aseptic dilution to remove DMSO, viability count and seeding of cryopreserved mammalian cells for reliable recovery.",
+      "keywords": "thaw cryopreserved cells DMSO liquid nitrogen water bath viability",
+      "sources": [
+        {
+          "citation": "ATCC. Animal Cell Culture Guide (initiating frozen cultures).",
+          "link": "https://www.atcc.org/resources/culture-guides/animal-cell-culture-guide"
+        },
+        {
+          "citation": "Cell Culture Company, LLC. Best Practices for Cell Thaw and Recovery in Mammalian Cell Culture (2025).",
+          "link": "https://cellculturecompany.com/best-practices-for-cell-thaw-and-recovery-in-mammalian-cell-culture/"
+        },
+        {
+          "citation": "abm (Applied Biological Materials). General Guidelines for Thawing Cryopreserved Cells (revised Dec 10, 2019).",
+          "link": "https://alpha.abmgood.com/uploads/document/Thawing_Protocol_150623_.pdf"
+        },
+        {
+          "citation": "10x Genomics. Cell Thawing Protocols for Single Cell Assays, handbook CG000447 Rev A (June 2023).",
+          "link": "https://atgc.net.technion.ac.il/files/2025/02/Cell-thawing-protocols.pdf"
+        }
+      ],
+      "word_file": "uploads/thawing-cryopreserved-cells.docx",
+      "pptx_file": "uploads/thawing-cryopreserved-cells.pptx"
+    },
+    {
+      "title": "Preparation of LB Medium and Agar Plates",
+      "category": "Microbiology",
+      "date": "2026-11-14",
+      "duration": "2 hours plus overnight drying",
+      "summary": "Mixing, autoclaving and pouring Lysogeny Broth (Lennox) and LB agar plates, with antibiotic addition at about 50 C.",
+      "keywords": "LB medium lysogeny broth agar plates antibiotic ampicillin autoclave E. coli",
+      "sources": [
+        {
+          "citation": "Cold Spring Harbor Protocols (2011). Agar plates with LB medium and ampicillin (50 ug/mL) [Recipe]. doi:10.1101/pdb.rec12396.",
+          "link": "https://doi.org/10.1101/pdb.rec12396"
+        },
+        {
+          "citation": "Cold Spring Harbor Protocols (2026). LB Plates [Recipe]. doi:10.1101/pdb.rec108607.",
+          "link": "https://doi.org/10.1101/pdb.rec108607"
+        },
+        {
+          "citation": "Sagen A (2023). Lysogeny Broth (LB) medium, version 2. protocols.io. doi:10.17504/protocols.io.ewov1o262lr2/v2.",
+          "link": "https://doi.org/10.17504/protocols.io.ewov1o262lr2/v2"
+        },
+        {
+          "citation": "Burgess S (2016). Lysogeny Broth (LB). protocols.io. doi:10.17504/protocols.io.fcrbiv6.",
+          "link": "https://doi.org/10.17504/protocols.io.fcrbiv6"
+        }
+      ],
+      "word_file": "uploads/preparation-of-lb-medium-and-agar-plates.docx",
+      "pptx_file": "uploads/preparation-of-lb-medium-and-agar-plates.pptx"
+    },
+    {
+      "title": "Illumina DNA Library Preparation",
+      "category": "Genomics & Sequencing",
+      "date": "2026-11-14",
+      "duration": "3-4 hours",
+      "summary": "Bead-linked transposome tagmentation, post-tagmentation cleanup, indexed PCR and bead cleanup to build pooled, sequencing-ready Illumina libraries from genomic DNA.",
+      "keywords": "Illumina DNA Prep tagmentation library preparation NGS bead-linked transposome indexing",
+      "sources": [
+        {
+          "citation": "Illumina, Inc. (2023). Illumina DNA Prep data sheet, document M-GL-01373 v1.0.",
+          "link": "https://emea.illumina.com/content/dam/illumina/gcs/assembled-assets/marketing-literature/illumina-dna-prep-data-sheet-m-gl-01373/illumina-dna-prep-data-sheet-m-gl-01373.pdf"
+        },
+        {
+          "citation": "Illumina, Inc. Illumina DNA Prep Reference Guide, document 1000000025416 v12 (April 2026). Consult the current version for PCR cycle numbers and cleanup volumes.",
+          "link": "https://sapac.support.illumina.com/content/dam/illumina-support/documents/documentation/chemistry_documentation/illumina_prep/1000000025416_12_idp.pdf"
+        },
+        {
+          "citation": "Baker D, Moss C-J (2026). Shotgun Metagenomic Library Preparation. In: Carding SR (ed), Best Practice in Microbiome Research, Springer Protocols Handbooks, Humana, New York, pp 83-88. doi:10.1007/978-1-0716-5009-7_7.",
+          "link": "https://doi.org/10.1007/978-1-0716-5009-7_7"
+        },
+        {
+          "citation": "Nguyen J, Hickman R, Prystajecky N, Tyson J, Lee T (2023). Rapid, high throughput library preparation of SARS-CoV2 using Illumina's DNA Prep Library Preparation Kit. protocols.io. doi:10.17504/protocols.io.b3vgqn3w.",
+          "link": "https://doi.org/10.17504/protocols.io.b3vgqn3w"
+        }
+      ],
+      "word_file": "uploads/illumina-dna-library-preparation.docx",
+      "pptx_file": "uploads/illumina-dna-library-preparation.pptx"
     }
   ]
 }
