@@ -28,3 +28,11 @@ Buy a domain (about $10–15/yr), then in **Settings → Pages → Custom domain
 - `uploads/` — Word and PowerPoint files
 - `assets/logo.svg`, `assets/logo.png` — crest logo
 - `index.html`, `style.css`, `app.js` — the site itself (no need to touch)
+
+
+## Updating a protocol later
+1. Open Pages CMS (pagescms.org) -> Protocols -> find the entry.
+2. Edit any text field (title, summary, sources...). To replace a file, upload the new Word/PowerPoint in the file field (same or new name).
+3. Fill in "Last updated" and "What changed" - the card then shows an "Updated <date>" label (hover shows the note).
+4. Save/commit. The site refreshes in 1-2 minutes.
+You can also ask Claude: "Update the <protocol> protocol: <change>" and it will edit the Word/PowerPoint, replace the files, and fill the update fields.

@@ -126,3 +126,5 @@ footer p{margin:0;font-size:.85rem;opacity:.8}
 .more-wrap{text-align:center;margin-top:28px}.more-wrap .btn{cursor:pointer;font:inherit;font-weight:600}
 
 .tags{display:flex;gap:6px;flex-wrap:wrap}.tag.org{background:rgba(201,152,58,.16);color:var(--gold-d)}
+
+.upd{color:#9a7b2f;font-weight:600}

@@ -50,7 +50,7 @@ function card(p) {
     <div class="tags"><span class="tag">${esc(p.category || "Protocol")}</span><span class="tag org">${esc(orgOf(p))}</span></div>
     <h3>${esc(p.title)}</h3>
     <p>${esc(p.summary)}</p>
-    <div class="meta">${esc(fmtDate(p.date))}${p.duration ? " · " + esc(p.duration) : ""}</div>
+    <div class="meta">${esc(fmtDate(p.date))}${p.duration ? " · " + esc(p.duration) : ""}${p.updated ? ` · <span class="upd" title="${esc(p.revision_note || "")}">Updated ${esc(fmtDate(p.updated))}</span>` : ""}</div>
     <div class="dl">${word}${ppt}</div>
     ${sourcesHtml(p)}
     <button class="cmt" data-t="${esc(p.title)}">💬 Comments &amp; suggestions</button>

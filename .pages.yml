@@ -37,7 +37,9 @@ content:
             fields:
               - { name: citation, label: Citation (authors, year, title, journal/book), type: text }
               - { name: link, label: Link (DOI or URL, optional), type: string }
-          - { name: word_file, label: Word file, type: file }
+          - { name: updated, label: Last updated (YYYY-MM-DD, fill in when you revise a protocol), type: string }
+          - { name: revision_note, label: What changed in this update (shown on the site), type: text }
+          - { name: word_file, label: Word file (upload a new one to replace), type: file }
           - { name: pptx_file, label: PowerPoint file, type: file }
 
   - name: site
