@@ -21,6 +21,13 @@ content:
           - { name: duration, label: Duration, type: string }
           - { name: summary, label: Short summary, type: text }
           - { name: keywords, label: Search keywords, type: string }
+          - name: sources
+            label: Sources (papers, books, lab websites)
+            type: object
+            list: true
+            fields:
+              - { name: citation, label: Citation (authors, year, title, journal/book), type: text }
+              - { name: link, label: Link (DOI or URL, optional), type: string }
           - { name: word_file, label: Word file, type: file }
           - { name: pptx_file, label: PowerPoint file, type: file }
 

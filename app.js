@@ -6,6 +6,16 @@ let ALL = [], activeCat = "All", query = "";
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmtDate = (d) => { const x = new Date(d + "T12:00:00"); return isNaN(x) ? "" : x.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" }); };
 
+function sourcesHtml(p) {
+  const list = Array.isArray(p.sources) ? p.sources.filter((x) => x && x.citation) : [];
+  if (!list.length) return "";
+  const items = list.map((x) => {
+    const text = esc(x.citation);
+    return `<li>${x.link ? `<a href="${esc(x.link)}" target="_blank" rel="noopener">${text}</a>` : text}</li>`;
+  }).join("");
+  return `<details class="src"><summary>Sources (${list.length})</summary><ol>${items}</ol></details>`;
+}
+
 function card(p) {
   const word = p.word_file ? `<a class="word" href="${esc(p.word_file)}" download>⬇ Word</a>` : `<span class="soon">Word · soon</span>`;
   const ppt = p.pptx_file ? `<a class="ppt" href="${esc(p.pptx_file)}" download>⬇ PowerPoint</a>` : `<span class="soon">PPTX · soon</span>`;
@@ -15,6 +25,7 @@ function card(p) {
     <p>${esc(p.summary)}</p>
     <div class="meta">${esc(fmtDate(p.date))}${p.duration ? " · " + esc(p.duration) : ""}</div>
     <div class="dl">${word}${ppt}</div>
+    ${sourcesHtml(p)}
     <button class="cmt" data-t="${esc(p.title)}">💬 Comments &amp; suggestions</button>
   </article>`;
 }

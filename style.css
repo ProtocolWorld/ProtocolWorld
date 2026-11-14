@@ -99,3 +99,11 @@ footer p{margin:0;font-size:.85rem;opacity:.8}
 .modal-box{position:relative;background:#fff;border-radius:20px;width:min(680px,100%);max-height:86vh;overflow:auto;padding:30px;border-top:5px solid var(--gold);box-shadow:0 40px 80px -20px rgba(0,0,0,.5)}
 .modal-box h3{font-family:var(--serif);font-size:1.7rem;margin:0 0 16px;color:var(--crimson-d)}
 .close{position:absolute;right:14px;top:10px;border:0;background:none;font-size:2rem;line-height:1;cursor:pointer;color:var(--muted)}
+
+/* SOURCES */
+.src{margin-top:12px;font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);padding-top:10px}
+.src summary{cursor:pointer;font-weight:600;color:var(--crimson-d);list-style:none}
+.src summary::before{content:"📚 "}
+.src ol{margin:8px 0 0;padding-left:18px}
+.src li{margin-bottom:6px;line-height:1.45}
+.src a{color:var(--crimson);text-decoration:underline;text-underline-offset:2px;word-break:break-word}
