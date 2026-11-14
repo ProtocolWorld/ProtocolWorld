@@ -1,0 +1,54 @@
+{
+  "protocols": [
+    {
+      "title": "Western Blotting for Low-Abundance Proteins",
+      "category": "Protein Analysis",
+      "date": "2026-11-14",
+      "duration": "2 days",
+      "summary": "Sample prep, SDS-PAGE, transfer, blocking, antibody incubation and ECL detection, with tips for weak signals.",
+      "keywords": "western blot immunoblot SDS-PAGE",
+      "word_file": "",
+      "pptx_file": ""
+    },
+    {
+      "title": "Immunofluorescence Staining of Cultured Cells",
+      "category": "Imaging",
+      "date": "2026-11-14",
+      "duration": "4 hours",
+      "summary": "Fixation, permeabilization, blocking and antibody staining for clean confocal-ready images.",
+      "keywords": "IF immunostaining confocal fixation",
+      "word_file": "",
+      "pptx_file": ""
+    },
+    {
+      "title": "Total RNA Extraction with TRIzol",
+      "category": "Molecular Biology",
+      "date": "2026-11-14",
+      "duration": "2 hours",
+      "summary": "Phase separation, precipitation and quality check of high-integrity total RNA.",
+      "keywords": "RNA TRIzol extraction RIN",
+      "word_file": "",
+      "pptx_file": ""
+    },
+    {
+      "title": "Quantitative PCR (RT-qPCR) Setup",
+      "category": "Molecular Biology",
+      "date": "2026-11-14",
+      "duration": "3 hours",
+      "summary": "cDNA synthesis, primer validation, plate setup and relative quantification by the ΔΔCt method.",
+      "keywords": "qPCR RT-qPCR cDNA primers",
+      "word_file": "",
+      "pptx_file": ""
+    },
+    {
+      "title": "Bacterial Transformation by Heat Shock",
+      "category": "Cloning",
+      "date": "2026-11-14",
+      "duration": "2 hours",
+      "summary": "Competent cell handling, heat shock, recovery and plating for reliable colony counts.",
+      "keywords": "E. coli transformation competent cells plasmid",
+      "word_file": "",
+      "pptx_file": ""
+    }
+  ]
+}

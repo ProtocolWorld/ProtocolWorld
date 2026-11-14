@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Protocol World — Experimental Biology Protocols</title>
+<meta name="description" content="A daily library of experimental biology protocols with downloadable Word and PowerPoint files.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="#top"><img src="assets/logo.svg" alt="Protocol World crest"><span>Protocol World</span></a>
+  <nav>
+    <a href="#today">Today</a>
+    <a href="#library">Library</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-text">
+    <p class="eyebrow">Experimental Biology · Open Methods</p>
+    <h1>Protocols, prepared daily.<br><em>Ready to use at the bench.</em></h1>
+    <p class="lead">Five carefully prepared protocols every day, each with a Word document and a PowerPoint deck you can download, edit and share.</p>
+    <div class="cta">
+      <a class="btn primary" href="#library">Browse the library</a>
+      <a class="btn ghost" href="#today">See today's protocols</a>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
+  <div class="hero-logo">
+    <img src="assets/logo.svg" alt="Protocol World 3D crest">
+  </div>
+</section>
+
+<section class="section" id="today">
+  <div class="section-head">
+    <p class="eyebrow">Latest</p>
+    <h2>Today's protocols</h2>
+    <p class="sub" id="todayDate"></p>
+  </div>
+  <div class="grid" id="todayGrid"></div>
+</section>
+
+<section class="section alt" id="library">
+  <div class="section-head">
+    <p class="eyebrow">Archive</p>
+    <h2>Protocol library</h2>
+  </div>
+  <div class="tools">
+    <input id="search" type="search" placeholder="Search protocols, techniques, keywords…" aria-label="Search protocols">
+    <div class="chips" id="chips"></div>
+  </div>
+  <div class="grid" id="libGrid"></div>
+  <p class="empty" id="empty" hidden>No protocols match your search.</p>
+</section>
+
+<section class="section" id="about">
+  <div class="about">
+    <img src="assets/logo.svg" alt="">
+    <div>
+      <p class="eyebrow">About</p>
+      <h2>Built for working scientists</h2>
+      <p>Protocol World is a growing collection of experimental biology methods, written in a clear, step-by-step format. Every entry includes materials, procedure, timing and troubleshooting notes, plus a slide deck for lab meetings and teaching.</p>
+      <p class="fine">Protocols are provided for educational use. Always validate methods in your own lab and follow your institution's safety rules.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div><img src="assets/logo.svg" alt=""><strong>Protocol World</strong></div>
+  <p>© <span id="year"></span> Protocol World. All rights reserved.</p>
+</footer>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+    <button class="close" id="mClose" aria-label="Close">×</button>
+    <p class="eyebrow">Comments &amp; suggestions</p>
+    <h3 id="mTitle"></h3>
+    <div id="mBody"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+# Pages CMS config — gives you a no-code editor for this site (https://pagescms.org)
+media:
+  input: uploads
+  output: /uploads
+  extensions: [docx, pptx, pdf, png, jpg]
+
+content:
+  - name: protocols
+    label: Protocols
+    type: file
+    path: data/protocols.json
+    fields:
+      - name: protocols
+        label: Protocols
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: category, label: Category, type: string }
+          - { name: date, label: Date (YYYY-MM-DD), type: string }
+          - { name: duration, label: Duration, type: string }
+          - { name: summary, label: Short summary, type: text }
+          - { name: keywords, label: Search keywords, type: string }
+          - { name: word_file, label: Word file, type: file }
+          - { name: pptx_file, label: PowerPoint file, type: file }
+
+  - name: site
+    label: Comment settings
+    type: file
+    path: data/site.json
+    fields:
+      - { name: giscus_repo, label: GitHub repo (user/protocol-world), type: string }
+      - { name: giscus_repo_id, label: Giscus repo ID, type: string }
+      - { name: giscus_category, label: Giscus category name, type: string }
+      - { name: giscus_category_id, label: Giscus category ID, type: string }
