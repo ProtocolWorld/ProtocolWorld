@@ -22,6 +22,11 @@ content:
             options:
               values: [Molecular Biology, Cloning & CRISPR, Protein Analysis, Imaging & Microscopy, Cell Culture, Microbiology, Model Organisms, Genomics & Sequencing, Biochemistry, Immunology]
           - { name: date, label: Date (YYYY-MM-DD), type: string }
+          - name: organism
+            label: Organism
+            type: select
+            options:
+              values: [Mammalian Cells, Mouse, Plant, Drosophila, C. elegans, Yeast, E. coli & Bacteria, Zebrafish, Other Organisms, General Lab Methods]
           - { name: duration, label: Duration, type: string }
           - { name: summary, label: Short summary, type: text }
           - { name: keywords, label: Search keywords, type: string }

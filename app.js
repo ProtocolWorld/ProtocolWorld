@@ -1,7 +1,21 @@
 // Protocol World — reads data/protocols.json and renders the site.
 // You never need to edit this file: add or change protocols in the CMS (see README).
 const $ = (id) => document.getElementById(id);
-let ALL = [], activeCat = "All", query = "", shown = 24;
+let ALL = [], ORG = {}, activeCat = "All", activeOrg = "All", query = "", shown = 24;
+const orgOf = (p) => p.organism || ORG[p.title] || "General Lab Methods";
+
+const ORGS = [
+  { name: "Mammalian Cells", icon: "🧫", desc: "HEK293, HeLa, CHO, primary and stem cells." },
+  { name: "Mouse", icon: "🐭", desc: "Tissues, embryos, behavior and primary mouse cells." },
+  { name: "Plant", icon: "🌱", desc: "Arabidopsis, maize, rice, tobacco and plant cells." },
+  { name: "Drosophila", icon: "🪰", desc: "Fly genetics, dissections, imaging and behavior." },
+  { name: "C. elegans", icon: "🪱", desc: "Worm maintenance, RNAi, germline, CRISPR and imaging." },
+  { name: "Yeast", icon: "🍞", desc: "Budding and fission yeast genetics and biochemistry." },
+  { name: "E. coli & Bacteria", icon: "🦠", desc: "Cloning hosts, growth, protein expression, microbiology." },
+  { name: "Zebrafish", icon: "🐟", desc: "Husbandry, injection, imaging and regeneration." },
+  { name: "Other Organisms", icon: "🐸", desc: "Xenopus, planaria, Dictyostelium, parasites and more." },
+  { name: "General Lab Methods", icon: "🧰", desc: "Techniques that work across many organisms." },
+];
 
 const TYPES = [
   { name: "Molecular Biology", icon: "🧬", desc: "DNA and RNA extraction, PCR, qPCR, electrophoresis, sequencing prep." },
@@ -33,7 +47,7 @@ function card(p) {
   const word = p.word_file ? `<a class="word" href="${esc(p.word_file)}" download>⬇ Word</a>` : `<span class="soon">Word · soon</span>`;
   const ppt = p.pptx_file ? `<a class="ppt" href="${esc(p.pptx_file)}" download>⬇ PowerPoint</a>` : `<span class="soon">PPTX · soon</span>`;
   return `<article class="card">
-    <span class="tag">${esc(p.category || "Protocol")}</span>
+    <div class="tags"><span class="tag">${esc(p.category || "Protocol")}</span><span class="tag org">${esc(orgOf(p))}</span></div>
     <h3>${esc(p.title)}</h3>
     <p>${esc(p.summary)}</p>
     <div class="meta">${esc(fmtDate(p.date))}${p.duration ? " · " + esc(p.duration) : ""}</div>
@@ -85,7 +99,8 @@ function render() {
   const q = query.trim().toLowerCase();
   const list = sorted.filter((p) =>
     (activeCat === "All" || p.category === activeCat) &&
-    (!q || [p.title, p.summary, p.category, p.keywords].join(" ").toLowerCase().includes(q)));
+    (activeOrg === "All" || orgOf(p) === activeOrg) &&
+    (!q || [p.title, p.summary, p.category, orgOf(p), p.keywords].join(" ").toLowerCase().includes(q)));
   $("libGrid").innerHTML = list.slice(0, shown).map(card).join("");
   $("empty").hidden = list.length > 0;
   $("more").hidden = list.length <= shown;
@@ -94,6 +109,18 @@ function render() {
   const used = ALL.map((p) => p.category).filter(Boolean);
   const cats = ["All", ...TYPES.map((t) => t.name).filter((n) => used.includes(n)), ...new Set(used.filter((c) => !TYPES.some((t) => t.name === c)))];
   const counts = {}; ALL.forEach((p) => { counts[p.category] = (counts[p.category] || 0) + 1; });
+  const ocounts = {}; ALL.forEach((p) => { const o = orgOf(p); ocounts[o] = (ocounts[o] || 0) + 1; });
+  $("orgsGrid").innerHTML = ORGS.map((t) => {
+    const n = ocounts[t.name] || 0;
+    return `<button class="type org-card ${n ? "" : "empty-type"}" data-o="${esc(t.name)}">
+      <span class="ico">${t.icon}</span>
+      <h3>${esc(t.name)}</h3>
+      <p>${esc(t.desc)}</p>
+      <span class="count">${n ? n + (n === 1 ? " protocol" : " protocols") : "Coming soon"}</span>
+    </button>`;
+  }).join("");
+  const ocats = ["All", ...ORGS.map((t) => t.name).filter((n) => ocounts[n])];
+  $("orgChips").innerHTML = ocats.map((c) => `<button class="chip ${c === activeOrg ? "on" : ""}" data-o="${esc(c)}">${esc(c)}</button>`).join("");
   $("typesGrid").innerHTML = TYPES.map((t) => {
     const n = counts[t.name] || 0;
     return `<button class="type ${n ? "" : "empty-type"}" data-c="${esc(t.name)}">
@@ -111,9 +138,15 @@ function render() {
     <div><strong>${days}</strong><span>Days live</span></div>`;
 }
 
+$("orgsGrid").addEventListener("click", (e) => {
+  const b = e.target.closest(".type"); if (!b) return;
+  activeOrg = b.dataset.o; activeCat = "All"; query = ""; shown = 24; $("search").value = ""; render();
+  $("library").scrollIntoView({ behavior: "smooth" });
+});
+$("orgChips").addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (b) { activeOrg = b.dataset.o; shown = 24; render(); } });
 $("typesGrid").addEventListener("click", (e) => {
   const b = e.target.closest(".type"); if (!b) return;
-  activeCat = b.dataset.c; query = ""; shown = 24; $("search").value = ""; render();
+  activeCat = b.dataset.c; activeOrg = "All"; query = ""; shown = 24; $("search").value = ""; render();
   $("library").scrollIntoView({ behavior: "smooth" });
 });
 $("chips").addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (b) { activeCat = b.dataset.c; shown = 24; render(); } });
@@ -121,7 +154,9 @@ $("search").addEventListener("input", (e) => { query = e.target.value; shown = 2
 $("more").addEventListener("click", () => { shown += 48; render(); });
 $("year").textContent = new Date().getFullYear();
 
-fetch("data/protocols.json", { cache: "no-cache" })
-  .then((r) => r.json())
-  .then((d) => { ALL = d.protocols || []; render(); })
+Promise.all([
+  fetch("data/protocols.json", { cache: "no-cache" }).then((r) => r.json()),
+  fetch("data/organisms.json", { cache: "no-cache" }).then((r) => r.json()).catch(() => ({})),
+])
+  .then(([d, o]) => { ALL = d.protocols || []; ORG = o || {}; render(); })
   .catch(() => { $("todayGrid").innerHTML = "<p class='empty'>Could not load protocols.</p>"; });
