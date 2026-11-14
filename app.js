@@ -163,51 +163,45 @@ Promise.all([
   .then(([d, o]) => { ALL = d.protocols || []; ORG = o || {}; render(); })
   .catch(() => { $("todayGrid").innerHTML = "<p class='empty'>Could not load protocols.</p>"; });
 
-// Hero slideshow: a new protocol-type picture every 3 seconds
+// Hero slideshow: a new protocol-type photo every 3 seconds (Unsplash photos; SVG art is the fallback)
 (function () {
-  const slides = [...document.querySelectorAll("#slideshow .slide")];
-  const dots = document.getElementById("dots");
-  if (!slides.length || !dots) return;
+  const P = (id) => `https://images.unsplash.com/photo-${id}?ixlib=rb-4.1.0&q=80&fm=jpg&crop=entropy&cs=srgb&w=1280&h=940&fit=crop`;
+  const U = (u) => `https://unsplash.com/${u}?utm_source=protocol_world&utm_medium=referral`;
+  const S = [
+    ["Molecular Biology", "DNA · RNA · PCR · qPCR · electrophoresis", "molecular-biology", "1614935151651-0bea6508db6b", "Julia Koblitz", "@jkoblitz"],
+    ["Cloning & CRISPR", "plasmids · Gibson · transformation · genome editing", "cloning-crispr", "1637929476734-bd7f5f78e40a", "Warren Umoh", "@warrenumoh"],
+    ["Protein Analysis", "Western blot · IP · purification · mass spec prep", "protein-analysis", "1532187863486-abf9dbad1b69", "Louis Reed", "@_louisreed"],
+    ["Imaging & Microscopy", "immunofluorescence · FISH · live imaging · confocal", "imaging-microscopy", "1631556097152-c39479bbff93", "National Cancer Institute", "@nci"],
+    ["Cell Culture", "cell lines · passaging · transfection · freezing", "cell-culture", "1595154038281-4beb9195415b", "Girl with red hat", "@girlwithredhat"],
+    ["Microbiology", "bacteria · yeast · growth curves · selection", "microbiology", "1711626759619-9109ef622046", "masakazu sasaki", "@masakz"],
+    ["Model Organisms", "C. elegans · Drosophila · zebrafish · mouse", "model-organisms", "1623137548283-825d61083525", "Matthew Mejia", "@___ginza___"],
+    ["Genomics & Sequencing", "library prep · RNA-seq · ChIP-seq · genotyping", "genomics-sequencing", "1578496479530-799fd6d0803a", "National Cancer Institute", "@nci"],
+    ["Biochemistry", "buffers · enzyme assays · chromatography · binding", "biochemistry", "1631557673853-b5c9c45527ef", "National Cancer Institute", "@nci"],
+    ["Immunology", "ELISA · flow cytometry · immune cell staining", "immunology", "1624957485490-87d607854977", "CDC", "@cdc"],
+  ];
+  const box = document.getElementById("slideshow"), dots = document.getElementById("dots");
+  if (!box || !dots) return;
+  const cap = document.getElementById("cap"), credit = document.getElementById("credit");
+  const imgs = S.map((s, n) => {
+    const im = document.createElement("img");
+    im.className = "slide"; im.alt = s[0]; im.src = P(s[3]); if (n) im.loading = "lazy";
+    im.onerror = () => { im.onerror = null; im.dataset.fb = "1"; im.src = `assets/slides/${s[2]}.svg`; if (n === i) show(); };
+    box.insertBefore(im, cap);
+    const d = document.createElement("i"); d.onclick = () => { go(n); restart(); }; dots.appendChild(d);
+    return im;
+  });
   let i = 0, timer;
-  slides.forEach((_, n) => { const d = document.createElement("i"); d.onclick = () => { go(n); restart(); }; dots.appendChild(d); });
-  const go = (n) => {
-    slides[i].classList.remove("on"); dots.children[i].classList.remove("on");
-    i = n; slides[i].classList.add("on"); dots.children[i].classList.add("on");
-  };
-  const restart = () => { clearInterval(timer); timer = setInterval(() => go((i + 1) % slides.length), 3000); };
-  dots.children[0].classList.add("on");
-  restart();
+  function show() {
+    const s = S[i], fb = imgs[i].dataset.fb === "1";
+    cap.style.display = fb ? "none" : "";
+    cap.querySelector("b").textContent = s[0]; cap.querySelector("span").textContent = s[1];
+    credit.style.display = fb ? "none" : "";
+    credit.textContent = `Photo: ${s[4]} / Unsplash`; credit.href = U(s[5]);
+  }
+  function go(n) {
+    imgs[i].classList.remove("on"); dots.children[i].classList.remove("on");
+    i = n; imgs[i].classList.add("on"); dots.children[i].classList.add("on"); show();
+  }
+  const restart = () => { clearInterval(timer); timer = setInterval(() => go((i + 1) % S.length), 3000); };
+  imgs[0].classList.add("on"); dots.children[0].classList.add("on"); show(); restart();
 })();
-
-// "What's new" feed: earlier days, newest first
-function renderNews(sorted, latest) {
-  const el = $("news");
-  if (!el) return;
-  const byDate = {};
-  sorted.forEach((p) => { if (p.date && p.date !== latest) (byDate[p.date] = byDate[p.date] || []).push(p); });
-  const days = Object.keys(byDate).sort().reverse().slice(0, 7);
-  // protocols added on the latest date without the daily flag (library batches) also belong to the feed
-  const extra = sorted.filter((p) => p.date === latest && !p.daily && sorted.some((x) => x.daily && x.date === latest));
-  if (extra.length) byDate[latest] = extra, days.unshift(latest);
-  if (!days.length) { el.innerHTML = ""; return; }
-  el.innerHTML = `<h3 class="news-h">📰 Recently added</h3>` + days.map((d) => `
-    <div class="news-day"><div class="news-date">${esc(fmtDate(d))}<span>${byDate[d].length} new</span></div>
-    ${byDate[d].map((p, i) => `<div class="news-item" style="animation-delay:${i * 60}ms">
-      <span class="newpill">NEW</span><b>${esc(p.title)}</b>
-      <em>${esc(p.category || "")} · ${esc(orgOf(p))}</em>
-      <span class="news-dl">${p.word_file ? `<a href="${esc(p.word_file)}" download>Word</a>` : ""}${p.pptx_file ? `<a href="${esc(p.pptx_file)}" download>PPTX</a>` : ""}</span>
-    </div>`).join("")}</div>`).join("");
-}
-
-// Pop-up announcing the newest protocols (once per browser session)
-function showToast(today, latest) {
-  const t = $("toast");
-  if (!t || !today.length) return;
-  try { if (sessionStorage.getItem("pw_toast") === latest) return; } catch (e) {}
-  t.innerHTML = `<button class="x" aria-label="Close">×</button><div class="tt">🔔 ${today.length} new protocol${today.length > 1 ? "s" : ""} added</div><ul>${today.map((p) => `<li>${esc(p.title)}</li>`).join("")}</ul><a href="#new">See what's new →</a>`;
-  setTimeout(() => t.classList.add("show"), 1200);
-  const hide = () => { t.classList.remove("show"); try { sessionStorage.setItem("pw_toast", latest); } catch (e) {} };
-  t.querySelector(".x").onclick = hide;
-  t.querySelector("a").onclick = hide;
-  setTimeout(hide, 12000);
-}
