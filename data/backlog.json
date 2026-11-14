@@ -1,0 +1,2505 @@
+{
+ "note": "Master list of 500 common protocols. status: pending | done | sample. Worked through by the scheduled tasks.",
+ "backlog": [
+  {
+   "title": "Genomic DNA Extraction from Mammalian Cells",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Transformation of Chemically Competent E. coli by Heat Shock",
+   "category": "Cloning & CRISPR",
+   "status": "sample"
+  },
+  {
+   "title": "Protein Extraction from Mammalian Cells (RIPA Lysis)",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Immunofluorescence Staining of Cultured Cells",
+   "category": "Imaging & Microscopy",
+   "status": "sample"
+  },
+  {
+   "title": "Thawing Cryopreserved Cells",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Preparation of LB Medium and Agar Plates",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Maintenance on NGM Plates",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Illumina DNA Library Preparation",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Buffer Preparation and pH Measurement",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "ELISA (Indirect)",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Genomic DNA Extraction from Bacteria",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Electroporation of E. coli",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Protein Extraction from Tissue",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Immunofluorescence of Tissue Sections",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Freezing Cells for Cryostorage",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Bacterial Streak Plating for Isolation",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Preparation of NGM Plates and OP50 Lawns",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Illumina RNA-seq Library Preparation",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Preparation of Stock Solutions and Dilutions",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Sandwich ELISA",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Genomic DNA Extraction from Plant Tissue",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Preparation of Chemically Competent Cells",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Bradford Protein Assay",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Whole-Mount Immunostaining",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Passaging Adherent Cells",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Bacterial Growth Curves",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Synchronization by Bleaching",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Poly(A) Selection for RNA-seq",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Enzyme Kinetics Michaelis-Menten Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Competitive ELISA",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Plasmid Miniprep by Alkaline Lysis",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Preparation of Electrocompetent Cells",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "BCA Protein Assay",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Paraformaldehyde Fixation",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Passaging Suspension Cells",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Serial Dilution and Viable Plate Counts",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Strain Freezing and Thawing",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "rRNA Depletion for RNA-seq",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Spectrophotometric Enzyme Assays",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "ELISpot Assay",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Plasmid Midiprep and Maxiprep",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Blue-White Screening",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "SDS-PAGE",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Methanol Fixation for Immunofluorescence",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Cell Counting with a Hemocytometer",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Gram Staining",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Crossing and Male Maintenance",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Strand-Specific RNA-seq",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Lactate Dehydrogenase (LDH) Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Flow Cytometry Sample Preparation",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Total RNA Extraction with TRIzol",
+   "category": "Molecular Biology",
+   "status": "sample"
+  },
+  {
+   "title": "Gibson Assembly",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Native PAGE",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Permeabilization and Blocking for Immunostaining",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Automated Cell Counting",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Acid-Fast Staining",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Genotyping by Single-Worm PCR",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Small RNA-seq Library Preparation",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Alkaline Phosphatase Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Flow Cytometry Compensation and Gating",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "RNA Extraction with Silica Spin Columns",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Golden Gate Assembly",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Western Blotting",
+   "category": "Protein Analysis",
+   "status": "sample"
+  },
+  {
+   "title": "DAPI and Hoechst Nuclear Staining",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Trypan Blue Viability Assay",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Endospore Staining",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Microinjection",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Single-Cell RNA-seq Sample Preparation",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Beta-Galactosidase Activity Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Intracellular Cytokine Staining",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "mRNA Purification with Oligo(dT) Beads",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Restriction-Ligation Subcloning",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Wet Tank Transfer of Proteins",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Phalloidin Staining of F-Actin",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Mycoplasma Detection",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Antibiotic Susceptibility Testing by Disk Diffusion",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans CRISPR Genome Editing",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Single-Nucleus RNA-seq Nuclei Isolation",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Luciferase Reporter Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Surface Marker Staining for Flow Cytometry",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "RNA Integrity Assessment by Bioanalyzer or TapeStation",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "TA Cloning",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Semi-Dry Transfer of Proteins",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "MitoTracker Staining of Mitochondria",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Aseptic Technique and Biosafety Cabinet Use",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Minimum Inhibitory Concentration (MIC) by Broth Microdilution",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans RNAi by Feeding",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "ChIP-seq Library Preparation",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Dual-Luciferase Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Cell Sorting by FACS",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "DNase Treatment of RNA Samples",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "TOPO Cloning",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Ponceau S Staining",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "LysoTracker Staining of Lysosomes",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Preparing Complete Culture Media",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Biofilm Crystal Violet Assay",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans RNAi by Soaking",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "CUT&RUN",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "GFP Fluorescence Measurement",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Magnetic Bead Cell Separation (MACS)",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "cDNA Synthesis by Reverse Transcription",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Gateway Cloning",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Coomassie Blue Staining",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Live-Cell Imaging Setup",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Serum Heat Inactivation",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Bacterial Motility Assays",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Germline Dissection",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "CUT&Tag",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Fluorescence Polarization Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "PBMC Isolation by Ficoll Gradient",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Standard PCR Setup and Optimization",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "In-Fusion Cloning",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Silver Staining of Protein Gels",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Time-Lapse Microscopy",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Coating Plates with Collagen or Fibronectin",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Bacterial Conjugation",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Gonad Immunostaining",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "ATAC-seq",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Isothermal Titration Calorimetry",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Mouse Splenocyte Isolation",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "High-Fidelity PCR",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "SLIC Cloning",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Blocking and Antibody Incubation for Western Blots",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "FRAP (Fluorescence Recovery After Photobleaching)",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Lipofectamine Transfection",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Bacteriophage Plaque Assay",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Embryo Imaging",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Hi-C Library Preparation",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Surface Plasmon Resonance Basics",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Bone Marrow Cell Isolation",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Colony PCR",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Bacterial Glycerol Stocks",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "ECL Chemiluminescent Detection",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "FRET Imaging",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Calcium Phosphate Transfection",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Bacteriophage Lysate Preparation",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Lifespan Assay",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Whole-Genome Bisulfite Sequencing",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Microscale Thermophoresis",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Bone Marrow-Derived Macrophage Differentiation",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Touchdown PCR",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Verification of Clones by Restriction Digest",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Fluorescent Western Blotting",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Confocal Microscopy Sample Preparation",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Electroporation of Mammalian Cells",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "P1 Transduction",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Brood Size Assay",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Ribosome Profiling",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Electrophoretic Mobility Shift Assay (EMSA)",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Dendritic Cell Generation from Bone Marrow",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Quantitative PCR (RT-qPCR) Setup",
+   "category": "Molecular Biology",
+   "status": "sample"
+  },
+  {
+   "title": "Plasmid Sequence Verification",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Stripping and Reprobing Western Blot Membranes",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Super-Resolution (STORM) Sample Preparation",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Polyethylenimine (PEI) Transfection",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Bacterial Genomic DNA Isolation for Sequencing",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Thrashing and Locomotion Assay",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "CLIP-seq",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "DNase I Footprinting",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "T Cell Isolation and Activation",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Relative Quantification by the ΔΔCt Method",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Lambda Red Recombineering",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Immunoprecipitation",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Super-Resolution (SIM) Sample Preparation",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "siRNA Transfection",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "16S rRNA Gene PCR and Sequencing",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Chemotaxis Assay",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Long-Read Sequencing DNA Preparation",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Filter Binding Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "T Cell Proliferation by CFSE Dilution",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Primer Design and Validation for qPCR",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "BAC DNA Preparation",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Co-Immunoprecipitation",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Expansion Microscopy",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "shRNA Lentiviral Knockdown",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Anaerobic Culture Techniques",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Heat Shock Assay",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Oxford Nanopore Library Preparation",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Kinase Assay with Radioactive ATP",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Regulatory T Cell Suppression Assay",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Digital Droplet PCR (ddPCR)",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Yeast Gap-Repair Cloning",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Pull-Down with GST-Tagged Proteins",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "RNA FISH (Fluorescence In Situ Hybridization)",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Stable Cell Line Generation",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Yeast Culture and Media Preparation",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Starvation Survival Assay",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "PacBio HiFi Library Preparation",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Non-Radioactive Kinase Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "B Cell Isolation and Activation",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Agarose Gel Electrophoresis of DNA",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Lentiviral Particle Production",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "His-Tag Protein Purification by Ni-NTA",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Single-Molecule RNA FISH (smFISH)",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Cell Synchronization by Double Thymidine Block",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Yeast Transformation by Lithium Acetate",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Protein Extraction",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "High Molecular Weight DNA Extraction",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "ATPase Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Mixed Lymphocyte Reaction",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Formaldehyde Agarose Gel Electrophoresis of RNA",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Lentiviral Transduction of Mammalian Cells",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Strep-Tag Protein Purification",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "DNA FISH",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Serum Starvation Synchronization",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Yeast Spot Assays",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans RNA Extraction",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Library Quantification by qPCR",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "GTPase Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Cytotoxicity Assay (Chromium Release)",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Denaturing Urea-PAGE of Nucleic Acids",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Retroviral Production and Transduction",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "FLAG Immunoprecipitation",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Immuno-FISH",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Nocodazole Mitotic Arrest",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Yeast Genomic DNA Extraction",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Mounting and Live Imaging",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Library Size Selection with SPRI Beads",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Protease Activity Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Flow-Based Cytotoxicity Assay",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "DNA Gel Extraction and Purification",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Small-Scale AAV Production",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Recombinant Protein Expression in E. coli",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Hybridization Chain Reaction (HCR) FISH",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "MTT Cell Viability Assay",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Yeast Tetrad Dissection",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "C. elegans Auxin-Inducible Degradation",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Adapter Ligation and Barcoding",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "In Vitro Transcription-Translation",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Phagocytosis Assay",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "PCR Product Cleanup (Column and Bead-Based)",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Antibiotic Kill Curve for Selection",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Inclusion Body Solubilization and Refolding",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Mounting Media and Slide Preparation",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "CCK-8 Proliferation Assay",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Yeast Two-Hybrid Screening",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Drosophila Stock Maintenance",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Quality Control of Sequencing Reads (FastQC)",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "In Vitro Translation in Rabbit Reticulocyte Lysate",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Neutrophil Isolation",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Ethanol Precipitation of DNA and RNA",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "CRISPR-Cas9 Guide RNA Design",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Protein Expression in Insect Cells",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Coverslip Coating with Poly-L-Lysine",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "CellTiter-Glo Viability Assay",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Yeast Protein Extraction",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Drosophila Fly Food Preparation",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Read Trimming and Alignment",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Nucleosome Reconstitution",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Macrophage Polarization",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "DNA and RNA Quantification (NanoDrop and Qubit)",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Cloning gRNAs into pX330",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Dialysis and Buffer Exchange",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Cell Seeding on Coverslips for Imaging",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Colony Formation Assay",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Yeast Mating and Sporulation",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Drosophila Crosses and Virgin Collection",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Differential Expression Analysis with DESeq2",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Chromatin Assembly Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Cytokine Bead Array",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Restriction Enzyme Digestion",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "CRISPR Knockout by Plasmid Transfection",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Protein Concentration by Ultrafiltration",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Tissue Embedding in Paraffin",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Scratch Wound Healing Assay",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Fungal Culture and Spore Counting",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Drosophila Embryo Collection and Fixation",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Peak Calling for ChIP-seq and ATAC-seq",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Histone Extraction by Acid Extraction",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Multiplex Cytokine Assay",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Vector Dephosphorylation",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Cas9 RNP Delivery by Electroporation",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Size-Exclusion Chromatography",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Paraffin Section Cutting and Deparaffinization",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Transwell Migration Assay",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Aspergillus Culture and Transformation",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Drosophila Ovary Dissection and Staining",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Variant Calling Pipeline",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Histone Methyltransferase Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Complement Hemolysis Assay",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "DNA Ligation",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Single-Cell Cloning by Limiting Dilution",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Ion-Exchange Chromatography",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Cryosectioning of Tissue",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Matrigel Invasion Assay",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Candida Culture and Biofilm Assay",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Drosophila Larval Brain Dissection",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Genome Assembly Basics",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Histone Deacetylase Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Antibody Titer Determination",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Site-Directed Mutagenesis",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "T7 Endonuclease I Mismatch Assay",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Affinity Chromatography with Antibody Resins",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Hematoxylin and Eosin Staining",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Apoptosis Detection by Annexin V Staining",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Mycobacterium Culture Basics",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Drosophila Salivary Gland Polytene Squash",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Metagenomic Shotgun Library Preparation",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "DNA Methyltransferase Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Hybridoma Generation Basics",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Overlap Extension PCR",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "TIDE and ICE Analysis of Editing Efficiency",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Two-Dimensional Gel Electrophoresis",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Immunohistochemistry (IHC)",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Caspase Activity Assay",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Bacterial Cell Lysis Methods",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Drosophila Lifespan Assay",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Amplicon Sequencing Library Preparation",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Topoisomerase Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Antibody Purification with Protein A/G",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Inverse PCR",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Genotyping PCR of Edited Clones",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "In-Gel Digestion for Mass Spectrometry",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "TUNEL Assay for Apoptosis",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Cell Cycle Analysis by Flow Cytometry",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Bacterial Growth Under Stress Conditions",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Drosophila Climbing Assay",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Targeted Capture Sequencing",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Helicase Unwinding Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Antibody Conjugation to Fluorophores",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Northern Blotting",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "HDR Knock-In with ssODN Donors",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "In-Solution Digestion for Mass Spectrometry",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "EdU Proliferation Assay by Imaging",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Primary Fibroblast Isolation",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Persister Cell Assay",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Zebrafish Husbandry and Breeding",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Exome Sequencing Preparation",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "RNA Polymerase Activity Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Immunophenotyping of Tumor-Infiltrating Lymphocytes",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Southern Blotting",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Endogenous Tagging with HDR Donors",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Phosphoprotein Enrichment",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "BrdU Incorporation and Detection",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Primary Neuron Culture",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Bacterial Two-Hybrid Assay",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Zebrafish Embryo Microinjection",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Microarray Hybridization",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "In Vitro Splicing Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Mouse Immunization",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "5' RACE",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Auxin-Inducible Degron Tagging",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Phos-Tag Gel Electrophoresis",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Cell Cycle Staining with Propidium Iodide",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Primary Hepatocyte Isolation",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Reporter Gene Assays in Bacteria",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Zebrafish Whole-Mount In Situ Hybridization",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "SNP Genotyping by TaqMan",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Mitochondrial Isolation",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Adjuvant Preparation and Immunization",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "3' RACE",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Base Editing",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Cycloheximide Chase Protein Stability Assay",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Beta-Galactosidase Senescence Staining",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Mouse Embryonic Fibroblast (MEF) Isolation",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Beta-Galactosidase Assay (Miller Assay)",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Zebrafish Larval Imaging",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "KASP Genotyping",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Mitochondrial Respiration Measurement (Seahorse)",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Tetramer Staining",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "In Vitro Transcription with T7 RNA Polymerase",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Prime Editing",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Pulse-Chase Labeling",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Oil Red O Staining",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Embryonic Stem Cell Culture",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Quorum Sensing Bioassay",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Mouse Tail DNA Genotyping",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "High-Resolution Melt Analysis",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "ATP Quantification",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Intravital Immune Cell Tracking Basics",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Primer Extension Assay",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "CRISPR Interference (CRISPRi)",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Proximity Labeling with TurboID",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Alizarin Red Staining",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "iPSC Culture and Passaging",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Bacterial RNA Extraction",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Mouse Tissue Collection and Fixation",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Fragment Analysis by Capillary Electrophoresis",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "NAD/NADH Measurement",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Lymph Node Processing for Flow Cytometry",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "RNase Protection Assay",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "CRISPR Activation (CRISPRa)",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "BioID Sample Preparation",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Live/Dead Cell Staining",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Embryoid Body Formation",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Bacterial Protein Overexpression Optimization",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Mouse Embryo Isolation",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "MLPA",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Reactive Oxygen Species (ROS) Measurement",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Lung Tissue Digestion for Flow Cytometry",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Copy Number Determination by qPCR",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Pooled CRISPR Library Amplification",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Biotin-Streptavidin Pull-Down",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Calcium Imaging",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "3D Spheroid Culture",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Gut Microbiome DNA Extraction from Stool",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Xenopus Oocyte Isolation",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Copy Number Variation by Array CGH",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Glucose Uptake Assay",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Liver Immune Cell Isolation",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Sanger Sequencing Sample Preparation",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Pooled CRISPR Screen Lentiviral Transduction",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Cross-Linking Mass Spectrometry Sample Preparation",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Transmission Electron Microscopy Sample Preparation",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Organoid Culture",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Metagenomic 16S Library Preparation",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Xenopus Egg Extract Preparation",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Chromosome Spreads and Karyotyping",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Lipid Extraction (Bligh and Dyer)",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Gut Lamina Propria Cell Isolation",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Bisulfite Conversion for DNA Methylation Analysis",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "sgRNA Library Sequencing Preparation",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Cellular Thermal Shift Assay (CETSA)",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Scanning Electron Microscopy Sample Preparation",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Co-Culture Systems",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Water Quality Testing for Coliforms",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Arabidopsis Growth and Seed Sterilization",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Optical Genome Mapping",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Thin-Layer Chromatography",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Skin Immune Cell Isolation",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Methylation-Specific PCR",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Cas9 Protein Purification",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Differential Scanning Fluorimetry",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Immunogold Labeling",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Conditioned Medium Preparation",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Sterilization by Autoclave and Filtration",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Arabidopsis Transformation by Floral Dip",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Nanopore Direct RNA Sequencing",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "HPLC Sample Preparation",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Inflammasome Activation Assay",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "RT-PCR for Alternative Splicing Analysis",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "In Vitro Cas9 Cleavage Assay",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Circular Dichroism of Proteins",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Image Analysis with ImageJ (Fiji)",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Drug Dose-Response Curves and IC50 Determination",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Culture Media Sterility Testing",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Arabidopsis Genomic DNA Extraction",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Spatial Transcriptomics Sample Preparation",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Mass Spectrometry Metabolite Extraction",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "NF-kB Reporter Assay",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "mRNA Half-Life Measurement with Actinomycin D",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Off-Target Analysis by Amplicon Sequencing",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Dot Blot",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Colocalization Analysis",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Hypoxia Treatment of Cells",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Bacterial Transformation of Plant Cells (Agrobacterium)",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Plant Tissue Culture and Regeneration",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "CRISPR Screen Deep Sequencing Analysis",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Sucrose Gradient Ultracentrifugation",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Interferon Response Assay",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Polysome Profiling",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "MoClo Modular Cloning",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Far-Western Blot",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Quantification of Fluorescence Intensity",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Cell Line Authentication by STR Profiling",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Agrobacterium Electroporation",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Maize Pollination and Crossing",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "GWAS Sample Preparation Basics",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Density Gradient Centrifugation",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Cytometry by Time of Flight (CyTOF) Sample Preparation",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "RNA Immunoprecipitation (RIP)",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Cre-lox Recombination",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Subcellular Fractionation",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Light-Sheet Microscopy Sample Mounting",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Cell Lysis for Downstream Assays",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Phage Display Biopanning",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Maize DNA Extraction and Genotyping",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "QTL Mapping Basics",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Protein-Protein Binding by Bio-Layer Interferometry",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Immunoprecipitation of Antigen-Antibody Complexes",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Nuclear and Cytoplasmic RNA Fractionation",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Flp-FRT Recombination",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Nuclear Extract Preparation",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Tissue Clearing (CLARITY and iDISCO)",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Cell Transfection Efficiency Assessment",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Oxidase and Catalase Tests",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Neurospora Culture and Crossing",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Gene Ontology Enrichment Analysis",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Fluorescent Labeling of Proteins",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Western Blot for Immune Signaling Proteins",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "Nascent RNA Labeling with 4sU or EU",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Seamless Cloning Primer Design Workflow",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Membrane Protein Extraction",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Proximity Ligation Assay (PLA)",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Cell Culture Contamination Troubleshooting",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Biochemical Identification Tests",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Planarian Maintenance and Regeneration Assays",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Sequence Alignment with BLAST",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Radiolabeling Safety and Handling",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "LPS Stimulation of Macrophages",
+   "category": "Immunology",
+   "status": "pending"
+  },
+  {
+   "title": "ChIP-qPCR",
+   "category": "Molecular Biology",
+   "status": "pending"
+  },
+  {
+   "title": "Colony Lift Hybridization Screening",
+   "category": "Cloning & CRISPR",
+   "status": "pending"
+  },
+  {
+   "title": "Protein Ubiquitination Assay",
+   "category": "Protein Analysis",
+   "status": "pending"
+  },
+  {
+   "title": "Photoconversion and Optical Highlighting",
+   "category": "Imaging & Microscopy",
+   "status": "pending"
+  },
+  {
+   "title": "Cryopreservation of Primary Cells",
+   "category": "Cell Culture",
+   "status": "pending"
+  },
+  {
+   "title": "Spore Germination Assay",
+   "category": "Microbiology",
+   "status": "pending"
+  },
+  {
+   "title": "Sea Urchin Embryo Culture",
+   "category": "Model Organisms",
+   "status": "pending"
+  },
+  {
+   "title": "Multiple Sequence Alignment and Phylogenetics",
+   "category": "Genomics & Sequencing",
+   "status": "pending"
+  },
+  {
+   "title": "Spectrophotometer Calibration and Use",
+   "category": "Biochemistry",
+   "status": "pending"
+  },
+  {
+   "title": "Serum Collection and Storage",
+   "category": "Immunology",
+   "status": "pending"
+  }
+ ]
+}

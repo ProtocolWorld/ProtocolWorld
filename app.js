@@ -1,7 +1,7 @@
 // Protocol World — reads data/protocols.json and renders the site.
 // You never need to edit this file: add or change protocols in the CMS (see README).
 const $ = (id) => document.getElementById(id);
-let ALL = [], activeCat = "All", query = "";
+let ALL = [], activeCat = "All", query = "", shown = 24;
 
 const TYPES = [
   { name: "Molecular Biology", icon: "🧬", desc: "DNA and RNA extraction, PCR, qPCR, electrophoresis, sequencing prep." },
@@ -76,8 +76,9 @@ fetch("data/site.json", { cache: "no-cache" }).then((r) => r.json()).then((d) =>
 
 function render() {
   const sorted = [...ALL].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
-  const latest = sorted[0]?.date;
-  const today = sorted.filter((p) => p.date === latest).slice(0, 5);
+  const dailies = sorted.filter((p) => p.daily);
+  const latest = (dailies[0] || sorted[0])?.date;
+  const today = (dailies.length ? dailies : sorted).filter((p) => p.date === latest).slice(0, 5);
   $("todayGrid").innerHTML = today.map(card).join("");
   $("todayDate").textContent = latest ? fmtDate(latest) : "";
 
@@ -85,8 +86,10 @@ function render() {
   const list = sorted.filter((p) =>
     (activeCat === "All" || p.category === activeCat) &&
     (!q || [p.title, p.summary, p.category, p.keywords].join(" ").toLowerCase().includes(q)));
-  $("libGrid").innerHTML = list.map(card).join("");
+  $("libGrid").innerHTML = list.slice(0, shown).map(card).join("");
   $("empty").hidden = list.length > 0;
+  $("more").hidden = list.length <= shown;
+  $("more").textContent = `Load more (${list.length - shown} remaining)`;
 
   const used = ALL.map((p) => p.category).filter(Boolean);
   const cats = ["All", ...TYPES.map((t) => t.name).filter((n) => used.includes(n)), ...new Set(used.filter((c) => !TYPES.some((t) => t.name === c)))];
@@ -110,11 +113,12 @@ function render() {
 
 $("typesGrid").addEventListener("click", (e) => {
   const b = e.target.closest(".type"); if (!b) return;
-  activeCat = b.dataset.c; query = ""; $("search").value = ""; render();
+  activeCat = b.dataset.c; query = ""; shown = 24; $("search").value = ""; render();
   $("library").scrollIntoView({ behavior: "smooth" });
 });
-$("chips").addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (b) { activeCat = b.dataset.c; render(); } });
-$("search").addEventListener("input", (e) => { query = e.target.value; render(); });
+$("chips").addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (b) { activeCat = b.dataset.c; shown = 24; render(); } });
+$("search").addEventListener("input", (e) => { query = e.target.value; shown = 24; render(); });
+$("more").addEventListener("click", () => { shown += 48; render(); });
 $("year").textContent = new Date().getFullYear();
 
 fetch("data/protocols.json", { cache: "no-cache" })
