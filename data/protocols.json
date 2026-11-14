@@ -18,7 +18,7 @@
     },
     {
       "title": "Immunofluorescence Staining of Cultured Cells",
-      "category": "Imaging",
+      "category": "Imaging & Microscopy",
       "date": "2026-11-14",
       "duration": "4 hours",
       "summary": "Fixation, permeabilization, blocking and antibody staining for clean confocal-ready images.",
@@ -60,7 +60,7 @@
     },
     {
       "title": "Bacterial Transformation by Heat Shock",
-      "category": "Cloning",
+      "category": "Cloning & CRISPR",
       "date": "2026-11-14",
       "duration": "2 hours",
       "summary": "Competent cell handling, heat shock, recovery and plating for reliable colony counts.",

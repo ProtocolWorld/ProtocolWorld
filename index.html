@@ -16,6 +16,7 @@
 <header class="nav">
   <a class="brand" href="#top"><img src="assets/logo.svg" alt="Protocol World crest"><span>Protocol World</span></a>
   <nav>
+    <a href="#types">Types</a>
     <a href="#today">Today</a>
     <a href="#library">Library</a>
     <a href="#about">About</a>
@@ -33,12 +34,22 @@
     </div>
     <div class="stats" id="stats"></div>
   </div>
-  <div class="hero-logo">
-    <img src="assets/logo.svg" alt="Protocol World 3D crest">
+  <div class="hero-art">
+    <img class="art" src="assets/lab-celebration.svg" alt="Scientists celebrating a successful experiment in the lab">
+    <img class="badge" src="assets/logo.svg" alt="Protocol World crest">
   </div>
 </section>
 
-<section class="section" id="today">
+<section class="section" id="types">
+  <div class="section-head">
+    <p class="eyebrow">Explore</p>
+    <h2>Browse by type of protocol</h2>
+    <p class="sub">Choose a field to see every protocol in that area.</p>
+  </div>
+  <div class="types" id="typesGrid"></div>
+</section>
+
+<section class="section alt" id="today">
   <div class="section-head">
     <p class="eyebrow">Latest</p>
     <h2>Today's protocols</h2>
@@ -47,7 +58,7 @@
   <div class="grid" id="todayGrid"></div>
 </section>
 
-<section class="section alt" id="library">
+<section class="section" id="library">
   <div class="section-head">
     <p class="eyebrow">Archive</p>
     <h2>Protocol library</h2>

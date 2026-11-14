@@ -3,6 +3,19 @@
 const $ = (id) => document.getElementById(id);
 let ALL = [], activeCat = "All", query = "";
 
+const TYPES = [
+  { name: "Molecular Biology", icon: "🧬", desc: "DNA and RNA extraction, PCR, qPCR, electrophoresis, sequencing prep." },
+  { name: "Cloning & CRISPR", icon: "✂️", desc: "Plasmid construction, transformation, Gibson assembly, genome editing." },
+  { name: "Protein Analysis", icon: "🧫", desc: "Western blotting, immunoprecipitation, purification, mass spectrometry prep." },
+  { name: "Imaging & Microscopy", icon: "🔬", desc: "Immunofluorescence, FISH, live-cell and confocal imaging." },
+  { name: "Cell Culture", icon: "🧪", desc: "Cell lines, passaging, transfection, freezing, viability assays." },
+  { name: "Microbiology", icon: "🦠", desc: "Bacterial and yeast culture, growth curves, selection, staining." },
+  { name: "Model Organisms", icon: "🪱", desc: "C. elegans, Drosophila, zebrafish and other genetic model systems." },
+  { name: "Genomics & Sequencing", icon: "📊", desc: "Library preparation, RNA-seq, ChIP-seq, ATAC-seq, genotyping." },
+  { name: "Biochemistry", icon: "⚗️", desc: "Buffers, enzyme assays, chromatography, protein–nucleic acid binding." },
+  { name: "Immunology", icon: "🛡️", desc: "ELISA, flow cytometry, immune cell isolation and staining." },
+];
+
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmtDate = (d) => { const x = new Date(d + "T12:00:00"); return isNaN(x) ? "" : x.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" }); };
 
@@ -75,15 +88,31 @@ function render() {
   $("libGrid").innerHTML = list.map(card).join("");
   $("empty").hidden = list.length > 0;
 
-  const cats = ["All", ...new Set(ALL.map((p) => p.category).filter(Boolean))];
+  const used = ALL.map((p) => p.category).filter(Boolean);
+  const cats = ["All", ...TYPES.map((t) => t.name).filter((n) => used.includes(n)), ...new Set(used.filter((c) => !TYPES.some((t) => t.name === c)))];
+  const counts = {}; ALL.forEach((p) => { counts[p.category] = (counts[p.category] || 0) + 1; });
+  $("typesGrid").innerHTML = TYPES.map((t) => {
+    const n = counts[t.name] || 0;
+    return `<button class="type ${n ? "" : "empty-type"}" data-c="${esc(t.name)}">
+      <span class="ico">${t.icon}</span>
+      <h3>${esc(t.name)}</h3>
+      <p>${esc(t.desc)}</p>
+      <span class="count">${n ? n + (n === 1 ? " protocol" : " protocols") : "Coming soon"}</span>
+    </button>`;
+  }).join("");
   $("chips").innerHTML = cats.map((c) => `<button class="chip ${c === activeCat ? "on" : ""}" data-c="${esc(c)}">${esc(c)}</button>`).join("");
 
   const days = new Set(ALL.map((p) => p.date)).size;
   $("stats").innerHTML = `<div><strong>${ALL.length}</strong><span>Protocols</span></div>
-    <div><strong>${cats.length - 1}</strong><span>Categories</span></div>
+    <div><strong>${TYPES.length}</strong><span>Fields</span></div>
     <div><strong>${days}</strong><span>Days live</span></div>`;
 }
 
+$("typesGrid").addEventListener("click", (e) => {
+  const b = e.target.closest(".type"); if (!b) return;
+  activeCat = b.dataset.c; query = ""; $("search").value = ""; render();
+  $("library").scrollIntoView({ behavior: "smooth" });
+});
 $("chips").addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (b) { activeCat = b.dataset.c; render(); } });
 $("search").addEventListener("input", (e) => { query = e.target.value; render(); });
 $("year").textContent = new Date().getFullYear();
