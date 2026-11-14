@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Protocol World — Experimental Biology Protocols</title>
-<meta name="description" content="A daily library of experimental biology protocols with downloadable Word and PowerPoint files.">
+<meta name="description" content="Fresh experimental biology protocols, fully cited, with downloadable Word and PowerPoint files.">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@
   <nav>
     <a href="#types">Types</a>
     <a href="#organisms">Organisms</a>
-    <a href="#today">Today</a>
+    <a href="#new">New</a>
     <a href="#library">Library</a>
     <a href="#about">About</a>
   </nav>
@@ -27,11 +27,11 @@
 <section class="hero" id="top">
   <div class="hero-text">
     <p class="eyebrow">Experimental Biology · Open Methods</p>
-    <h1>Protocols, prepared daily.<br><em>Ready to use at the bench.</em></h1>
-    <p class="lead">Five carefully prepared protocols every day, each with a Word document and a PowerPoint deck you can download, edit and share.</p>
+    <h1>Fresh protocols,<br><em>hot off the bench.</em></h1>
+    <p class="lead">New, fully cited methods land here every single day, each with a Word file and a PowerPoint deck ready to download, edit and share.</p>
     <div class="cta">
       <a class="btn primary" href="#library">Browse the library</a>
-      <a class="btn ghost" href="#today">See today's protocols</a>
+      <a class="btn ghost" href="#new">🔥 See what's new</a>
     </div>
     <div class="stats" id="stats"></div>
   </div>
@@ -70,13 +70,14 @@
   <div class="types" id="orgsGrid"></div>
 </section>
 
-<section class="section" id="today">
+<section class="section" id="new">
   <div class="section-head">
-    <p class="eyebrow">Latest</p>
-    <h2>Today's protocols</h2>
+    <p class="eyebrow"><span class="pulse"></span> Just added</p>
+    <h2>New protocols</h2>
     <p class="sub" id="todayDate"></p>
   </div>
-  <div class="grid" id="todayGrid"></div>
+  <div class="grid newgrid" id="todayGrid"></div>
+  <div class="news" id="news"></div>
 </section>
 
 <section class="section" id="library">
@@ -121,5 +122,6 @@
 </div>
 
 <script src="app.js"></script>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 </body>
 </html>

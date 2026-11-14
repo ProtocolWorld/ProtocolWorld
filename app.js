@@ -94,7 +94,9 @@ function render() {
   const latest = (dailies[0] || sorted[0])?.date;
   const today = (dailies.length ? dailies : sorted).filter((p) => p.date === latest).slice(0, 5);
   $("todayGrid").innerHTML = today.map(card).join("");
-  $("todayDate").textContent = latest ? fmtDate(latest) : "";
+  $("todayDate").textContent = latest ? "Added " + fmtDate(latest) : "";
+  renderNews(sorted, latest);
+  showToast(today, latest);
 
   const q = query.trim().toLowerCase();
   const list = sorted.filter((p) =>
@@ -176,3 +178,36 @@ Promise.all([
   dots.children[0].classList.add("on");
   restart();
 })();
+
+// "What's new" feed: earlier days, newest first
+function renderNews(sorted, latest) {
+  const el = $("news");
+  if (!el) return;
+  const byDate = {};
+  sorted.forEach((p) => { if (p.date && p.date !== latest) (byDate[p.date] = byDate[p.date] || []).push(p); });
+  const days = Object.keys(byDate).sort().reverse().slice(0, 7);
+  // protocols added on the latest date without the daily flag (library batches) also belong to the feed
+  const extra = sorted.filter((p) => p.date === latest && !p.daily && sorted.some((x) => x.daily && x.date === latest));
+  if (extra.length) byDate[latest] = extra, days.unshift(latest);
+  if (!days.length) { el.innerHTML = ""; return; }
+  el.innerHTML = `<h3 class="news-h">📰 Recently added</h3>` + days.map((d) => `
+    <div class="news-day"><div class="news-date">${esc(fmtDate(d))}<span>${byDate[d].length} new</span></div>
+    ${byDate[d].map((p, i) => `<div class="news-item" style="animation-delay:${i * 60}ms">
+      <span class="newpill">NEW</span><b>${esc(p.title)}</b>
+      <em>${esc(p.category || "")} · ${esc(orgOf(p))}</em>
+      <span class="news-dl">${p.word_file ? `<a href="${esc(p.word_file)}" download>Word</a>` : ""}${p.pptx_file ? `<a href="${esc(p.pptx_file)}" download>PPTX</a>` : ""}</span>
+    </div>`).join("")}</div>`).join("");
+}
+
+// Pop-up announcing the newest protocols (once per browser session)
+function showToast(today, latest) {
+  const t = $("toast");
+  if (!t || !today.length) return;
+  try { if (sessionStorage.getItem("pw_toast") === latest) return; } catch (e) {}
+  t.innerHTML = `<button class="x" aria-label="Close">×</button><div class="tt">🔔 ${today.length} new protocol${today.length > 1 ? "s" : ""} added</div><ul>${today.map((p) => `<li>${esc(p.title)}</li>`).join("")}</ul><a href="#new">See what's new →</a>`;
+  setTimeout(() => t.classList.add("show"), 1200);
+  const hide = () => { t.classList.remove("show"); try { sessionStorage.setItem("pw_toast", latest); } catch (e) {} };
+  t.querySelector(".x").onclick = hide;
+  t.querySelector("a").onclick = hide;
+  setTimeout(hide, 12000);
+}
