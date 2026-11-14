@@ -168,23 +168,23 @@ Promise.all([
   const P = (id) => `https://images.unsplash.com/photo-${id}?ixlib=rb-4.1.0&q=80&fm=jpg&crop=entropy&cs=srgb&w=1280&h=940&fit=crop`;
   const U = (u) => `https://unsplash.com/${u}?utm_source=protocol_world&utm_medium=referral`;
   const S = [
-    ["Molecular Biology", "DNA · RNA · PCR · qPCR · electrophoresis", "molecular-biology", "1614935151651-0bea6508db6b", "Julia Koblitz", "@jkoblitz"],
-    ["Cloning & CRISPR", "plasmids · Gibson · transformation · genome editing", "cloning-crispr", "1637929476734-bd7f5f78e40a", "Warren Umoh", "@warrenumoh"],
-    ["Protein Analysis", "Western blot · IP · purification · mass spec prep", "protein-analysis", "1532187863486-abf9dbad1b69", "Louis Reed", "@_louisreed"],
-    ["Imaging & Microscopy", "immunofluorescence · FISH · live imaging · confocal", "imaging-microscopy", "1631556097152-c39479bbff93", "National Cancer Institute", "@nci"],
-    ["Cell Culture", "cell lines · passaging · transfection · freezing", "cell-culture", "1595154038281-4beb9195415b", "Girl with red hat", "@girlwithredhat"],
-    ["Microbiology", "bacteria · yeast · growth curves · selection", "microbiology", "1711626759619-9109ef622046", "masakazu sasaki", "@masakz"],
-    ["Model Organisms", "C. elegans · Drosophila · zebrafish · mouse", "model-organisms", "1623137548283-825d61083525", "Matthew Mejia", "@___ginza___"],
-    ["Genomics & Sequencing", "library prep · RNA-seq · ChIP-seq · genotyping", "genomics-sequencing", "1578496479530-799fd6d0803a", "National Cancer Institute", "@nci"],
-    ["Biochemistry", "buffers · enzyme assays · chromatography · binding", "biochemistry", "1631557673853-b5c9c45527ef", "National Cancer Institute", "@nci"],
-    ["Immunology", "ELISA · flow cytometry · immune cell staining", "immunology", "1624957485490-87d607854977", "CDC", "@cdc"],
+    ["Molecular Biology", "DNA · RNA · PCR · qPCR · electrophoresis", "molecular-biology", "assets/slides/molecular-biology.svg", "Julia Koblitz", "@jkoblitz"],
+    ["Cloning & CRISPR", "plasmids · Gibson · transformation · genome editing", "cloning-crispr", "assets/slides/cloning-crispr.svg", "Warren Umoh", "@warrenumoh"],
+    ["Protein Analysis", "Western blot · IP · purification · mass spec prep", "protein-analysis", "assets/slides/protein-analysis.svg", "Louis Reed", "@_louisreed"],
+    ["Imaging & Microscopy", "immunofluorescence · FISH · live imaging · confocal", "imaging-microscopy", "assets/slides/imaging-microscopy.svg", "National Cancer Institute", "@nci"],
+    ["Cell Culture", "cell lines · passaging · transfection · freezing", "cell-culture", "assets/slides/cell-culture.svg", "Girl with red hat", "@girlwithredhat"],
+    ["Microbiology", "bacteria · yeast · growth curves · selection", "microbiology", "assets/slides/microbiology.svg", "masakazu sasaki", "@masakz"],
+    ["Model Organisms", "C. elegans · Drosophila · zebrafish · mouse", "model-organisms", "assets/slides/model-organisms.svg", "Matthew Mejia", "@___ginza___"],
+    ["Genomics & Sequencing", "library prep · RNA-seq · ChIP-seq · genotyping", "genomics-sequencing", "assets/slides/genomics-sequencing.svg", "National Cancer Institute", "@nci"],
+    ["Biochemistry", "buffers · enzyme assays · chromatography · binding", "biochemistry", "assets/slides/biochemistry.svg", "National Cancer Institute", "@nci"],
+    ["Immunology", "ELISA · flow cytometry · immune cell staining", "immunology", "assets/slides/immunology.svg", "CDC", "@cdc"],
   ];
   const box = document.getElementById("slideshow"), dots = document.getElementById("dots");
   if (!box || !dots) return;
   const cap = document.getElementById("cap"), credit = document.getElementById("credit");
   const imgs = S.map((s, n) => {
     const im = document.createElement("img");
-    im.className = "slide"; im.alt = s[0]; im.src = P(s[3]); if (n) im.loading = "lazy";
+    im.className = "slide"; im.alt = s[0]; im.src = s[3]; if (n) im.loading = "lazy";
     im.onerror = () => { im.onerror = null; im.dataset.fb = "1"; im.src = `assets/slides/${s[2]}.svg`; if (n === i) show(); };
     box.insertBefore(im, cap);
     const d = document.createElement("i"); d.onclick = () => { go(n); restart(); }; dots.appendChild(d);
@@ -193,10 +193,9 @@ Promise.all([
   let i = 0, timer;
   function show() {
     const s = S[i], fb = imgs[i].dataset.fb === "1";
-    cap.style.display = fb ? "none" : "";
+    cap.style.display = "none";
     cap.querySelector("b").textContent = s[0]; cap.querySelector("span").textContent = s[1];
-    credit.style.display = fb ? "none" : "";
-    credit.textContent = `Photo: ${s[4]} / Unsplash`; credit.href = U(s[5]);
+    credit.style.display = "none";
   }
   function go(n) {
     imgs[i].classList.remove("on"); dots.children[i].classList.remove("on");
