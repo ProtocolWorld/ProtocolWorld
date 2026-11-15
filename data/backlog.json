@@ -40,7 +40,7 @@
     {
       "title": "C. elegans Maintenance on NGM Plates",
       "category": "Model Organisms",
-      "status": "staged",
+      "status": "done",
       "organism": "C. elegans"
     },
     {
@@ -52,49 +52,49 @@
     {
       "title": "Buffer Preparation and pH Measurement",
       "category": "Biochemistry",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "ELISA (Indirect)",
       "category": "Immunology",
-      "status": "staged",
+      "status": "done",
       "organism": "Mammalian Cells"
     },
     {
       "title": "Genomic DNA Extraction from Bacteria",
       "category": "Molecular Biology",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "Electroporation of E. coli",
       "category": "Cloning & CRISPR",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "Protein Extraction from Tissue",
       "category": "Protein Analysis",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Immunofluorescence of Tissue Sections",
       "category": "Imaging & Microscopy",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Freezing Cells for Cryostorage",
       "category": "Cell Culture",
-      "status": "staged",
+      "status": "done",
       "organism": "Mammalian Cells"
     },
     {
       "title": "Bacterial Streak Plating for Isolation",
       "category": "Microbiology",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {

@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://protocolworld.github.io/ProtocolWorld/</loc><lastmod>2026-11-14</lastmod></url>
-<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/</loc><lastmod>2026-11-14</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/genomic-dna-extraction-from-mammalian-cells.html</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/protein-extraction-from-mammalian-cells-ripa-lysis.html</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/thawing-cryopreserved-cells.html</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/preparation-of-lb-medium-and-agar-plates.html</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/illumina-dna-library-preparation.html</loc><lastmod>2026-11-14</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/c-elegans-maintenance-on-ngm-plates.html</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/buffer-preparation-and-ph-measurement.html</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/elisa-indirect.html</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/genomic-dna-extraction-from-bacteria.html</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/electroporation-of-e-coli.html</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/protein-extraction-from-tissue.html</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/immunofluorescence-of-tissue-sections.html</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/freezing-cells-for-cryostorage.html</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/bacterial-streak-plating-for-isolation.html</loc><lastmod>2026-11-15</lastmod></url>
 </urlset>
