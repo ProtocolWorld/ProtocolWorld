@@ -140,7 +140,7 @@
       "category": "Cell Culture",
       "date": "2026-11-14",
       "duration": "45 minutes plus 24 h recovery",
-      "summary": "Rapid 37 C thaw, aseptic dilution to remove DMSO, viability count and seeding of cryopreserved mammalian cells for reliable recovery.",
+      "summary": "Rapid 37 °C thaw, aseptic dilution to remove DMSO, viability count and seeding of cryopreserved mammalian cells for reliable recovery.",
       "keywords": "thaw cryopreserved cells DMSO liquid nitrogen water bath viability",
       "sources": [
         {
@@ -168,7 +168,7 @@
       "category": "Microbiology",
       "date": "2026-11-14",
       "duration": "2 hours plus overnight drying",
-      "summary": "Mixing, autoclaving and pouring Lysogeny Broth (Lennox) and LB agar plates, with antibiotic addition at about 50 C.",
+      "summary": "Mixing, autoclaving and pouring Lysogeny Broth (Lennox) and LB agar plates, with antibiotic addition at about 50 °C.",
       "keywords": "LB medium lysogeny broth agar plates antibiotic ampicillin autoclave E. coli",
       "sources": [
         {
