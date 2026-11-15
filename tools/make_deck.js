@@ -1,4 +1,5 @@
 // Protocol World deck generator.  Usage: node tools/make_deck.js spec.json out.pptx
+// All slide text is 20 pt or larger (owner requirement); content is paginated by an estimate of its height.
 // Spec: {title, category, organism, duration, purpose, principle, materials:[{item,detail}], equipment:[str],
 //  steps:[{text, time?, note?}], controls:[str], results:[str], troubleshooting:[{problem,cause,fix}],
 //  safety:[str], references:[str]}   (keep each step text <= 190 chars; split long steps)
@@ -22,145 +23,146 @@ async function icon(name, color = "#FFFFFF", size = 256) {
 }
 const clip = (t, n) => (t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, "") + "…" : t);
 
+
+const PT = 20;                       // minimum font size for ALL text
+const LH = PT * 1.22 / 72;           // line height in inches
+const cpl = (w, pt = PT, bold = false) => Math.max(4, Math.floor((w * 72) / (pt * (bold ? 0.47 : 0.44))));
+const nlines = (t, w, pt = PT, bold = false) => { const c = cpl(w, pt, bold); return String(t || "").split("\n").reduce((a, p) => a + Math.max(1, Math.ceil((p.length * 1.04) / c)), 0); };
+// split items into pages so that each page's total height stays within `budget` inches
+function pages(items, heightOf, budget) {
+  const out = []; let cur = [], h = 0;
+  for (const it of items) { const ih = heightOf(it); if (cur.length && h + ih > budget) { out.push(cur); cur = []; h = 0; } cur.push(it); h += ih; }
+  if (cur.length) out.push(cur); return out;
+}
+const TOP = 1.2, BUDGET = 3.95;      // content area below the title (inches)
+
 (async () => {
   const pres = new pptxgen();
   pres.layout = "LAYOUT_16x9"; // 10 x 5.625
   pres.theme = { headFontFace: HF, bodyFontFace: BF };
   pres.title = S.title; pres.author = "Protocol World"; pres.company = "Protocol World";
-  const total = () => pres.slides.length;
-  const footer = (s, dark) => {
-    s.addText("Protocol World  ·  " + S.title, { x: 0.5, y: 5.22, w: 7.5, h: 0.28, fontFace: BF, fontSize: 10, color: dark ? GDL : MUT, margin: 0, isTextBox: true, objectName: "Footer" });
-    s.addText(String(total()), { x: 9.0, y: 5.22, w: 0.5, h: 0.28, fontFace: BF, fontSize: 10, color: dark ? GDL : MUT, align: "right", margin: 0, isTextBox: true, objectName: "Page number" });
-  };
-  const title = (s, t, sub) => {
+  const title = (s, t, n, tot) => {
     s.background = { color: "FFFFFF" };
-    s.addText(t, { x: 0.5, y: 0.3, w: 9, h: 0.65, fontFace: HF, fontSize: 32, bold: true, color: CR, margin: 0, valign: "middle", isTextBox: true, objectName: "Title" });
-    if (sub) s.addText(sub, { x: 0.5, y: 0.93, w: 9, h: 0.3, fontFace: BF, fontSize: 14, color: MUT, margin: 0, isTextBox: true, objectName: "Subtitle" });
+    s.addText(t + (tot > 1 ? ` (${n} of ${tot})` : ""), { x: 0.5, y: 0.3, w: 9, h: 0.7, fontFace: HF, fontSize: 32, bold: true, color: CR, margin: 0, valign: "middle", isTextBox: true, objectName: "Title" });
   };
   const chip = (s, txt, x, y, w, fill, color) => {
-    s.addShape(pres.ShapeType.roundRect, { x, y, w, h: 0.36, rectRadius: 0.18, fill: { color: fill }, line: { color: fill }, objectName: "Chip" });
-    s.addText(txt, { x, y, w, h: 0.36, fontFace: BF, fontSize: 12, bold: true, color, align: "center", valign: "middle", margin: 0, isTextBox: true });
+    s.addShape(pres.ShapeType.roundRect, { x, y, w, h: 0.5, rectRadius: 0.25, fill: { color: fill }, line: { color: fill }, objectName: "Chip" });
+    s.addText(txt, { x, y, w, h: 0.5, fontFace: BF, fontSize: PT, bold: true, color, align: "center", valign: "middle", margin: 0, isTextBox: true });
   };
   const circle = async (s, ic, x, y, d, fill) => {
     s.addShape(pres.ShapeType.ellipse, { x, y, w: d, h: d, fill: { color: fill }, line: { color: fill }, objectName: "Icon circle" });
     const k = d * 0.5; s.addImage({ data: await icon(ic), x: x + (d - k) / 2, y: y + (d - k) / 2, w: k, h: k, altText: ic });
   };
+  const card = (s, x, y, w, h, fill = TINT) => s.addShape(pres.ShapeType.roundRect, { x, y, w, h, rectRadius: 0.12, fill: { color: fill }, line: { color: fill }, objectName: "Card" });
+  const bulletSlides = async (name, ic, color, items, dark) => {
+    const pg = pages(items, (t) => nlines(t, 8.3) * LH + 0.18, BUDGET);
+    for (let p = 0; p < pg.length; p++) {
+      const s = pres.addSlide();
+      if (dark) { s.background = { color: CRD }; await circle(s, ic, 0.5, 0.3, 0.7, GD); s.addText(name + (pg.length > 1 ? ` (${p + 1} of ${pg.length})` : ""), { x: 1.4, y: 0.3, w: 8, h: 0.7, fontFace: HF, fontSize: 32, bold: true, color: "FFFFFF", valign: "middle", margin: 0, isTextBox: true, objectName: "Title" }); }
+      else { title(s, name, p + 1, pg.length); }
+      const runs = pg[p].map((t, j, a) => ({ text: t, options: { bullet: { indent: 24 }, breakLine: j < a.length - 1, paraSpaceAfter: 9 } }));
+      s.addText(runs, { x: 0.6, y: TOP + 0.05, w: 8.8, h: BUDGET, fontFace: BF, fontSize: PT, color: dark ? "FFFFFF" : INK, valign: "top", margin: 0, isTextBox: true, objectName: name + " list" });
+    }
+  };
 
-  // ---- 1. Title (dark)
+  // 1. Title
   let s = pres.addSlide(); s.background = { color: CRD };
-  s.addShape(pres.ShapeType.ellipse, { x: 6.4, y: -1.2, w: 5.2, h: 5.2, fill: { color: CR }, line: { color: CR }, objectName: "Decor" });
-  s.addShape(pres.ShapeType.ellipse, { x: 7.5, y: 2.7, w: 3.6, h: 3.6, fill: { color: GD, transparency: 15 }, line: { color: GD }, objectName: "Decor 2" });
-  chip(s, (S.category || "Protocol").toUpperCase(), 0.6, 0.7, Math.max(1.8, (S.category || "").length * 0.13 + 0.5), GD, CRD);
-  if (S.organism) chip(s, S.organism, 0.6 + Math.max(1.8, (S.category || "").length * 0.13 + 0.5) + 0.15, 0.7, Math.max(1.6, S.organism.length * 0.13 + 0.5), CR, "FFFFFF");
-  s.addText(S.title, { x: 0.6, y: 1.5, w: 6.6, h: 1.9, fontFace: HF, fontSize: 38, bold: true, color: "FFFFFF", valign: "top", margin: 0, fit: "shrink", isTextBox: true, objectName: "Title" });
-  s.addText([{ text: "Estimated time  ", options: { color: GDL } }, { text: S.duration || "", options: { color: "FFFFFF", bold: true } }], { x: 0.6, y: 3.7, w: 6.4, h: 0.4, fontFace: BF, fontSize: 16, margin: 0, isTextBox: true });
-  s.addText("Protocol World", { x: 0.6, y: 4.8, w: 5, h: 0.4, fontFace: HF, fontSize: 18, italic: true, color: GD, margin: 0, isTextBox: true });
+  s.addShape(pres.ShapeType.ellipse, { x: 6.9, y: -1.4, w: 5.2, h: 5.2, fill: { color: CR }, line: { color: CR }, objectName: "Decor" });
+  s.addShape(pres.ShapeType.ellipse, { x: 7.8, y: 3.0, w: 3.6, h: 3.6, fill: { color: GD, transparency: 15 }, line: { color: GD }, objectName: "Decor 2" });
+  const cw = Math.max(2.2, (S.category || "").length * 0.17 + 0.5);
+  chip(s, (S.category || "Protocol").toUpperCase(), 0.6, 0.55, cw, GD, CRD);
+  if (S.organism) chip(s, S.organism, 0.6 + cw + 0.15, 0.55, Math.max(2.0, S.organism.length * 0.17 + 0.5), CR, "FFFFFF");
+  s.addText(S.title, { x: 0.6, y: 1.35, w: 7.0, h: 2.1, fontFace: HF, fontSize: 38, bold: true, color: "FFFFFF", valign: "top", margin: 0, isTextBox: true, objectName: "Title" });
+  s.addText([{ text: "Estimated time:  ", options: { color: GDL } }, { text: S.duration || "", options: { color: "FFFFFF", bold: true } }], { x: 0.6, y: 3.65, w: 7.2, h: 0.9, fontFace: BF, fontSize: PT, margin: 0, valign: "top", isTextBox: true, objectName: "Duration" });
+  s.addText("Protocol World", { x: 0.6, y: 4.75, w: 5, h: 0.45, fontFace: HF, fontSize: 22, italic: true, color: GD, margin: 0, isTextBox: true, objectName: "Brand" });
   s.addNotes(S.purpose || "");
 
-  // ---- 2. Purpose + principle
-  s = pres.addSlide(); title(s, "Purpose and principle");
-  const cards = [["FaBullseye", "Purpose", S.purpose], ["FaFlask", "Principle", S.principle]];
-  for (let i = 0; i < 2; i++) {
-    const x = 0.5 + i * 4.6;
-    s.addShape(pres.ShapeType.roundRect, { x, y: 1.3, w: 4.4, h: 3.7, rectRadius: 0.12, fill: { color: TINT }, line: { color: TINT }, objectName: "Card" });
-    await circle(s, cards[i][0], x + 0.25, 1.5, 0.6, i ? GD : CR);
-    s.addText(cards[i][1], { x: x + 1.0, y: 1.5, w: 3.2, h: 0.6, fontFace: HF, fontSize: 22, bold: true, color: CR, valign: "middle", margin: 0, isTextBox: true });
-    s.addText(clip(cards[i][2] || "", 520), { x: x + 0.3, y: 2.3, w: 3.8, h: 2.55, fontFace: BF, fontSize: 14, color: INK, valign: "top", margin: 0, fit: "shrink", isTextBox: true, objectName: cards[i][1] + " text" });
+  // 2. Purpose, 3. Principle: one full-width card each
+  for (const [ic, name, text, col] of [["FaBullseye", "Purpose", S.purpose, CR], ["FaFlask", "Principle", S.principle, GD]]) {
+    const pg = pages((text || "").split(/(?<=[.!?\]])\s+/), (t) => nlines(t, 8.2) * LH + 0.05, 3.2);
+    for (let p = 0; p < pg.length; p++) {
+      s = pres.addSlide(); title(s, name, p + 1, pg.length);
+      card(s, 0.5, 1.25, 9, 3.85);
+      await circle(s, ic, 0.8, 1.5, 0.7, col);
+      s.addText(pg[p].join(" "), { x: 0.9, y: 2.4, w: 8.2, h: 2.6, fontFace: BF, fontSize: PT, color: INK, valign: "top", margin: 0, isTextBox: true, objectName: name + " text" });
+    }
   }
-  footer(s);
 
-  // ---- 3. At a glance
-  const nSteps = (S.steps || []).length;
+  // 4. At a glance
   s = pres.addSlide(); title(s, "At a glance");
-  const stats = [[S.duration || "—", "Total time"], [String(nSteps), "Procedure steps"], [String((S.materials || []).length), "Key reagents & items"], [S.organism || "General", "Organism / system"]];
+  const stats = [[S.duration || "—", "Total time", CR, "FFFFFF", GDL], [String((S.steps || []).length), "Procedure steps", TINT, CR, MUT], [S.organism || "General", "Organism / system", CR, "FFFFFF", GDL]];
   stats.forEach((st, i) => {
-    const x = 0.5 + i * 2.3;
-    s.addShape(pres.ShapeType.roundRect, { x, y: 1.4, w: 2.1, h: 1.9, rectRadius: 0.12, fill: { color: i % 2 ? TINT : CR }, line: { color: i % 2 ? TINT : CR }, objectName: "Stat card" });
-    s.addText(st[0], { x: x + 0.1, y: 1.55, w: 1.9, h: 1.0, fontFace: HF, fontSize: st[0].length > 8 ? 20 : 36, bold: true, color: i % 2 ? CR : "FFFFFF", align: "center", valign: "middle", margin: 0, fit: "shrink", isTextBox: true });
-    s.addText(st[1], { x: x + 0.1, y: 2.6, w: 1.9, h: 0.5, fontFace: BF, fontSize: 14, color: i % 2 ? MUT : GDL, align: "center", valign: "top", margin: 0, isTextBox: true });
+    const x = 0.5 + i * 3.05;
+    s.addShape(pres.ShapeType.roundRect, { x, y: 1.25, w: 2.9, h: 1.55, rectRadius: 0.12, fill: { color: st[2] }, line: { color: st[2] }, objectName: "Stat card" });
+    const big = st[0].length <= 4;
+    s.addText(st[0], { x: x + 0.1, y: 1.3, w: 2.7, h: 0.9, fontFace: HF, fontSize: big ? 40 : 20, bold: true, color: st[3], align: "center", valign: "middle", margin: 0, isTextBox: true });
+    s.addText(st[1], { x: x + 0.1, y: 2.2, w: 2.7, h: 0.5, fontFace: BF, fontSize: PT, color: st[4], align: "center", valign: "middle", margin: 0, isTextBox: true });
   });
-  const eq = (S.equipment || []).slice(0, 8);
-  await circle(s, "FaTools", 0.5, 3.65, 0.5, GD);
-  s.addText("Equipment", { x: 1.15, y: 3.65, w: 3, h: 0.5, fontFace: HF, fontSize: 18, bold: true, color: CR, valign: "middle", margin: 0, isTextBox: true });
-  s.addText(eq.join("  ·  "), { x: 0.5, y: 4.2, w: 9, h: 0.9, fontFace: BF, fontSize: 14, color: INK, valign: "top", margin: 0, fit: "shrink", isTextBox: true, objectName: "Equipment list" });
-  footer(s);
+  await circle(s, "FaTools", 0.5, 3.0, 0.5, GD);
+  s.addText("Equipment", { x: 1.15, y: 3.0, w: 4, h: 0.5, fontFace: HF, fontSize: 24, bold: true, color: CR, valign: "middle", margin: 0, isTextBox: true });
+  const eq = (S.equipment || []).slice(0, 8), half = Math.ceil(eq.length / 2);
+  [eq.slice(0, half), eq.slice(half)].forEach((col, i) => {
+    if (!col.length) return;
+    s.addText(col.map((t, j) => ({ text: t, options: { bullet: { indent: 20 }, breakLine: j < col.length - 1 } })), { x: 0.5 + i * 4.6, y: 3.6, w: 4.4, h: 1.7, fontFace: BF, fontSize: PT, color: INK, valign: "top", margin: 0, isTextBox: true, objectName: "Equipment list" });
+  });
 
-  // ---- 4. Materials (paged, 6 rows per slide)
-  const mats = S.materials || []; const PER = 8;
-  for (let p = 0; p * PER < mats.length; p++) {
-    s = pres.addSlide(); const pages = Math.ceil(mats.length / PER);
-    title(s, "Materials and reagents" + (pages > 1 ? ` (${p + 1} of ${pages})` : ""));
-    const rows = [[{ text: "Item", options: { bold: true, color: "FFFFFF", fill: { color: CR }, fontSize: 14 } }, { text: "Details / concentration", options: { bold: true, color: "FFFFFF", fill: { color: CR }, fontSize: 14 } }]];
-    mats.slice(p * PER, p * PER + PER).forEach((m, i) => rows.push([{ text: clip(m.item, 70), options: { bold: true, color: CR, fontSize: 14, fill: { color: i % 2 ? "FFFFFF" : TINT } } }, { text: clip(m.detail || "", 120), options: { color: INK, fontSize: 14, fill: { color: i % 2 ? "FFFFFF" : TINT } } }]));
-    s.addTable(rows, { x: 0.5, y: 1.2, w: 9, colW: [3.2, 5.8], fontFace: BF, valign: "middle", border: { type: "solid", color: LINE, pt: 0.75 }, margin: [0.06, 0.12, 0.06, 0.12], objectName: "Materials table" });
-    footer(s);
-  }
+  // 5. Materials table, paged by estimated row height
+  const mats = S.materials || [];
+  const mrow = (m) => Math.max(nlines(m.item, 2.9, PT, true), nlines(m.detail, 5.6)) * LH + 0.22;
+  const mpg = pages(mats, mrow, BUDGET - 0.25);
+  mpg.forEach((chunk, p) => {
+    const sl = pres.addSlide(); title(sl, "Materials and reagents", p + 1, mpg.length);
+    const hd = (t) => ({ text: t, options: { bold: true, color: "FFFFFF", fill: { color: CR }, fontSize: PT } });
+    const rows = [[hd("Item"), hd("Details")]];
+    chunk.forEach((m, i) => { const f = { color: i % 2 ? "FFFFFF" : TINT }; rows.push([{ text: m.item, options: { bold: true, color: CR, fontSize: PT, fill: f } }, { text: m.detail || "", options: { color: INK, fontSize: PT, fill: f } }]); });
+    sl.addTable(rows, { x: 0.5, y: 1.2, w: 9, colW: [3.1, 5.9], fontFace: BF, valign: "middle", border: { type: "solid", color: LINE, pt: 0.75 }, margin: [0.05, 0.12, 0.05, 0.12], objectName: "Materials table" });
+  });
 
-  // ---- 5. Procedure: 4 steps per slide as 2x2 cards
-  const ST = S.steps || []; const SP = 4; const spages = Math.ceil(ST.length / SP);
-  for (let p = 0; p < spages; p++) {
-    s = pres.addSlide(); title(s, "Procedure" + (spages > 1 ? ` (${p + 1} of ${spages})` : ""));
-    const part = ST.slice(p * SP, p * SP + SP);
-    for (let i = 0; i < part.length; i++) {
-      const col = i % 2, row = Math.floor(i / 2), x = 0.5 + col * 4.6, y = 1.2 + row * 1.95, num = p * SP + i + 1;
-      s.addShape(pres.ShapeType.roundRect, { x, y, w: 4.4, h: 1.8, rectRadius: 0.1, fill: { color: TINT }, line: { color: TINT }, objectName: "Step card " + num });
-      s.addShape(pres.ShapeType.ellipse, { x: x + 0.15, y: y + 0.15, w: 0.55, h: 0.55, fill: { color: CR }, line: { color: CR }, objectName: "Step number circle" });
-      s.addText(String(num), { x: x + 0.15, y: y + 0.15, w: 0.55, h: 0.55, fontFace: HF, fontSize: 18, bold: true, color: "FFFFFF", align: "center", valign: "middle", margin: 0, isTextBox: true });
-      s.addText(clip(part[i].text, 200), { x: x + 0.85, y: y + 0.12, w: 3.4, h: part[i].time ? 1.15 : 1.55, fontFace: BF, fontSize: 14, color: INK, valign: "top", margin: 0, fit: "shrink", isTextBox: true, objectName: "Step text" });
-      if (part[i].time) { chip(s, part[i].time, x + 0.85, y + 1.3, Math.min(3.4, 0.9 + part[i].time.length * 0.09), GD, CRD); }
+  // 6. Procedure: step cards stacked, paged by height
+  const ST = (S.steps || []).map((t, i) => ({ ...t, n: i + 1 }));
+  const stepH = (t) => Math.max(0.95, nlines(t.text, t.time ? 6.0 : 7.7) * LH + 0.3);
+  const spg = pages(ST, stepH, BUDGET);
+  for (let p = 0; p < spg.length; p++) {
+    s = pres.addSlide(); title(s, "Procedure", p + 1, spg.length);
+    let y = TOP + 0.05;
+    for (const st of spg[p]) {
+      const h = stepH(st) - 0.08;
+      card(s, 0.5, y, 9, h);
+      s.addShape(pres.ShapeType.ellipse, { x: 0.65, y: y + (h - 0.6) / 2, w: 0.6, h: 0.6, fill: { color: CR }, line: { color: CR }, objectName: "Step number circle" });
+      s.addText(String(st.n), { x: 0.65, y: y + (h - 0.6) / 2, w: 0.6, h: 0.6, fontFace: HF, fontSize: PT, bold: true, color: "FFFFFF", align: "center", valign: "middle", margin: 0, isTextBox: true });
+      s.addText(st.text, { x: 1.45, y, w: st.time ? 6.0 : 7.7, h, fontFace: BF, fontSize: PT, color: INK, valign: "middle", margin: 0, isTextBox: true, objectName: "Step " + st.n });
+      if (st.time) { s.addShape(pres.ShapeType.roundRect, { x: 7.6, y: y + h / 2 - 0.3, w: 1.75, h: 0.6, rectRadius: 0.3, fill: { color: GD }, line: { color: GD }, objectName: "Time chip" }); s.addText(st.time, { x: 7.6, y: y + h / 2 - 0.3, w: 1.75, h: 0.6, fontFace: BF, fontSize: PT, bold: true, color: CRD, align: "center", valign: "middle", margin: 0, isTextBox: true }); }
+      y += h + 0.08;
     }
-    s.addNotes(part.map((q, i) => `${p * SP + i + 1}. ${q.text}${q.note ? " — " + q.note : ""}`).join("\n"));
-    footer(s);
+    s.addNotes(spg[p].map((q) => `${q.n}. ${q.text}${q.note ? " — " + q.note : ""}`).join("\n"));
   }
 
-  // ---- 6. Controls + expected results
-  if ((S.results || []).length || (S.controls || []).length) {
-    s = pres.addSlide(); title(s, "Expected results and controls");
-    const blocks = [["FaCheckCircle", "Expected results", S.results || [], CR], ["FaBalanceScale", "Controls", S.controls || [], GD]];
-    for (let i = 0; i < 2; i++) {
-      const x = 0.5 + i * 4.6;
-      s.addShape(pres.ShapeType.roundRect, { x, y: 1.2, w: 4.4, h: 3.85, rectRadius: 0.12, fill: { color: TINT }, line: { color: TINT }, objectName: "Card" });
-      await circle(s, blocks[i][0], x + 0.25, 1.38, 0.55, blocks[i][3]);
-      s.addText(blocks[i][1], { x: x + 0.95, y: 1.38, w: 3.2, h: 0.55, fontFace: HF, fontSize: 20, bold: true, color: CR, valign: "middle", margin: 0, isTextBox: true });
-      const items = blocks[i][2].slice(0, 4).map((t, j, a) => ({ text: clip(t, 150), options: { bullet: true, breakLine: j < a.length - 1, paraSpaceAfter: 6 } }));
-      s.addText(items.length ? items : [{ text: "—" }], { x: x + 0.3, y: 2.1, w: 3.85, h: 2.8, fontFace: BF, fontSize: 14, color: INK, valign: "top", margin: 0, fit: "shrink", isTextBox: true });
-    }
-    footer(s);
-  }
+  // 7. Results, controls
+  await bulletSlides("Expected results", "FaCheckCircle", CR, S.results || []);
+  await bulletSlides("Controls", "FaBalanceScale", GD, S.controls || []);
 
-  // ---- 7. Troubleshooting table (paged, 4 rows)
-  const tr = S.troubleshooting || []; const TP = 5;
-  for (let p = 0; p * TP < tr.length; p++) {
-    s = pres.addSlide(); const pages = Math.ceil(tr.length / TP);
-    title(s, "Troubleshooting" + (pages > 1 ? ` (${p + 1} of ${pages})` : ""));
-    const h = (t) => ({ text: t, options: { bold: true, color: "FFFFFF", fill: { color: CR }, fontSize: 14 } });
-    const rows = [[h("Problem"), h("Likely cause"), h("Fix")]];
-    tr.slice(p * TP, p * TP + TP).forEach((r, i) => { const f = { color: i % 2 ? "FFFFFF" : TINT }; rows.push([{ text: clip(r.problem, 60), options: { bold: true, color: CR, fontSize: 13, fill: f } }, { text: clip(r.cause || "", 90), options: { color: INK, fontSize: 13, fill: f } }, { text: clip(r.fix || "", 110), options: { color: INK, fontSize: 13, fill: f } }]); });
-    s.addTable(rows, { x: 0.5, y: 1.2, w: 9, colW: [2.2, 3.0, 3.8], fontFace: BF, valign: "middle", border: { type: "solid", color: LINE, pt: 0.75 }, margin: [0.07, 0.1, 0.07, 0.1], objectName: "Troubleshooting table" });
-    footer(s);
-  }
+  // 8. Troubleshooting table
+  const tr = S.troubleshooting || [];
+  const trow = (r) => Math.max(nlines(r.problem, 2.2, PT, true), nlines(r.cause, 3.0), nlines(r.fix, 3.8)) * LH + 0.22;
+  const tpg = pages(tr, trow, BUDGET - 0.25);
+  tpg.forEach((chunk, p) => {
+    const sl = pres.addSlide(); title(sl, "Troubleshooting", p + 1, tpg.length);
+    const hd = (t) => ({ text: t, options: { bold: true, color: "FFFFFF", fill: { color: CR }, fontSize: PT } });
+    const rows = [[hd("Problem"), hd("Cause"), hd("Fix")]];
+    chunk.forEach((r, i) => { const f = { color: i % 2 ? "FFFFFF" : TINT }; rows.push([{ text: r.problem, options: { bold: true, color: CR, fontSize: PT, fill: f } }, { text: r.cause || "", options: { color: INK, fontSize: PT, fill: f } }, { text: r.fix || "", options: { color: INK, fontSize: PT, fill: f } }]); });
+    sl.addTable(rows, { x: 0.5, y: 1.2, w: 9, colW: [2.3, 3.0, 3.7], fontFace: BF, valign: "middle", border: { type: "solid", color: LINE, pt: 0.75 }, margin: [0.05, 0.1, 0.05, 0.1], objectName: "Troubleshooting table" });
+  });
 
-  // ---- 8. Safety (dark callout)
-  if ((S.safety || []).length) {
-    s = pres.addSlide(); s.background = { color: CRD };
-    await circle(s, "FaExclamationTriangle", 0.5, 0.35, 0.7, GD);
-    s.addText("Safety and waste", { x: 1.4, y: 0.35, w: 7, h: 0.7, fontFace: HF, fontSize: 32, bold: true, color: "FFFFFF", valign: "middle", margin: 0, isTextBox: true, objectName: "Title" });
-    const items = S.safety.slice(0, 5).map((t, j, a) => ({ text: clip(t, 190), options: { bullet: true, breakLine: j < a.length - 1, paraSpaceAfter: 8 } }));
-    s.addText(items, { x: 0.6, y: 1.35, w: 8.8, h: 3.6, fontFace: BF, fontSize: 16, color: "FFFFFF", valign: "top", margin: 0, fit: "shrink", isTextBox: true, objectName: "Safety list" });
-    footer(s, true);
-  }
-
-  // ---- 9. References (paged)
-  const refs = S.references || []; const RP = 5;
-  for (let p = 0; p * RP < refs.length; p++) {
-    s = pres.addSlide(); const pages = Math.ceil(refs.length / RP);
-    title(s, "References" + (pages > 1 ? ` (${p + 1} of ${pages})` : ""));
-    const runs = refs.slice(p * RP, p * RP + RP).map((r, j, a) => ({ text: `[${p * RP + j + 1}] ${clip(r, 420)}`, options: { breakLine: j < a.length - 1, paraSpaceAfter: 8 } }));
-    s.addText(runs, { x: 0.5, y: 1.2, w: 9, h: 3.9, fontFace: BF, fontSize: 12, color: INK, valign: "top", margin: 0, fit: "shrink", isTextBox: true, objectName: "References" });
-    footer(s);
-  }
+  // 9. Safety, 10. References
+  await bulletSlides("Safety and waste", "FaExclamationTriangle", GD, S.safety || [], true);
+  const refs = (S.references || []).map((r, i) => `[${i + 1}] ${r}`);
+  const rpg = pages(refs, (t) => nlines(t, 8.8) * LH + 0.16, BUDGET);
+  rpg.forEach((chunk, p) => {
+    const sl = pres.addSlide(); title(sl, "References", p + 1, rpg.length);
+    sl.addText(chunk.map((t, j, a) => ({ text: t, options: { breakLine: j < a.length - 1, paraSpaceAfter: 9 } })), { x: 0.5, y: TOP + 0.05, w: 9, h: BUDGET, fontFace: BF, fontSize: PT, color: INK, valign: "top", margin: 0, isTextBox: true, objectName: "References" });
+  });
 
   await pres.writeFile({ fileName: outFile });
   if (applyTheme) await applyTheme(outFile, THEME);
-  console.log("wrote", outFile, total(), "slides");
+  console.log("wrote", outFile, pres.slides.length, "slides");
 })().catch((e) => { console.error(e); process.exit(1); });
