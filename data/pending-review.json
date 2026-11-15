@@ -191,6 +191,144 @@
       "word_file": "uploads/protein-extraction-from-tissue.docx",
       "pptx_file": "uploads/protein-extraction-from-tissue.pptx",
       "staged_dir": "review/2026-11-15/"
+    },
+    {
+      "title": "Immunofluorescence of Tissue Sections",
+      "category": "Imaging & Microscopy",
+      "organism": "General Lab Methods",
+      "date": "2026-11-15",
+      "duration": "2 days + 2–3 days prep",
+      "summary": "Detect a protein in fixed mouse tissue sections: fixation, cryosectioning, antigen retrieval, blocking, primary and fluorescent secondary antibodies, DAPI and antifade mounting.",
+      "keywords": "immunofluorescence IF tissue sections cryosection OCT antigen retrieval DAPI confocal mouse brain",
+      "sources": [
+        {
+          "citation": "Harb K, Bertacchi M, Studer M (2021). Optimized immunostaining of embryonic and early postnatal mouse brain sections. Bio-protocol 11(1): e3868.",
+          "link": "https://bio-protocol.org/e3868"
+        },
+        {
+          "citation": "Cell Signaling Technology. Immunofluorescence protocol for frozen tissue (IF-F).",
+          "link": "https://www.cellsignal.com/learn-and-support/protocols/protocol-if-frozen-tissue-if-f"
+        },
+        {
+          "citation": "Cell Signaling Technology. Immunohistochemistry (paraffin) protocol for direct conjugates.",
+          "link": "https://www.cellsignal.com/learn-and-support/protocols/ihc-protocol-paraffin-for-direct-conjugates"
+        },
+        {
+          "citation": "Dobaczewska K, Mikulski Z (2022). Immunofluorescence on formalin-fixed paraffin-embedded tissue sections. protocols.io.",
+          "link": "https://www.protocols.io/view/immunofluorescence-on-formalin-fixed-paraffin-embe-b49yqz7w.html"
+        },
+        {
+          "citation": "Abcam. IHC with frozen samples.",
+          "link": "https://www.abcam.com/en-us/technical-resources/protocols/ihc-with-frozen-samples"
+        },
+        {
+          "citation": "Cavalli Lab, Washington University. Immunofluorescence protocol for frozen sections.",
+          "link": "https://sites.wustl.edu/cavallilab/?p=1447"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Basic DAPI counterstaining protocols.",
+          "link": "https://www.thermofisher.com/us/en/home/references/protocols/cell-and-tissue-analysis/dapi-protocol/basic-dapi-counterstaining-protocols"
+        }
+      ],
+      "word_file": "uploads/immunofluorescence-of-tissue-sections.docx",
+      "pptx_file": "uploads/immunofluorescence-of-tissue-sections.pptx",
+      "staged_dir": "review/2026-11-15/"
+    },
+    {
+      "title": "Freezing Cells for Cryostorage",
+      "category": "Cell Culture",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-15",
+      "duration": "1 h hands-on + overnight at −80 °C",
+      "summary": "Freeze mammalian cells for long-term storage: harvest in log phase, suspend in DMSO freezing medium, cool at about −1 °C per minute and keep in liquid nitrogen vapor.",
+      "keywords": "cryopreservation freezing cells DMSO cryovial liquid nitrogen Mr. Frosty CoolCell cell banking",
+      "sources": [
+        {
+          "citation": "ATCC. Cryogenic storage of animal cells (technical document).",
+          "link": "https://www.atcc.org/resources/technical-documents/cryogenic-storage-of-animal-cells"
+        },
+        {
+          "citation": "Thermo Fisher Scientific (Gibco). Cell freezing protocols, Gibco Cell Culture Basics.",
+          "link": "https://thermofisher.com/jp/en/home/references/gibco-cell-culture-basics/cell-culture-protocols/freezing-cells.html"
+        },
+        {
+          "citation": "Abcam. Cryopreservation of mammalian cell lines (video protocol).",
+          "link": "https://www.abcam.com/en-us/technical-resources/protocols/cryopreservation-of-mammalian-cell-lines"
+        },
+        {
+          "citation": "MilliporeSigma. Cryopreservation of cell lines (protocol).",
+          "link": "https://sigmaaldrich.com/technical-documents/protocols/biology/cryopreservation-of-cell-lines.html"
+        },
+        {
+          "citation": "Kilbride P, Meneghel J (2021). Freezing technology: control of freezing, thawing, and ice nucleation. In: Wolkers WF, Oldenhof H, eds. Cryopreservation and Freeze-Drying Protocols. Methods in Molecular Biology vol 2180. Humana, New York, pp 191–201.",
+          "link": "https://link.springer.com/protocol/10.1007/978-1-0716-0783-1_6"
+        },
+        {
+          "citation": "STEMCELL Technologies. Cryopreservation basics: protocols and best practices for freezing cells.",
+          "link": "https://www.stemcell.com/cryopreservation-basics-protocols-and-best-practices-for-freezing-cells"
+        },
+        {
+          "citation": "Lawrence Berkeley National Laboratory, CAF group. Cryopreservation of mammalian cells (protocol).",
+          "link": "https://cafgroup.lbl.gov/protocols/general-cell-biology/cryopreservation-of-mammalian-cells"
+        }
+      ],
+      "word_file": "uploads/freezing-cells-for-cryostorage.docx",
+      "pptx_file": "uploads/freezing-cells-for-cryostorage.pptx",
+      "staged_dir": "review/2026-11-15/"
+    },
+    {
+      "title": "Bacterial Streak Plating for Isolation",
+      "category": "Microbiology",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-15",
+      "duration": "Plates 1 day ahead; streaking 15 min + 16–24 h incubation",
+      "summary": "Pour LB agar plates and quadrant-streak E. coli to obtain single, well-separated colonies, with antibiotic selection, incubation and troubleshooting.",
+      "keywords": "streak plate quadrant streak LB agar single colonies E. coli isolation antibiotic selection",
+      "sources": [
+        {
+          "citation": "Cold Spring Harbor Protocols (2023). LB 1.5% agar plates without and with antibiotic supplements. Cold Spring Harb Protoc 2023(9): pdb.rec108099.",
+          "link": "https://cshprotocols.cshlp.org/content/2023/9/pdb.rec108099.short"
+        },
+        {
+          "citation": "Cold Spring Harbor Protocols (2014). Solid LB with 100 µg/mL ampicillin. Cold Spring Harb Protoc, pdb.rec082214.",
+          "link": "https://cshprotocols.cshlp.org/content/2014/12/pdb.rec082214.short"
+        },
+        {
+          "citation": "Cold Spring Harbor Protocols (2024). LB agar, Miller. Cold Spring Harb Protoc, pdb.rec108296.",
+          "link": "https://cshprotocols.cshlp.org/content/2024/2/pdb.rec108296.short"
+        },
+        {
+          "citation": "Cold Spring Harbor Protocols (2011). Agar plates with LB medium and ampicillin (50 µg/mL). Cold Spring Harb Protoc, pdb.rec12396.",
+          "link": "https://cshprotocols.cshlp.org/content/2011/2/pdb.rec12396.short"
+        },
+        {
+          "citation": "Addgene. Pouring LB agar plates.",
+          "link": "https://addgene.org/protocols/pouring-lb-agar-plates/"
+        },
+        {
+          "citation": "Ward J (2025). LB agar plate recipe. protocols.io.",
+          "link": "https://www.protocols.io/view/lb-agar-plate-recipe-haqwb2dxf.html"
+        },
+        {
+          "citation": "CDC REACH. Microbiology curriculum: basic culture media and isolation techniques, 4-quadrant streak (video transcript).",
+          "link": "https://reach.cdc.gov/sites/default/files/video-transcripts/4-quadrant-streak-transcript.pdf"
+        },
+        {
+          "citation": "Sierra College Biology. Aseptic technique, streak plates and pure cultures (laboratory handout).",
+          "link": "https://biosci.sierracollege.edu/materials/4/laboratory_syllabus/aseptic_technique_streakplates_and_pure_cultures.pdf"
+        },
+        {
+          "citation": "Microbe Online. Streak plate method: principle, purpose, procedure, results.",
+          "link": "https://microbeonline.com/streak-plate-method-principle-purpose-procedure-results"
+        },
+        {
+          "citation": "Qiagen. Working with plasmids: bacterial cultivation, media and antibiotics (bench guide).",
+          "link": "https://www.qiagen.com/us/knowledge-and-support/knowledge-hub/bench-guide/plasmid/working-with-plasmids/bacterial-cultivation-media-and-antibiotics"
+        }
+      ],
+      "word_file": "uploads/bacterial-streak-plating-for-isolation.docx",
+      "pptx_file": "uploads/bacterial-streak-plating-for-isolation.pptx",
+      "staged_dir": "review/2026-11-15/"
     }
   ]
 }
