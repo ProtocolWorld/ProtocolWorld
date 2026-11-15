@@ -1,110 +1,196 @@
 {
- "pending": [
-  {
-   "title": "C. elegans Maintenance on NGM Plates",
-   "category": "Model Organisms",
-   "organism": "C. elegans",
-   "date": "2026-11-15",
-   "duration": "Media 2 h + 2–3 days drying; routine transfer 15 min",
-   "summary": "Pour and seed NGM plates with OP50, keep C. elegans stocks by chunking or picking, and rescue contaminated cultures with a hypochlorite egg prep.",
-   "keywords": "C. elegans NGM OP50 worm maintenance chunking picking bleach synchronization",
-   "sources": [
+  "pending": [
     {
-     "citation": "Stiernagle T (2006). Maintenance of C. elegans. In: WormBook, ed. The C. elegans Research Community.",
-     "link": "https://doi.org/10.1895/wormbook.1.101.1"
+      "title": "C. elegans Maintenance on NGM Plates",
+      "category": "Model Organisms",
+      "organism": "C. elegans",
+      "date": "2026-11-15",
+      "duration": "Media 2 h + 2–3 days drying; routine transfer 15 min",
+      "summary": "Pour and seed NGM plates with OP50, keep C. elegans stocks by chunking or picking, and rescue contaminated cultures with a hypochlorite egg prep.",
+      "keywords": "C. elegans NGM OP50 worm maintenance chunking picking bleach synchronization",
+      "sources": [
+        {
+          "citation": "Stiernagle T (2006). Maintenance of C. elegans. In: WormBook, ed. The C. elegans Research Community.",
+          "link": "https://doi.org/10.1895/wormbook.1.101.1"
+        },
+        {
+          "citation": "Rodriguez Ayala F, Cogliati S, Bauman C, Leñini C, Bartolini M, Villalba JM, Argañaraz F, Grau R (2017). Culturing bacteria from Caenorhabditis elegans gut to assess colonization proficiency. Bio-protocol 7(12): e2345.",
+          "link": "https://bio-protocol.org/e2345"
+        },
+        {
+          "citation": "Assie A, Samuel B. NGM Agar. protocols.io.",
+          "link": "https://www.protocols.io/view/ngm-agar-zy7f7zn.html"
+        },
+        {
+          "citation": "Williams RTP, Osborne Nishimura E, Zuckerman B, Weinberger L. Synchronized C. elegans culture on NGM plates for FACS isolation of single cells. protocols.io.",
+          "link": "https://www.protocols.io/view/synchronized-c-elegans-culture-on-ngm-plates-for-f-c8vfzw3n.html"
+        }
+      ],
+      "word_file": "uploads/c-elegans-maintenance-on-ngm-plates.docx",
+      "pptx_file": "uploads/c-elegans-maintenance-on-ngm-plates.pptx",
+      "staged_dir": "review/2026-11-15/"
     },
     {
-     "citation": "Rodriguez Ayala F, Cogliati S, Bauman C, Leñini C, Bartolini M, Villalba JM, Argañaraz F, Grau R (2017). Culturing bacteria from Caenorhabditis elegans gut to assess colonization proficiency. Bio-protocol 7(12): e2345.",
-     "link": "https://bio-protocol.org/e2345"
+      "title": "Buffer Preparation and pH Measurement",
+      "category": "Biochemistry",
+      "organism": "General Lab Methods",
+      "date": "2026-11-15",
+      "duration": "45–60 min per buffer; meter calibration 10–15 min",
+      "summary": "Calculate, dissolve, titrate and sterilize common buffers (Tris-HCl, PBS, EDTA, HEPES) and calibrate a pH meter for accurate readings.",
+      "keywords": "buffer preparation pH meter calibration Tris PBS EDTA HEPES",
+      "sources": [
+        {
+          "citation": "Cold Spring Harbor Laboratory Press (2006). Phosphate-buffered saline (PBS). Cold Spring Harb Protoc, recipe pdb.rec8247.",
+          "link": "https://cshprotocols.cshlp.org/content/2006/1/pdb.rec8247.short"
+        },
+        {
+          "citation": "Cold Spring Harbor Laboratory Press (2006). EDTA (ethylenediaminetetraacetic acid), 0.5 M (pH 8.0). Cold Spring Harb Protoc, recipe pdb.rec8030.",
+          "link": "https://cshprotocols.cshlp.org/content/2006/1/pdb.rec8030"
+        },
+        {
+          "citation": "Sigma-Aldrich (Merck). Buffer Reference Center.",
+          "link": "https://www.sigmaaldrich.com/SG/en/technical-documents/protocol/protein-biology/protein-concentration-and-buffer-exchange/buffer-reference-center"
+        },
+        {
+          "citation": "Lab Manager. Laboratory pH meters: calibration, use, care and best practices.",
+          "link": "https://www.labmanager.com/laboratory-ph-meters-calibration-use-care-and-best-practices-35065"
+        },
+        {
+          "citation": "Hanna Instruments. pH Meter Calibration and Electrode Maintenance Guide.",
+          "link": "https://blog.hannaservice.eu/ph-meter-calibration-electrode-maintenance-guide/"
+        },
+        {
+          "citation": "Pugh Lab, Cornell University. Buffer Preparation (lab wiki).",
+          "link": "https://pughlab.mbg.cornell.edu/labtutorial/WetBench/buffers"
+        }
+      ],
+      "word_file": "uploads/buffer-preparation-and-ph-measurement.docx",
+      "pptx_file": "uploads/buffer-preparation-and-ph-measurement.pptx",
+      "staged_dir": "review/2026-11-15/"
     },
     {
-     "citation": "Assie A, Samuel B. NGM Agar. protocols.io.",
-     "link": "https://www.protocols.io/view/ngm-agar-zy7f7zn.html"
+      "title": "ELISA (Indirect)",
+      "category": "Immunology",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-15",
+      "duration": "Overnight coat + 5–6 h",
+      "summary": "Coat, block, probe with primary and HRP-secondary antibodies, develop with TMB and read at 450 nm to quantify antigen or antibody in mammalian samples.",
+      "keywords": "ELISA indirect HRP TMB antibody antigen serum lysate",
+      "sources": [
+        {
+          "citation": "Bio-Rad Laboratories. Protocol: Indirect ELISA. Bio-Rad Antibodies (web page, accessed 15 November 2026).",
+          "link": "https://bio-rad-antibodies.com/indirect-elisa-protocol.html"
+        },
+        {
+          "citation": "Fortis Life Sciences (Bethyl Laboratories). Indirect ELISA Protocol (web page, accessed 15 November 2026).",
+          "link": "https://www.fortislife.com/p/protocol019"
+        },
+        {
+          "citation": "Sigma-Aldrich (Merck). ELISA procedures, indirect ELISA section (web page, accessed 15 November 2026).",
+          "link": "https://www.sigmaaldrich.com/technical-documents/protocols/biology/elisa-procedures.html"
+        },
+        {
+          "citation": "Abcam. Indirect and direct ELISA protocol (web page, accessed 15 November 2026).",
+          "link": "https://www.abcam.com/en-us/technical-resources/protocols/indirect-and-direct-elisa"
+        },
+        {
+          "citation": "R&D Systems. Troubleshooting Guide: ELISA Development (web page, accessed 15 November 2026).",
+          "link": "https://www.rndsystems.com/resources/troubleshooting-guide-elisa-development"
+        },
+        {
+          "citation": "Jackson ImmunoResearch. ELISA Guide Part 4: Troubleshooting (web page, accessed 15 November 2026).",
+          "link": "https://www.jacksonimmuno.com/secondary-antibody-resource/immuno-techniques/elisa-guide-part-4-troubleshooting/"
+        }
+      ],
+      "word_file": "uploads/elisa-indirect.docx",
+      "pptx_file": "uploads/elisa-indirect.pptx",
+      "staged_dir": "review/2026-11-15/"
     },
     {
-     "citation": "Williams RTP, Osborne Nishimura E, Zuckerman B, Weinberger L. Synchronized C. elegans culture on NGM plates for FACS isolation of single cells. protocols.io.",
-     "link": "https://www.protocols.io/view/synchronized-c-elegans-culture-on-ngm-plates-for-f-c8vfzw3n.html"
+      "title": "Genomic DNA Extraction from Bacteria",
+      "category": "Molecular Biology",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-15",
+      "duration": "About 6 h + overnight",
+      "summary": "Purify high-molecular-weight genomic DNA from bacteria with lysozyme, SDS, proteinase K, CTAB and phenol–chloroform extraction, then RNase treatment and ethanol precipitation.",
+      "keywords": "genomic DNA bacteria CTAB phenol chloroform lysozyme proteinase K E. coli",
+      "sources": [
+        {
+          "citation": "William S. Feil, Helene Feil, Copeland A. Bacterial DNA Isolation CTAB Protocol (Version 3). US Department of Energy Joint Genome Institute; reviewed 2012.",
+          "link": "https://jgi.doe.gov/sites/default/files/2025-01/JGI-Bacterial-DNA-isolation-CTAB-Protocol.pdf"
+        },
+        {
+          "citation": "Barrick Lab. Phenol/chloroform extraction. Barrick Lab Protocols (TWiki), University of Texas at Austin.",
+          "link": "https://barricklab.org/twiki/bin/view/Lab/PhenolChloroformExtraction"
+        },
+        {
+          "citation": "Kiledal A, Maresca JA (2023). Chromosomal DNA extraction from Gram-positive bacteria, V3. protocols.io.",
+          "link": "https://www.protocols.io/view/chromosomal-dna-extraction-from-gram-positive-bact-cwvkxe4w.html"
+        }
+      ],
+      "word_file": "uploads/genomic-dna-extraction-from-bacteria.docx",
+      "pptx_file": "uploads/genomic-dna-extraction-from-bacteria.pptx",
+      "staged_dir": "review/2026-11-15/"
+    },
+    {
+      "title": "Electroporation of E. coli",
+      "category": "Cloning & CRISPR",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-15",
+      "duration": "About 6 h + overnight",
+      "summary": "Prepare electrocompetent E. coli by washing mid-log cells in ice-cold 10% glycerol, then transform plasmid DNA by a 1.8 kV pulse and recover in SOC.",
+      "keywords": "electroporation E. coli electrocompetent cells transformation cuvette glycerol plasmid",
+      "sources": [
+        {
+          "citation": "Barrick Lab. Electrocompetent E. coli. Barrick Lab Protocols (TWiki), University of Texas at Austin.",
+          "link": "https://barricklab.org/twiki/bin/view/Lab/ProtocolsElectrocompetentCells"
+        },
+        {
+          "citation": "Lidstrom Lab. Electroporation. OpenWetWare (last edited 2015).",
+          "link": "https://openwetware.org/wiki/Lidstrom:Electroporation"
+        },
+        {
+          "citation": "Transformation of Escherichia coli by Electroporation. Cold Spring Harbor Protocols 2020(6): pdb.prot101220 (Molecular Cloning collection, eds. Green MR, Sambrook J).",
+          "link": "https://cshprotocols.cshlp.org/content/2020/6/pdb.prot101220.abstract"
+        }
+      ],
+      "word_file": "uploads/electroporation-of-e-coli.docx",
+      "pptx_file": "uploads/electroporation-of-e-coli.pptx",
+      "staged_dir": "review/2026-11-15/"
+    },
+    {
+      "title": "Protein Extraction from Tissue",
+      "category": "Protein Analysis",
+      "organism": "General Lab Methods",
+      "date": "2026-11-15",
+      "duration": "About 3 h",
+      "summary": "Homogenize frozen tissue in ice-cold RIPA buffer with protease and phosphatase inhibitors, clarify, quantify by BCA, and prepare samples for Western blotting.",
+      "keywords": "protein extraction tissue RIPA homogenization BCA Western blot lysate",
+      "sources": [
+        {
+          "citation": "Bridges Lab. Preparation of Protein Lysates from Mouse Tissues. Bridges Lab Protocols, University of Michigan (last edited 2019).",
+          "link": "https://bridgeslab.sph.umich.edu/protocols/index.php/Preparation_of_Protein_Lysates_from_Mouse_Tissues"
+        },
+        {
+          "citation": "Mukherjee S, Even A, Trudeau L-É (2026). Protein extraction and quantification from mouse tissues or cells. protocols.io.",
+          "link": "https://www.protocols.io/view/protein-extraction-and-quantification-from-mouse-t-jx83cpryp.html"
+        },
+        {
+          "citation": "Proteintech Group. Choosing the Right Lysis Buffer (Western blot protocol).",
+          "link": "https://www.ptglab.com/support/western-blot-protocol/choosing-the-right-lysis-buffer/"
+        },
+        {
+          "citation": "MilliporeSigma (2023). Cell Lysis and Protein Extraction for Western Blotting.",
+          "link": "https://www.sigmaaldrich.com/US/en/technical-documents/protocol/protein-biology/western-blotting/sample-preparation"
+        },
+        {
+          "citation": "Abcam. Lysate preparation for western blot.",
+          "link": "https://www.abcam.com/en-us/technical-resources/protocols/lysate-preparation-for-western-blot"
+        }
+      ],
+      "word_file": "uploads/protein-extraction-from-tissue.docx",
+      "pptx_file": "uploads/protein-extraction-from-tissue.pptx",
+      "staged_dir": "review/2026-11-15/"
     }
-   ],
-   "word_file": "uploads/c-elegans-maintenance-on-ngm-plates.docx",
-   "pptx_file": "uploads/c-elegans-maintenance-on-ngm-plates.pptx",
-   "staged_dir": "review/2026-11-15/"
-  },
-  {
-   "title": "Buffer Preparation and pH Measurement",
-   "category": "Biochemistry",
-   "organism": "General Lab Methods",
-   "date": "2026-11-15",
-   "duration": "45–60 min per buffer; meter calibration 10–15 min",
-   "summary": "Calculate, dissolve, titrate and sterilize common buffers (Tris-HCl, PBS, EDTA, HEPES) and calibrate a pH meter for accurate readings.",
-   "keywords": "buffer preparation pH meter calibration Tris PBS EDTA HEPES",
-   "sources": [
-    {
-     "citation": "Cold Spring Harbor Laboratory Press (2006). Phosphate-buffered saline (PBS). Cold Spring Harb Protoc, recipe pdb.rec8247.",
-     "link": "https://cshprotocols.cshlp.org/content/2006/1/pdb.rec8247.short"
-    },
-    {
-     "citation": "Cold Spring Harbor Laboratory Press (2006). EDTA (ethylenediaminetetraacetic acid), 0.5 M (pH 8.0). Cold Spring Harb Protoc, recipe pdb.rec8030.",
-     "link": "https://cshprotocols.cshlp.org/content/2006/1/pdb.rec8030"
-    },
-    {
-     "citation": "Sigma-Aldrich (Merck). Buffer Reference Center.",
-     "link": "https://www.sigmaaldrich.com/SG/en/technical-documents/protocol/protein-biology/protein-concentration-and-buffer-exchange/buffer-reference-center"
-    },
-    {
-     "citation": "Lab Manager. Laboratory pH meters: calibration, use, care and best practices.",
-     "link": "https://www.labmanager.com/laboratory-ph-meters-calibration-use-care-and-best-practices-35065"
-    },
-    {
-     "citation": "Hanna Instruments. pH Meter Calibration and Electrode Maintenance Guide.",
-     "link": "https://blog.hannaservice.eu/ph-meter-calibration-electrode-maintenance-guide/"
-    },
-    {
-     "citation": "Pugh Lab, Cornell University. Buffer Preparation (lab wiki).",
-     "link": "https://pughlab.mbg.cornell.edu/labtutorial/WetBench/buffers"
-    }
-   ],
-   "word_file": "uploads/buffer-preparation-and-ph-measurement.docx",
-   "pptx_file": "uploads/buffer-preparation-and-ph-measurement.pptx",
-   "staged_dir": "review/2026-11-15/"
-  },
-  {
-   "title": "ELISA (Indirect)",
-   "category": "Immunology",
-   "organism": "Mammalian Cells",
-   "date": "2026-11-15",
-   "duration": "Overnight coat + 5–6 h",
-   "summary": "Coat, block, probe with primary and HRP-secondary antibodies, develop with TMB and read at 450 nm to quantify antigen or antibody in mammalian samples.",
-   "keywords": "ELISA indirect HRP TMB antibody antigen serum lysate",
-   "sources": [
-    {
-     "citation": "Bio-Rad Laboratories. Protocol: Indirect ELISA. Bio-Rad Antibodies (web page, accessed 15 November 2026).",
-     "link": "https://bio-rad-antibodies.com/indirect-elisa-protocol.html"
-    },
-    {
-     "citation": "Fortis Life Sciences (Bethyl Laboratories). Indirect ELISA Protocol (web page, accessed 15 November 2026).",
-     "link": "https://www.fortislife.com/p/protocol019"
-    },
-    {
-     "citation": "Sigma-Aldrich (Merck). ELISA procedures, indirect ELISA section (web page, accessed 15 November 2026).",
-     "link": "https://www.sigmaaldrich.com/technical-documents/protocols/biology/elisa-procedures.html"
-    },
-    {
-     "citation": "Abcam. Indirect and direct ELISA protocol (web page, accessed 15 November 2026).",
-     "link": "https://www.abcam.com/en-us/technical-resources/protocols/indirect-and-direct-elisa"
-    },
-    {
-     "citation": "R&D Systems. Troubleshooting Guide: ELISA Development (web page, accessed 15 November 2026).",
-     "link": "https://www.rndsystems.com/resources/troubleshooting-guide-elisa-development"
-    },
-    {
-     "citation": "Jackson ImmunoResearch. ELISA Guide Part 4: Troubleshooting (web page, accessed 15 November 2026).",
-     "link": "https://www.jacksonimmuno.com/secondary-antibody-resource/immuno-techniques/elisa-guide-part-4-troubleshooting/"
-    }
-   ],
-   "word_file": "uploads/elisa-indirect.docx",
-   "pptx_file": "uploads/elisa-indirect.pptx",
-   "staged_dir": "review/2026-11-15/"
-  }
- ]
+  ]
 }
