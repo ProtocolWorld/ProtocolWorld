@@ -30,6 +30,26 @@ const TYPES = [
   { name: "Immunology", icon: "🛡️", desc: "ELISA, flow cytometry, immune cell isolation and staining." },
 ];
 
+// Photos: Unsplash (photographer credited in footer + on slideshow)
+const P = (id, w = 1280, h = 940) => `https://images.unsplash.com/photo-${id}?ixlib=rb-4.1.0&q=80&fm=jpg&crop=entropy&cs=srgb&w=${w}&h=${h}&fit=crop`;
+const U = (u) => `https://unsplash.com/${u}?utm_source=protocol_world&utm_medium=referral`;
+const S = [
+  ["Molecular Biology", "DNA · RNA · PCR · qPCR · electrophoresis", "molecular-biology", "1614935151651-0bea6508db6b", "Julia Koblitz", "@jkoblitz"],
+  ["Cloning & CRISPR", "plasmids · Gibson · transformation · genome editing", "cloning-crispr", "1637929476734-bd7f5f78e40a", "Warren Umoh", "@warrenumoh"],
+  ["Protein Analysis", "Western blot · IP · purification · mass spec prep", "protein-analysis", "1532187863486-abf9dbad1b69", "Louis Reed", "@_louisreed"],
+  ["Imaging & Microscopy", "immunofluorescence · FISH · live imaging · confocal", "imaging-microscopy", "1631556097152-c39479bbff93", "National Cancer Institute", "@nci"],
+  ["Cell Culture", "cell lines · passaging · transfection · freezing", "cell-culture", "1595154038281-4beb9195415b", "Girl with red hat", "@girlwithredhat"],
+  ["Microbiology", "bacteria · yeast · growth curves · selection", "microbiology", "1711626759619-9109ef622046", "masakazu sasaki", "@masakz"],
+  ["Model Organisms", "C. elegans · Drosophila · zebrafish · mouse", "model-organisms", "1623137548283-825d61083525", "Matthew Mejia", "@___ginza___"],
+  ["Genomics & Sequencing", "library prep · RNA-seq · ChIP-seq · genotyping", "genomics-sequencing", "1578496479530-799fd6d0803a", "National Cancer Institute", "@nci"],
+  ["Biochemistry", "buffers · enzyme assays · chromatography · binding", "biochemistry", "1631557673853-b5c9c45527ef", "National Cancer Institute", "@nci"],
+  ["Immunology", "ELISA · flow cytometry · immune cell staining", "immunology", "1624957485490-87d607854977", "CDC", "@cdc"],
+];
+
+// One representative photo per protocol type (same photos as the hero slideshow).
+const PHOTO = Object.fromEntries(S.map((s) => [s[0], { id: s[3], by: s[4], url: U(s[5]) }]));
+const photoUrl = (cat, w, h) => (PHOTO[cat] ? P(PHOTO[cat].id, w, h) : "");
+
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmtDate = (d) => { const x = new Date(d + "T12:00:00"); return isNaN(x) ? "" : x.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" }); };
 
@@ -46,8 +66,10 @@ function sourcesHtml(p) {
 function card(p) {
   const word = p.word_file ? `<a class="word" href="${esc(p.word_file)}" download>⬇ Word</a>` : `<span class="soon">Word · soon</span>`;
   const ppt = p.pptx_file ? `<a class="ppt" href="${esc(p.pptx_file)}" download>⬇ PowerPoint</a>` : `<span class="soon">PPTX · soon</span>`;
-  return `<article class="card">
-    <div class="tags"><span class="tag">${esc(p.category || "Protocol")}</span><span class="tag org">${esc(orgOf(p))}</span></div>
+  const ph = photoUrl(p.category, 700, 360);
+  const pic = ph ? `<div class="pic"><img src="${ph}" alt="${esc(p.category)}" loading="lazy" onerror="this.parentNode.remove()"></div>` : "";
+  return `<article class="card${ph ? " has-pic" : ""}">
+    ${pic}<div class="tags"><span class="tag">${esc(p.category || "Protocol")}</span><span class="tag org">${esc(orgOf(p))}</span></div>
     <h3>${esc(p.title)}</h3>
     <p>${esc(p.summary)}</p>
     <div class="meta">${esc(fmtDate(p.date))}${p.duration ? " · " + esc(p.duration) : ""}${p.updated ? ` · <span class="upd" title="${esc(p.revision_note || "")}">Updated ${esc(fmtDate(p.updated))}</span>` : ""}</div>
@@ -125,7 +147,9 @@ function render() {
   $("orgChips").innerHTML = ocats.map((c) => `<button class="chip ${c === activeOrg ? "on" : ""}" data-o="${esc(c)}">${esc(c)}</button>`).join("");
   $("typesGrid").innerHTML = TYPES.map((t) => {
     const n = counts[t.name] || 0;
+    const ph = photoUrl(t.name, 600, 340);
     return `<button class="type ${n ? "" : "empty-type"}" data-c="${esc(t.name)}">
+      ${ph ? `<span class="tpic"><img src="${ph}" alt="" loading="lazy" onerror="this.parentNode.remove()"></span>` : ""}
       <span class="ico">${t.icon}</span>
       <h3>${esc(t.name)}</h3>
       <p>${esc(t.desc)}</p>
@@ -155,6 +179,9 @@ $("chips").addEventListener("click", (e) => { const b = e.target.closest(".chip"
 $("search").addEventListener("input", (e) => { query = e.target.value; shown = 24; render(); });
 $("more").addEventListener("click", () => { shown += 48; render(); });
 $("year").textContent = new Date().getFullYear();
+(() => { const n = document.querySelector(".credits-note"); if (!n) return;
+  const seen = new Set(), names = S.filter((s) => !seen.has(s[5]) && seen.add(s[5])).map((s) => `<a href="${U(s[5])}" target="_blank" rel="noopener">${esc(s[4])}</a>`);
+  n.innerHTML = `Photos via <a href="https://unsplash.com/?utm_source=protocol_world&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a>: ${names.join(", ")}.`; })();
 
 Promise.all([
   fetch("data/protocols.json", { cache: "no-cache" }).then((r) => r.json()),
@@ -165,20 +192,6 @@ Promise.all([
 
 // Hero slideshow: a new protocol-type photo every 3 seconds (Unsplash photos; SVG art is the fallback)
 (function () {
-  const P = (id) => `https://images.unsplash.com/photo-${id}?ixlib=rb-4.1.0&q=80&fm=jpg&crop=entropy&cs=srgb&w=1280&h=940&fit=crop`;
-  const U = (u) => `https://unsplash.com/${u}?utm_source=protocol_world&utm_medium=referral`;
-  const S = [
-    ["Molecular Biology", "DNA · RNA · PCR · qPCR · electrophoresis", "molecular-biology", "1614935151651-0bea6508db6b", "Julia Koblitz", "@jkoblitz"],
-    ["Cloning & CRISPR", "plasmids · Gibson · transformation · genome editing", "cloning-crispr", "1637929476734-bd7f5f78e40a", "Warren Umoh", "@warrenumoh"],
-    ["Protein Analysis", "Western blot · IP · purification · mass spec prep", "protein-analysis", "1532187863486-abf9dbad1b69", "Louis Reed", "@_louisreed"],
-    ["Imaging & Microscopy", "immunofluorescence · FISH · live imaging · confocal", "imaging-microscopy", "1631556097152-c39479bbff93", "National Cancer Institute", "@nci"],
-    ["Cell Culture", "cell lines · passaging · transfection · freezing", "cell-culture", "1595154038281-4beb9195415b", "Girl with red hat", "@girlwithredhat"],
-    ["Microbiology", "bacteria · yeast · growth curves · selection", "microbiology", "1711626759619-9109ef622046", "masakazu sasaki", "@masakz"],
-    ["Model Organisms", "C. elegans · Drosophila · zebrafish · mouse", "model-organisms", "1623137548283-825d61083525", "Matthew Mejia", "@___ginza___"],
-    ["Genomics & Sequencing", "library prep · RNA-seq · ChIP-seq · genotyping", "genomics-sequencing", "1578496479530-799fd6d0803a", "National Cancer Institute", "@nci"],
-    ["Biochemistry", "buffers · enzyme assays · chromatography · binding", "biochemistry", "1631557673853-b5c9c45527ef", "National Cancer Institute", "@nci"],
-    ["Immunology", "ELISA · flow cytometry · immune cell staining", "immunology", "1624957485490-87d607854977", "CDC", "@cdc"],
-  ];
   const box = document.getElementById("slideshow"), dots = document.getElementById("dots");
   if (!box || !dots) return;
   const cap = document.getElementById("cap"), credit = document.getElementById("credit");
