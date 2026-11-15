@@ -36,3 +36,7 @@ Buy a domain (about $10–15/yr), then in **Settings → Pages → Custom domain
 3. Fill in "Last updated" and "What changed" - the card then shows an "Updated <date>" label (hover shows the note).
 4. Save/commit. The site refreshes in 1-2 minutes.
 You can also ask Claude: "Update the <protocol> protocol: <change>" and it will edit the Word/PowerPoint, replace the files, and fill the update fields.
+
+## Making PowerPoint decks
+`tools/make_deck.js` builds the standard Protocol World deck (title, purpose/principle, at-a-glance, materials, procedure step cards, results/controls, troubleshooting, safety, references) from a JSON spec:
+`node tools/make_deck.js spec.json uploads/<slug>.pptx` (see `tools/example/thawing-spec.json`). Needs `pptxgenjs`, `react-icons`, `react`, `react-dom`, `sharp`.
