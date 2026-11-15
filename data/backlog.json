@@ -40,7 +40,7 @@
   {
    "title": "C. elegans Maintenance on NGM Plates",
    "category": "Model Organisms",
-   "status": "pending",
+   "status": "staged",
    "organism": "C. elegans"
   },
   {
@@ -52,13 +52,13 @@
   {
    "title": "Buffer Preparation and pH Measurement",
    "category": "Biochemistry",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "ELISA (Indirect)",
    "category": "Immunology",
-   "status": "pending",
+   "status": "staged",
    "organism": "Mammalian Cells"
   },
   {

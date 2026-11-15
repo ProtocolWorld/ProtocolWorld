@@ -155,11 +155,19 @@ const TOP = 1.2, BUDGET = 3.95;      // content area below the title (inches)
 
   // 9. Safety, 10. References
   await bulletSlides("Safety and waste", "FaExclamationTriangle", GD, S.safety || [], true);
-  const refs = (S.references || []).map((r, i) => `[${i + 1}] ${r}`);
-  const rpg = pages(refs, (t) => nlines(t, 8.8) * LH + 0.16, BUDGET);
+  // references: string or {citation, link}; links are clickable hyperlinks (text stays 20 pt)
+  const shortLink = (u) => { const t = String(u || "").replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""); return t.length > 48 ? t.slice(0, 47) + "…" : t; };
+  const refs = (S.references || []).map((r, i) => (typeof r === "string" ? { citation: r, link: "" } : r)).map((r, i) => ({ ...r, n: i + 1 }));
+  const rpg = pages(refs, (r) => nlines(`[${r.n}] ${r.citation} ${r.link ? shortLink(r.link) : ""}`, 8.8) * LH + 0.16, BUDGET);
   rpg.forEach((chunk, p) => {
     const sl = pres.addSlide(); title(sl, "References", p + 1, rpg.length);
-    sl.addText(chunk.map((t, j, a) => ({ text: t, options: { breakLine: j < a.length - 1, paraSpaceAfter: 9 } })), { x: 0.5, y: TOP + 0.05, w: 9, h: BUDGET, fontFace: BF, fontSize: PT, color: INK, valign: "top", margin: 0, isTextBox: true, objectName: "References" });
+    const runs = [];
+    chunk.forEach((r, j, a) => {
+      const last = j === a.length - 1;
+      runs.push({ text: `[${r.n}] ${r.citation}` + (r.link ? " " : ""), options: { breakLine: !r.link && !last, paraSpaceAfter: 9 } });
+      if (r.link) runs.push({ text: shortLink(r.link), options: { hyperlink: { url: r.link, tooltip: r.link }, color: "0563C1", underline: { style: "sng" }, breakLine: !last, paraSpaceAfter: 9 } });
+    });
+    sl.addText(runs, { x: 0.5, y: TOP + 0.05, w: 9, h: BUDGET, fontFace: BF, fontSize: PT, color: INK, valign: "top", margin: 0, isTextBox: true, objectName: "References" });
   });
 
   await pres.writeFile({ fileName: outFile });

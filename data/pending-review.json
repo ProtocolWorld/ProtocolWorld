@@ -1,0 +1,110 @@
+{
+ "pending": [
+  {
+   "title": "C. elegans Maintenance on NGM Plates",
+   "category": "Model Organisms",
+   "organism": "C. elegans",
+   "date": "2026-11-15",
+   "duration": "Media 2 h + 2–3 days drying; routine transfer 15 min",
+   "summary": "Pour and seed NGM plates with OP50, keep C. elegans stocks by chunking or picking, and rescue contaminated cultures with a hypochlorite egg prep.",
+   "keywords": "C. elegans NGM OP50 worm maintenance chunking picking bleach synchronization",
+   "sources": [
+    {
+     "citation": "Stiernagle T (2006). Maintenance of C. elegans. In: WormBook, ed. The C. elegans Research Community.",
+     "link": "https://doi.org/10.1895/wormbook.1.101.1"
+    },
+    {
+     "citation": "Rodriguez Ayala F, Cogliati S, Bauman C, Leñini C, Bartolini M, Villalba JM, Argañaraz F, Grau R (2017). Culturing bacteria from Caenorhabditis elegans gut to assess colonization proficiency. Bio-protocol 7(12): e2345.",
+     "link": "https://bio-protocol.org/e2345"
+    },
+    {
+     "citation": "Assie A, Samuel B. NGM Agar. protocols.io.",
+     "link": "https://www.protocols.io/view/ngm-agar-zy7f7zn.html"
+    },
+    {
+     "citation": "Williams RTP, Osborne Nishimura E, Zuckerman B, Weinberger L. Synchronized C. elegans culture on NGM plates for FACS isolation of single cells. protocols.io.",
+     "link": "https://www.protocols.io/view/synchronized-c-elegans-culture-on-ngm-plates-for-f-c8vfzw3n.html"
+    }
+   ],
+   "word_file": "uploads/c-elegans-maintenance-on-ngm-plates.docx",
+   "pptx_file": "uploads/c-elegans-maintenance-on-ngm-plates.pptx",
+   "staged_dir": "review/2026-11-15/"
+  },
+  {
+   "title": "Buffer Preparation and pH Measurement",
+   "category": "Biochemistry",
+   "organism": "General Lab Methods",
+   "date": "2026-11-15",
+   "duration": "45–60 min per buffer; meter calibration 10–15 min",
+   "summary": "Calculate, dissolve, titrate and sterilize common buffers (Tris-HCl, PBS, EDTA, HEPES) and calibrate a pH meter for accurate readings.",
+   "keywords": "buffer preparation pH meter calibration Tris PBS EDTA HEPES",
+   "sources": [
+    {
+     "citation": "Cold Spring Harbor Laboratory Press (2006). Phosphate-buffered saline (PBS). Cold Spring Harb Protoc, recipe pdb.rec8247.",
+     "link": "https://cshprotocols.cshlp.org/content/2006/1/pdb.rec8247.short"
+    },
+    {
+     "citation": "Cold Spring Harbor Laboratory Press (2006). EDTA (ethylenediaminetetraacetic acid), 0.5 M (pH 8.0). Cold Spring Harb Protoc, recipe pdb.rec8030.",
+     "link": "https://cshprotocols.cshlp.org/content/2006/1/pdb.rec8030"
+    },
+    {
+     "citation": "Sigma-Aldrich (Merck). Buffer Reference Center.",
+     "link": "https://www.sigmaaldrich.com/SG/en/technical-documents/protocol/protein-biology/protein-concentration-and-buffer-exchange/buffer-reference-center"
+    },
+    {
+     "citation": "Lab Manager. Laboratory pH meters: calibration, use, care and best practices.",
+     "link": "https://www.labmanager.com/laboratory-ph-meters-calibration-use-care-and-best-practices-35065"
+    },
+    {
+     "citation": "Hanna Instruments. pH Meter Calibration and Electrode Maintenance Guide.",
+     "link": "https://blog.hannaservice.eu/ph-meter-calibration-electrode-maintenance-guide/"
+    },
+    {
+     "citation": "Pugh Lab, Cornell University. Buffer Preparation (lab wiki).",
+     "link": "https://pughlab.mbg.cornell.edu/labtutorial/WetBench/buffers"
+    }
+   ],
+   "word_file": "uploads/buffer-preparation-and-ph-measurement.docx",
+   "pptx_file": "uploads/buffer-preparation-and-ph-measurement.pptx",
+   "staged_dir": "review/2026-11-15/"
+  },
+  {
+   "title": "ELISA (Indirect)",
+   "category": "Immunology",
+   "organism": "Mammalian Cells",
+   "date": "2026-11-15",
+   "duration": "Overnight coat + 5–6 h",
+   "summary": "Coat, block, probe with primary and HRP-secondary antibodies, develop with TMB and read at 450 nm to quantify antigen or antibody in mammalian samples.",
+   "keywords": "ELISA indirect HRP TMB antibody antigen serum lysate",
+   "sources": [
+    {
+     "citation": "Bio-Rad Laboratories. Protocol: Indirect ELISA. Bio-Rad Antibodies (web page, accessed 15 November 2026).",
+     "link": "https://bio-rad-antibodies.com/indirect-elisa-protocol.html"
+    },
+    {
+     "citation": "Fortis Life Sciences (Bethyl Laboratories). Indirect ELISA Protocol (web page, accessed 15 November 2026).",
+     "link": "https://www.fortislife.com/p/protocol019"
+    },
+    {
+     "citation": "Sigma-Aldrich (Merck). ELISA procedures, indirect ELISA section (web page, accessed 15 November 2026).",
+     "link": "https://www.sigmaaldrich.com/technical-documents/protocols/biology/elisa-procedures.html"
+    },
+    {
+     "citation": "Abcam. Indirect and direct ELISA protocol (web page, accessed 15 November 2026).",
+     "link": "https://www.abcam.com/en-us/technical-resources/protocols/indirect-and-direct-elisa"
+    },
+    {
+     "citation": "R&D Systems. Troubleshooting Guide: ELISA Development (web page, accessed 15 November 2026).",
+     "link": "https://www.rndsystems.com/resources/troubleshooting-guide-elisa-development"
+    },
+    {
+     "citation": "Jackson ImmunoResearch. ELISA Guide Part 4: Troubleshooting (web page, accessed 15 November 2026).",
+     "link": "https://www.jacksonimmuno.com/secondary-antibody-resource/immuno-techniques/elisa-guide-part-4-troubleshooting/"
+    }
+   ],
+   "word_file": "uploads/elisa-indirect.docx",
+   "pptx_file": "uploads/elisa-indirect.pptx",
+   "staged_dir": "review/2026-11-15/"
+  }
+ ]
+}
