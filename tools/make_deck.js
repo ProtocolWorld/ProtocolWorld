@@ -86,7 +86,7 @@ const clip = (t, n) => (t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, "") 
   footer(s);
 
   // ---- 4. Materials (paged, 6 rows per slide)
-  const mats = S.materials || []; const PER = 6;
+  const mats = S.materials || []; const PER = 8;
   for (let p = 0; p * PER < mats.length; p++) {
     s = pres.addSlide(); const pages = Math.ceil(mats.length / PER);
     title(s, "Materials and reagents" + (pages > 1 ? ` (${p + 1} of ${pages})` : ""));
@@ -129,7 +129,7 @@ const clip = (t, n) => (t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, "") 
   }
 
   // ---- 7. Troubleshooting table (paged, 4 rows)
-  const tr = S.troubleshooting || []; const TP = 4;
+  const tr = S.troubleshooting || []; const TP = 5;
   for (let p = 0; p * TP < tr.length; p++) {
     s = pres.addSlide(); const pages = Math.ceil(tr.length / TP);
     title(s, "Troubleshooting" + (pages > 1 ? ` (${p + 1} of ${pages})` : ""));
@@ -155,7 +155,7 @@ const clip = (t, n) => (t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, "") 
   for (let p = 0; p * RP < refs.length; p++) {
     s = pres.addSlide(); const pages = Math.ceil(refs.length / RP);
     title(s, "References" + (pages > 1 ? ` (${p + 1} of ${pages})` : ""));
-    const runs = refs.slice(p * RP, p * RP + RP).map((r, j, a) => ({ text: `[${p * RP + j + 1}] ${clip(r, 260)}`, options: { breakLine: j < a.length - 1, paraSpaceAfter: 8 } }));
+    const runs = refs.slice(p * RP, p * RP + RP).map((r, j, a) => ({ text: `[${p * RP + j + 1}] ${clip(r, 420)}`, options: { breakLine: j < a.length - 1, paraSpaceAfter: 8 } }));
     s.addText(runs, { x: 0.5, y: 1.2, w: 9, h: 3.9, fontFace: BF, fontSize: 12, color: INK, valign: "top", margin: 0, fit: "shrink", isTextBox: true, objectName: "References" });
     footer(s);
   }
