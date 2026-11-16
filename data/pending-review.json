@@ -1,3 +1,86 @@
 {
-  "pending": []
+  "pending": [
+    {
+      "title": "Preparation of NGM Plates and OP50 Lawns",
+      "category": "Model Organisms",
+      "organism": "General Lab Methods",
+      "date": "2026-11-16",
+      "duration": "2.5 h bench work + 2–3 days drying + overnight lawn",
+      "summary": "Pour NGM agar, dry it, and seed a thin OP50 lawn for maintaining C. elegans, with recipes, volumes and troubleshooting.",
+      "keywords": "NGM OP50 C. elegans nematode growth medium seeded plates worm culture",
+      "sources": [
+        {
+          "citation": "Stiernagle T (2006). Maintenance of C. elegans. WormBook, doi:10.1895/wormbook.1.101.1.",
+          "link": "https://www.doi.org/10.1895/wormbook.1.101.1"
+        },
+        {
+          "citation": "Chaudhuri J, Parihar M, Pires-daSilva A (2011). An introduction to worm lab: from culturing worms to mutagenesis. J Vis Exp 47:2293.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3341104"
+        },
+        {
+          "citation": "Rodriguez Ayala F, Cogliati S, Bauman C, et al. (2017). Culturing bacteria from Caenorhabditis elegans gut to assess colonization proficiency. Bio-protocol 7(12):e2345.",
+          "link": "https://bio-protocol.org/e2345"
+        }
+      ],
+      "word_file": "uploads/preparation-of-ngm-plates-and-op50-lawns.docx",
+      "pptx_file": "uploads/preparation-of-ngm-plates-and-op50-lawns.pptx",
+      "staged_dir": "review/2026-11-16/"
+    },
+    {
+      "title": "Illumina RNA-seq Library Preparation",
+      "category": "Genomics & Sequencing",
+      "organism": "General Lab Methods",
+      "date": "2026-11-16",
+      "duration": "2 days (about 10 h hands-on)",
+      "summary": "Poly(A) capture, fragmentation, dUTP strand marking, adapter ligation, PCR and QC for strand-specific Illumina RNA-seq libraries.",
+      "keywords": "RNA-seq Illumina library preparation stranded poly(A) dUTP TruSeq NEBNext",
+      "sources": [
+        {
+          "citation": "Illumina, Inc. (2017). TruSeq Stranded mRNA Reference Guide, Document # 1000000040498 v00.",
+          "link": "https://supportassets.illumina.com/content/dam/illumina-support/documents/documentation/chemistry_documentation/samplepreps_truseq/truseq-stranded-mrna-workflow/truseq-stranded-mrna-workflow-reference-1000000040498-00.pdf"
+        },
+        {
+          "citation": "New England Biolabs (2020). NEBNext Ultra II RNA Library Prep Kit for Illumina Instruction Manual, E7770/E7775, version 3.1_5/20.",
+          "link": "https://www.neb.com/-/media/nebus/files/manuals/manuale7770.pdf"
+        },
+        {
+          "citation": "Parkhomchuk D, Borodina T, Amstislavskiy V, et al. (2009). Transcriptome analysis by strand-specific sequencing of complementary DNA. Nucleic Acids Res 37(18):e123.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2764448"
+        }
+      ],
+      "word_file": "uploads/illumina-rna-seq-library-preparation.docx",
+      "pptx_file": "uploads/illumina-rna-seq-library-preparation.pptx",
+      "staged_dir": "review/2026-11-16/"
+    },
+    {
+      "title": "Preparation of Stock Solutions and Dilutions",
+      "category": "Biochemistry",
+      "organism": "General Lab Methods",
+      "date": "2026-11-16",
+      "duration": "1–2 h",
+      "summary": "Calculate, make, label and store stock solutions, then prepare working and serial dilutions accurately.",
+      "keywords": "stock solution dilution molarity C1V1 serial dilution buffer preparation TE",
+      "sources": [
+        {
+          "citation": "Molekula (2026). Diluting concentrated stocks: C1V1 = C2V2 and serial dilutions.",
+          "link": "https://molekula.com/articles/diluting-concentrated-stocks-c1v1-c2v2-and-serial-dilutions"
+        },
+        {
+          "citation": "Seidman L. Dilutions in biomanufacturing, scenario 2: in the analytical laboratory. Madison Area Technical College (hosted by Hofstra University).",
+          "link": "https://www.hofstra.edu/sites/default/files/2024-04/biomanufacturing-serial-dilutions-for-microbiology.pdf"
+        },
+        {
+          "citation": "CASRAI Editorial Board (2026). Molarity and solution calculations for the lab.",
+          "link": "https://casrai.org/guides/molarity-solution-calculations-lab"
+        },
+        {
+          "citation": "Cold Spring Harbor Protocols (2009). TE buffer [Recipe]. doi:10.1101/pdb.rec11601.",
+          "link": "https://cshprotocols.cshlp.org/content/2009/1/pdb.rec11601.short"
+        }
+      ],
+      "word_file": "uploads/preparation-of-stock-solutions-and-dilutions.docx",
+      "pptx_file": "uploads/preparation-of-stock-solutions-and-dilutions.pptx",
+      "staged_dir": "review/2026-11-16/"
+    }
+  ]
 }

@@ -100,19 +100,19 @@
     {
       "title": "Preparation of NGM Plates and OP50 Lawns",
       "category": "Model Organisms",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {
       "title": "Illumina RNA-seq Library Preparation",
       "category": "Genomics & Sequencing",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {
       "title": "Preparation of Stock Solutions and Dilutions",
       "category": "Biochemistry",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {
