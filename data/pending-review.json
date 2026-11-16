@@ -81,6 +81,112 @@
       "word_file": "uploads/preparation-of-stock-solutions-and-dilutions.docx",
       "pptx_file": "uploads/preparation-of-stock-solutions-and-dilutions.pptx",
       "staged_dir": "review/2026-11-16/"
+    },
+    {
+      "title": "Sandwich ELISA",
+      "category": "Immunology",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-16",
+      "duration": "2 days (overnight coating; 7–8 h assay)",
+      "summary": "Quantify a secreted cytokine such as IL-6 or TNF-α in cell-culture supernatant with a 96-well sandwich ELISA, TMB/HRP detection and a 4PL standard curve.",
+      "keywords": "sandwich ELISA cytokine IL-6 TNF-α supernatant 96-well TMB HRP streptavidin standard curve 4PL immunoassay mammalian cells",
+      "sources": [
+        {
+          "citation": "BD Biosciences. Cytokine ELISA protocol (capture/detection antibody, blocking, standard curve and substrate recipes).",
+          "link": "https://www.bdbiosciences.com/en-in/resources/protocols/cytokine-elisa"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Basic sandwich ELISA protocols (coating, blocking, streptavidin-HRP, TMB, stop solution, curve fit).",
+          "link": "https://www.thermofisher.com/us/en/home/references/protocols/cell-and-tissue-analysis/elisa-protocol/general-elisa-protocol/basic-sandwich-elisa-protocol"
+        },
+        {
+          "citation": "R&D Systems (Bio-Techne). Mouse IL-6 DuoSet ELISA (DY406), assay procedure.",
+          "link": "https://www.rndsystems.com/products/mouse-il-6-duoset-elisa_dy406"
+        },
+        {
+          "citation": "PeproTech (Thermo Fisher Scientific). Sandwich ABTS and TMB ELISA protocol.",
+          "link": "https://www.thermofisher.com/ar/en/home/references/protocols/cell-and-tissue-analysis/elisa-protocol/general-elisa-protocol/sandwich-abts-tmb-elisa-protocol.html"
+        },
+        {
+          "citation": "Cheng Q (abinScience, AtaGenix). Sandwich ELISA protocol using pre-coated ELISA kits. protocols.io, 2026 (DOI 10.17504/protocols.io.j8nlk78b6g5r/v1).",
+          "link": "https://www.protocols.io/view/sandwich-elisa-protocol-using-pre-coated-elisa-kit-j8nlk78b6g5r/v1.pdf"
+        }
+      ],
+      "word_file": "uploads/sandwich-elisa.docx",
+      "pptx_file": "uploads/sandwich-elisa.pptx",
+      "staged_dir": "review/2026-11-16/"
+    },
+    {
+      "title": "Genomic DNA Extraction from Plant Tissue",
+      "category": "Molecular Biology",
+      "organism": "Plant",
+      "date": "2026-11-16",
+      "duration": "3–4 h (optional overnight precipitation)",
+      "summary": "CTAB-based genomic DNA extraction from fresh or frozen plant leaf, with PVP and β-mercaptoethanol options for polysaccharide- and polyphenol-rich species.",
+      "keywords": "plant genomic DNA extraction CTAB Doyle leaf Arabidopsis tobacco rice PVP beta-mercaptoethanol chloroform isoamyl alcohol isopropanol RNase A polysaccharide polyphenol",
+      "sources": [
+        {
+          "citation": "Ganguly DR, Wilson P, Estavillo G, Hou X, Pogson B. CTAB Genomic DNA Extraction from Arabidopsis Leaf Material (version 3). protocols.io, 2022.",
+          "link": "https://www.protocols.io/view/ctab-genomic-dna-extraction-from-arabidopsis-leaf-buebntan.html"
+        },
+        {
+          "citation": "Riascos-España AF, Cuastumal BTA, Zambrano MIC, Arteaga JZC, Velasquez-Vasconez PA. Optimized Protocol for DNA Extraction in Three Theobroma Species. Bio-protocol 15(9): e5297, 2025. DOI 10.21769/BioProtoc.5297.",
+          "link": "https://bio-protocol.org/e5297"
+        },
+        {
+          "citation": "Levi A, Thomas C. An Improved Procedure for Isolation of High Quality DNA from Watermelon and Melon Leaves. Cucurbit Genetics Cooperative Report 22: 41–42, 1999.",
+          "link": "https://cucurbit.info/1999/07/an-improved-procedure-for-isolation-of-high-quality-dna-from-watermelon-and-melon-leaves/"
+        },
+        {
+          "citation": "Stewart CN Jr, Via LE. A rapid CTAB DNA isolation technique useful for RAPD fingerprinting and other PCR applications. BioTechniques 14(5): 748–749, 1993 (cached copy on Protocol Online).",
+          "link": "https://protocol-online.org/cgi-bin/prot/view_cache.cgi?ID=1820"
+        },
+        {
+          "citation": "University of North Carolina at Charlotte (Weller lab summer camp). Plant Extraction Protocol, 2011, adapted from Michiels et al., Analytical Biochemistry 315: 85–89, 2003.",
+          "link": "https://webpages.charlotte.edu/~jweller2/pages/SummerCamp2011/SummerCamp2011_Protocols/DNA_purification/WellerPlantExtraction_2011.pdf"
+        }
+      ],
+      "word_file": "uploads/genomic-dna-extraction-from-plant-tissue.docx",
+      "pptx_file": "uploads/genomic-dna-extraction-from-plant-tissue.pptx",
+      "staged_dir": "review/2026-11-16/"
+    },
+    {
+      "title": "Preparation of Chemically Competent Cells",
+      "category": "Cloning & CRISPR",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-16",
+      "duration": "2 days (4–5 h hands-on)",
+      "summary": "Make frozen chemically competent E. coli (DH5α, TOP10, XL1-Blue) by the CaCl₂ or Inoue method and test with pUC19 (10⁶–10⁸ cfu/µg).",
+      "keywords": "competent cells chemically competent E. coli DH5α TOP10 XL1-Blue CaCl2 Inoue method heat shock transformation efficiency pUC19 SOC cloning glycerol DMSO -80 C",
+      "sources": [
+        {
+          "citation": "Inoue H, Nojima H, Okayama H. High efficiency transformation of Escherichia coli with plasmids. Gene. 1990;96(1):23–28. (abstract and bibliographic data checked)",
+          "link": "https://doi.org/10.1016/0378-1119(90)90336-P"
+        },
+        {
+          "citation": "Green R, Rogers EJ. Chemical transformation of E. coli. Methods Enzymol. 2013;529:329–336.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4037286"
+        },
+        {
+          "citation": "Barrick Lab, University of Texas at Austin. Preparing chemically competent cells using the Inoue method (lab protocol).",
+          "link": "https://barricklab.org/twiki/bin/view/Lab/ProtocolsChemCompCellsInoue?rev=2"
+        },
+        {
+          "citation": "Institute of Organic Chemistry and Biochemistry (UOCHB), Boura group. Competent cells CaCl₂ (lab protocol, PDF).",
+          "link": "https://www.uochb.cz/infochem/boura/protocols/competent_cells_CaCl2.pdf"
+        },
+        {
+          "citation": "New England Biolabs. High efficiency transformation protocol for competent E. coli (C2987).",
+          "link": "https://www.neb.com/en-sg/protocols/2012/05/29/high-efficiency-transformation-protocol-for-competent-e-coli?pdf=true"
+        },
+        {
+          "citation": "Hanahan D. Studies on transformation of Escherichia coli with plasmids. J Mol Biol. 1983;166(4):557–580.",
+          "link": "https://doi.org/10.1016/S0022-2836(83)80284-8"
+        }
+      ],
+      "word_file": "uploads/preparation-of-chemically-competent-cells.docx",
+      "pptx_file": "uploads/preparation-of-chemically-competent-cells.pptx",
+      "staged_dir": "review/2026-11-16/"
     }
   ]
 }

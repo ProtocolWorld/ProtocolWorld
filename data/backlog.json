@@ -118,19 +118,19 @@
     {
       "title": "Sandwich ELISA",
       "category": "Immunology",
-      "status": "pending",
+      "status": "staged",
       "organism": "Mammalian Cells"
     },
     {
       "title": "Genomic DNA Extraction from Plant Tissue",
       "category": "Molecular Biology",
-      "status": "pending",
+      "status": "staged",
       "organism": "Plant"
     },
     {
       "title": "Preparation of Chemically Competent Cells",
       "category": "Cloning & CRISPR",
-      "status": "pending",
+      "status": "staged",
       "organism": "E. coli & Bacteria"
     },
     {
