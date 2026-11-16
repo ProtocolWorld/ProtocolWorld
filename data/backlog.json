@@ -136,19 +136,19 @@
     {
       "title": "Bradford Protein Assay",
       "category": "Protein Analysis",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {
       "title": "Whole-Mount Immunostaining",
       "category": "Imaging & Microscopy",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {
       "title": "Passaging Adherent Cells",
       "category": "Cell Culture",
-      "status": "pending",
+      "status": "staged",
       "organism": "Mammalian Cells"
     },
     {

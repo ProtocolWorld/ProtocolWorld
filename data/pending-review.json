@@ -187,6 +187,108 @@
       "word_file": "uploads/preparation-of-chemically-competent-cells.docx",
       "pptx_file": "uploads/preparation-of-chemically-competent-cells.pptx",
       "staged_dir": "review/2026-11-16/"
+    },
+    {
+      "title": "Bradford Protein Assay",
+      "category": "Protein Analysis",
+      "organism": "General Lab Methods",
+      "date": "2026-11-16",
+      "duration": "45–60 min",
+      "summary": "Estimate protein concentration in a 96-well plate or cuvette with Coomassie G-250 and a BSA standard curve, including interference limits and curve fitting.",
+      "keywords": "Bradford protein assay Coomassie G-250 BSA standard curve 595 nm protein quantification microplate",
+      "sources": [
+        {
+          "citation": "Bradford MM (1976). A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Biochem 72:248–254.",
+          "link": "https://diverdi.colostate.edu/C442/weekly%20plans%20&%20activities/week%20starting%202024.04.15/03%20anal_biochem_1976_v72_p248.pdf"
+        },
+        {
+          "citation": "Merck KGaA / Sigma-Aldrich (2020). Protein (Bradford method), cat. no. 1.10306.0500, technical information sheet.",
+          "link": "https://b2b.sigmaaldrich.com/deepweb/assets/sigmaaldrich/product/documents/286/774/110306e.pdf"
+        },
+        {
+          "citation": "He F (2011). Bradford protein assay. Bio-protocol 1(6): e45.",
+          "link": "https://bio-protocol.org/pdf/bio-protocol45.pdf"
+        },
+        {
+          "citation": "Provost laboratory, University of San Diego (2015). Bradford (Bio-Rad) 96-well plate protein assay protocol.",
+          "link": "https://home.sandiego.edu/~josephprovost/Protein%20Assay%2096%20well%20protocol%202015.pdf"
+        },
+        {
+          "citation": "Abcam. Bradford assay (knowledge center).",
+          "link": "https://www.abcam.com/en-us/knowledge-center/western-blot/bradford-assay"
+        }
+      ],
+      "word_file": "uploads/bradford-protein-assay.docx",
+      "pptx_file": "uploads/bradford-protein-assay.pptx",
+      "staged_dir": "review/2026-11-16/"
+    },
+    {
+      "title": "Whole-Mount Immunostaining",
+      "category": "Imaging & Microscopy",
+      "organism": "General Lab Methods",
+      "date": "2026-11-16",
+      "duration": "4 days",
+      "summary": "Indirect fluorescent immunostaining of intact fixed embryos, larvae or small organs, with zebrafish as the worked example, permeabilization options, blocking, washes and glycerol clearing.",
+      "keywords": "whole-mount immunostaining immunofluorescence zebrafish embryo larvae permeabilization antibody penetration glycerol clearing",
+      "sources": [
+        {
+          "citation": "Félix L (2026). Whole-mount immunostaining of tyrosine hydroxylase for dopaminergic neuron analysis in zebrafish larvae. Bio-protocol 16(13): e5725.",
+          "link": "https://bio-protocol.org/e5725"
+        },
+        {
+          "citation": "Willsey HR (2021). Whole-mount RNA in situ hybridization and immunofluorescence of Xenopus embryos and tadpoles. Cold Spring Harb Protoc 2021(10): pdb.prot105635.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8487899"
+        },
+        {
+          "citation": "Shin M (2019). Antibody staining protocol, Lawson laboratory, UMass Chan Medical School.",
+          "link": "https://cms-tenant2.umassmed.edu/globalassets/lawson-lab/downloadfiles/antibodystainingprotocol.pdf"
+        },
+        {
+          "citation": "Moens C (2004). Generic whole mount antibody staining protocol, Fred Hutchinson Cancer Center.",
+          "link": "https://research.fredhutch.org/content/dam/research/moens/resources/protocols/antibody_staining_protocol.pdf"
+        }
+      ],
+      "word_file": "uploads/whole-mount-immunostaining.docx",
+      "pptx_file": "uploads/whole-mount-immunostaining.pptx",
+      "staged_dir": "review/2026-11-16/"
+    },
+    {
+      "title": "Passaging Adherent Cells",
+      "category": "Cell Culture",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-16",
+      "duration": "45–60 min",
+      "summary": "Subculture an adherent mammalian cell line with trypsin-EDTA: wash, detach, neutralize, count, reseed by density or split ratio, with T-75 volumes and troubleshooting.",
+      "keywords": "passaging adherent cells trypsin-EDTA subculture split ratio cell counting trypan blue T-75 confluence",
+      "sources": [
+        {
+          "citation": "ATCC. Animal cell culture guide: tips and techniques for continuous cell lines.",
+          "link": "https://www.atcc.org/resources/culture-guides/animal-cell-culture-guide"
+        },
+        {
+          "citation": "Thermo Fisher Scientific (Gibco). Adherent cell culture protocol (subculturing adherent cells), Cell Culture Basics.",
+          "link": "https://thermofisher.com/in/en/home/references/gibco-cell-culture-basics/cell-culture-protocols/subculturing-adherent-cells.html"
+        },
+        {
+          "citation": "QIAGEN. Essential protocols for animal cell culture (Bench guide).",
+          "link": "https://www.qiagen.com/ch/knowledge-and-support/knowledge-hub/bench-guide/animal-cell-culture/essential-protocols-for-animal-cell-culture/essential-protocols-for-animal-cell-culture"
+        },
+        {
+          "citation": "Merck KGaA / Sigma-Aldrich (2026). Trypsin cell dissociation protocol.",
+          "link": "https://www.sigmaaldrich.com/AT/en/technical-documents/protocol/cell-culture-and-cell-culture-analysis/mammalian-cell-culture/cell-dissociation-with-trypsin"
+        },
+        {
+          "citation": "PMAT0001, Nanyang Technological University (2020). Cell subculture. protocols.io.",
+          "link": "https://www.protocols.io/view/cell-subculture-bnk9mcz6.html"
+        },
+        {
+          "citation": "Haynes K (2013, edited 2015). Passaging adherent cells. OpenWetWare.",
+          "link": "https://openwetware.org/wiki/Haynes:SplittingCells"
+        }
+      ],
+      "word_file": "uploads/passaging-adherent-cells.docx",
+      "pptx_file": "uploads/passaging-adherent-cells.pptx",
+      "staged_dir": "review/2026-11-16/"
     }
   ]
 }
