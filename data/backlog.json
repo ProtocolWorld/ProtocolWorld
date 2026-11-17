@@ -190,19 +190,19 @@
   {
    "title": "Preparation of Electrocompetent Cells",
    "category": "Cloning & CRISPR",
-   "status": "pending",
+   "status": "staged",
    "organism": "E. coli & Bacteria"
   },
   {
    "title": "BCA Protein Assay",
    "category": "Protein Analysis",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "Paraformaldehyde Fixation",
    "category": "Imaging & Microscopy",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
