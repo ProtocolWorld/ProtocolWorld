@@ -539,6 +539,287 @@
       ],
       "word_file": "uploads/bacterial-streak-plating-for-isolation.docx",
       "pptx_file": "uploads/bacterial-streak-plating-for-isolation.pptx"
+    },
+    {
+      "title": "Preparation of NGM Plates and OP50 Lawns",
+      "category": "Model Organisms",
+      "organism": "General Lab Methods",
+      "date": "2026-11-17",
+      "duration": "2.5 h bench work + 2–3 days drying + overnight lawn",
+      "summary": "Pour NGM agar, dry it, and seed a thin OP50 lawn for maintaining C. elegans, with recipes, volumes and troubleshooting.",
+      "keywords": "NGM OP50 C. elegans nematode growth medium seeded plates worm culture",
+      "sources": [
+        {
+          "citation": "Stiernagle T (2006). Maintenance of C. elegans. WormBook, doi:10.1895/wormbook.1.101.1.",
+          "link": "https://www.doi.org/10.1895/wormbook.1.101.1"
+        },
+        {
+          "citation": "Chaudhuri J, Parihar M, Pires-daSilva A (2011). An introduction to worm lab: from culturing worms to mutagenesis. J Vis Exp 47:2293.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3341104"
+        },
+        {
+          "citation": "Rodriguez Ayala F, Cogliati S, Bauman C, et al. (2017). Culturing bacteria from Caenorhabditis elegans gut to assess colonization proficiency. Bio-protocol 7(12):e2345.",
+          "link": "https://bio-protocol.org/e2345"
+        }
+      ],
+      "word_file": "uploads/preparation-of-ngm-plates-and-op50-lawns.docx",
+      "pptx_file": "uploads/preparation-of-ngm-plates-and-op50-lawns.pptx"
+    },
+    {
+      "title": "Illumina RNA-seq Library Preparation",
+      "category": "Genomics & Sequencing",
+      "organism": "General Lab Methods",
+      "date": "2026-11-17",
+      "duration": "2 days (about 10 h hands-on)",
+      "summary": "Poly(A) capture, fragmentation, dUTP strand marking, adapter ligation, PCR and QC for strand-specific Illumina RNA-seq libraries.",
+      "keywords": "RNA-seq Illumina library preparation stranded poly(A) dUTP TruSeq NEBNext",
+      "sources": [
+        {
+          "citation": "Illumina, Inc. (2017). TruSeq Stranded mRNA Reference Guide, Document # 1000000040498 v00.",
+          "link": "https://supportassets.illumina.com/content/dam/illumina-support/documents/documentation/chemistry_documentation/samplepreps_truseq/truseq-stranded-mrna-workflow/truseq-stranded-mrna-workflow-reference-1000000040498-00.pdf"
+        },
+        {
+          "citation": "New England Biolabs (2020). NEBNext Ultra II RNA Library Prep Kit for Illumina Instruction Manual, E7770/E7775, version 3.1_5/20.",
+          "link": "https://www.neb.com/-/media/nebus/files/manuals/manuale7770.pdf"
+        },
+        {
+          "citation": "Parkhomchuk D, Borodina T, Amstislavskiy V, et al. (2009). Transcriptome analysis by strand-specific sequencing of complementary DNA. Nucleic Acids Res 37(18):e123.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2764448"
+        }
+      ],
+      "word_file": "uploads/illumina-rna-seq-library-preparation.docx",
+      "pptx_file": "uploads/illumina-rna-seq-library-preparation.pptx"
+    },
+    {
+      "title": "Preparation of Stock Solutions and Dilutions",
+      "category": "Biochemistry",
+      "organism": "General Lab Methods",
+      "date": "2026-11-17",
+      "duration": "1–2 h",
+      "summary": "Calculate, make, label and store stock solutions, then prepare working and serial dilutions accurately.",
+      "keywords": "stock solution dilution molarity C1V1 serial dilution buffer preparation TE",
+      "sources": [
+        {
+          "citation": "Molekula (2026). Diluting concentrated stocks: C1V1 = C2V2 and serial dilutions.",
+          "link": "https://molekula.com/articles/diluting-concentrated-stocks-c1v1-c2v2-and-serial-dilutions"
+        },
+        {
+          "citation": "Seidman L. Dilutions in biomanufacturing, scenario 2: in the analytical laboratory. Madison Area Technical College (hosted by Hofstra University).",
+          "link": "https://www.hofstra.edu/sites/default/files/2024-04/biomanufacturing-serial-dilutions-for-microbiology.pdf"
+        },
+        {
+          "citation": "CASRAI Editorial Board (2026). Molarity and solution calculations for the lab.",
+          "link": "https://casrai.org/guides/molarity-solution-calculations-lab"
+        },
+        {
+          "citation": "Cold Spring Harbor Protocols (2009). TE buffer [Recipe]. doi:10.1101/pdb.rec11601.",
+          "link": "https://cshprotocols.cshlp.org/content/2009/1/pdb.rec11601.short"
+        }
+      ],
+      "word_file": "uploads/preparation-of-stock-solutions-and-dilutions.docx",
+      "pptx_file": "uploads/preparation-of-stock-solutions-and-dilutions.pptx"
+    },
+    {
+      "title": "Sandwich ELISA",
+      "category": "Immunology",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-17",
+      "duration": "2 days (overnight coating; 7–8 h assay)",
+      "summary": "Quantify a secreted cytokine such as IL-6 or TNF-α in cell-culture supernatant with a 96-well sandwich ELISA, TMB/HRP detection and a 4PL standard curve.",
+      "keywords": "sandwich ELISA cytokine IL-6 TNF-α supernatant 96-well TMB HRP streptavidin standard curve 4PL immunoassay mammalian cells",
+      "sources": [
+        {
+          "citation": "BD Biosciences. Cytokine ELISA protocol (capture/detection antibody, blocking, standard curve and substrate recipes).",
+          "link": "https://www.bdbiosciences.com/en-in/resources/protocols/cytokine-elisa"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Basic sandwich ELISA protocols (coating, blocking, streptavidin-HRP, TMB, stop solution, curve fit).",
+          "link": "https://www.thermofisher.com/us/en/home/references/protocols/cell-and-tissue-analysis/elisa-protocol/general-elisa-protocol/basic-sandwich-elisa-protocol"
+        },
+        {
+          "citation": "R&D Systems (Bio-Techne). Mouse IL-6 DuoSet ELISA (DY406), assay procedure.",
+          "link": "https://www.rndsystems.com/products/mouse-il-6-duoset-elisa_dy406"
+        },
+        {
+          "citation": "PeproTech (Thermo Fisher Scientific). Sandwich ABTS and TMB ELISA protocol.",
+          "link": "https://www.thermofisher.com/ar/en/home/references/protocols/cell-and-tissue-analysis/elisa-protocol/general-elisa-protocol/sandwich-abts-tmb-elisa-protocol.html"
+        },
+        {
+          "citation": "Cheng Q (abinScience, AtaGenix). Sandwich ELISA protocol using pre-coated ELISA kits. protocols.io, 2026 (DOI 10.17504/protocols.io.j8nlk78b6g5r/v1).",
+          "link": "https://www.protocols.io/view/sandwich-elisa-protocol-using-pre-coated-elisa-kit-j8nlk78b6g5r/v1.pdf"
+        }
+      ],
+      "word_file": "uploads/sandwich-elisa.docx",
+      "pptx_file": "uploads/sandwich-elisa.pptx"
+    },
+    {
+      "title": "Genomic DNA Extraction from Plant Tissue",
+      "category": "Molecular Biology",
+      "organism": "Plant",
+      "date": "2026-11-17",
+      "duration": "3–4 h (optional overnight precipitation)",
+      "summary": "CTAB-based genomic DNA extraction from fresh or frozen plant leaf, with PVP and β-mercaptoethanol options for polysaccharide- and polyphenol-rich species.",
+      "keywords": "plant genomic DNA extraction CTAB Doyle leaf Arabidopsis tobacco rice PVP beta-mercaptoethanol chloroform isoamyl alcohol isopropanol RNase A polysaccharide polyphenol",
+      "sources": [
+        {
+          "citation": "Ganguly DR, Wilson P, Estavillo G, Hou X, Pogson B. CTAB Genomic DNA Extraction from Arabidopsis Leaf Material (version 3). protocols.io, 2022.",
+          "link": "https://www.protocols.io/view/ctab-genomic-dna-extraction-from-arabidopsis-leaf-buebntan.html"
+        },
+        {
+          "citation": "Riascos-España AF, Cuastumal BTA, Zambrano MIC, Arteaga JZC, Velasquez-Vasconez PA. Optimized Protocol for DNA Extraction in Three Theobroma Species. Bio-protocol 15(9): e5297, 2025. DOI 10.21769/BioProtoc.5297.",
+          "link": "https://bio-protocol.org/e5297"
+        },
+        {
+          "citation": "Levi A, Thomas C. An Improved Procedure for Isolation of High Quality DNA from Watermelon and Melon Leaves. Cucurbit Genetics Cooperative Report 22: 41–42, 1999.",
+          "link": "https://cucurbit.info/1999/07/an-improved-procedure-for-isolation-of-high-quality-dna-from-watermelon-and-melon-leaves/"
+        },
+        {
+          "citation": "Stewart CN Jr, Via LE. A rapid CTAB DNA isolation technique useful for RAPD fingerprinting and other PCR applications. BioTechniques 14(5): 748–749, 1993 (cached copy on Protocol Online).",
+          "link": "https://protocol-online.org/cgi-bin/prot/view_cache.cgi?ID=1820"
+        },
+        {
+          "citation": "University of North Carolina at Charlotte (Weller lab summer camp). Plant Extraction Protocol, 2011, adapted from Michiels et al., Analytical Biochemistry 315: 85–89, 2003.",
+          "link": "https://webpages.charlotte.edu/~jweller2/pages/SummerCamp2011/SummerCamp2011_Protocols/DNA_purification/WellerPlantExtraction_2011.pdf"
+        }
+      ],
+      "word_file": "uploads/genomic-dna-extraction-from-plant-tissue.docx",
+      "pptx_file": "uploads/genomic-dna-extraction-from-plant-tissue.pptx"
+    },
+    {
+      "title": "Preparation of Chemically Competent Cells",
+      "category": "Cloning & CRISPR",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-17",
+      "duration": "2 days (4–5 h hands-on)",
+      "summary": "Make frozen chemically competent E. coli (DH5α, TOP10, XL1-Blue) by the CaCl₂ or Inoue method and test with pUC19 (10⁶–10⁸ cfu/µg).",
+      "keywords": "competent cells chemically competent E. coli DH5α TOP10 XL1-Blue CaCl2 Inoue method heat shock transformation efficiency pUC19 SOC cloning glycerol DMSO -80 C",
+      "sources": [
+        {
+          "citation": "Inoue H, Nojima H, Okayama H. High efficiency transformation of Escherichia coli with plasmids. Gene. 1990;96(1):23–28. (abstract and bibliographic data checked)",
+          "link": "https://doi.org/10.1016/0378-1119(90)90336-P"
+        },
+        {
+          "citation": "Green R, Rogers EJ. Chemical transformation of E. coli. Methods Enzymol. 2013;529:329–336.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4037286"
+        },
+        {
+          "citation": "Barrick Lab, University of Texas at Austin. Preparing chemically competent cells using the Inoue method (lab protocol).",
+          "link": "https://barricklab.org/twiki/bin/view/Lab/ProtocolsChemCompCellsInoue?rev=2"
+        },
+        {
+          "citation": "Institute of Organic Chemistry and Biochemistry (UOCHB), Boura group. Competent cells CaCl₂ (lab protocol, PDF).",
+          "link": "https://www.uochb.cz/infochem/boura/protocols/competent_cells_CaCl2.pdf"
+        },
+        {
+          "citation": "New England Biolabs. High efficiency transformation protocol for competent E. coli (C2987).",
+          "link": "https://www.neb.com/en-sg/protocols/2012/05/29/high-efficiency-transformation-protocol-for-competent-e-coli?pdf=true"
+        },
+        {
+          "citation": "Hanahan D. Studies on transformation of Escherichia coli with plasmids. J Mol Biol. 1983;166(4):557–580.",
+          "link": "https://doi.org/10.1016/S0022-2836(83)80284-8"
+        }
+      ],
+      "word_file": "uploads/preparation-of-chemically-competent-cells.docx",
+      "pptx_file": "uploads/preparation-of-chemically-competent-cells.pptx"
+    },
+    {
+      "title": "Bradford Protein Assay",
+      "category": "Protein Analysis",
+      "organism": "General Lab Methods",
+      "date": "2026-11-17",
+      "duration": "45–60 min",
+      "summary": "Estimate protein concentration in a 96-well plate or cuvette with Coomassie G-250 and a BSA standard curve, including interference limits and curve fitting.",
+      "keywords": "Bradford protein assay Coomassie G-250 BSA standard curve 595 nm protein quantification microplate",
+      "sources": [
+        {
+          "citation": "Bradford MM (1976). A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Biochem 72:248–254.",
+          "link": "https://diverdi.colostate.edu/C442/weekly%20plans%20&%20activities/week%20starting%202024.04.15/03%20anal_biochem_1976_v72_p248.pdf"
+        },
+        {
+          "citation": "Merck KGaA / Sigma-Aldrich (2020). Protein (Bradford method), cat. no. 1.10306.0500, technical information sheet.",
+          "link": "https://b2b.sigmaaldrich.com/deepweb/assets/sigmaaldrich/product/documents/286/774/110306e.pdf"
+        },
+        {
+          "citation": "He F (2011). Bradford protein assay. Bio-protocol 1(6): e45.",
+          "link": "https://bio-protocol.org/pdf/bio-protocol45.pdf"
+        },
+        {
+          "citation": "Provost laboratory, University of San Diego (2015). Bradford (Bio-Rad) 96-well plate protein assay protocol.",
+          "link": "https://home.sandiego.edu/~josephprovost/Protein%20Assay%2096%20well%20protocol%202015.pdf"
+        },
+        {
+          "citation": "Abcam. Bradford assay (knowledge center).",
+          "link": "https://www.abcam.com/en-us/knowledge-center/western-blot/bradford-assay"
+        }
+      ],
+      "word_file": "uploads/bradford-protein-assay.docx",
+      "pptx_file": "uploads/bradford-protein-assay.pptx"
+    },
+    {
+      "title": "Whole-Mount Immunostaining",
+      "category": "Imaging & Microscopy",
+      "organism": "General Lab Methods",
+      "date": "2026-11-17",
+      "duration": "4 days",
+      "summary": "Indirect fluorescent immunostaining of intact fixed embryos, larvae or small organs, with zebrafish as the worked example, permeabilization options, blocking, washes and glycerol clearing.",
+      "keywords": "whole-mount immunostaining immunofluorescence zebrafish embryo larvae permeabilization antibody penetration glycerol clearing",
+      "sources": [
+        {
+          "citation": "Félix L (2026). Whole-mount immunostaining of tyrosine hydroxylase for dopaminergic neuron analysis in zebrafish larvae. Bio-protocol 16(13): e5725.",
+          "link": "https://bio-protocol.org/e5725"
+        },
+        {
+          "citation": "Willsey HR (2021). Whole-mount RNA in situ hybridization and immunofluorescence of Xenopus embryos and tadpoles. Cold Spring Harb Protoc 2021(10): pdb.prot105635.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8487899"
+        },
+        {
+          "citation": "Shin M (2019). Antibody staining protocol, Lawson laboratory, UMass Chan Medical School.",
+          "link": "https://cms-tenant2.umassmed.edu/globalassets/lawson-lab/downloadfiles/antibodystainingprotocol.pdf"
+        },
+        {
+          "citation": "Moens C (2004). Generic whole mount antibody staining protocol, Fred Hutchinson Cancer Center.",
+          "link": "https://research.fredhutch.org/content/dam/research/moens/resources/protocols/antibody_staining_protocol.pdf"
+        }
+      ],
+      "word_file": "uploads/whole-mount-immunostaining.docx",
+      "pptx_file": "uploads/whole-mount-immunostaining.pptx"
+    },
+    {
+      "title": "Passaging Adherent Cells",
+      "category": "Cell Culture",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-17",
+      "duration": "45–60 min",
+      "summary": "Subculture an adherent mammalian cell line with trypsin-EDTA: wash, detach, neutralize, count, reseed by density or split ratio, with T-75 volumes and troubleshooting.",
+      "keywords": "passaging adherent cells trypsin-EDTA subculture split ratio cell counting trypan blue T-75 confluence",
+      "sources": [
+        {
+          "citation": "ATCC. Animal cell culture guide: tips and techniques for continuous cell lines.",
+          "link": "https://www.atcc.org/resources/culture-guides/animal-cell-culture-guide"
+        },
+        {
+          "citation": "Thermo Fisher Scientific (Gibco). Adherent cell culture protocol (subculturing adherent cells), Cell Culture Basics.",
+          "link": "https://thermofisher.com/in/en/home/references/gibco-cell-culture-basics/cell-culture-protocols/subculturing-adherent-cells.html"
+        },
+        {
+          "citation": "QIAGEN. Essential protocols for animal cell culture (Bench guide).",
+          "link": "https://www.qiagen.com/ch/knowledge-and-support/knowledge-hub/bench-guide/animal-cell-culture/essential-protocols-for-animal-cell-culture/essential-protocols-for-animal-cell-culture"
+        },
+        {
+          "citation": "Merck KGaA / Sigma-Aldrich (2026). Trypsin cell dissociation protocol.",
+          "link": "https://www.sigmaaldrich.com/AT/en/technical-documents/protocol/cell-culture-and-cell-culture-analysis/mammalian-cell-culture/cell-dissociation-with-trypsin"
+        },
+        {
+          "citation": "PMAT0001, Nanyang Technological University (2020). Cell subculture. protocols.io.",
+          "link": "https://www.protocols.io/view/cell-subculture-bnk9mcz6.html"
+        },
+        {
+          "citation": "Haynes K (2013, edited 2015). Passaging adherent cells. OpenWetWare.",
+          "link": "https://openwetware.org/wiki/Haynes:SplittingCells"
+        }
+      ],
+      "word_file": "uploads/passaging-adherent-cells.docx",
+      "pptx_file": "uploads/passaging-adherent-cells.pptx"
     }
   ]
 }

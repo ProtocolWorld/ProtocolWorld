@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://protocolworld.github.io/ProtocolWorld/</loc><lastmod>2026-11-15</lastmod></url>
-<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/genomic-dna-extraction-from-mammalian-cells.html</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/protein-extraction-from-mammalian-cells-ripa-lysis.html</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/thawing-cryopreserved-cells.html</loc><lastmod>2026-11-14</lastmod></url>
@@ -16,4 +16,13 @@
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/immunofluorescence-of-tissue-sections.html</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/freezing-cells-for-cryostorage.html</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/bacterial-streak-plating-for-isolation.html</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/preparation-of-ngm-plates-and-op50-lawns.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/illumina-rna-seq-library-preparation.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/preparation-of-stock-solutions-and-dilutions.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/sandwich-elisa.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/genomic-dna-extraction-from-plant-tissue.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/preparation-of-chemically-competent-cells.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/bradford-protein-assay.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/whole-mount-immunostaining.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/passaging-adherent-cells.html</loc><lastmod>2026-11-17</lastmod></url>
 </urlset>
