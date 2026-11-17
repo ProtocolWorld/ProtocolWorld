@@ -172,19 +172,19 @@
   {
    "title": "Enzyme Kinetics Michaelis-Menten Assay",
    "category": "Biochemistry",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "Competitive ELISA",
    "category": "Immunology",
-   "status": "pending",
+   "status": "staged",
    "organism": "Mammalian Cells"
   },
   {
    "title": "Plasmid Miniprep by Alkaline Lysis",
    "category": "Molecular Biology",
-   "status": "pending",
+   "status": "staged",
    "organism": "E. coli & Bacteria"
   },
   {
