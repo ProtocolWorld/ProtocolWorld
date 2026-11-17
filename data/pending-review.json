@@ -1,3 +1,128 @@
 {
-  "pending": []
+  "pending": [
+    {
+      "title": "Bacterial Growth Curves",
+      "category": "Microbiology",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-17",
+      "duration": "1 day + overnight culture",
+      "summary": "Measure E. coli growth over time by OD600 in shaken flasks with a cuvette spectrophotometer or in a 96-well plate reader, then calculate the specific growth rate and doubling time from the exponential phase.",
+      "keywords": [
+        "growth curve",
+        "OD600",
+        "E. coli",
+        "doubling time",
+        "specific growth rate",
+        "lag phase",
+        "exponential phase",
+        "plate reader",
+        "spectrophotometer",
+        "LB medium"
+      ],
+      "sources": [
+        {
+          "citation": "Rogers AT, Bullard KR, Dod AC, Wang Y (2022). Bacterial growth curve measurements with a multimode microplate reader. Bio-protocol 12(9): e4410. doi:10.21769/BioProtoc.4410.",
+          "link": "https://en.bio-protocol.org/pdf/Bio-protocol4410.pdf"
+        },
+        {
+          "citation": "Barrick Lab. Measuring microbial growth rates in a plate reader (lab protocol).",
+          "link": "https://barricklab.org/twiki/bin/view/Lab/ProtocolsGrowthRates"
+        },
+        {
+          "citation": "Cornell University. SOP 5.3.2: Determining bacterial ODs using the Spectronic 20D+.",
+          "link": "https://confluence.cornell.edu/download/attachments/146904747/5.3.2-Determining%20bacterial%20ODs%20using%20the%20Spectronic%2020Dplus.pdf?api=v2"
+        },
+        {
+          "citation": "Matlock BC. Differences in bacterial optical density measurements between UV-Visible spectrophotometers. Thermo Fisher Scientific Technical Note 52236.",
+          "link": "https://documents.thermofisher.com/TFS-Assets/MSD/Technical-Notes/TN52236-differences-bacterial-optical-density-uv-vis.pdf"
+        },
+        {
+          "citation": "BMG LABTECH. How to optimise OD600 measurements.",
+          "link": "https://www.bmglabtech.com/en/howto-notes/how-to-optimise-od600-measurements/"
+        },
+        {
+          "citation": "Mira P, Barlow M, Meza JC, Hall BG (2017). Statistical package for growth rates made easy. Mol Biol Evol 34(12): 3303–3309. doi:10.1093/molbev/msx255.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5850790/"
+        }
+      ],
+      "word_file": "uploads/bacterial-growth-curves.docx",
+      "pptx_file": "uploads/bacterial-growth-curves.pptx",
+      "staged_dir": "review/2026-11-17/"
+    },
+    {
+      "title": "C. elegans Synchronization by Bleaching",
+      "category": "Model Organisms",
+      "organism": "C. elegans",
+      "date": "2026-11-17",
+      "duration": "1 h hands-on + 16–24 h L1 arrest",
+      "summary": "Alkaline hypochlorite dissolves gravid adult C. elegans and releases eggshell-protected embryos, which hatch in M9 without food into a synchronized, arrested L1 population. Plating these L1s onto NGM/OP50 gives a cohort of the same age for assays.",
+      "keywords": [
+        "C. elegans",
+        "synchronization",
+        "bleaching",
+        "alkaline hypochlorite",
+        "L1 arrest",
+        "M9 buffer",
+        "NGM plates",
+        "egg prep",
+        "developmental stage"
+      ],
+      "sources": [
+        {
+          "citation": "Stiernagle T (2006). Maintenance of C. elegans. WormBook. doi:10.1895/wormbook.1.101.1.",
+          "link": "https://www.doi.org/10.1895/wormbook.1.101.1"
+        },
+        {
+          "citation": "Al-Asmar A, Madirolas G, Dal Bello M, Biancalani T, Pérez Escudero A (2022). Worm Synchronization Protocol (Bleaching). protocols.io. doi:10.17504/protocols.io.3byl4b5xovo5/v1.",
+          "link": "https://www.protocols.io/view/worm-synchronization-protocol-bleaching-b76vrre6.html"
+        },
+        {
+          "citation": "Donnelly J (2025). Bleach life-stage synchronization of C. elegans. protocols.io. doi:10.17504/protocols.io.rm7vzj91xlx1/v1.",
+          "link": "https://www.protocols.io/view/bleach-life-stage-synchronization-of-c-elegans-dj264qhe.html"
+        },
+        {
+          "citation": "Carrillo O (2026). Bleaching – Synchronization C. elegans (in Spanish). protocols.io. doi:10.17504/protocols.io.14egn511pg5d/v1.",
+          "link": "https://www.protocols.io/view/bleaching-synchronization-c-elegans-jw8pcphvp.html"
+        }
+      ],
+      "word_file": "uploads/c-elegans-synchronization-by-bleaching.docx",
+      "pptx_file": "uploads/c-elegans-synchronization-by-bleaching.pptx",
+      "staged_dir": "review/2026-11-17/"
+    },
+    {
+      "title": "Poly(A) Selection for RNA-seq",
+      "category": "Genomics & Sequencing",
+      "organism": "General Lab Methods",
+      "date": "2026-11-17",
+      "duration": "About 1.5–2 h",
+      "summary": "Oligo(dT) magnetic beads capture polyadenylated mRNA from eukaryotic total RNA (mammalian cells as the example) so that rRNA is removed before RNA-seq library prep. This generic workflow uses two binding rounds for high purity; kit-specific values are labeled.",
+      "keywords": [
+        "poly(A) selection",
+        "mRNA enrichment",
+        "oligo(dT) beads",
+        "RNA-seq",
+        "total RNA",
+        "rRNA removal",
+        "magnetic beads",
+        "library preparation"
+      ],
+      "sources": [
+        {
+          "citation": "New England Biolabs. Isolate mRNA using the NEBNext Poly(A) mRNA Magnetic Isolation Module (E7490), protocol (undated web version).",
+          "link": "https://international.neb.com/protocols/2012/09/04/starting-material-1-5-g-of-total-rna-dilute-the-total-rna-with-nuclease-free-water-to-a-final-vol"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Dynabeads mRNA DIRECT Kit (Cat. 610.11/610.12) protocol.",
+          "link": "https://www.thermofisher.com/us/en/home/references/protocols/nucleic-acid-purification-and-analysis/mrna-protocols/dynabeads-mrna-direct-kit"
+        },
+        {
+          "citation": "Illumina, Inc. (2021). Illumina Stranded mRNA Prep, Ligation Reference Guide, document 1000000124518 v02.",
+          "link": "https://support.illumina.com/content/dam/illumina-support/documents/documentation/chemistry_documentation/illumina_prep/RNA/illumina-stranded-mrna-reference-guide-1000000124518-02.pdf"
+        }
+      ],
+      "word_file": "uploads/poly-a-selection-for-rna-seq.docx",
+      "pptx_file": "uploads/poly-a-selection-for-rna-seq.pptx",
+      "staged_dir": "review/2026-11-17/"
+    }
+  ]
 }
