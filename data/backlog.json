@@ -226,19 +226,19 @@
   {
    "title": "rRNA Depletion for RNA-seq",
    "category": "Genomics & Sequencing",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "Spectrophotometric Enzyme Assays",
    "category": "Biochemistry",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "ELISpot Assay",
    "category": "Immunology",
-   "status": "pending",
+   "status": "staged",
    "organism": "Mammalian Cells"
   },
   {

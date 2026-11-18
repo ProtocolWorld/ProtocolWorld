@@ -1,3 +1,94 @@
 {
- "pending": []
+ "pending": [
+  {
+   "title": "rRNA Depletion for RNA-seq",
+   "category": "Genomics & Sequencing",
+   "organism": "General Lab Methods",
+   "date": "2026-11-18",
+   "duration": "About 2.5 hours",
+   "summary": "Probe hybridization, RNase H and DNase I digestion and bead cleanup to remove ribosomal RNA from total RNA before RNA-seq library preparation (NEBNext workflow).",
+   "keywords": "rRNA depletion RNase H RNA-seq ribosomal RNA probes total RNA library preparation",
+   "sources": [
+    {
+     "citation": "New England Biolabs. NEBNext rRNA Depletion Kit (Human/Mouse/Rat) Protocol (E6310). Web protocol.",
+     "link": "https://www.neb.com/en/protocols/2014/08/15/nebnext-rrna-depletion-kit-human-mouse-rat-protocol-e6310"
+    },
+    {
+     "citation": "New England Biolabs. Instruction Manual: NEBNext rRNA Depletion Kit (Human/Mouse/Rat), NEB #E6310 and #E6350, version 8.0 (8/22).",
+     "link": "https://www.neb.com/-/media/nebus/files/manuals/manuale6310.pdf"
+    },
+    {
+     "citation": "New England Biolabs. Protocol for Use with NEBNext Globin and rRNA Depletion Kit (Human/Mouse/Rat), NEB #7750 and #7755.",
+     "link": "https://international.neb.com/protocols/2019/06/06/protocol-for-use-with-nebnext-globin-and-rrna-depletion-kits-humanmouserat-neb-7750-and-7755"
+    },
+    {
+     "citation": "Moran L, Gautreau I. Protocol for use with NEBNext rRNA Depletion Kit (Human/Mouse/Rat) E6310 (E7760), version 1. protocols.io (2018).",
+     "link": "https://www.protocols.io/view/protocol-for-use-with-nebnext-rrna-depletion-kit-h-sxuefnw.pdf"
+    }
+   ],
+   "word_file": "uploads/rrna-depletion-for-rna-seq.docx",
+   "pptx_file": "uploads/rrna-depletion-for-rna-seq.pptx",
+   "staged_dir": "review/2026-11-18/"
+  },
+  {
+   "title": "Spectrophotometric Enzyme Assays",
+   "category": "Biochemistry",
+   "organism": "General Lab Methods",
+   "date": "2026-11-18",
+   "duration": "About 2 hours",
+   "summary": "Continuous cuvette assay following NADH at 340 nm, with linear-rate selection, controls and U/mL and specific-activity calculations (LDH example).",
+   "keywords": "enzyme assay spectrophotometer NADH 340 nm lactate dehydrogenase specific activity Beer-Lambert",
+   "sources": [
+    {
+     "citation": "Sigma-Aldrich. Enzymatic Assay of L-Lactic Dehydrogenase (EC 1.1.1.27). Technical document, protocol.",
+     "link": "https://www.sigmaaldrich.com/US/en/technical-documents/protocol/protein-biology/enzyme-activity-assays/enzymatic-assay-of-lactic-dehydrogenase"
+    },
+    {
+     "citation": "Worthington Biochemical Corporation. Lactate Dehydrogenase Assay.",
+     "link": "https://www.worthington-biochem.com/LDH/assay.html"
+    },
+    {
+     "citation": "MCC Protocol: MDH Specific Activity (measuring the specific activity of malate dehydrogenase). Teaching protocol, about 2018.",
+     "link": "https://static1.squarespace.com/static/5b5b5fa95cfd794420456b01/t/5b8593756d2a733991270235/1535480694728/MCC_MDH_Specific+Activity+Protocol.pdf"
+    },
+    {
+     "citation": "Kuznetsov AV, Gnaiger E. Laboratory protocol: lactate dehydrogenase, cytosolic marker enzyme. MiPNet 08.18, version 8 (2010). Oroboros Instruments.",
+     "link": "https://wiki.oroboros.at/images/archive/4/47/20171212153452%21MiPNet08.18_LDH.pdf"
+    }
+   ],
+   "word_file": "uploads/spectrophotometric-enzyme-assays.docx",
+   "pptx_file": "uploads/spectrophotometric-enzyme-assays.pptx",
+   "staged_dir": "review/2026-11-18/"
+  },
+  {
+   "title": "ELISpot Assay",
+   "category": "Immunology",
+   "organism": "Mammalian Cells",
+   "date": "2026-11-18",
+   "duration": "3 days (about 6 hours hands-on)",
+   "summary": "Count cytokine-secreting cells (IFN-gamma, human PBMC) on PVDF plates: capture antibody, stimulation, detection, BCIP/NBT development and SFU calculation.",
+   "keywords": "ELISpot IFN-gamma PBMC spot-forming cells cytokine secretion immunology",
+   "sources": [
+    {
+     "citation": "Cedrone E, Neun BW, Dobrovolskaia MA. NCL Method ITA-41: Detection of Interferon gamma (IFNγ) by Enzyme-Linked Immunosorbent Spot (ELISpot) Assay. Nanotechnology Characterization Laboratory, version 1 (July 2025).",
+     "link": "https://dctd.cancer.gov/drug-discovery-development/assays/nano/ncl-methods-ita41.pdf"
+    },
+    {
+     "citation": "Mabtech AB. ELISpot (booklet). Nacka, Sweden (2013).",
+     "link": "https://www.mabtech.com/sites/default/files/2013-elispot-web.pdf"
+    },
+    {
+     "citation": "Abcam. Interferon gamma + IL-4 Human ELISPOT Kit (with plates), ab46649, Instructions for Use, version 2 (2025).",
+     "link": "https://content.abcam.com/content/dam/abcam/product/documents/46/ab46649/Human-Interferon-gamma-IL-4-ELISPOT-Kit-protocol-book-v2-ab46649%20(website).pdf"
+    },
+    {
+     "citation": "Creative Biolabs. ELISPOT Protocol (vendor guideline).",
+     "link": "https://www.creative-biolabs.com/elispot-protocol.html"
+    }
+   ],
+   "word_file": "uploads/elispot-assay.docx",
+   "pptx_file": "uploads/elispot-assay.pptx",
+   "staged_dir": "review/2026-11-18/"
+  }
+ ]
 }
