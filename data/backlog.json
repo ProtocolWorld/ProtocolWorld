@@ -208,19 +208,19 @@
   {
    "title": "Passaging Suspension Cells",
    "category": "Cell Culture",
-   "status": "staged",
+   "status": "done",
    "organism": "Mammalian Cells"
   },
   {
    "title": "Serial Dilution and Viable Plate Counts",
    "category": "Microbiology",
-   "status": "staged",
+   "status": "done",
    "organism": "General Lab Methods"
   },
   {
    "title": "C. elegans Strain Freezing and Thawing",
    "category": "Model Organisms",
-   "status": "staged",
+   "status": "done",
    "organism": "C. elegans"
   },
   {
