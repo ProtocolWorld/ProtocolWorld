@@ -1,3 +1,98 @@
 {
- "pending": []
+ "pending": [
+  {
+   "title": "Passaging Suspension Cells",
+   "category": "Cell Culture",
+   "organism": "Mammalian Cells",
+   "date": "2026-11-18",
+   "duration": "30–45 min per passage",
+   "summary": "Subculture non-adherent mammalian cells such as Jurkat in log phase: count with trypan blue, calculate the carry-over volume, seed at a defined density by dilution or centrifugation, and feed or split every 2–3 days.",
+   "keywords": "suspension cells passaging subculture Jurkat cell counting trypan blue hemocytometer seeding density split ratio cell culture viability RPMI",
+   "sources": [
+    {
+     "citation": "Thermo Fisher Scientific (Gibco). Subculturing suspension cells. Cell Culture Basics, online guide.",
+     "link": "https://tfcom-global-nginx.commerceprod.thermofisher.com/au/en/home/references/gibco-cell-culture-basics/cell-culture-protocols/subculturing-suspension-cells.html"
+    },
+    {
+     "citation": "QIAGEN. Essential protocols for animal cell culture. QIAGEN Bench Guide, adapted from Freshney and Current Protocols in Molecular Biology.",
+     "link": "https://www.qiagen.com/ch/knowledge-and-support/knowledge-hub/bench-guide/animal-cell-culture/essential-protocols-for-animal-cell-culture/essential-protocols-for-animal-cell-culture"
+    },
+    {
+     "citation": "Dorschner M. Cell Culture SOP: Propagation of Jurkat (ATCC TIB-152, clone E6-1). ENCODE-related lab SOP, modified 29 July 2009.",
+     "link": "https://genomics-lab.fleming.gr/ENCODE/protocols/cell/human/Jurkat_Stam_protocol.pdf"
+    },
+    {
+     "citation": "Phelan MC. Basic techniques for mammalian cell tissue culture. Current Protocols in Cell Biology, Unit 1.1, pp. 1.1.1–1.1.10. John Wiley & Sons, 1998.",
+     "link": "https://georgelab.bme.ucdavis.edu/files/2017/07/Basic-Technique-for-Tissue-Culture.pdf"
+    }
+   ],
+   "word_file": "uploads/passaging-suspension-cells.docx",
+   "pptx_file": "uploads/passaging-suspension-cells.pptx",
+   "staged_dir": "review/2026-11-18/"
+  },
+  {
+   "title": "Serial Dilution and Viable Plate Counts",
+   "category": "Microbiology",
+   "organism": "General Lab Methods",
+   "date": "2026-11-18",
+   "duration": "1–1.5 h bench work + 24–48 h incubation",
+   "summary": "Count living bacteria by making tenfold serial dilutions, plating by spread or drop plate method, counting colonies in the countable range and calculating CFU/mL.",
+   "keywords": "serial dilution viable plate count CFU/mL colony forming units spread plate drop plate bacteria enumeration countable range 30-300 colonies",
+   "sources": [
+    {
+     "citation": "Reynolds J. Serial dilution protocols. American Society for Microbiology (ASM), 2005.",
+     "link": "https://asm.org/protocols/serial-dilution-protocols"
+    },
+    {
+     "citation": "Herigstad B, Hamilton M, Heersink J. How to optimize the drop plate method for enumerating bacteria. J Microbiol Methods 44(2):121–129, 2001.",
+     "link": "https://scholarworks.montana.edu/handle/1/13571"
+    },
+    {
+     "citation": "Center for Biofilm Engineering, Montana State University. Drop plate method for counting biofilm cells. In: Cunningham A, Lennox J, Ross R (eds), Biofilms: The Hypertext Book, appendix.",
+     "link": "https://www.cs.montana.edu/webworks/projects/oldbiofilmbooks/contents/appendices/appendix001/pages/page007.html"
+    },
+    {
+     "citation": "UC Davis Viticulture and Enology. Colony forming units/dilution plating. Wine microbiology resource page.",
+     "link": "https://wineserver.ucdavis.edu/node/1821"
+    },
+    {
+     "citation": "King Saud University. MBIO 240 Laboratory Skills, Lecture 10: Methods of microbial enumeration.",
+     "link": "https://faculty.ksu.edu.sa/sites/default/files/Lecture%2010%20-%20MBIO%20240.pdf"
+    }
+   ],
+   "word_file": "uploads/serial-dilution-and-viable-plate-counts.docx",
+   "pptx_file": "uploads/serial-dilution-and-viable-plate-counts.pptx",
+   "staged_dir": "review/2026-11-18/"
+  },
+  {
+   "title": "C. elegans Strain Freezing and Thawing",
+   "category": "Model Organisms",
+   "organism": "C. elegans",
+   "date": "2026-11-18",
+   "duration": "2 h + overnight at −80 °C; test thaw next day",
+   "summary": "Cryopreserve C. elegans strains as just-starved L1–L2 larvae in S buffer with 15% glycerol, cool slowly at about 1 °C/min to −80 °C, test thaw the next day and recover on OP50 plates.",
+   "keywords": "C. elegans freezing thawing cryopreservation glycerol S buffer L1 L2 larvae OP50 NGM -80 liquid nitrogen strain stock WormBook",
+   "sources": [
+    {
+     "citation": "Stiernagle T. Maintenance of C. elegans. In: WormBook, ed. The C. elegans Research Community, 2006. doi:10.1895/wormbook.1.101.1.",
+     "link": "https://doi.org/10.1895/wormbook.1.101.1"
+    },
+    {
+     "citation": "OpenWetWare. UA Biophysics: Protocols: Freezing C. elegans strains (wiki page, last edited 29 September 2021).",
+     "link": "https://openwetware.org/wiki/UA_Biophysics:Protocols:Freezing_C._elegans_Strains"
+    },
+    {
+     "citation": "Islam P. Freezing worms. protocols.io, Imperial College London, 25 June 2020. doi:10.17504/protocols.io.bhwfj7bn.",
+     "link": "https://www.protocols.io/view/freezing-worms-bhwfj7bn.html"
+    },
+    {
+     "citation": "Riccio C. Freezing a strain of C. elegans for long-term storage. protocols.io, University of Cambridge, 23 July 2019.",
+     "link": "https://www.protocols.io/view/freezing-a-strain-of-c-elegans-for-long-term-stora-5qng5ve.pdf"
+    }
+   ],
+   "word_file": "uploads/c-elegans-strain-freezing-and-thawing.docx",
+   "pptx_file": "uploads/c-elegans-strain-freezing-and-thawing.pptx",
+   "staged_dir": "review/2026-11-18/"
+  }
+ ]
 }
