@@ -298,7 +298,7 @@
   {
    "title": "Flow Cytometry Sample Preparation",
    "category": "Immunology",
-   "status": "pending",
+   "status": "staged",
    "organism": "Mammalian Cells"
   },
   {
@@ -310,13 +310,13 @@
   {
    "title": "Gibson Assembly",
    "category": "Cloning & CRISPR",
-   "status": "pending",
+   "status": "staged",
    "organism": "E. coli & Bacteria"
   },
   {
    "title": "Native PAGE",
    "category": "Protein Analysis",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
