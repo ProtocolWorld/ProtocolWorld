@@ -1,94 +1,188 @@
 {
-  "pending": [
+ "pending": [
+  {
+   "title": "Methanol Fixation for Immunofluorescence",
+   "category": "Imaging & Microscopy",
+   "organism": "General Lab Methods",
+   "date": "2026-11-19",
+   "duration": "About 3–4 h (or overnight primary incubation)",
+   "summary": "Cold-methanol fixation and permeabilization of adherent cells for indirect immunofluorescence: timing, blocking, antibody incubations, DAPI staining, mounting, controls and when to choose PFA instead.",
+   "keywords": "methanol fixation immunofluorescence ICC IF permeabilization cold methanol antibody staining coverslip DAPI PFA comparison",
+   "sources": [
     {
-      "title": "Methanol Fixation for Immunofluorescence",
-      "category": "Imaging & Microscopy",
-      "organism": "General Lab Methods",
-      "date": "2026-11-19",
-      "duration": "About 3–4 h (or overnight primary incubation)",
-      "summary": "Cold-methanol fixation and permeabilization of adherent cells for indirect immunofluorescence: timing, blocking, antibody incubations, DAPI staining, mounting, controls and when to choose PFA instead.",
-      "keywords": "methanol fixation immunofluorescence ICC IF permeabilization cold methanol antibody staining coverslip DAPI PFA comparison",
-      "sources": [
-        {
-          "citation": "Abcam. Immunocytochemistry and immunofluorescence protocol (technical resource).",
-          "link": "https://www.abcam.com/en-us/technical-resources/protocols/icc-protocol"
-        },
-        {
-          "citation": "Merck/Sigma-Aldrich. Immunofluorescence labeling of cells (technical document protocol), 2025.",
-          "link": "https://www.sigmaaldrich.com/technical-documents/protocols/biology/immunofluorescence-labeling.html"
-        },
-        {
-          "citation": "Hamnett R. ICC/IF protocol. Antibodies.com, updated September 2025.",
-          "link": "https://www.antibodies.com/applications/immunofluorescence/immunofluorescence-protocol"
-        }
-      ],
-      "word_file": "uploads/methanol-fixation-for-immunofluorescence.docx",
-      "pptx_file": "uploads/methanol-fixation-for-immunofluorescence.pptx",
-      "staged_dir": "review/2026-11-19/"
+     "citation": "Abcam. Immunocytochemistry and immunofluorescence protocol (technical resource).",
+     "link": "https://www.abcam.com/en-us/technical-resources/protocols/icc-protocol"
     },
     {
-      "title": "Cell Counting with a Hemocytometer",
-      "category": "Cell Culture",
-      "organism": "Mammalian Cells",
-      "date": "2026-11-19",
-      "duration": "About 15 min",
-      "summary": "Manual cell counting and trypan blue viability with an improved Neubauer hemocytometer: chamber setup, dilution, counting rules, calculations, acceptable ranges and troubleshooting.",
-      "keywords": "hemocytometer Neubauer cell counting trypan blue viability cell concentration cells per mL dilution factor mammalian cells",
-      "sources": [
-        {
-          "citation": "Integra Biosciences. Cell counting with a hemocytometer (including calculations).",
-          "link": "https://www.integra-biosciences.com/china/en/blog/article/cell-counting-hemocytometer-including-calculations"
-        },
-        {
-          "citation": "Grigoryev Y. Hemocytometer cell counting: formula, calculator, and troubleshooting. Bitesize Bio, 2021 (updated 2026).",
-          "link": "https://bitesizebio.com/13687/cell-counting-with-a-hemocytometer-easy-as-1-2-3/"
-        },
-        {
-          "citation": "Assay Genie. Haemocytometer cell counting: procedure, calculation and common errors.",
-          "link": "https://www.assaygenie.com/hemocytometer-cell-counting/"
-        },
-        {
-          "citation": "Moore TC. Counting cells with hemocytometer. protocols.io, 2018.",
-          "link": "https://www.protocols.io/view/counting-cells-with-hemocytometer-nxsdfne.html"
-        }
-      ],
-      "word_file": "uploads/cell-counting-with-a-hemocytometer.docx",
-      "pptx_file": "uploads/cell-counting-with-a-hemocytometer.pptx",
-      "staged_dir": "review/2026-11-19/"
+     "citation": "Merck/Sigma-Aldrich. Immunofluorescence labeling of cells (technical document protocol), 2025.",
+     "link": "https://www.sigmaaldrich.com/technical-documents/protocols/biology/immunofluorescence-labeling.html"
     },
     {
-      "title": "Gram Staining",
-      "category": "Microbiology",
-      "organism": "E. coli & Bacteria",
-      "date": "2026-11-19",
-      "duration": "About 20 min",
-      "summary": "Differential Gram staining of bacterial smears: smear preparation and fixation, crystal violet, iodine, decolorizer and safranin steps, oil-immersion reading, QC strains and troubleshooting.",
-      "keywords": "Gram stain Gram-positive Gram-negative crystal violet safranin decolorizer bacteria smear microscopy oil immersion E. coli S. aureus",
-      "sources": [
-        {
-          "citation": "Association of Public Health Laboratories. Gram Stain Bench Guide. APHL, 2026.",
-          "link": "https://aphl.org/resources/resource-detail/gram-stain-bench-guide"
-        },
-        {
-          "citation": "Raymond J, Boorse G, Mason A. Chapter 8: Gram stain. In: Red Mountain Microbiology (Maricopa Community Colleges open textbook), 2022.",
-          "link": "https://open.maricopa.edu/redmountainmicro/chapter/the-gram-stain/"
-        },
-        {
-          "citation": "Meister C, Bernhart L, Jimenez-Soto LF. Gram staining. protocols.io, 2024.",
-          "link": "https://www.protocols.io/view/gram-staining-dqje5uje.pdf"
-        },
-        {
-          "citation": "CDC OneLab REACH. Video job aid transcript: routine microscopy, Gram stain procedure.",
-          "link": "https://reach.cdc.gov/sites/default/files/video-transcripts/Gram%20Stain%20Procedure_508.pdf"
-        },
-        {
-          "citation": "National public health laboratory. SOP 1: Gram staining (Code A1, version 1, 2013). Example analysis SOP hosted by the WHO Laboratory Quality Stepwise Implementation (LQSI) tool.",
-          "link": "https://extranet.who.int/lqsi/sites/default/files/attachedfiles/Example%20Analysis%20SOP.pdf"
-        }
-      ],
-      "word_file": "uploads/gram-staining.docx",
-      "pptx_file": "uploads/gram-staining.pptx",
-      "staged_dir": "review/2026-11-19/"
+     "citation": "Hamnett R. ICC/IF protocol. Antibodies.com, updated September 2025.",
+     "link": "https://www.antibodies.com/applications/immunofluorescence/immunofluorescence-protocol"
     }
-  ]
+   ],
+   "word_file": "uploads/methanol-fixation-for-immunofluorescence.docx",
+   "pptx_file": "uploads/methanol-fixation-for-immunofluorescence.pptx",
+   "staged_dir": "review/2026-11-19/"
+  },
+  {
+   "title": "Cell Counting with a Hemocytometer",
+   "category": "Cell Culture",
+   "organism": "Mammalian Cells",
+   "date": "2026-11-19",
+   "duration": "About 15 min",
+   "summary": "Manual cell counting and trypan blue viability with an improved Neubauer hemocytometer: chamber setup, dilution, counting rules, calculations, acceptable ranges and troubleshooting.",
+   "keywords": "hemocytometer Neubauer cell counting trypan blue viability cell concentration cells per mL dilution factor mammalian cells",
+   "sources": [
+    {
+     "citation": "Integra Biosciences. Cell counting with a hemocytometer (including calculations).",
+     "link": "https://www.integra-biosciences.com/china/en/blog/article/cell-counting-hemocytometer-including-calculations"
+    },
+    {
+     "citation": "Grigoryev Y. Hemocytometer cell counting: formula, calculator, and troubleshooting. Bitesize Bio, 2021 (updated 2026).",
+     "link": "https://bitesizebio.com/13687/cell-counting-with-a-hemocytometer-easy-as-1-2-3/"
+    },
+    {
+     "citation": "Assay Genie. Haemocytometer cell counting: procedure, calculation and common errors.",
+     "link": "https://www.assaygenie.com/hemocytometer-cell-counting/"
+    },
+    {
+     "citation": "Moore TC. Counting cells with hemocytometer. protocols.io, 2018.",
+     "link": "https://www.protocols.io/view/counting-cells-with-hemocytometer-nxsdfne.html"
+    }
+   ],
+   "word_file": "uploads/cell-counting-with-a-hemocytometer.docx",
+   "pptx_file": "uploads/cell-counting-with-a-hemocytometer.pptx",
+   "staged_dir": "review/2026-11-19/"
+  },
+  {
+   "title": "Gram Staining",
+   "category": "Microbiology",
+   "organism": "E. coli & Bacteria",
+   "date": "2026-11-19",
+   "duration": "About 20 min",
+   "summary": "Differential Gram staining of bacterial smears: smear preparation and fixation, crystal violet, iodine, decolorizer and safranin steps, oil-immersion reading, QC strains and troubleshooting.",
+   "keywords": "Gram stain Gram-positive Gram-negative crystal violet safranin decolorizer bacteria smear microscopy oil immersion E. coli S. aureus",
+   "sources": [
+    {
+     "citation": "Association of Public Health Laboratories. Gram Stain Bench Guide. APHL, 2026.",
+     "link": "https://aphl.org/resources/resource-detail/gram-stain-bench-guide"
+    },
+    {
+     "citation": "Raymond J, Boorse G, Mason A. Chapter 8: Gram stain. In: Red Mountain Microbiology (Maricopa Community Colleges open textbook), 2022.",
+     "link": "https://open.maricopa.edu/redmountainmicro/chapter/the-gram-stain/"
+    },
+    {
+     "citation": "Meister C, Bernhart L, Jimenez-Soto LF. Gram staining. protocols.io, 2024.",
+     "link": "https://www.protocols.io/view/gram-staining-dqje5uje.pdf"
+    },
+    {
+     "citation": "CDC OneLab REACH. Video job aid transcript: routine microscopy, Gram stain procedure.",
+     "link": "https://reach.cdc.gov/sites/default/files/video-transcripts/Gram%20Stain%20Procedure_508.pdf"
+    },
+    {
+     "citation": "National public health laboratory. SOP 1: Gram staining (Code A1, version 1, 2013). Example analysis SOP hosted by the WHO Laboratory Quality Stepwise Implementation (LQSI) tool.",
+     "link": "https://extranet.who.int/lqsi/sites/default/files/attachedfiles/Example%20Analysis%20SOP.pdf"
+    }
+   ],
+   "word_file": "uploads/gram-staining.docx",
+   "pptx_file": "uploads/gram-staining.pptx",
+   "staged_dir": "review/2026-11-19/"
+  },
+  {
+   "title": "C. elegans Crossing and Male Maintenance",
+   "category": "Model Organisms",
+   "organism": "C. elegans",
+   "date": "2026-11-19",
+   "duration": "About 10 days",
+   "summary": "Generate and maintain C. elegans males by heat shock, then use them in small-spot mating crosses and confirm cross progeny by their ~50% male fraction and markers.",
+   "keywords": "C. elegans crossing males mating heat shock him-5 NGM OP50 genetics",
+   "sources": [
+    {
+     "citation": "Herman Lab, University of Nebraska–Lincoln. Generating males by heat shock (lab protocol page).",
+     "link": "https://hermanlab.unl.edu/generating-males-heat-shock"
+    },
+    {
+     "citation": "EPFL LPBS. Generating C. elegans males by heat shock (internal worm protocol page).",
+     "link": "https://www.epfl.ch/labs/lpbs/internal/worm/generating-c-elegans-males-by-heat-shock"
+    },
+    {
+     "citation": "Ding S. Mating assay. protocols.io (2020).",
+     "link": "https://www.protocols.io/view/mating-assay-sq3edyn.pdf"
+    },
+    {
+     "citation": "Hammerquist et al. Analysis of Caenorhabditis elegans Sperm Number, Size, Activation, and Mitochondrial Content. Bio-protocol 11(11): e4035 (2021). doi:10.21769/BioProtoc.4035.",
+     "link": "https://bio-protocol.org/e4035"
+    }
+   ],
+   "word_file": "uploads/c-elegans-crossing-and-male-maintenance.docx",
+   "pptx_file": "uploads/c-elegans-crossing-and-male-maintenance.pptx",
+   "staged_dir": "review/2026-11-19/"
+  },
+  {
+   "title": "Strand-Specific RNA-seq",
+   "category": "Genomics & Sequencing",
+   "organism": "General Lab Methods",
+   "date": "2026-11-19",
+   "duration": "2 days (about 12–14 h hands-on and incubation)",
+   "summary": "A kit-agnostic dUTP workflow for building strand-specific Illumina RNA-seq libraries from total RNA, with QC and strandedness checks. The second cDNA strand is marked with uracil and removed before PCR so that read orientation reflects the transcript strand.",
+   "keywords": "strand-specific RNA-seq dUTP directional library UDG USER poly(A) rRNA depletion Illumina infer_experiment strandedness",
+   "sources": [
+    {
+     "citation": "Parkhomchuk D, Borodina T, Amstislavskiy V, et al. Transcriptome analysis by strand-specific sequencing of complementary DNA. Nucleic Acids Res. 2009;37(18):e123.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2764448"
+    },
+    {
+     "citation": "New England Biolabs. NEBNext Ultra II Directional RNA Library Prep Kit for Illumina, instruction manual (E7760/E7765).",
+     "link": "https://www.neb.com/-/media/nebus/files/manuals/manuale7760_e7765.pdf"
+    },
+    {
+     "citation": "Levin JZ, Yassour M, Adiconis X, et al. Comprehensive comparative analysis of strand-specific RNA sequencing methods. Nat Methods. 2010. Summary page: Broad Institute, RNA-seq: Comparing strand-specific RNA sequencing techniques.",
+     "link": "https://www.broadinstitute.org/news/rna-seq-comparing-strand-specific-rna-sequencing-techniques"
+    },
+    {
+     "citation": "Zhong S, Joung JG, Zheng Y, et al. High-throughput Illumina strand-specific RNA sequencing library preparation. Cold Spring Harb Protoc. 2011 (record listing on SeqAnswers; the article itself was not read).",
+     "link": "https://www.seqanswers.com/forum/literature-watch/11166-rna-seq-high-throughput-illumina-strand-specific-rna-sequencing-library-preparation"
+    },
+    {
+     "citation": "Chipster manual. RNA-seq strandedness inference using RSeQC infer_experiment.py.",
+     "link": "https://chipster.csc.fi/manual/rseqc_infer_rnaseq_experiment.html"
+    }
+   ],
+   "word_file": "uploads/strand-specific-rna-seq.docx",
+   "pptx_file": "uploads/strand-specific-rna-seq.pptx",
+   "staged_dir": "review/2026-11-19/"
+  },
+  {
+   "title": "Lactate Dehydrogenase (LDH) Assay",
+   "category": "Biochemistry",
+   "organism": "General Lab Methods",
+   "date": "2026-11-19",
+   "duration": "About 1.5–3 h",
+   "summary": "Two complementary LDH methods: a kinetic NADH-based activity assay read at 340 nm, and a colorimetric LDH-release cytotoxicity assay read at 490 nm. Includes unit calculations, % cytotoxicity and controls.",
+   "keywords": "LDH lactate dehydrogenase NADH 340 nm cytotoxicity assay LDH release Triton X-100 diaphorase INT tetrazolium 490 nm enzyme activity units",
+   "sources": [
+    {
+     "citation": "Merck/MilliporeSigma. Enzymatic Assay of L-Lactic Dehydrogenase (EC 1.1.1.27), technical protocol (cites Tegge, 1985, in Bergmeyer, Methods of Enzymatic Analysis).",
+     "link": "https://www.sigmaaldrich.com/US/en/technical-documents/protocol/protein-biology/enzyme-activity-assays/enzymatic-assay-of-lactic-dehydrogenase"
+    },
+    {
+     "citation": "Promega. CytoTox 96® Non-Radioactive Cytotoxicity Assay technical bulletin.",
+     "link": "https://www.promega.com/-/media/files/resources/protocols/technical-bulletins/0/cytotox-96-nonradioactive-cytotoxicity-assay-protocol.pdf"
+    },
+    {
+     "citation": "Abcam. LDH assay: Principles, protocols, and applications (knowledge center).",
+     "link": "https://www.abcam.com/en-us/knowledge-center/cell-biology/ldh-assay-kit-guide-principles-and-application"
+    },
+    {
+     "citation": "Danaher Life Sciences. LDH Cytotoxicity Assay: Complete Guide to Principles, Protocols & Applications.",
+     "link": "https://lifesciences.danaher.com/us/en/library/ldh-cytotoxicity-assay.html"
+    }
+   ],
+   "word_file": "uploads/lactate-dehydrogenase-ldh-assay.docx",
+   "pptx_file": "uploads/lactate-dehydrogenase-ldh-assay.pptx",
+   "staged_dir": "review/2026-11-19/"
+  }
+ ]
 }
