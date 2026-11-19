@@ -262,19 +262,19 @@
     {
       "title": "Methanol Fixation for Immunofluorescence",
       "category": "Imaging & Microscopy",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {
       "title": "Cell Counting with a Hemocytometer",
       "category": "Cell Culture",
-      "status": "pending",
+      "status": "staged",
       "organism": "Mammalian Cells"
     },
     {
       "title": "Gram Staining",
       "category": "Microbiology",
-      "status": "pending",
+      "status": "staged",
       "organism": "E. coli & Bacteria"
     },
     {

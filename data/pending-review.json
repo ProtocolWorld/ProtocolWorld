@@ -175,6 +175,96 @@
       "word_file": "uploads/sds-page.docx",
       "pptx_file": "uploads/sds-page.pptx",
       "staged_dir": "review/2026-11-18/"
+    },
+    {
+      "title": "Methanol Fixation for Immunofluorescence",
+      "category": "Imaging & Microscopy",
+      "organism": "General Lab Methods",
+      "date": "2026-11-19",
+      "duration": "About 3–4 h (or overnight primary incubation)",
+      "summary": "Cold-methanol fixation and permeabilization of adherent cells for indirect immunofluorescence: timing, blocking, antibody incubations, DAPI staining, mounting, controls and when to choose PFA instead.",
+      "keywords": "methanol fixation immunofluorescence ICC IF permeabilization cold methanol antibody staining coverslip DAPI PFA comparison",
+      "sources": [
+        {
+          "citation": "Abcam. Immunocytochemistry and immunofluorescence protocol (technical resource).",
+          "link": "https://www.abcam.com/en-us/technical-resources/protocols/icc-protocol"
+        },
+        {
+          "citation": "Merck/Sigma-Aldrich. Immunofluorescence labeling of cells (technical document protocol), 2025.",
+          "link": "https://www.sigmaaldrich.com/technical-documents/protocols/biology/immunofluorescence-labeling.html"
+        },
+        {
+          "citation": "Hamnett R. ICC/IF protocol. Antibodies.com, updated September 2025.",
+          "link": "https://www.antibodies.com/applications/immunofluorescence/immunofluorescence-protocol"
+        }
+      ],
+      "word_file": "uploads/methanol-fixation-for-immunofluorescence.docx",
+      "pptx_file": "uploads/methanol-fixation-for-immunofluorescence.pptx",
+      "staged_dir": "review/2026-11-19/"
+    },
+    {
+      "title": "Cell Counting with a Hemocytometer",
+      "category": "Cell Culture",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-19",
+      "duration": "About 15 min",
+      "summary": "Manual cell counting and trypan blue viability with an improved Neubauer hemocytometer: chamber setup, dilution, counting rules, calculations, acceptable ranges and troubleshooting.",
+      "keywords": "hemocytometer Neubauer cell counting trypan blue viability cell concentration cells per mL dilution factor mammalian cells",
+      "sources": [
+        {
+          "citation": "Integra Biosciences. Cell counting with a hemocytometer (including calculations).",
+          "link": "https://www.integra-biosciences.com/china/en/blog/article/cell-counting-hemocytometer-including-calculations"
+        },
+        {
+          "citation": "Grigoryev Y. Hemocytometer cell counting: formula, calculator, and troubleshooting. Bitesize Bio, 2021 (updated 2026).",
+          "link": "https://bitesizebio.com/13687/cell-counting-with-a-hemocytometer-easy-as-1-2-3/"
+        },
+        {
+          "citation": "Assay Genie. Haemocytometer cell counting: procedure, calculation and common errors.",
+          "link": "https://www.assaygenie.com/hemocytometer-cell-counting/"
+        },
+        {
+          "citation": "Moore TC. Counting cells with hemocytometer. protocols.io, 2018.",
+          "link": "https://www.protocols.io/view/counting-cells-with-hemocytometer-nxsdfne.html"
+        }
+      ],
+      "word_file": "uploads/cell-counting-with-a-hemocytometer.docx",
+      "pptx_file": "uploads/cell-counting-with-a-hemocytometer.pptx",
+      "staged_dir": "review/2026-11-19/"
+    },
+    {
+      "title": "Gram Staining",
+      "category": "Microbiology",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-19",
+      "duration": "About 20 min",
+      "summary": "Differential Gram staining of bacterial smears: smear preparation and fixation, crystal violet, iodine, decolorizer and safranin steps, oil-immersion reading, QC strains and troubleshooting.",
+      "keywords": "Gram stain Gram-positive Gram-negative crystal violet safranin decolorizer bacteria smear microscopy oil immersion E. coli S. aureus",
+      "sources": [
+        {
+          "citation": "Association of Public Health Laboratories. Gram Stain Bench Guide. APHL, 2026.",
+          "link": "https://aphl.org/resources/resource-detail/gram-stain-bench-guide"
+        },
+        {
+          "citation": "Raymond J, Boorse G, Mason A. Chapter 8: Gram stain. In: Red Mountain Microbiology (Maricopa Community Colleges open textbook), 2022.",
+          "link": "https://open.maricopa.edu/redmountainmicro/chapter/the-gram-stain/"
+        },
+        {
+          "citation": "Meister C, Bernhart L, Jimenez-Soto LF. Gram staining. protocols.io, 2024.",
+          "link": "https://www.protocols.io/view/gram-staining-dqje5uje.pdf"
+        },
+        {
+          "citation": "CDC OneLab REACH. Video job aid transcript: routine microscopy, Gram stain procedure.",
+          "link": "https://reach.cdc.gov/sites/default/files/video-transcripts/Gram%20Stain%20Procedure_508.pdf"
+        },
+        {
+          "citation": "National public health laboratory. SOP 1: Gram staining (Code A1, version 1, 2013). Example analysis SOP hosted by the WHO Laboratory Quality Stepwise Implementation (LQSI) tool.",
+          "link": "https://extranet.who.int/lqsi/sites/default/files/attachedfiles/Example%20Analysis%20SOP.pdf"
+        }
+      ],
+      "word_file": "uploads/gram-staining.docx",
+      "pptx_file": "uploads/gram-staining.pptx",
+      "staged_dir": "review/2026-11-19/"
     }
   ]
 }
