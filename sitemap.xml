@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://protocolworld.github.io/ProtocolWorld/</loc><lastmod>2026-11-19</lastmod></url>
-<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/</loc><lastmod>2026-11-19</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/</loc><lastmod>2026-11-20</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/genomic-dna-extraction-from-mammalian-cells.html</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/protein-extraction-from-mammalian-cells-ripa-lysis.html</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/thawing-cryopreserved-cells.html</loc><lastmod>2026-11-14</lastmod></url>
@@ -43,4 +43,7 @@
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/plasmid-midiprep-and-maxiprep.html</loc><lastmod>2026-11-18</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/blue-white-screening.html</loc><lastmod>2026-11-18</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/sds-page.html</loc><lastmod>2026-11-18</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/flow-cytometry-sample-preparation.html</loc><lastmod>2026-11-19</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/gibson-assembly.html</loc><lastmod>2026-11-19</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/native-page.html</loc><lastmod>2026-11-19</lastmod></url>
 </urlset>
