@@ -1,98 +1,196 @@
 {
-  "pending": [
+ "pending": [
+  {
+   "title": "C. elegans Crossing and Male Maintenance",
+   "category": "Model Organisms",
+   "organism": "C. elegans",
+   "date": "2026-11-19",
+   "duration": "About 10 days",
+   "summary": "Generate and maintain C. elegans males by heat shock, then use them in small-spot mating crosses and confirm cross progeny by their ~50% male fraction and markers.",
+   "keywords": "C. elegans crossing males mating heat shock him-5 NGM OP50 genetics",
+   "sources": [
     {
-      "title": "C. elegans Crossing and Male Maintenance",
-      "category": "Model Organisms",
-      "organism": "C. elegans",
-      "date": "2026-11-19",
-      "duration": "About 10 days",
-      "summary": "Generate and maintain C. elegans males by heat shock, then use them in small-spot mating crosses and confirm cross progeny by their ~50% male fraction and markers.",
-      "keywords": "C. elegans crossing males mating heat shock him-5 NGM OP50 genetics",
-      "sources": [
-        {
-          "citation": "Herman Lab, University of Nebraska–Lincoln. Generating males by heat shock (lab protocol page).",
-          "link": "https://hermanlab.unl.edu/generating-males-heat-shock"
-        },
-        {
-          "citation": "EPFL LPBS. Generating C. elegans males by heat shock (internal worm protocol page).",
-          "link": "https://www.epfl.ch/labs/lpbs/internal/worm/generating-c-elegans-males-by-heat-shock"
-        },
-        {
-          "citation": "Ding S. Mating assay. protocols.io (2020).",
-          "link": "https://www.protocols.io/view/mating-assay-sq3edyn.pdf"
-        },
-        {
-          "citation": "Hammerquist et al. Analysis of Caenorhabditis elegans Sperm Number, Size, Activation, and Mitochondrial Content. Bio-protocol 11(11): e4035 (2021). doi:10.21769/BioProtoc.4035.",
-          "link": "https://bio-protocol.org/e4035"
-        }
-      ],
-      "word_file": "uploads/c-elegans-crossing-and-male-maintenance.docx",
-      "pptx_file": "uploads/c-elegans-crossing-and-male-maintenance.pptx",
-      "staged_dir": "review/2026-11-19/"
+     "citation": "Herman Lab, University of Nebraska–Lincoln. Generating males by heat shock (lab protocol page).",
+     "link": "https://hermanlab.unl.edu/generating-males-heat-shock"
     },
     {
-      "title": "Strand-Specific RNA-seq",
-      "category": "Genomics & Sequencing",
-      "organism": "General Lab Methods",
-      "date": "2026-11-19",
-      "duration": "2 days (about 12–14 h hands-on and incubation)",
-      "summary": "A kit-agnostic dUTP workflow for building strand-specific Illumina RNA-seq libraries from total RNA, with QC and strandedness checks. The second cDNA strand is marked with uracil and removed before PCR so that read orientation reflects the transcript strand.",
-      "keywords": "strand-specific RNA-seq dUTP directional library UDG USER poly(A) rRNA depletion Illumina infer_experiment strandedness",
-      "sources": [
-        {
-          "citation": "Parkhomchuk D, Borodina T, Amstislavskiy V, et al. Transcriptome analysis by strand-specific sequencing of complementary DNA. Nucleic Acids Res. 2009;37(18):e123.",
-          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2764448"
-        },
-        {
-          "citation": "New England Biolabs. NEBNext Ultra II Directional RNA Library Prep Kit for Illumina, instruction manual (E7760/E7765).",
-          "link": "https://www.neb.com/-/media/nebus/files/manuals/manuale7760_e7765.pdf"
-        },
-        {
-          "citation": "Levin JZ, Yassour M, Adiconis X, et al. Comprehensive comparative analysis of strand-specific RNA sequencing methods. Nat Methods. 2010. Summary page: Broad Institute, RNA-seq: Comparing strand-specific RNA sequencing techniques.",
-          "link": "https://www.broadinstitute.org/news/rna-seq-comparing-strand-specific-rna-sequencing-techniques"
-        },
-        {
-          "citation": "Zhong S, Joung JG, Zheng Y, et al. High-throughput Illumina strand-specific RNA sequencing library preparation. Cold Spring Harb Protoc. 2011 (record listing on SeqAnswers; the article itself was not read).",
-          "link": "https://www.seqanswers.com/forum/literature-watch/11166-rna-seq-high-throughput-illumina-strand-specific-rna-sequencing-library-preparation"
-        },
-        {
-          "citation": "Chipster manual. RNA-seq strandedness inference using RSeQC infer_experiment.py.",
-          "link": "https://chipster.csc.fi/manual/rseqc_infer_rnaseq_experiment.html"
-        }
-      ],
-      "word_file": "uploads/strand-specific-rna-seq.docx",
-      "pptx_file": "uploads/strand-specific-rna-seq.pptx",
-      "staged_dir": "review/2026-11-19/"
+     "citation": "EPFL LPBS. Generating C. elegans males by heat shock (internal worm protocol page).",
+     "link": "https://www.epfl.ch/labs/lpbs/internal/worm/generating-c-elegans-males-by-heat-shock"
     },
     {
-      "title": "Lactate Dehydrogenase (LDH) Assay",
-      "category": "Biochemistry",
-      "organism": "General Lab Methods",
-      "date": "2026-11-19",
-      "duration": "About 1.5–3 h",
-      "summary": "Two complementary LDH methods: a kinetic NADH-based activity assay read at 340 nm, and a colorimetric LDH-release cytotoxicity assay read at 490 nm. Includes unit calculations, % cytotoxicity and controls.",
-      "keywords": "LDH lactate dehydrogenase NADH 340 nm cytotoxicity assay LDH release Triton X-100 diaphorase INT tetrazolium 490 nm enzyme activity units",
-      "sources": [
-        {
-          "citation": "Merck/MilliporeSigma. Enzymatic Assay of L-Lactic Dehydrogenase (EC 1.1.1.27), technical protocol (cites Tegge, 1985, in Bergmeyer, Methods of Enzymatic Analysis).",
-          "link": "https://www.sigmaaldrich.com/US/en/technical-documents/protocol/protein-biology/enzyme-activity-assays/enzymatic-assay-of-lactic-dehydrogenase"
-        },
-        {
-          "citation": "Promega. CytoTox 96® Non-Radioactive Cytotoxicity Assay technical bulletin.",
-          "link": "https://www.promega.com/-/media/files/resources/protocols/technical-bulletins/0/cytotox-96-nonradioactive-cytotoxicity-assay-protocol.pdf"
-        },
-        {
-          "citation": "Abcam. LDH assay: Principles, protocols, and applications (knowledge center).",
-          "link": "https://www.abcam.com/en-us/knowledge-center/cell-biology/ldh-assay-kit-guide-principles-and-application"
-        },
-        {
-          "citation": "Danaher Life Sciences. LDH Cytotoxicity Assay: Complete Guide to Principles, Protocols & Applications.",
-          "link": "https://lifesciences.danaher.com/us/en/library/ldh-cytotoxicity-assay.html"
-        }
-      ],
-      "word_file": "uploads/lactate-dehydrogenase-ldh-assay.docx",
-      "pptx_file": "uploads/lactate-dehydrogenase-ldh-assay.pptx",
-      "staged_dir": "review/2026-11-19/"
+     "citation": "Ding S. Mating assay. protocols.io (2020).",
+     "link": "https://www.protocols.io/view/mating-assay-sq3edyn.pdf"
+    },
+    {
+     "citation": "Hammerquist et al. Analysis of Caenorhabditis elegans Sperm Number, Size, Activation, and Mitochondrial Content. Bio-protocol 11(11): e4035 (2021). doi:10.21769/BioProtoc.4035.",
+     "link": "https://bio-protocol.org/e4035"
     }
-  ]
+   ],
+   "word_file": "uploads/c-elegans-crossing-and-male-maintenance.docx",
+   "pptx_file": "uploads/c-elegans-crossing-and-male-maintenance.pptx",
+   "staged_dir": "review/2026-11-19/"
+  },
+  {
+   "title": "Strand-Specific RNA-seq",
+   "category": "Genomics & Sequencing",
+   "organism": "General Lab Methods",
+   "date": "2026-11-19",
+   "duration": "2 days (about 12–14 h hands-on and incubation)",
+   "summary": "A kit-agnostic dUTP workflow for building strand-specific Illumina RNA-seq libraries from total RNA, with QC and strandedness checks. The second cDNA strand is marked with uracil and removed before PCR so that read orientation reflects the transcript strand.",
+   "keywords": "strand-specific RNA-seq dUTP directional library UDG USER poly(A) rRNA depletion Illumina infer_experiment strandedness",
+   "sources": [
+    {
+     "citation": "Parkhomchuk D, Borodina T, Amstislavskiy V, et al. Transcriptome analysis by strand-specific sequencing of complementary DNA. Nucleic Acids Res. 2009;37(18):e123.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2764448"
+    },
+    {
+     "citation": "New England Biolabs. NEBNext Ultra II Directional RNA Library Prep Kit for Illumina, instruction manual (E7760/E7765).",
+     "link": "https://www.neb.com/-/media/nebus/files/manuals/manuale7760_e7765.pdf"
+    },
+    {
+     "citation": "Levin JZ, Yassour M, Adiconis X, et al. Comprehensive comparative analysis of strand-specific RNA sequencing methods. Nat Methods. 2010. Summary page: Broad Institute, RNA-seq: Comparing strand-specific RNA sequencing techniques.",
+     "link": "https://www.broadinstitute.org/news/rna-seq-comparing-strand-specific-rna-sequencing-techniques"
+    },
+    {
+     "citation": "Zhong S, Joung JG, Zheng Y, et al. High-throughput Illumina strand-specific RNA sequencing library preparation. Cold Spring Harb Protoc. 2011 (record listing on SeqAnswers; the article itself was not read).",
+     "link": "https://www.seqanswers.com/forum/literature-watch/11166-rna-seq-high-throughput-illumina-strand-specific-rna-sequencing-library-preparation"
+    },
+    {
+     "citation": "Chipster manual. RNA-seq strandedness inference using RSeQC infer_experiment.py.",
+     "link": "https://chipster.csc.fi/manual/rseqc_infer_rnaseq_experiment.html"
+    }
+   ],
+   "word_file": "uploads/strand-specific-rna-seq.docx",
+   "pptx_file": "uploads/strand-specific-rna-seq.pptx",
+   "staged_dir": "review/2026-11-19/"
+  },
+  {
+   "title": "Lactate Dehydrogenase (LDH) Assay",
+   "category": "Biochemistry",
+   "organism": "General Lab Methods",
+   "date": "2026-11-19",
+   "duration": "About 1.5–3 h",
+   "summary": "Two complementary LDH methods: a kinetic NADH-based activity assay read at 340 nm, and a colorimetric LDH-release cytotoxicity assay read at 490 nm. Includes unit calculations, % cytotoxicity and controls.",
+   "keywords": "LDH lactate dehydrogenase NADH 340 nm cytotoxicity assay LDH release Triton X-100 diaphorase INT tetrazolium 490 nm enzyme activity units",
+   "sources": [
+    {
+     "citation": "Merck/MilliporeSigma. Enzymatic Assay of L-Lactic Dehydrogenase (EC 1.1.1.27), technical protocol (cites Tegge, 1985, in Bergmeyer, Methods of Enzymatic Analysis).",
+     "link": "https://www.sigmaaldrich.com/US/en/technical-documents/protocol/protein-biology/enzyme-activity-assays/enzymatic-assay-of-lactic-dehydrogenase"
+    },
+    {
+     "citation": "Promega. CytoTox 96® Non-Radioactive Cytotoxicity Assay technical bulletin.",
+     "link": "https://www.promega.com/-/media/files/resources/protocols/technical-bulletins/0/cytotox-96-nonradioactive-cytotoxicity-assay-protocol.pdf"
+    },
+    {
+     "citation": "Abcam. LDH assay: Principles, protocols, and applications (knowledge center).",
+     "link": "https://www.abcam.com/en-us/knowledge-center/cell-biology/ldh-assay-kit-guide-principles-and-application"
+    },
+    {
+     "citation": "Danaher Life Sciences. LDH Cytotoxicity Assay: Complete Guide to Principles, Protocols & Applications.",
+     "link": "https://lifesciences.danaher.com/us/en/library/ldh-cytotoxicity-assay.html"
+    }
+   ],
+   "word_file": "uploads/lactate-dehydrogenase-ldh-assay.docx",
+   "pptx_file": "uploads/lactate-dehydrogenase-ldh-assay.pptx",
+   "staged_dir": "review/2026-11-19/"
+  },
+  {
+   "title": "Permeabilization and Blocking for Immunostaining",
+   "category": "Imaging & Microscopy",
+   "organism": "General Lab Methods",
+   "date": "2026-11-20",
+   "duration": "About 3 h at the bench + overnight primary antibody",
+   "summary": "Fix, permeabilize and block cultured cells for immunofluorescence: choosing Triton X-100, Tween-20, saponin or cold methanol, serum and BSA blocking recipes, timings, controls and a troubleshooting table.",
+   "keywords": "permeabilization blocking immunostaining immunofluorescence ICC Triton X-100 saponin Tween-20 methanol normal serum BSA paraformaldehyde secondary antibody",
+   "sources": [
+    {
+     "citation": "Cell Signaling Technology. Immunofluorescence (Immunocytochemistry) protocol (posted December 2015).",
+     "link": "https://www.cellsignal.com/protocols/864"
+    },
+    {
+     "citation": "Cell Signaling Technology. Immunofluorescence protocol for cell-based assays requiring 2% formaldehyde fixation and 0.1% Triton X-100 permeabilization.",
+     "link": "https://www.cellsignal.com/protocols/35"
+    },
+    {
+     "citation": "Abcam. Immunocytochemistry protocol.",
+     "link": "https://www.abcam.com/en-us/technical-resources/protocols/icc-protocol"
+    },
+    {
+     "citation": "R&D Systems. An overview of permeabilization in immunocytochemistry (ICC) (2017, revised 2026).",
+     "link": "https://www.rndsystems.com/resources/blog/an-overview-of-permeabilization-in-immunocytochemistry-icc"
+    },
+    {
+     "citation": "Jamur MC, Oliver C. Permeabilization of cell membranes. Methods Mol Biol. 2010;588:63–66. doi:10.1007/978-1-59745-324-0_9.",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/20012820/"
+    }
+   ],
+   "word_file": "uploads/permeabilization-and-blocking-for-immunostaining.docx",
+   "pptx_file": "uploads/permeabilization-and-blocking-for-immunostaining.pptx",
+   "staged_dir": "review/2026-11-20/"
+  },
+  {
+   "title": "Automated Cell Counting",
+   "category": "Cell Culture",
+   "organism": "Mammalian Cells",
+   "date": "2026-11-20",
+   "duration": "About 15 min",
+   "summary": "Count mammalian cells and measure viability with an image-based automated counter and 0.4% trypan blue: 1:1 sample mixing, chamber loading, working range, viability and cell-number calculations, plus a hemocytometer cross-check.",
+   "keywords": "automated cell counter Countess trypan blue viability cell counting live dead 0.4% hemocytometer cells/mL cell culture passage seeding density",
+   "sources": [
+    {
+     "citation": "Thermo Fisher Scientific. TrypLE protocol and counting with an automated cell counter (Gibco Cell Culture Basics).",
+     "link": "https://www.thermofisher.com/au/en/home/references/gibco-cell-culture-basics/cell-culture-protocols/cell-counting-tryple-countess.html"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. Trypan blue staining protocol (Gibco Cell Culture Basics).",
+     "link": "https://www.thermofisher.com/fr/fr/home/references/gibco-cell-culture-basics/cell-culture-protocols/trypan-blue-exclusion.html"
+    },
+    {
+     "citation": "Louis KS, Siegel AC. Cell viability analysis using trypan blue: manual and automated methods. In: Stoddart MJ, ed. Mammalian Cell Viability: Methods and Protocols. Methods Mol Biol 740. Springer; 2011. doi:10.1007/978-1-61779-108-6_2 (author copy hosted by the University of Illinois).",
+     "link": "https://biotech.illinois.edu/sites/biotech.illinois.edu/files/uploads/Trypan%20blue.pdf"
+    },
+    {
+     "citation": "Ferreira Lab, Northwestern University Feinberg School of Medicine. Trypan blue viability assay: cells in suspension (citing Strober W. Curr Protoc Immunol, 2001).",
+     "link": "https://labs.feinberg.northwestern.edu/ferreira/docs/Trypan-Blue-Viability-Assay---Cells-in-Suspension.pdf"
+    }
+   ],
+   "word_file": "uploads/automated-cell-counting.docx",
+   "pptx_file": "uploads/automated-cell-counting.pptx",
+   "staged_dir": "review/2026-11-20/"
+  },
+  {
+   "title": "Acid-Fast Staining",
+   "category": "Microbiology",
+   "organism": "E. coli & Bacteria",
+   "date": "2026-11-20",
+   "duration": "About 30 min",
+   "summary": "Ziehl–Neelsen (hot) and Kinyoun (cold) acid-fast staining of bacterial smears with carbolfuchsin, 3% acid–alcohol and methylene blue, including reagent recipes, timings, controls and safety notes.",
+   "keywords": "acid-fast stain Ziehl-Neelsen Kinyoun carbolfuchsin acid-alcohol methylene blue mycobacteria mycolic acid smear heat fixation microscopy",
+   "sources": [
+    {
+     "citation": "Hussey MA, Zayaitz A. Acid-fast stain protocols. American Society for Microbiology; 2008.",
+     "link": "https://asm.org/protocols/acid-fast-stain-protocols"
+    },
+    {
+     "citation": "Somoskövi Á, Hotaling JE, Fitzgerald M, O'Donnell D, Parsons LM, Salfinger M. Lessons from a proficiency testing event for acid-fast microscopy. Chest. 2001;120(1):250–257. doi:10.1378/chest.120.1.250.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2925666"
+    },
+    {
+     "citation": "Bayot ML, Mirza TM, Sharma S. Acid fast bacteria. In: StatPearls. Treasure Island, FL: StatPearls Publishing; updated 2023.",
+     "link": "https://www.ncbi.nlm.nih.gov/books/NBK537121/"
+    },
+    {
+     "citation": "Colorado State University. Kinyoun cold acid fast staining, SOP SP035.2 (modified 2023).",
+     "link": "https://labs.vetmedbiosci.colostate.edu/dobos/wp-content/uploads/sites/17/2023/08/dobos-sp035.2.pdf"
+    },
+    {
+     "citation": "Chamberlain NR, Cox B. Instructions: acid-fast staining. A.T. Still University.",
+     "link": "https://www.atsu.edu/faculty/chamberlain/Website/lab/idlab/acidst.htm"
+    }
+   ],
+   "word_file": "uploads/acid-fast-staining.docx",
+   "pptx_file": "uploads/acid-fast-staining.pptx",
+   "staged_dir": "review/2026-11-20/"
+  }
+ ]
 }
