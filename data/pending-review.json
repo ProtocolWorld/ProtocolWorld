@@ -191,6 +191,92 @@
    "word_file": "uploads/acid-fast-staining.docx",
    "pptx_file": "uploads/acid-fast-staining.pptx",
    "staged_dir": "review/2026-11-20/"
+  },
+  {
+   "title": "C. elegans Genotyping by Single-Worm PCR",
+   "category": "Model Organisms",
+   "organism": "C. elegans",
+   "date": "2026-11-20",
+   "duration": "About 3 h",
+   "summary": "Lyse a single C. elegans in proteinase K buffer and genotype it by direct PCR, with full recipes, cycling conditions, allele-specific SNP primer design, controls and troubleshooting.",
+   "keywords": "C. elegans single worm PCR genotyping proteinase K lysis buffer allele-specific SNP primers deletion alleles heterozygote",
+   "sources": [
+    {
+     "citation": "Chen J, Schedl T. Single animal PCR genotyping protocol for C. elegans. Bio-protocol Preprint. 2022. bio-protocol.org/prep1985.",
+     "link": "https://bio-protocol.org/prep1985"
+    },
+    {
+     "citation": "California Institute of Technology, WormLab. Single worm PCR (lab protocol sheet, undated).",
+     "link": "https://wormlab.caltech.edu/documents/14076/Single_worm_PCR.pdf"
+    },
+    {
+     "citation": "Schedl Laboratory, Washington University in St. Louis. Single worm PCR (adapted by S. Nayak from various originals; 2010).",
+     "link": "https://sites.wustl.edu/tslab/?p=78"
+    },
+    {
+     "citation": "Chen J, Schedl T. A simple one-step PCR assay for SNP detection. microPublication Biology. 2021 (published June 11, 2021). PMC8196326.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8196326"
+    }
+   ],
+   "word_file": "uploads/c-elegans-genotyping-by-single-worm-pcr.docx",
+   "pptx_file": "uploads/c-elegans-genotyping-by-single-worm-pcr.pptx",
+   "staged_dir": "review/2026-11-20/"
+  },
+  {
+   "title": "Small RNA-seq Library Preparation",
+   "category": "Genomics & Sequencing",
+   "organism": "General Lab Methods",
+   "date": "2026-11-20",
+   "duration": "About 3–4 days",
+   "summary": "Build Illumina-style small RNA (miRNA) sequencing libraries by gel size selection, 3′ and 5′ adapter ligation, reverse transcription, minimal-cycle PCR and gel purification, with QC and troubleshooting.",
+   "keywords": "small RNA-seq miRNA library preparation adapter ligation T4 RNA ligase urea PAGE size selection adapter dimer Bioanalyzer",
+   "sources": [
+    {
+     "citation": "Sun D, Ma Z, Zhu J, Zhang X. Identification and Quantification of Small RNAs. Methods Mol Biol. 2021;2200:225–254. PMC7869961.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7869961"
+    },
+    {
+     "citation": "Cold Spring Harbor Protocols. Preparation of Small RNA Libraries for High-Throughput Sequencing. Cold Spring Harb Protoc 2012; protocol pdb.prot071431 (adapted from Rio DC, Ares M Jr, Hannon GJ, Nilsen TW, eds. RNA: A Laboratory Manual. Cold Spring Harbor Laboratory Press; 2011).",
+     "link": "https://cshprotocols.cshlp.org/content/2012/10/pdb.prot071431.full"
+    },
+    {
+     "citation": "New England Biolabs. Library Preparation Using NEBNext Small RNA Library Prep Set for SOLiD (E6160). Protocol, April 2013.",
+     "link": "https://neb.com/en-au/protocols/2013/04/09/library-preparation-using-nebnext-small-rna-library-prep-set-for-solid-e6160"
+    }
+   ],
+   "word_file": "uploads/small-rna-seq-library-preparation.docx",
+   "pptx_file": "uploads/small-rna-seq-library-preparation.pptx",
+   "staged_dir": "review/2026-11-20/"
+  },
+  {
+   "title": "Alkaline Phosphatase Assay",
+   "category": "Biochemistry",
+   "organism": "General Lab Methods",
+   "date": "2026-11-20",
+   "duration": "About 2 h",
+   "summary": "Measure alkaline phosphatase activity with pNPP, from a diethanolamine cuvette assay for purified enzyme to an end-point 96-well assay for lysates, tissue and serum, with standard curve and calculations.",
+   "keywords": "alkaline phosphatase ALP assay pNPP p-nitrophenol diethanolamine 405 nm cell lysate serum standard curve",
+   "sources": [
+    {
+     "citation": "MilliporeSigma (Merck KGaA). Diethanolamine Assay for the Enzymatic Assay of Alkaline Phosphatase (EC 3.1.3.1). Technical protocol page.",
+     "link": "https://www.sigmaaldrich.com/US/en/technical-documents/protocol/protein-biology/enzyme-activity-assays/enzymatic-assay-of-alkaline-phosphatase-diethanolamine-assay"
+    },
+    {
+     "citation": "Worthington Biochemical Corporation. Phosphatase, Alkaline – Assay (enzyme manual).",
+     "link": "https://www.worthington-biochem.com/BAP/assay.html"
+    },
+    {
+     "citation": "Abcam. ab83369 – Alkaline Phosphatase Assay Kit (Colorimetric), protocol book version 15, last updated 21 May 2025.",
+     "link": "https://content.abcam.com/content/dam/abcam/product/documents/83/ab83369/Alkaline-Phosphatase-Assay-protocol-book-v15-ab83369%20(website).pdf"
+    },
+    {
+     "citation": "MilliporeSigma. Alkaline Phosphatase Assay Kit, Technical Bulletin MAK447, Rev 08/2025.",
+     "link": "https://www.merckmillipore.com/deepweb/assets/sigmaaldrich/product/documents/612/164/mak447pis-ms.pdf"
+    }
+   ],
+   "word_file": "uploads/alkaline-phosphatase-assay.docx",
+   "pptx_file": "uploads/alkaline-phosphatase-assay.pptx",
+   "staged_dir": "review/2026-11-20/"
   }
  ]
 }

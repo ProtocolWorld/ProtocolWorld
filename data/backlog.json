@@ -340,19 +340,19 @@
   {
    "title": "C. elegans Genotyping by Single-Worm PCR",
    "category": "Model Organisms",
-   "status": "pending",
+   "status": "staged",
    "organism": "C. elegans"
   },
   {
    "title": "Small RNA-seq Library Preparation",
    "category": "Genomics & Sequencing",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "Alkaline Phosphatase Assay",
    "category": "Biochemistry",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
