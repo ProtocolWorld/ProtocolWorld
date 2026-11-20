@@ -358,19 +358,19 @@
   {
    "title": "Flow Cytometry Compensation and Gating",
    "category": "Immunology",
-   "status": "pending",
+   "status": "staged",
    "organism": "Mammalian Cells"
   },
   {
    "title": "RNA Extraction with Silica Spin Columns",
    "category": "Molecular Biology",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "Golden Gate Assembly",
    "category": "Cloning & CRISPR",
-   "status": "pending",
+   "status": "staged",
    "organism": "E. coli & Bacteria"
   },
   {

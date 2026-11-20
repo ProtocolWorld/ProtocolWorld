@@ -277,6 +277,108 @@
    "word_file": "uploads/alkaline-phosphatase-assay.docx",
    "pptx_file": "uploads/alkaline-phosphatase-assay.pptx",
    "staged_dir": "review/2026-11-20/"
+  },
+  {
+   "title": "Flow Cytometry Compensation and Gating",
+   "category": "Immunology",
+   "organism": "Mammalian Cells",
+   "date": "2026-11-20",
+   "duration": "About 3 h",
+   "summary": "Set PMT voltages, build a compensation matrix from single-stained controls, use FMO controls and apply a reproducible gating hierarchy for multicolor flow cytometry of mammalian cells.",
+   "keywords": "flow cytometry compensation gating FMO single-stained controls spillover PMT voltage singlets viability",
+   "sources": [
+    {
+     "citation": "University of Texas Health Science Center at Houston, Brown Foundation Institute of Molecular Medicine. Compensation Controls (flow cytometry services protocols and guidelines).",
+     "link": "https://med.uth.edu/imm/flow-cytometry-services/protocols-and-guidelines/compensation-controls/"
+    },
+    {
+     "citation": "Oliveira B. Single stain controls and gating: flow cytometry post-its. MSKCC Flow Cytometry Core; 2021 (hosted by the Whitehead Institute).",
+     "link": "https://wi.mit.edu/sites/default/files/2021-06/20210215%20Flow%20Post-it%20Single%20Stain%20Controls%20and%20Gating.pdf"
+    },
+    {
+     "citation": "Roederer M. Compensation in flow cytometry. Current Protocols in Cytometry, Unit 1.14, Supplement 22. John Wiley & Sons; 2002.",
+     "link": "https://medschool.cuanschutz.edu/docs/librariesprovider52/main-research/shared-resources/flow-cytometry/cell-analysis/compensation-and-fmo-controls.pdf"
+    },
+    {
+     "citation": "Roca CP, Burton OT, Gergelits V, et al. AutoSpill is a principled framework that simplifies the analysis of multichromatic flow cytometry data. Nature Communications. 2021;12:2890.",
+     "link": "https://doi.org/10.1038/s41467-021-23126-8"
+    },
+    {
+     "citation": "University of Texas Health Science Center at Houston. FMO Controls (flow cytometry services protocols and guidelines).",
+     "link": "https://med.uth.edu/imm/flow-cytometry-services/protocols-and-guidelines/fmo-controls/"
+    },
+    {
+     "citation": "University of Texas Health Science Center at Houston. PMT Voltage Optimization (flow cytometry services protocols and guidelines).",
+     "link": "https://med.uth.edu/imm/flow-cytometry-services/protocols-and-guidelines/pmt-voltage-optimization/"
+    }
+   ],
+   "word_file": "uploads/flow-cytometry-compensation-and-gating.docx",
+   "pptx_file": "uploads/flow-cytometry-compensation-and-gating.pptx",
+   "staged_dir": "review/2026-11-20/"
+  },
+  {
+   "title": "RNA Extraction with Silica Spin Columns",
+   "category": "Molecular Biology",
+   "organism": "General Lab Methods",
+   "date": "2026-11-20",
+   "duration": "About 45 min",
+   "summary": "Purify total RNA from cultured cells with guanidine lysis and a silica spin column, with optional on-column DNase, quality checks and troubleshooting.",
+   "keywords": "RNA extraction silica spin column RNeasy guanidine lysis DNase A260/280 total RNA",
+   "sources": [
+    {
+     "citation": "QIAGEN. RNeasy Mini Handbook, 4th edition. June 2012.",
+     "link": "https://plantpath.ifas.ufl.edu/classes/PLP4222-PLP6223/documents/RneasyPlantMiniExtractionHandbook.pdf"
+    },
+    {
+     "citation": "QIAGEN. RNeasy Mini Handbook, 3rd edition. June 2001.",
+     "link": "https://health.ucdavis.edu/cancer/research/pdf/qiagenrneasyprotocol.pdf"
+    },
+    {
+     "citation": "Zymo Research. Quick-RNA Miniprep Kit, instruction manual, catalog nos. R1054 and R1055, ver. 3.2.2.",
+     "link": "https://d2gsy6rsbfrvyb.cloudfront.net/media/amasty/amfile/attach/_R1054_R1055_Quick-RNA_Miniprep_Kit_ver.3.2.2.pdf"
+    },
+    {
+     "citation": "Chomczynski P, Sacchi N. The single-step method of RNA isolation by acid guanidinium thiocyanate–phenol–chloroform extraction: twenty-something years on. Nature Protocols. 2006;1(2):581–585.",
+     "link": "https://doi.org/10.1038/nprot.2006.83"
+    },
+    {
+     "citation": "QIAGEN. miRNeasy Mini Handbook. October 2007.",
+     "link": "https://dkfz.de/fileadmin/user_upload/Abteilungen/W110/Downloads/Qiagen_miRNeasy_Mini_Handbook.pdf"
+    }
+   ],
+   "word_file": "uploads/rna-extraction-with-silica-spin-columns.docx",
+   "pptx_file": "uploads/rna-extraction-with-silica-spin-columns.pptx",
+   "staged_dir": "review/2026-11-20/"
+  },
+  {
+   "title": "Golden Gate Assembly",
+   "category": "Cloning & CRISPR",
+   "organism": "E. coli & Bacteria",
+   "date": "2026-11-20",
+   "duration": "About 2 h + overnight",
+   "summary": "One-pot Type IIS assembly of multiple DNA fragments with BsaI-HFv2 and T4 ligase, including thermocycling programs by fragment number, E. coli transformation and screening.",
+   "keywords": "Golden Gate assembly BsaI-HFv2 Type IIS cloning overhang T4 ligase E. coli",
+   "sources": [
+    {
+     "citation": "New England Biolabs. NEBridge Golden Gate Assembly Kit (BsaI-HFv2), NEB #E1601: instruction manual, version 5.0.",
+     "link": "https://www.neb.com/-/media/nebus/files/manuals/manuale1601.pdf"
+    },
+    {
+     "citation": "New England Biolabs. Golden Gate Assembly Protocol for Using NEBridge Golden Gate Assembly Kit (BsaI-HFv2) (E1601).",
+     "link": "https://neb.com/en-gb/protocols/2018/10/02/golden-gate-assembly-protocol-for-using-neb-golden-gate-assembly-mix-e1601"
+    },
+    {
+     "citation": "New England Biolabs. Insert Considerations When Using NEBridge Golden Gate Assembly Kit (BsaI-HFv2) (NEB #E1601).",
+     "link": "https://www.neb.com/en/tools-and-resources/usage-guidelines/insert-considerations-when-using-neb-golden-gate-assembly-kit-bsai-hfv2-neb-e1601"
+    },
+    {
+     "citation": "New England Biolabs. Technical Tips for Optimizing Golden Gate Assembly Reactions.",
+     "link": "https://www.neb.com/tools-and-resources/usage-guidelines/technical-tips-for-optimizing-golden-gate-assembly-reactions"
+    }
+   ],
+   "word_file": "uploads/golden-gate-assembly.docx",
+   "pptx_file": "uploads/golden-gate-assembly.pptx",
+   "staged_dir": "review/2026-11-20/"
   }
  ]
 }
