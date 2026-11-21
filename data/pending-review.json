@@ -493,6 +493,104 @@
    "word_file": "uploads/endospore-staining.docx",
    "pptx_file": "uploads/endospore-staining.pptx",
    "staged_dir": "review/2026-11-21/"
+  },
+  {
+   "title": "C. elegans Microinjection",
+   "category": "Model Organisms",
+   "organism": "C. elegans",
+   "date": "2026-11-21",
+   "duration": "About 3 h (plus 3–5 days for F1 screening)",
+   "summary": "Introduce plasmid DNA into the C. elegans distal gonad by microinjection to generate extrachromosomal-array transgenic lines, with a rol-6 or fluorescent co-injection marker, F1 screening and line maintenance.",
+   "keywords": "C. elegans microinjection transgenesis extrachromosomal array gonad injection rol-6 pRF4 co-injection marker halocarbon oil agarose pad F1 screen",
+   "sources": [
+    {
+     "citation": "Rieckher M, Tavernarakis N. Generation of Caenorhabditis elegans transgenic animals by DNA microinjection. Bio-protocol. 2017;7(19):e2565. doi:10.21769/BioProtoc.2565.",
+     "link": "https://bio-protocol.org/e2565"
+    },
+    {
+     "citation": "Mello CC, Kramer JM, Stinchcomb D, Ambros V. Efficient gene transfer in C. elegans: extrachromosomal maintenance and integration of transforming sequences. EMBO J. 1991;10(12):3959–3970.",
+     "link": "https://www.umassmed.edu/globalassets/mellolab/documents/publications/mello_worm_transformation_1991.pdf"
+    },
+    {
+     "citation": "Praitis V, Maduro MF. Transgenesis in C. elegans. Methods Cell Biol. 2011;106:161 ff. (chapter 6). doi:10.1016/B978-0-12-544172-8.00006-2.",
+     "link": "https://faculty.ucr.edu/~mmaduro/papers/Praitis&Maduro(2011).pdf"
+    },
+    {
+     "citation": "Unattributed laboratory handout: Protocol for C. elegans transgenesis (Caltech WormLab document 14073; undated).",
+     "link": "https://wormlab.caltech.edu/documents/14073/C._elegnas_transgenesis.pdf"
+    },
+    {
+     "citation": "Ghanta KS, Ishidate T, Mello CC. Microinjection for precision genome editing in Caenorhabditis elegans. STAR Protocols. 2021;2(3):100748. doi:10.1016/j.xpro.2021.100748.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8417391"
+    }
+   ],
+   "word_file": "uploads/c-elegans-microinjection.docx",
+   "pptx_file": "uploads/c-elegans-microinjection.pptx",
+   "staged_dir": "review/2026-11-21/"
+  },
+  {
+   "title": "Single-Cell RNA-seq Sample Preparation",
+   "category": "Genomics & Sequencing",
+   "organism": "General Lab Methods",
+   "date": "2026-11-21",
+   "duration": "About 2–4 h",
+   "summary": "Prepare a viable, debris-free single-cell suspension from fresh tissue for droplet-based scRNA-seq: dissociation, filtration, RBC and dead-cell removal, counting and concentration adjustment to 1,000–1,500 cells/µL.",
+   "keywords": "single-cell RNA-seq scRNA-seq sample preparation tissue dissociation 10x Chromium viability single-cell suspension dead cell removal gentleMACS",
+   "sources": [
+    {
+     "citation": "EPFL Gene Expression Core Facility. Samples preparation guidelines for 10X Genomics 3′GE scRNA-seq v4 (version vA.21, 2025).",
+     "link": "https://www.epfl.ch/research/facilities/gene-expression-core-facility/wp-content/uploads/2025/11/Guidelines-10XG-3GE-scRNA-seq-v4-by-GECF-vA.21.pdf"
+    },
+    {
+     "citation": "10x Genomics. Demonstrated Protocol: Tumor Dissociation for Single Cell RNA Sequencing (CG000147 Rev B).",
+     "link": "https://cdn.10xgenomics.com/image/upload/v1660261285/support-documents/CG000147_Demonstrated_Protocol_Tumor_Dissociation_RevB.pdf"
+    },
+    {
+     "citation": "Pohl ST, Llamazares Prada M, Espinet E, Jurkowska R. Practical considerations for complex tissue dissociation for single-cell transcriptomics. Cardiff University.",
+     "link": "https://orca.cardiff.ac.uk/154949/3/Practical%20considerations%20for%20complex%20tissue%20dissociation%20for%20single-cell%20transcriptomics.pdf"
+    },
+    {
+     "citation": "Quintanal-Villalonga A, Chan JM, et al. Protocol to dissociate, process, and analyze the human lung tissue using single-cell RNA-seq. STAR Protocols. 2022;3(4):101776. doi:10.1016/j.xpro.2022.101776.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9597186"
+    }
+   ],
+   "word_file": "uploads/single-cell-rna-seq-sample-preparation.docx",
+   "pptx_file": "uploads/single-cell-rna-seq-sample-preparation.pptx",
+   "staged_dir": "review/2026-11-21/"
+  },
+  {
+   "title": "Beta-Galactosidase Activity Assay",
+   "category": "Biochemistry",
+   "organism": "General Lab Methods",
+   "date": "2026-11-21",
+   "duration": "About 2 h (plus culture growth)",
+   "summary": "Measure lacZ β-galactosidase activity in chloroform/SDS-permeabilized E. coli with ONPG and calculate Miller units from A420, A550, reaction time, culture volume and OD600.",
+   "keywords": "beta-galactosidase lacZ ONPG Miller units reporter assay E. coli o-nitrophenol Z buffer chloroform SDS",
+   "sources": [
+    {
+     "citation": "Price-Carter M (Roth lab). β-Galactosidase Activity Assay. University of California, Davis; protocol page maintained by E. Kofoid (updated 2024).",
+     "link": "https://rothlab.ucdavis.edu/protocols/beta-galactosidase-3.shtml"
+    },
+    {
+     "citation": "Lawrence J (Roth lab). Genetics: β-Galactosidase Assays (G50). University of California, Davis; protocol page maintained by E. Kofoid (updated 2024).",
+     "link": "https://rothlab.ucdavis.edu/protocols/G50.shtml"
+    },
+    {
+     "citation": "University of Georgia. β-Galactosidase (assay handout), April 1, 2003.",
+     "link": "https://www.cmbe.engr.uga.edu/assays/betagalactosidase.pdf"
+    },
+    {
+     "citation": "Schaefer J, Jovanovic G, Kotta-Loizou I, Buck M. Single-step method for β-galactosidase assays in Escherichia coli using a 96-well microplate reader. Anal Biochem. 2016;503:56–57. doi:10.1016/j.ab.2016.03.017.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4865525"
+    },
+    {
+     "citation": "Young lab, University of Washington. β-Galactosidase assays (based on Miller JH, 1972), 2005.",
+     "link": "https://depts.washington.edu/younglab/otherprotocols%28htm%29/betagal.htm"
+    }
+   ],
+   "word_file": "uploads/beta-galactosidase-activity-assay.docx",
+   "pptx_file": "uploads/beta-galactosidase-activity-assay.pptx",
+   "staged_dir": "review/2026-11-21/"
   }
  ]
 }
