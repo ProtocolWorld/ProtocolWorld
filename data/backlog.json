@@ -382,19 +382,19 @@
   {
    "title": "DAPI and Hoechst Nuclear Staining",
    "category": "Imaging & Microscopy",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "Trypan Blue Viability Assay",
    "category": "Cell Culture",
-   "status": "pending",
+   "status": "staged",
    "organism": "Mammalian Cells"
   },
   {
    "title": "Endospore Staining",
    "category": "Microbiology",
-   "status": "pending",
+   "status": "staged",
    "organism": "E. coli & Bacteria"
   },
   {

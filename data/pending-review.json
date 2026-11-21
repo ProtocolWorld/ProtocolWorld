@@ -379,6 +379,120 @@
    "word_file": "uploads/golden-gate-assembly.docx",
    "pptx_file": "uploads/golden-gate-assembly.pptx",
    "staged_dir": "review/2026-11-20/"
+  },
+  {
+   "title": "DAPI and Hoechst Nuclear Staining",
+   "category": "Imaging & Microscopy",
+   "organism": "General Lab Methods",
+   "date": "2026-11-21",
+   "duration": "About 1.5 h (fixed cells) or 45 min (live cells)",
+   "summary": "Counterstain nuclei with DAPI in fixed cells or tissue sections and with cell-permeant Hoechst 33342 in live cells, then image with a UV/DAPI filter set.",
+   "keywords": "DAPI Hoechst 33342 nuclear stain counterstain DNA minor groove fixed cells live cells fluorescence microscopy antifade mounting phototoxicity",
+   "sources": [
+    {
+     "citation": "Thermo Fisher Scientific (Invitrogen). Basic DAPI Counterstaining Protocols (DAPI staining of adherent cells, suspension cells and chromosome preparations).",
+     "link": "https://www.thermofisher.com/us/en/home/references/protocols/cell-and-tissue-analysis/dapi-protocol/basic-dapi-counterstaining-protocols"
+    },
+    {
+     "citation": "Thermo Fisher Scientific (Invitrogen). Hoechst 33342 Protocol for High-Content Analysis (live or unfixed cells).",
+     "link": "https://www.thermofisher.com/es/en/home/references/protocols/cell-and-tissue-analysis/protocols/hoechst-33342-hca-protocol.html"
+    },
+    {
+     "citation": "Cold Spring Harbor Protocols. Labeling Nuclear DNA with Hoechst 33342. Cold Spring Harb Protoc 2011; pdb.prot5557 (adapted from Imaging: A Laboratory Manual, CSHL Press, 2010).",
+     "link": "https://cshprotocols.cshlp.org/content/2011/1/pdb.prot5557.full"
+    },
+    {
+     "citation": "Galloway Lab, MIT. Live nuclear staining using Hoechst (laboratory protocol).",
+     "link": "https://gallowaylabmit.github.io/protocols/en/latest/protocols/biochem_and_analytics/hoechst_staining.html"
+    },
+    {
+     "citation": "Sen O, Saurin AT, Higgins JMG. The live cell DNA stain SiR-Hoechst induces DNA damage responses and impairs cell cycle progression. Sci Rep 2018; 8:7898. doi:10.1038/s41598-018-26307-6. (Studies the related far-red probe SiR-Hoechst; cited only for the general risk of DNA damage and phototoxicity with DNA-binding live-cell dyes.)",
+     "link": "https://www.nature.com/articles/s41598-018-26307-6"
+    },
+    {
+     "citation": "Cold Spring Harbor Protocols. Labeling the Nucleus with Fluorescent Dyes for Imaging. Cold Spring Harb Protoc 2008; pdb.prot4950 (adapted from Basic Methods in Microscopy, CSHL Press, 2006).",
+     "link": "https://cshprotocols.cshlp.org/content/2008/4/pdb.prot4950.short"
+    }
+   ],
+   "word_file": "uploads/dapi-hoechst-nuclear-staining.docx",
+   "pptx_file": "uploads/dapi-hoechst-nuclear-staining.pptx",
+   "staged_dir": "review/2026-11-21/"
+  },
+  {
+   "title": "Trypan Blue Viability Assay",
+   "category": "Cell Culture",
+   "organism": "Mammalian Cells",
+   "date": "2026-11-21",
+   "duration": "30–45 min",
+   "summary": "A quick dye-exclusion method to count mammalian cells and estimate the percentage that are alive using 0.4% trypan blue and a hemocytometer. Includes harvesting, 1:1 staining, grid counting and a worked calculation.",
+   "keywords": "trypan blue viability dye exclusion hemocytometer cell counting cell culture live dead cells mammalian viability percent",
+   "sources": [
+    {
+     "citation": "Thermo Fisher Scientific. Trypan Blue Exclusion (Gibco Cell Culture Basics protocol).",
+     "link": "https://www.thermofisher.com/fr/fr/home/references/gibco-cell-culture-basics/cell-culture-protocols/trypan-blue-exclusion.html"
+    },
+    {
+     "citation": "Louis KS, Siegel AC. Cell viability analysis using trypan blue: manual and automated methods. In: Stoddart MJ, ed. Mammalian Cell Viability. Methods in Molecular Biology, vol 740. Humana Press; 2011.",
+     "link": "https://link.springer.com/doi/10.1007/978-1-61779-108-6_2"
+    },
+    {
+     "citation": "STEMCELL Technologies. How to Count Cells with a Hemocytometer (protocol).",
+     "link": "https://www.stemcell.com/technical-resources/how-to-count-cells-with-a-hemocytometer.html"
+    },
+    {
+     "citation": "Abcam. Counting cells using a hemocytometer (protocol).",
+     "link": "https://www.abcam.com/en-us/technical-resources/protocols/counting-cells-using-a-haemocytometer"
+    },
+    {
+     "citation": "Northwestern University Feinberg School of Medicine (Ferreira lab). Trypan Blue Viability Assay: Cells in Suspension (adapted from Strober W. Curr Protoc Immunol, Appendix 3B).",
+     "link": "https://labs.feinberg.northwestern.edu/ferreira/docs/Trypan-Blue-Viability-Assay---Cells-in-Suspension.pdf"
+    },
+    {
+     "citation": "Comparison of trypan blue dye exclusion and fluorometric assays for mammalian cell viability determinations. Biotechnol Prog. 1993;9(6):671–674.",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/7764357/"
+    }
+   ],
+   "word_file": "uploads/trypan-blue-viability-assay.docx",
+   "pptx_file": "uploads/trypan-blue-viability-assay.pptx",
+   "staged_dir": "review/2026-11-21/"
+  },
+  {
+   "title": "Endospore Staining",
+   "category": "Microbiology",
+   "organism": "E. coli & Bacteria",
+   "date": "2026-11-21",
+   "duration": "About 1 h (plus 24–72 h culture growth)",
+   "summary": "Differentially stain bacterial endospores green and vegetative cells pink-red with malachite green and safranin using the Schaeffer–Fulton method, with B. subtilis as the spore-forming positive control and E. coli as the non-spore-forming negative control.",
+   "keywords": "endospore stain Schaeffer-Fulton malachite green safranin Bacillus subtilis E. coli spore Dorner microbiology",
+   "sources": [
+    {
+     "citation": "Hussey MA, Zayaitz A. Endospore Stain Protocol. American Society for Microbiology; 2007 (© 2016).",
+     "link": "https://asm.org/asm/media/protocol-images/endospore-stain-protocol.pdf?ext=.pdf"
+    },
+    {
+     "citation": "MacKenzie E. 27: Endospore Stain. In: IVC Biol 15: Microbiology Lab Manual. Irvine Valley College, LibreTexts Biology.",
+     "link": "https://bio.libretexts.org/Courses/Irvine_Valley_College/IVC_Microbiology_Lab_Manual/27:_ENDOSPORE_STAIN"
+    },
+    {
+     "citation": "Hartline R. 1.12: Endospore Stain. In: Microbiology Laboratory Manual. Lemoore College, LibreTexts Biology; 2023.",
+     "link": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_Laboratory_Manual_(Hartline)/01%3A_Labs/1.12%3A_Endospore_Stain"
+    },
+    {
+     "citation": "Mason A, Raymond J. Endospore Stain. In: Laboratory Exercises in Microbiology; 2022.",
+     "link": "https://open.maricopa.edu/myfirstbook/chapter/endospore-stain/"
+    },
+    {
+     "citation": "Schaeffer AB, Fulton MD. A simplified method of staining endospores. Science. 1933;77(1990):194.",
+     "link": "https://scilit.com/publications/b7bdc8022cd484994c5d6ee742b93b4f"
+    },
+    {
+     "citation": "iGEM Freiburg 2016 team. Sporulation Protocol (Difco Sporulation Medium for B. subtilis).",
+     "link": "https://static.igem.org/mediawiki/2016/7/71/T--Freiburg--SporulationProtocol.pdf"
+    }
+   ],
+   "word_file": "uploads/endospore-staining.docx",
+   "pptx_file": "uploads/endospore-staining.pptx",
+   "staged_dir": "review/2026-11-21/"
   }
  ]
 }
