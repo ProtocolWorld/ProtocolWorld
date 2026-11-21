@@ -112,9 +112,8 @@ fetch("data/site.json", { cache: "no-cache" }).then((r) => r.json()).then((d) =>
 
 function render() {
   const sorted = [...ALL].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
-  const dailies = sorted.filter((p) => p.daily);
-  const latest = (dailies[0] || sorted[0])?.date;
-  const today = (dailies.length ? dailies : sorted).filter((p) => p.date === latest).slice(0, 5);
+  const latest = sorted[0]?.date;
+  const today = sorted.filter((p) => p.date === latest).slice(0, 12);
   $("todayGrid").innerHTML = today.map(card).join("");
   $("todayDate").textContent = latest ? "Added " + fmtDate(latest) : "";
   renderNews(sorted, latest);
