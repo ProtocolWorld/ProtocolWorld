@@ -454,7 +454,7 @@
     {
       "title": "Antibiotic Susceptibility Testing by Disk Diffusion",
       "category": "Microbiology",
-      "status": "pending",
+      "status": "staged",
       "organism": "E. coli & Bacteria"
     },
     {
@@ -472,7 +472,7 @@
     {
       "title": "Luciferase Reporter Assay",
       "category": "Biochemistry",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {

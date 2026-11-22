@@ -1,3 +1,56 @@
 {
-  "pending": []
+  "pending": [
+    {
+      "title": "Antibiotic Susceptibility Testing by Disk Diffusion",
+      "category": "Microbiology",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-22",
+      "duration": "1 h + overnight",
+      "summary": "Standardized Kirby-Bauer disk diffusion on Mueller-Hinton agar: prepare a 0.5 McFarland inoculum, swab a uniform lawn, apply antibiotic disks, incubate at 35 °C, measure inhibition zones and interpret them against CLSI or EUCAST breakpoints with E. coli ATCC 25922 quality control.",
+      "keywords": "antibiotic susceptibility disk diffusion Kirby-Bauer Mueller-Hinton McFarland zone of inhibition E. coli ATCC 25922 CLSI EUCAST AST",
+      "sources": [
+        {
+          "citation": "Hudzicki J. Kirby-Bauer disk diffusion susceptibility test protocol. American Society for Microbiology; 2009.",
+          "link": "https://asm.org/protocols/kirby-bauer-disk-diffusion-susceptibility-test-pro"
+        },
+        {
+          "citation": "European Committee on Antimicrobial Susceptibility Testing (EUCAST). EUCAST disk diffusion method for antimicrobial susceptibility testing, version 7.0. January 2019 (newer versions are available on the EUCAST site).",
+          "link": "https://www.eucast.org/fileadmin/src/media/PDFs/EUCAST_files/Disk_test_documents/2019_manuals/Manual_v_7.0_EUCAST_Disk_Test_2019.pdf"
+        },
+        {
+          "citation": "Ministry of Health, Oman, Directorate General of Specialized Medical Care. Disc diffusion method SOP (MoH/DGSMC/SOP/046/Vers.01). 2023.",
+          "link": "https://moh.gov.om/media/wkilqxd1/disc-diffusion-method-sop.pdf"
+        }
+      ],
+      "word_file": "uploads/antibiotic-susceptibility-testing-by-disk-diffusion.docx",
+      "pptx_file": "uploads/antibiotic-susceptibility-testing-by-disk-diffusion.pptx",
+      "staged_dir": "review/2026-11-22/"
+    },
+    {
+      "title": "Luciferase Reporter Assay",
+      "category": "Biochemistry",
+      "organism": "General Lab Methods",
+      "date": "2026-11-22",
+      "duration": "2–3 days",
+      "summary": "Dual-luciferase reporter assay in transfected mammalian cells: co-transfect a firefly reporter and a Renilla control, lyse with passive lysis buffer, read both luciferases sequentially in a luminometer and normalize to calculate fold change.",
+      "keywords": "luciferase reporter assay dual-luciferase firefly Renilla HEK293T transfection promoter activity passive lysis buffer luminometer normalization",
+      "sources": [
+        {
+          "citation": "Promega Corporation. Dual-Luciferase Reporter Assay System, instructions for use of products E1910 and E1960. Technical Manual TM040, revised 8/23.",
+          "link": "https://www.promega.com/-/media/files/resources/protocols/technical-manuals/0/dual-luciferase-reporter-assay-system-protocol.pdf"
+        },
+        {
+          "citation": "Promega Corporation. Dual-Glo Luciferase Assay System, instructions for use of products E2920, E2940 and E2980. Technical Manual TM058, revised 1/23.",
+          "link": "https://promega.com/-/media/files/resources/protocols/technical-manuals/0/dual-glo-luciferase-assay-system-protocol.pdf"
+        },
+        {
+          "citation": "Tanas MR, Garcia K. Luciferase reporter assay. Bio-protocol Preprint. 2022 May 25.",
+          "link": "https://bio-protocol.org/prep1682"
+        }
+      ],
+      "word_file": "uploads/luciferase-reporter-assay.docx",
+      "pptx_file": "uploads/luciferase-reporter-assay.pptx",
+      "staged_dir": "review/2026-11-22/"
+    }
+  ]
 }
