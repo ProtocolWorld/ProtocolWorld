@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://protocolworld.github.io/ProtocolWorld/</loc><lastmod>2026-11-19</lastmod></url>
-<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/</loc><lastmod>2026-11-19</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/</loc><lastmod>2026-11-22</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/genomic-dna-extraction-from-mammalian-cells.html</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/protein-extraction-from-mammalian-cells-ripa-lysis.html</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/thawing-cryopreserved-cells.html</loc><lastmod>2026-11-14</lastmod></url>
@@ -49,4 +49,29 @@
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/methanol-fixation-for-immunofluorescence.html</loc><lastmod>2026-11-19</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/cell-counting-with-a-hemocytometer.html</loc><lastmod>2026-11-19</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/gram-staining.html</loc><lastmod>2026-11-19</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/c-elegans-crossing-and-male-maintenance.html</loc><lastmod>2026-11-19</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/strand-specific-rna-seq.html</loc><lastmod>2026-11-19</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/lactate-dehydrogenase-ldh-assay.html</loc><lastmod>2026-11-19</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/permeabilization-and-blocking-for-immunostaining.html</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/automated-cell-counting.html</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/acid-fast-staining.html</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/c-elegans-genotyping-by-single-worm-pcr.html</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/small-rna-seq-library-preparation.html</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/alkaline-phosphatase-assay.html</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/flow-cytometry-compensation-and-gating.html</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/rna-extraction-with-silica-spin-columns.html</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/golden-gate-assembly.html</loc><lastmod>2026-11-20</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/dapi-hoechst-nuclear-staining.html</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/trypan-blue-viability-assay.html</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/endospore-staining.html</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/c-elegans-microinjection.html</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/single-cell-rna-seq-sample-preparation.html</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/beta-galactosidase-activity-assay.html</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/intracellular-cytokine-staining.html</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/mrna-purification-with-oligo-dt-beads.html</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/restriction-ligation-subcloning.html</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/wet-tank-transfer-of-proteins.html</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/phalloidin-staining-of-f-actin.html</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/mycoplasma-detection.html</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/c-elegans-crispr-genome-editing.html</loc><lastmod>2026-11-22</lastmod></url>
 </urlset>

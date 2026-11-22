@@ -280,19 +280,19 @@
     {
       "title": "C. elegans Crossing and Male Maintenance",
       "category": "Model Organisms",
-      "status": "staged",
+      "status": "done",
       "organism": "C. elegans"
     },
     {
       "title": "Strand-Specific RNA-seq",
       "category": "Genomics & Sequencing",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Lactate Dehydrogenase (LDH) Assay",
       "category": "Biochemistry",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
@@ -322,55 +322,55 @@
     {
       "title": "Permeabilization and Blocking for Immunostaining",
       "category": "Imaging & Microscopy",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Automated Cell Counting",
       "category": "Cell Culture",
-      "status": "staged",
+      "status": "done",
       "organism": "Mammalian Cells"
     },
     {
       "title": "Acid-Fast Staining",
       "category": "Microbiology",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "C. elegans Genotyping by Single-Worm PCR",
       "category": "Model Organisms",
-      "status": "staged",
+      "status": "done",
       "organism": "C. elegans"
     },
     {
       "title": "Small RNA-seq Library Preparation",
       "category": "Genomics & Sequencing",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Alkaline Phosphatase Assay",
       "category": "Biochemistry",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Flow Cytometry Compensation and Gating",
       "category": "Immunology",
-      "status": "staged",
+      "status": "done",
       "organism": "Mammalian Cells"
     },
     {
       "title": "RNA Extraction with Silica Spin Columns",
       "category": "Molecular Biology",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Golden Gate Assembly",
       "category": "Cloning & CRISPR",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
@@ -382,73 +382,73 @@
     {
       "title": "DAPI and Hoechst Nuclear Staining",
       "category": "Imaging & Microscopy",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Trypan Blue Viability Assay",
       "category": "Cell Culture",
-      "status": "staged",
+      "status": "done",
       "organism": "Mammalian Cells"
     },
     {
       "title": "Endospore Staining",
       "category": "Microbiology",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "C. elegans Microinjection",
       "category": "Model Organisms",
-      "status": "staged",
+      "status": "done",
       "organism": "C. elegans"
     },
     {
       "title": "Single-Cell RNA-seq Sample Preparation",
       "category": "Genomics & Sequencing",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Beta-Galactosidase Activity Assay",
       "category": "Biochemistry",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Intracellular Cytokine Staining",
       "category": "Immunology",
-      "status": "staged",
+      "status": "done",
       "organism": "Mammalian Cells"
     },
     {
       "title": "mRNA Purification with Oligo(dT) Beads",
       "category": "Molecular Biology",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Restriction-Ligation Subcloning",
       "category": "Cloning & CRISPR",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "Wet Tank Transfer of Proteins",
       "category": "Protein Analysis",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Phalloidin Staining of F-Actin",
       "category": "Imaging & Microscopy",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Mycoplasma Detection",
       "category": "Cell Culture",
-      "status": "staged",
+      "status": "done",
       "organism": "Mammalian Cells"
     },
     {
@@ -460,7 +460,7 @@
     {
       "title": "C. elegans CRISPR Genome Editing",
       "category": "Model Organisms",
-      "status": "staged",
+      "status": "done",
       "organism": "C. elegans"
     },
     {
