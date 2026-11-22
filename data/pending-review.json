@@ -689,6 +689,88 @@
       "word_file": "uploads/restriction-ligation-subcloning.docx",
       "pptx_file": "uploads/restriction-ligation-subcloning.pptx",
       "staged_dir": "review/2026-11-21/"
+    },
+    {
+      "title": "Wet Tank Transfer of Proteins",
+      "category": "Protein Analysis",
+      "organism": "General Lab Methods",
+      "date": "2026-11-22",
+      "duration": "About 2.5 h (1 h transfer) or overnight at low voltage",
+      "summary": "Electroblot SDS-PAGE gels onto PVDF or nitrocellulose in a submerged tank, with buffer, methanol/SDS, voltage and cooling adjusted to protein size, and confirm transfer with Ponceau S.",
+      "keywords": "western blot wet tank transfer electroblotting Towbin buffer PVDF nitrocellulose methanol SDS Ponceau S semi-dry SDS-PAGE membrane",
+      "sources": [
+        {
+          "citation": "Goldman A, Ursitti JA, Mozdzanowski J, Speicher DW. Electroblotting from polyacrylamide gels (Unit 10.7). Current Protocols in Protein Science. 2015;82:10.7.1–10.7.16. DOI 10.1002/0471140864.ps1007s82.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4663689"
+        },
+        {
+          "citation": "QIAGEN. Protein analysis: Western blotting. QIAGEN Bench Guide.",
+          "link": "https://www.qiagen.com/us/knowledge-and-support/knowledge-hub/bench-guide/protein/protein-analysis/western-blotting"
+        },
+        {
+          "citation": "benjbuch. SOP 0008 v1: Western blotting (protocol PDF).",
+          "link": "https://benjbuch.github.io/assets/protocols/pdf/sop_0008-v1-blotting_western.pdf"
+        }
+      ],
+      "word_file": "uploads/wet-tank-transfer-of-proteins.docx",
+      "pptx_file": "uploads/wet-tank-transfer-of-proteins.pptx",
+      "staged_dir": "review/2026-11-22/"
+    },
+    {
+      "title": "Phalloidin Staining of F-Actin",
+      "category": "Imaging & Microscopy",
+      "organism": "General Lab Methods",
+      "date": "2026-11-22",
+      "duration": "About 2–3 h",
+      "summary": "Fix cells with methanol-free formaldehyde, permeabilize with Triton X-100 and stain filamentous actin with a fluorescent phalloidin conjugate, with optional DAPI or Hoechst counterstain and antifade mounting.",
+      "keywords": "phalloidin F-actin actin cytoskeleton staining fluorescence microscopy formaldehyde Triton X-100 BSA DAPI Hoechst antifade stress fibers",
+      "sources": [
+        {
+          "citation": "Abcam. Phalloidin staining protocol.",
+          "link": "https://www.abcam.com/en-us/technical-resources/protocols/phalloidin-staining"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Actin Staining Protocol (MP 00354, 2006).",
+          "link": "https://www.thermofisher.com/sg/en/home/references/protocols/cell-and-tissue-analysis/microscopy-protocol/actin-staining-protocol.html"
+        },
+        {
+          "citation": "University of St Andrews School of Medicine. SASoM/METHOD/100.v3: Phalloidin / Hoechst / DAPI staining of cells in vitro (effective 9 September 2021).",
+          "link": "https://med.st-andrews.ac.uk/wp-content/uploads/sites/27/2014/10/SASoM-METHOD-100-Phalloidin-Staining-of-cells.pdf"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Phalloidin FAQs (product P3457).",
+          "link": "https://www.thermofisher.com/order/catalog/product/P3457/faqs"
+        }
+      ],
+      "word_file": "uploads/phalloidin-staining-of-f-actin.docx",
+      "pptx_file": "uploads/phalloidin-staining-of-f-actin.pptx",
+      "staged_dir": "review/2026-11-22/"
+    },
+    {
+      "title": "Mycoplasma Detection",
+      "category": "Cell Culture",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-22",
+      "duration": "PCR: 1 day after at least 4 days of antibiotic-free culture. Hoechst indicator-cell test: 4–6 days",
+      "summary": "Test mammalian cultures for mycoplasma with universal 16S rRNA PCR and Hoechst DNA staining of Vero indicator cells, with positive, negative and internal controls and interpretation guidance.",
+      "keywords": "mycoplasma detection PCR 16S rRNA Hoechst DNA stain Vero indicator cells cell culture contamination quarantine antibiotic-free",
+      "sources": [
+        {
+          "citation": "Siegl D, Kruchem M, Jansky S, Eichler E, Thies D, Hartwig U, Schuppan D, Bockamp E. A PCR protocol to establish standards for routine mycoplasma testing that by design detects over ninety percent of all known mycoplasma species. iScience. 2023;26(5):106724. DOI 10.1016/j.isci.2023.106724.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10192841"
+        },
+        {
+          "citation": "Kazemiha VM, Amanzadeh A, Memarnejadian A, Azari S, Shokrgozar MA, Mahdian R, Bonakdar S. Sensitivity of biochemical test in comparison with other methods for the detection of mycoplasma contamination in human and animal cell lines stored in the National Cell Bank of Iran. Cytotechnology. 2014;66(5):861–873. DOI 10.1007/s10616-013-9640-9.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4158010"
+        },
+        {
+          "citation": "ECACC Laboratory Handbook, 4th ed. Cell Culture Protocol 10: Testing cells for mycoplasma contamination by Hoechst DNA staining. MilliporeSigma technical article (2024).",
+          "link": "https://b2b.sigmaaldrich.com/PH/en/technical-documents/technical-article/microbiological-testing/mycoplasma-testing/testing-for-mycoplasma"
+        }
+      ],
+      "word_file": "uploads/mycoplasma-detection.docx",
+      "pptx_file": "uploads/mycoplasma-detection.pptx",
+      "staged_dir": "review/2026-11-22/"
     }
   ]
 }

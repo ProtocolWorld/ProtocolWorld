@@ -436,19 +436,19 @@
     {
       "title": "Wet Tank Transfer of Proteins",
       "category": "Protein Analysis",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {
       "title": "Phalloidin Staining of F-Actin",
       "category": "Imaging & Microscopy",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {
       "title": "Mycoplasma Detection",
       "category": "Cell Culture",
-      "status": "pending",
+      "status": "staged",
       "organism": "Mammalian Cells"
     },
     {
