@@ -183,6 +183,116 @@
    "word_file": "uploads/ta-cloning.docx",
    "pptx_file": "uploads/ta-cloning.pptx",
    "staged_dir": "review/2026-11-23/"
+  },
+  {
+   "title": "Semi-Dry Transfer of Proteins",
+   "category": "Protein Analysis",
+   "organism": "General Lab Methods",
+   "date": "2026-11-23",
+   "duration": "About 1.5 h",
+   "summary": "Transfer SDS-PAGE proteins to PVDF or nitrocellulose in a plate-electrode semi-dry blotter: buffer recipes, membrane and stack assembly, voltage and time guidelines, Ponceau S verification and troubleshooting.",
+   "keywords": "semi-dry transfer western blot protein transfer PVDF nitrocellulose Bjerrum Schafer-Nielsen Towbin buffer Ponceau S Trans-Blot SD filter paper stack SDS-PAGE immunoblot",
+   "sources": [
+    {
+     "citation": "Bio-Rad Laboratories. Trans-Blot SD Semi-Dry Transfer Cell Instruction Manual, part M13512L.",
+     "link": "https://www.bio-rad.com/sites/default/files/2023-11/Trans-BlotSD_manual_M13512L.pdf"
+    },
+    {
+     "citation": "Abcam. Ponceau S staining: visualization and validation of western blot transfers (Knowledge Center).",
+     "link": "https://www.abcam.com/en-us/knowledge-center/western-blot/ponceau-s-staining-western-blot"
+    },
+    {
+     "citation": "SOP 0008 v1: Blotting, western, compact (semi-dry method). Laboratory SOP collection on GitHub Pages (benjbuch).",
+     "link": "https://benjbuch.github.io/assets/protocols/pdf/sop_0008-v1-blotting_western-compact.pdf"
+    },
+    {
+     "citation": "Bio-Rad Laboratories. Trans-Blot Turbo Transfer System Quick Start Guide, part 10016505 Rev D.",
+     "link": "https://commerce.bio-rad.com/webroot/web/pdf/lsr/literature/10016505D.pdf"
+    },
+    {
+     "citation": "Ding P. Bjerrum Schafer-Nielsen buffer, modified by DING LAB, v1.0. protocols.io (2022).",
+     "link": "https://www.protocols.io/view/bjerrum-schafer-nielsen-buffer-modified-by-ding-la-cdp9s5r6.html"
+    },
+    {
+     "citation": "Gravel P. Protein blotting by the semidry method. In: Walker JM, ed. The Protein Protocols Handbook. Humana Press; 2009.",
+     "link": "https://doi.org/10.1007/978-1-59745-198-7_59"
+    }
+   ],
+   "word_file": "uploads/semi-dry-transfer-of-proteins.docx",
+   "pptx_file": "uploads/semi-dry-transfer-of-proteins.pptx",
+   "staged_dir": "review/2026-11-23/"
+  },
+  {
+   "title": "MitoTracker Staining of Mitochondria",
+   "category": "Imaging & Microscopy",
+   "organism": "General Lab Methods",
+   "date": "2026-11-23",
+   "duration": "About 1.5 h (+1 h if fixed)",
+   "summary": "Label mitochondria in live cultured mammalian cells with MitoTracker dyes: stock preparation, working concentrations, staining and imaging, optional fixation, FCCP depolarization control and troubleshooting.",
+   "keywords": "MitoTracker mitochondria staining live cell imaging CMXRos Deep Red FM Green FM membrane potential FCCP fluorescence microscopy fixation TOM20 mitochondrial morphology",
+   "sources": [
+    {
+     "citation": "Molecular Probes, Thermo Fisher Scientific. MitoTracker Mitochondrion-Selective Probes, product information MP07510 (copy hosted by UMass).",
+     "link": "https://wahoo.cns.umass.edu/sites/default/files/2019-10/Mitotracker%20mp07510.pdf"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. MitoTracker Green FM, product page (catalog no. M7514).",
+     "link": "https://www.thermofisher.com/order/catalog/product/M7514"
+    },
+    {
+     "citation": "Michaelis JB, Bozkurt S, Schäfer JA, Münch C. Monitoring mitochondrial protein import using mitochondrial targeting sequence (MTS)-eGFP. Bio-protocol. 2022;12(24):e4578.",
+     "link": "https://bio-protocol.org/e4578"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. Explore the powerhouse: probes for mitochondrial morphology and function. BioProbes 64, April 2011.",
+     "link": "https://www.thermofisher.com/us/en/home/references/newsletters-and-journals/bioprobes-journal-of-cell-biology-applications/bioprobes-issues-2011/bioprobes-64-april-2011/probes-for-mitochondrial-morphology-and-function-april-2011.html"
+    },
+    {
+     "citation": "AAT Bioquest. MitoTracker dyes: application note (document 02.0239.241210r1).",
+     "link": "https://www.aatbio.com/resources/application-notes/mitotracker"
+    }
+   ],
+   "word_file": "uploads/mitotracker-staining-of-mitochondria.docx",
+   "pptx_file": "uploads/mitotracker-staining-of-mitochondria.pptx",
+   "staged_dir": "review/2026-11-23/"
+  },
+  {
+   "title": "Aseptic Technique and Biosafety Cabinet Use",
+   "category": "Cell Culture",
+   "organism": "Mammalian Cells",
+   "date": "2026-11-23",
+   "duration": "30 min + working time",
+   "summary": "Keep mammalian cell cultures sterile and the worker safe: Class II biosafety cabinet start-up, layout and airflow rules, sterile pipetting, waste handling, shutdown, contamination troubleshooting and cabinet certification.",
+   "keywords": "aseptic technique biosafety cabinet Class II BSC laminar flow cell culture sterile technique contamination mycoplasma 70% ethanol HEPA pipetting waste disinfection bleach",
+   "sources": [
+    {
+     "citation": "Centers for Disease Control and Prevention and National Institutes of Health. Biosafety in Microbiological and Biomedical Laboratories (BMBL), 6th ed., Appendix A: Primary Containment for Biohazards: Biosafety Cabinets (copy hosted by UCSB Environmental Health & Safety).",
+     "link": "https://www.ehs.ucsb.edu/sites/default/files/docs/bs/BMBL_6_Appendix_A.pdf"
+    },
+    {
+     "citation": "Thermo Fisher Scientific (Gibco). Cell Culture Basics: Aseptic technique.",
+     "link": "https://www.thermofisher.com/us/en/home/references/gibco-cell-culture-basics/aseptic-technique"
+    },
+    {
+     "citation": "American Type Culture Collection (ATCC). Animal Cell Culture Guide: tips and techniques for continuous cell lines.",
+     "link": "https://www.atcc.org/resources/culture-guides/animal-cell-culture-guide"
+    },
+    {
+     "citation": "Segeritz CP, Vallier L. Cell culture: growing cells as model systems in vitro. In: Basic Science Methods for Clinical Researchers. Elsevier; 2017:151–172.",
+     "link": "https://doi.org/10.1016/B978-0-12-803077-6.00009-6"
+    },
+    {
+     "citation": "European Collection of Authenticated Cell Cultures (ECACC). Aseptic technique. In: ECACC Laboratory Handbook, 4th ed. (hosted by Sigma-Aldrich).",
+     "link": "https://b2b.sigmaaldrich.com/technical-documents/protocol/cell-culture-and-cell-culture-analysis/mammalian-cell-culture/aseptic-technique"
+    },
+    {
+     "citation": "Unity Health Toronto. Cell Culture Guidelines, document UHT0001952 (revised 2022).",
+     "link": "https://research.unityhealth.to/wp-content/uploads/2023/03/Cell-Culture-Guidelines-SMH.pdf"
+    }
+   ],
+   "word_file": "uploads/aseptic-technique-and-biosafety-cabinet-use.docx",
+   "pptx_file": "uploads/aseptic-technique-and-biosafety-cabinet-use.pptx",
+   "staged_dir": "review/2026-11-23/"
   }
  ]
 }
