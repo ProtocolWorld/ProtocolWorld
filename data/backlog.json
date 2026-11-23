@@ -466,7 +466,7 @@
     {
       "title": "Single-Nucleus RNA-seq Nuclei Isolation",
       "category": "Genomics & Sequencing",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {
@@ -478,13 +478,13 @@
     {
       "title": "Surface Marker Staining for Flow Cytometry",
       "category": "Immunology",
-      "status": "pending",
+      "status": "staged",
       "organism": "Mammalian Cells"
     },
     {
       "title": "RNA Integrity Assessment by Bioanalyzer or TapeStation",
       "category": "Molecular Biology",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {

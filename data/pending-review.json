@@ -51,6 +51,108 @@
       "word_file": "uploads/luciferase-reporter-assay.docx",
       "pptx_file": "uploads/luciferase-reporter-assay.pptx",
       "staged_dir": "review/2026-11-22/"
+    },
+    {
+      "title": "Single-Nucleus RNA-seq Nuclei Isolation",
+      "category": "Genomics & Sequencing",
+      "organism": "General Lab Methods",
+      "date": "2026-11-23",
+      "duration": "1.5–2 h",
+      "summary": "Isolate intact nuclei from flash-frozen tissue for single-nucleus RNA-seq: Dounce homogenization in cold sucrose-based buffer with RNase inhibitor, detergent lysis, BSA-cushion cleanup, filtration, and AO/PI counting to reach 700–1,200 nuclei/µL for droplet platforms such as 10x Chromium.",
+      "keywords": "single nucleus RNA-seq snRNA-seq nuclei isolation frozen tissue Dounce 10x Genomics Chromium RNase inhibitor nuclei counting AO/PI",
+      "sources": [
+        {
+          "citation": "Nadelmann ER, Gorham JM, Reichart D, et al. Isolation of nuclei from mammalian cells and tissues for single-nucleus molecular profiling. Current Protocols. 2021;1(5):e132.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8191490"
+        },
+        {
+          "citation": "Martelotto L. “Frankenstein” protocol for nuclei isolation from fresh and frozen tissue for snRNAseq. 10x Genomics customer-developed protocol.",
+          "link": "https://cdn.10xgenomics.com/image/upload/v1574849709/customer-developed-protocols/frankenstein-protocol-for-nuclei-isolation-from-fresh-and-frozen-tissue.pdf"
+        },
+        {
+          "citation": "Imperial College London, UK DRI Centre. Nuclei isolation method for 10x Single Cell Multiome ATAC + Gene Expression sequencing (sectioned frozen human brain tissue). SOP, 2023.",
+          "link": "https://www.imperial.ac.uk/media/imperial-college/medicine/-uk-dri-centre/SOP-Multiome-Nuclei-isolation-10x.pdf"
+        },
+        {
+          "citation": "Wu Y. P75 Isolation of single nuclei from frozen tissues (version 2). protocols.io, HHMI/Stanford University.",
+          "link": "https://www.protocols.io/view/p75-isolation-of-single-nuclei-from-frozen-tissue-j4xccqxix.pdf"
+        },
+        {
+          "citation": "10x Genomics. Chromium Nuclei Isolation Kit: Sample Prep User Guide (CG000505, Rev A). 2022.",
+          "link": "https://cdn.10xgenomics.com/image/upload/v1660261285/support-documents/CG000505_Chromium_Nuclei_Isolation_KIT_UG_RevA.pdf"
+        }
+      ],
+      "word_file": "uploads/single-nucleus-rna-seq-nuclei-isolation.docx",
+      "pptx_file": "uploads/single-nucleus-rna-seq-nuclei-isolation.pptx",
+      "staged_dir": "review/2026-11-23/"
+    },
+    {
+      "title": "Surface Marker Staining for Flow Cytometry",
+      "category": "Immunology",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-23",
+      "duration": "1.5–2 h",
+      "summary": "Stain cell-surface antigens on live mammalian cells for flow cytometry: antibody titration, Fc block, 30 min cold staining in the dark, washes, viability dye, optional paraformaldehyde fixation, with unstained, FMO and compensation controls.",
+      "keywords": "flow cytometry surface staining FACS antibody titration Fc block viability dye 7-AAD compensation FMO paraformaldehyde immunophenotyping",
+      "sources": [
+        {
+          "citation": "Thermo Fisher Scientific. BestProtocols: Staining cell surface targets for flow cytometry.",
+          "link": "https://www.thermofisher.com/sg/en/home/references/protocols/cell-and-tissue-analysis/protocols/staining-cell-surface-targets-flow-cytometry.html"
+        },
+        {
+          "citation": "Yale University Research. Flow cytometry staining protocol: cell surface staining.",
+          "link": "https://research.yale.edu/documents/flow-cytometry-facs-surface-staining-analysis"
+        },
+        {
+          "citation": "MSKCC Flow Cytometry Core Facility (posted by the Whitehead Institute, MIT). Antibody titration for flow cytometry (Post-it guide). April 2020.",
+          "link": "https://wi.mit.edu/sites/default/files/2021-05/20200420_Post-it_Titration_Final.pdf"
+        },
+        {
+          "citation": "University of South Florida Health, Flow Cytometry Core. Cell staining (surface and indirect/intracellular staining).",
+          "link": "https://health.usf.edu/medicine/corefacilities/flowcytometry/methods-marisela"
+        }
+      ],
+      "word_file": "uploads/surface-marker-staining-for-flow-cytometry.docx",
+      "pptx_file": "uploads/surface-marker-staining-for-flow-cytometry.pptx",
+      "staged_dir": "review/2026-11-23/"
+    },
+    {
+      "title": "RNA Integrity Assessment by Bioanalyzer or TapeStation",
+      "category": "Molecular Biology",
+      "organism": "General Lab Methods",
+      "date": "2026-11-23",
+      "duration": "1–1.5 h",
+      "summary": "Assess RNA concentration and integrity on the Agilent Bioanalyzer (RNA 6000 Nano) or TapeStation (RNA and High Sensitivity RNA ScreenTape): sample and chip preparation, run settings, and interpretation of RIN, RINe and DV200 before RNA-seq.",
+      "keywords": "RNA integrity RIN RINe DV200 Bioanalyzer TapeStation RNA 6000 Nano ScreenTape RNA quality control electropherogram 28S 18S",
+      "sources": [
+        {
+          "citation": "Agilent Technologies. RNA 6000 Nano Kit for 2100 Bioanalyzer Systems: Kit Guide (SD-UF0000075 Rev. E.00). 2023.",
+          "link": "https://www.agilent.com/cs/library/usermanuals/public/G2938-90034_RNA6000Nano_KitGuide.pdf"
+        },
+        {
+          "citation": "Agilent Technologies. RNA ScreenTape Assay for TapeStation Systems: Quick Guide (G2991-90021 Rev. E). 2026.",
+          "link": "https://www.agilent.com/cs/library/usermanuals/public/RNA_QuickGuide.pdf"
+        },
+        {
+          "citation": "Agilent Technologies. High Sensitivity RNA ScreenTape Assay for TapeStation Systems: Quick Guide (G2991-90121 Rev. E). 2026.",
+          "link": "https://www.agilent.com/cs/library/usermanuals/public/HS-RNA_QuickGuide.pdf"
+        },
+        {
+          "citation": "Agilent Technologies. RNA quality assessment with the Agilent automated electrophoresis systems: a comparison of the RIN, RQN, and RINe. Technical overview 5994-7327EN. 2024.",
+          "link": "https://www.agilent.com/cs/library/technicaloverviews/public/overview-rna-quality-automated-electrophoresis-5994-7327EN-agilent.pdf"
+        },
+        {
+          "citation": "Walker JE, Oliver JC, et al. Measuring up: a comparison of TapeStation 4200 and Bioanalyzer 2100 as measurement tools for RNA quality in postmortem human brain samples. Int J Mol Sci. 2023;24(18):13795.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10531353"
+        },
+        {
+          "citation": "Agilent Technologies. A review of RNA analysis using the Agilent automated electrophoresis portfolio. White paper 5994-4629EN. 2022.",
+          "link": "https://www.agilent.com/cs/library/whitepaper/public/whitepaper-rna-analysis-fragment-analyzer-tapestation-bioanalyzer-5994-4629en-agilent.pdf"
+        }
+      ],
+      "word_file": "uploads/rna-integrity-assessment-by-bioanalyzer-or-tapestation.docx",
+      "pptx_file": "uploads/rna-integrity-assessment-by-bioanalyzer-or-tapestation.pptx",
+      "staged_dir": "review/2026-11-23/"
     }
   ]
 }
