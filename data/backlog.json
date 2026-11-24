@@ -454,7 +454,7 @@
     {
       "title": "Antibiotic Susceptibility Testing by Disk Diffusion",
       "category": "Microbiology",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
@@ -466,103 +466,103 @@
     {
       "title": "Single-Nucleus RNA-seq Nuclei Isolation",
       "category": "Genomics & Sequencing",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Luciferase Reporter Assay",
       "category": "Biochemistry",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Surface Marker Staining for Flow Cytometry",
       "category": "Immunology",
-      "status": "staged",
+      "status": "done",
       "organism": "Mammalian Cells"
     },
     {
       "title": "RNA Integrity Assessment by Bioanalyzer or TapeStation",
       "category": "Molecular Biology",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "TA Cloning",
       "category": "Cloning & CRISPR",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "Semi-Dry Transfer of Proteins",
       "category": "Protein Analysis",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "MitoTracker Staining of Mitochondria",
       "category": "Imaging & Microscopy",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Aseptic Technique and Biosafety Cabinet Use",
       "category": "Cell Culture",
-      "status": "staged",
+      "status": "done",
       "organism": "Mammalian Cells"
     },
     {
       "title": "Minimum Inhibitory Concentration (MIC) by Broth Microdilution",
       "category": "Microbiology",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "C. elegans RNAi by Feeding",
       "category": "Model Organisms",
-      "status": "staged",
+      "status": "done",
       "organism": "C. elegans"
     },
     {
       "title": "ChIP-seq Library Preparation",
       "category": "Genomics & Sequencing",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Dual-Luciferase Assay",
       "category": "Biochemistry",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Cell Sorting by FACS",
       "category": "Immunology",
-      "status": "staged",
+      "status": "done",
       "organism": "Mammalian Cells"
     },
     {
       "title": "DNase Treatment of RNA Samples",
       "category": "Molecular Biology",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "TOPO Cloning",
       "category": "Cloning & CRISPR",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "Ponceau S Staining",
       "category": "Protein Analysis",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "LysoTracker Staining of Lysosomes",
       "category": "Imaging & Microscopy",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {

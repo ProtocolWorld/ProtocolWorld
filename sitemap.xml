@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://protocolworld.github.io/ProtocolWorld/</loc><lastmod>2026-11-22</lastmod></url>
-<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/</loc><lastmod>2026-11-24</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/</loc><lastmod>2026-11-24</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/genomic-dna-extraction-from-mammalian-cells.html</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/protein-extraction-from-mammalian-cells-ripa-lysis.html</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/thawing-cryopreserved-cells.html</loc><lastmod>2026-11-14</lastmod></url>
@@ -74,4 +74,22 @@
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/phalloidin-staining-of-f-actin.html</loc><lastmod>2026-11-22</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/mycoplasma-detection.html</loc><lastmod>2026-11-22</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/c-elegans-crispr-genome-editing.html</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/antibiotic-susceptibility-testing-by-disk-diffusion.html</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/luciferase-reporter-assay.html</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/single-nucleus-rna-seq-nuclei-isolation.html</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/surface-marker-staining-for-flow-cytometry.html</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/rna-integrity-assessment-by-bioanalyzer-or-tapestation.html</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/ta-cloning.html</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/semi-dry-transfer-of-proteins.html</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/mitotracker-staining-of-mitochondria.html</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/aseptic-technique-and-biosafety-cabinet-use.html</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/minimum-inhibitory-concentration-mic-by-broth-microdilution.html</loc><lastmod>2026-11-24</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/c-elegans-rnai-by-feeding.html</loc><lastmod>2026-11-24</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/chip-seq-library-preparation.html</loc><lastmod>2026-11-24</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/dual-luciferase-assay.html</loc><lastmod>2026-11-24</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/cell-sorting-by-facs.html</loc><lastmod>2026-11-24</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/dnase-treatment-of-rna-samples.html</loc><lastmod>2026-11-24</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/topo-cloning.html</loc><lastmod>2026-11-24</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/ponceau-s-staining.html</loc><lastmod>2026-11-24</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/lysotracker-staining-of-lysosomes.html</loc><lastmod>2026-11-24</lastmod></url>
 </urlset>
