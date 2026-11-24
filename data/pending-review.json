@@ -399,6 +399,108 @@
    "word_file": "uploads/chip-seq-library-preparation.docx",
    "pptx_file": "uploads/chip-seq-library-preparation.pptx",
    "staged_dir": "review/2026-11-24/"
+  },
+  {
+   "title": "Dual-Luciferase Assay",
+   "category": "Biochemistry",
+   "organism": "General Lab Methods",
+   "date": "2026-11-24",
+   "duration": "2–3 days",
+   "summary": "Sequential firefly and Renilla luciferase readout from one lysate of co-transfected HEK293T cells, using Promega DLR reagents or an in-house alternative, with ratio normalization to correct well-to-well variation.",
+   "keywords": "dual-luciferase DLR firefly Renilla sequential readout normalization ratio HEK293T passive lysis buffer LAR II Stop & Glo injector luminometer pRL-TK co-transfection in-house reagent coelenterazine",
+   "sources": [
+    {
+     "citation": "Promega Corporation. Dual-Luciferase® Reporter Assay System, instructions for use of products E1910 and E1960. Technical Manual TM040, revised 8/23.",
+     "link": "https://www.promega.com/-/media/files/resources/protocols/technical-manuals/0/dual-luciferase-reporter-assay-system-protocol.pdf"
+    },
+    {
+     "citation": "Promega Corporation. Designing a Bioluminescent Reporter Assay: Normalization Options. Promega PubHub.",
+     "link": "https://ch.promega.com/resources/pubhub/bioluminescent-reporter-assay-normalization/"
+    },
+    {
+     "citation": "Winterer J, Schratt G (2022). Luciferase assay (dual-luciferase with in-house reagents). Bio-protocol Preprint.",
+     "link": "https://bio-protocol.org/prep1882"
+    },
+    {
+     "citation": "Branchini BR, Southworth TL, Fontaine DM, et al. (2018). A firefly luciferase dual color bioluminescence reporter assay using two substrates to simultaneously monitor two gene expression events. Scientific Reports 8:5990. doi:10.1038/s41598-018-24278-2",
+     "link": "https://doi.org/10.1038/s41598-018-24278-2"
+    }
+   ],
+   "word_file": "uploads/dual-luciferase-assay.docx",
+   "pptx_file": "uploads/dual-luciferase-assay.pptx",
+   "staged_dir": "review/2026-11-24/"
+  },
+  {
+   "title": "Cell Sorting by FACS",
+   "category": "Immunology",
+   "organism": "Mammalian Cells",
+   "date": "2026-11-24",
+   "duration": "5–8 hours",
+   "summary": "Sort a defined live mammalian cell population by FACS: prepare a filtered single-cell suspension in sort buffer with viability dye, set nozzle and drop delay, gate out doublets, sort into serum-coated tubes and check purity.",
+   "keywords": "FACS cell sorting flow cytometry sorter nozzle drop delay purity yield doublet exclusion viability dye collection tube post-sort purity biosafety aerosol",
+   "sources": [
+    {
+     "citation": "University of Pennsylvania Cytomics Core. Preparing cells for cell sorting (sorter nozzle, buffer and collection guide).",
+     "link": "https://www.med.upenn.edu/cytomics/assets/user-content/flow-docs/preparing-cells-for-cell-sorting.pdf"
+    },
+    {
+     "citation": "Whitehead Institute Flow Cytometry Core. Cell sorting considerations: BD FACSAria. 2021.",
+     "link": "https://wi.mit.edu/sites/default/files/2021-05/Cell%20Sorting%20Considerations_BD%20FACSAria%202021.pdf"
+    },
+    {
+     "citation": "Arnold LW, Lannigan J (2010). Practical issues in high-speed cell sorting. Curr Protoc Cytom 51:1.24.1–1.24.30. doi:10.1002/0471142956.cy0124s51.",
+     "link": "https://doi.org/10.1002/0471142956.cy0124s51"
+    },
+    {
+     "citation": "Holmes KL, Fontes B, Hogarth P, et al. (2014). International Society for the Advancement of Cytometry cell sorter biosafety standards. Cytometry A 85(5):434–453. doi:10.1002/cyto.a.22454.",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/24634405/"
+    },
+    {
+     "citation": "Koch Institute Swanson Biotechnology Center Flow Cytometry Core, MIT. Sorting guidelines.",
+     "link": "https://ki-sbc.mit.edu/files/sbc/imce/flow-cytometry/Sorting%20Guidelines.pdf"
+    }
+   ],
+   "word_file": "uploads/cell-sorting-by-facs.docx",
+   "pptx_file": "uploads/cell-sorting-by-facs.pptx",
+   "staged_dir": "review/2026-11-24/"
+  },
+  {
+   "title": "DNase Treatment of RNA Samples",
+   "category": "Molecular Biology",
+   "organism": "General Lab Methods",
+   "date": "2026-11-24",
+   "duration": "1.5–2 hours",
+   "summary": "Remove contaminating genomic DNA from purified total RNA with RNase-free DNase I or TURBO DNase, inactivate the enzyme, and verify the RNA is DNA-free before RT-qPCR or RNA-seq.",
+   "keywords": "DNase I TURBO DNase genomic DNA removal RNA purification RT-qPCR RNA-seq no-RT control inactivation RNase-free",
+   "sources": [
+    {
+     "citation": "Thermo Fisher Scientific / Ambion. TURBO DNA-free Kit user guide, Publication 1907M (Rev. C, 2007; Cat. AM1907).",
+     "link": "https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2F1907M_turbodnafree_UG.pdf"
+    },
+    {
+     "citation": "New England Biolabs. A typical DNase I reaction protocol (M0303), DNase I (RNase-free).",
+     "link": "https://www.neb.com/en/protocols/a-typical-dnase-i-reaction-protocol-m0303"
+    },
+    {
+     "citation": "Promega Corporation (2018). RQ1 RNase-Free DNase Product Information, literature 9PIM610 (M6101); protocol per lab adaptation of the Promega instructions.",
+     "link": "https://be.promega.com/resources/protocols/product-information-sheets/g/rq1-rnasefree-dnase-protocol/"
+    },
+    {
+     "citation": "QIAGEN (2012). RNeasy Mini Handbook, 4th edition, Appendices D and E (on-column and in-solution DNase digestion with the RNase-Free DNase Set).",
+     "link": "https://plantpath.ifas.ufl.edu/classes/PLP4222-PLP6223/documents/RneasyPlantMiniExtractionHandbook.pdf"
+    },
+    {
+     "citation": "Hashemipetroudi SH, Nematzadeh G, Ahmadian G, Yamchi A, Kuhlmann M (2018). Assessment of DNA contamination in RNA samples based on ribosomal DNA. J Vis Exp 131:e55451.",
+     "link": "https://doi.org/10.3791/55451"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. DNase I demystified (Ambion Tech Support).",
+     "link": "https://www.thermofisher.com/us/en/home/references/ambion-tech-support/nuclease-enzymes/general-articles/dnase-i-demystified.html"
+    }
+   ],
+   "word_file": "uploads/dnase-treatment-of-rna-samples.docx",
+   "pptx_file": "uploads/dnase-treatment-of-rna-samples.pptx",
+   "staged_dir": "review/2026-11-24/"
   }
  ]
 }

@@ -532,19 +532,19 @@
   {
    "title": "Dual-Luciferase Assay",
    "category": "Biochemistry",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "Cell Sorting by FACS",
    "category": "Immunology",
-   "status": "pending",
+   "status": "staged",
    "organism": "Mammalian Cells"
   },
   {
    "title": "DNase Treatment of RNA Samples",
    "category": "Molecular Biology",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
