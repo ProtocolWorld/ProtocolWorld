@@ -514,19 +514,19 @@
   {
    "title": "Minimum Inhibitory Concentration (MIC) by Broth Microdilution",
    "category": "Microbiology",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "C. elegans RNAi by Feeding",
    "category": "Model Organisms",
-   "status": "pending",
+   "status": "staged",
    "organism": "C. elegans"
   },
   {
    "title": "ChIP-seq Library Preparation",
    "category": "Genomics & Sequencing",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {

@@ -293,6 +293,112 @@
    "word_file": "uploads/aseptic-technique-and-biosafety-cabinet-use.docx",
    "pptx_file": "uploads/aseptic-technique-and-biosafety-cabinet-use.pptx",
    "staged_dir": "review/2026-11-23/"
+  },
+  {
+   "title": "Minimum Inhibitory Concentration (MIC) by Broth Microdilution",
+   "category": "Microbiology",
+   "organism": "General Lab Methods",
+   "date": "2026-11-24",
+   "duration": "2 h setup + 16–20 h incubation + 30 min reading",
+   "summary": "Determine the lowest antibiotic concentration that stops visible growth of an aerobic bacterial isolate: CAMHB 96-well 2-fold dilution series, 0.5 McFarland inoculum to 5 × 10⁵ CFU/mL, 16–20 h reading, growth/sterility/QC controls and troubleshooting.",
+   "keywords": "minimum inhibitory concentration MIC broth microdilution CAMHB Mueller-Hinton antibiotic susceptibility 96-well McFarland CLSI EUCAST QC strain ATCC 25922 growth control sterility control",
+   "sources": [
+    {
+     "citation": "National Centre for Disease Control, India. Standard Operating Procedure for Antimicrobial Resistance Surveillance, National AMR Surveillance Network (NARS-Net), 2nd ed. Ministry of Health and Family Welfare; January 2023 (broth microdilution, Chapters 2–3).",
+     "link": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/03/58495493521681880873.pdf"
+    },
+    {
+     "citation": "European Committee on Antimicrobial Susceptibility Testing (EUCAST). Reading guide for broth microdilution, version 4.0; January 2022.",
+     "link": "https://www.eucast.org/fileadmin/src/media/PDFs/EUCAST_files/Disk_test_documents/2022_manuals/Reading_guide_BMD_v_4.0_2022.pdf"
+    },
+    {
+     "citation": "Kavanagh A, Ramu S, Gong Y, Cooper MA, Blaskovich MAT. Effects of microplate type and broth additives on microdilution MIC susceptibility assays. Antimicrob Agents Chemother. 2019;63(1):e01760-18.",
+     "link": "https://doi.org/10.1128/AAC.01760-18"
+    },
+    {
+     "citation": "Swebocki T, Barras A, Kocot A, Plotka M, Boukherroub R. Minimum inhibitory concentration (MIC) and minimum bactericidal concentration (MBC) assays using broth microdilution method. protocols.io; 2023.",
+     "link": "https://www.protocols.io/view/minimum-inhibitory-concentration-mic-and-minimum-b-cvpyw5pw.pdf"
+    },
+    {
+     "citation": "Tiwari S, Nizet O, Dillon N. Development of a high-throughput minimum inhibitory concentration (HT-MIC) testing workflow. Front Microbiol. 2023;14:1079033.",
+     "link": "https://doi.org/10.3389/fmicb.2023.1079033"
+    }
+   ],
+   "word_file": "uploads/minimum-inhibitory-concentration-mic-by-broth-microdilution.docx",
+   "pptx_file": "uploads/minimum-inhibitory-concentration-mic-by-broth-microdilution.pptx",
+   "staged_dir": "review/2026-11-24/"
+  },
+  {
+   "title": "C. elegans RNAi by Feeding",
+   "category": "Model Organisms",
+   "organism": "C. elegans",
+   "date": "2026-11-24",
+   "duration": "3 days to prepare + 2–5 days of feeding and scoring",
+   "summary": "Knock down a C. elegans gene by feeding worms HT115(DE3) bacteria expressing dsRNA from L4440: IPTG-carbenicillin NGM plates, overnight induction, L1/L4 worm staging, scoring, controls (L4440, unc-22) and tissue limitations.",
+   "keywords": "C. elegans RNAi feeding HT115 L4440 IPTG carbenicillin NGM dsRNA knockdown unc-22 Ahringer library ORFeome eri-1 rrf-3 worm gene silencing",
+   "sources": [
+    {
+     "citation": "Conte D Jr, MacNeil LT, Walhout AJM, Mello CC. RNA interference in Caenorhabditis elegans. Curr Protoc Mol Biol. 2015;109:26.3.1–26.3.30.",
+     "link": "https://doi.org/10.1002/0471142727.mb2603s109"
+    },
+    {
+     "citation": "Kamath RS, Martinez-Campos M, Zipperlen P, Fraser AG, Ahringer J. Effectiveness of specific RNA-mediated interference through ingested double-stranded RNA in Caenorhabditis elegans. Genome Biol. 2001;2(1):research0002.",
+     "link": "https://doi.org/10.1186/gb-2000-2-1-research0002"
+    },
+    {
+     "citation": "Timmons L, Court DL, Fire A. Ingestion of bacterially expressed dsRNAs can produce specific and potent genetic interference in Caenorhabditis elegans. Gene. 2001;263(1–2):103–112.",
+     "link": "https://doi.org/10.1016/S0378-1119(00)00579-5"
+    },
+    {
+     "citation": "Kamath RS, Fraser AG, Dong Y, et al. Systematic functional analysis of the Caenorhabditis elegans genome using RNAi. Nature. 2003;421:231–237.",
+     "link": "https://doi.org/10.1038/nature01278"
+    },
+    {
+     "citation": "Schedl laboratory, Washington University in St. Louis. Bacteria-mediated (feeding) RNAi protocol (M.-H. Lee; modified by S. Nayak).",
+     "link": "https://sites.wustl.edu/tslab/?p=68"
+    }
+   ],
+   "word_file": "uploads/c-elegans-rnai-by-feeding.docx",
+   "pptx_file": "uploads/c-elegans-rnai-by-feeding.pptx",
+   "staged_dir": "review/2026-11-24/"
+  },
+  {
+   "title": "ChIP-seq Library Preparation",
+   "category": "Genomics & Sequencing",
+   "organism": "General Lab Methods",
+   "date": "2026-11-24",
+   "duration": "1.5 days (about 8–9 h hands-on)",
+   "summary": "Build barcoded Illumina libraries from 1–10 ng of ChIP and input DNA: end prep, adaptor titration, USER ligation, bead cleanup, input-based PCR cycle choice, QC and ENCODE depth/quality guidelines.",
+   "keywords": "ChIP-seq library preparation Illumina NEBNext Ultra II end repair adapter ligation AMPure SPRI PCR cycles Bioanalyzer ENCODE input control adapter dimer low input",
+   "sources": [
+    {
+     "citation": "Bowman SK, Simon MD, Deaton AM, Tolstorukov M, Borowsky ML, Kingston RE. Multiplexed Illumina sequencing libraries from picogram quantities of DNA. BMC Genomics. 2013;14:466.",
+     "link": "https://doi.org/10.1186/1471-2164-14-466"
+    },
+    {
+     "citation": "New England Biolabs. NEBNext Ultra II DNA Library Prep Kit for Illumina (E7645, E7103), instruction manual, version 7.0, September 2022 (copy hosted by Montana State University).",
+     "link": "https://www.montana.edu/mbi/delucalab/documents/manualE7103-E7645.pdf"
+    },
+    {
+     "citation": "Sundaram AYM, Hughes T, Biondi S, et al. A comparative study of ChIP-seq sequencing library preparation methods. BMC Genomics. 2016.",
+     "link": "https://doi.org/10.1186/s12864-016-3135-y"
+    },
+    {
+     "citation": "New England Biolabs. Protocol for use with NEBNext ChIP-seq Library Prep Master Mix Set for Illumina (E6240), 2014.",
+     "link": "https://neb.com/en/protocols/2014/05/23/protocol-for-use-with-nebnext-chip-seq-library-prep-master-mix-set-for-illumina-e6240"
+    },
+    {
+     "citation": "Landt SG, Marinov GK, Kundaje A, et al. ChIP-seq guidelines and practices of the ENCODE and modENCODE consortia. Genome Res. 2012;22(9):1813–1831.",
+     "link": "https://doi.org/10.1101/gr.136184.111"
+    },
+    {
+     "citation": "New England Biolabs. Troubleshooting guide for NEBNext Ultra II and Ultra DNA library prep kits.",
+     "link": "https://www.neb.com/en/tools-and-resources/troubleshooting-guides/troubleshooting-guide-for-nebnext-ultra-ii-and-ultra-dna-library-prep-kits"
+    }
+   ],
+   "word_file": "uploads/chip-seq-library-preparation.docx",
+   "pptx_file": "uploads/chip-seq-library-preparation.pptx",
+   "staged_dir": "review/2026-11-24/"
   }
  ]
 }
