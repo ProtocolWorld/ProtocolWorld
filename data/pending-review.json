@@ -1,506 +1,596 @@
 {
- "pending": [
-  {
-   "title": "Antibiotic Susceptibility Testing by Disk Diffusion",
-   "category": "Microbiology",
-   "organism": "E. coli & Bacteria",
-   "date": "2026-11-22",
-   "duration": "1 h + overnight",
-   "summary": "Standardized Kirby-Bauer disk diffusion on Mueller-Hinton agar: prepare a 0.5 McFarland inoculum, swab a uniform lawn, apply antibiotic disks, incubate at 35 °C, measure inhibition zones and interpret them against CLSI or EUCAST breakpoints with E. coli ATCC 25922 quality control.",
-   "keywords": "antibiotic susceptibility disk diffusion Kirby-Bauer Mueller-Hinton McFarland zone of inhibition E. coli ATCC 25922 CLSI EUCAST AST",
-   "sources": [
+  "pending": [
     {
-     "citation": "Hudzicki J. Kirby-Bauer disk diffusion susceptibility test protocol. American Society for Microbiology; 2009.",
-     "link": "https://asm.org/protocols/kirby-bauer-disk-diffusion-susceptibility-test-pro"
+      "title": "Antibiotic Susceptibility Testing by Disk Diffusion",
+      "category": "Microbiology",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-22",
+      "duration": "1 h + overnight",
+      "summary": "Standardized Kirby-Bauer disk diffusion on Mueller-Hinton agar: prepare a 0.5 McFarland inoculum, swab a uniform lawn, apply antibiotic disks, incubate at 35 °C, measure inhibition zones and interpret them against CLSI or EUCAST breakpoints with E. coli ATCC 25922 quality control.",
+      "keywords": "antibiotic susceptibility disk diffusion Kirby-Bauer Mueller-Hinton McFarland zone of inhibition E. coli ATCC 25922 CLSI EUCAST AST",
+      "sources": [
+        {
+          "citation": "Hudzicki J. Kirby-Bauer disk diffusion susceptibility test protocol. American Society for Microbiology; 2009.",
+          "link": "https://asm.org/protocols/kirby-bauer-disk-diffusion-susceptibility-test-pro"
+        },
+        {
+          "citation": "European Committee on Antimicrobial Susceptibility Testing (EUCAST). EUCAST disk diffusion method for antimicrobial susceptibility testing, version 7.0. January 2019 (newer versions are available on the EUCAST site).",
+          "link": "https://www.eucast.org/fileadmin/src/media/PDFs/EUCAST_files/Disk_test_documents/2019_manuals/Manual_v_7.0_EUCAST_Disk_Test_2019.pdf"
+        },
+        {
+          "citation": "Ministry of Health, Oman, Directorate General of Specialized Medical Care. Disc diffusion method SOP (MoH/DGSMC/SOP/046/Vers.01). 2023.",
+          "link": "https://moh.gov.om/media/wkilqxd1/disc-diffusion-method-sop.pdf"
+        }
+      ],
+      "word_file": "uploads/antibiotic-susceptibility-testing-by-disk-diffusion.docx",
+      "pptx_file": "uploads/antibiotic-susceptibility-testing-by-disk-diffusion.pptx",
+      "staged_dir": "review/2026-11-22/"
     },
     {
-     "citation": "European Committee on Antimicrobial Susceptibility Testing (EUCAST). EUCAST disk diffusion method for antimicrobial susceptibility testing, version 7.0. January 2019 (newer versions are available on the EUCAST site).",
-     "link": "https://www.eucast.org/fileadmin/src/media/PDFs/EUCAST_files/Disk_test_documents/2019_manuals/Manual_v_7.0_EUCAST_Disk_Test_2019.pdf"
+      "title": "Luciferase Reporter Assay",
+      "category": "Biochemistry",
+      "organism": "General Lab Methods",
+      "date": "2026-11-22",
+      "duration": "2–3 days",
+      "summary": "Dual-luciferase reporter assay in transfected mammalian cells: co-transfect a firefly reporter and a Renilla control, lyse with passive lysis buffer, read both luciferases sequentially in a luminometer and normalize to calculate fold change.",
+      "keywords": "luciferase reporter assay dual-luciferase firefly Renilla HEK293T transfection promoter activity passive lysis buffer luminometer normalization",
+      "sources": [
+        {
+          "citation": "Promega Corporation. Dual-Luciferase Reporter Assay System, instructions for use of products E1910 and E1960. Technical Manual TM040, revised 8/23.",
+          "link": "https://www.promega.com/-/media/files/resources/protocols/technical-manuals/0/dual-luciferase-reporter-assay-system-protocol.pdf"
+        },
+        {
+          "citation": "Promega Corporation. Dual-Glo Luciferase Assay System, instructions for use of products E2920, E2940 and E2980. Technical Manual TM058, revised 1/23.",
+          "link": "https://promega.com/-/media/files/resources/protocols/technical-manuals/0/dual-glo-luciferase-assay-system-protocol.pdf"
+        },
+        {
+          "citation": "Tanas MR, Garcia K. Luciferase reporter assay. Bio-protocol Preprint. 2022 May 25.",
+          "link": "https://bio-protocol.org/prep1682"
+        }
+      ],
+      "word_file": "uploads/luciferase-reporter-assay.docx",
+      "pptx_file": "uploads/luciferase-reporter-assay.pptx",
+      "staged_dir": "review/2026-11-22/"
     },
     {
-     "citation": "Ministry of Health, Oman, Directorate General of Specialized Medical Care. Disc diffusion method SOP (MoH/DGSMC/SOP/046/Vers.01). 2023.",
-     "link": "https://moh.gov.om/media/wkilqxd1/disc-diffusion-method-sop.pdf"
+      "title": "Single-Nucleus RNA-seq Nuclei Isolation",
+      "category": "Genomics & Sequencing",
+      "organism": "General Lab Methods",
+      "date": "2026-11-23",
+      "duration": "1.5–2 h",
+      "summary": "Isolate intact nuclei from flash-frozen tissue for single-nucleus RNA-seq: Dounce homogenization in cold sucrose-based buffer with RNase inhibitor, detergent lysis, BSA-cushion cleanup, filtration, and AO/PI counting to reach 700–1,200 nuclei/µL for droplet platforms such as 10x Chromium.",
+      "keywords": "single nucleus RNA-seq snRNA-seq nuclei isolation frozen tissue Dounce 10x Genomics Chromium RNase inhibitor nuclei counting AO/PI",
+      "sources": [
+        {
+          "citation": "Nadelmann ER, Gorham JM, Reichart D, et al. Isolation of nuclei from mammalian cells and tissues for single-nucleus molecular profiling. Current Protocols. 2021;1(5):e132.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8191490"
+        },
+        {
+          "citation": "Martelotto L. “Frankenstein” protocol for nuclei isolation from fresh and frozen tissue for snRNAseq. 10x Genomics customer-developed protocol.",
+          "link": "https://cdn.10xgenomics.com/image/upload/v1574849709/customer-developed-protocols/frankenstein-protocol-for-nuclei-isolation-from-fresh-and-frozen-tissue.pdf"
+        },
+        {
+          "citation": "Imperial College London, UK DRI Centre. Nuclei isolation method for 10x Single Cell Multiome ATAC + Gene Expression sequencing (sectioned frozen human brain tissue). SOP, 2023.",
+          "link": "https://www.imperial.ac.uk/media/imperial-college/medicine/-uk-dri-centre/SOP-Multiome-Nuclei-isolation-10x.pdf"
+        },
+        {
+          "citation": "Wu Y. P75 Isolation of single nuclei from frozen tissues (version 2). protocols.io, HHMI/Stanford University.",
+          "link": "https://www.protocols.io/view/p75-isolation-of-single-nuclei-from-frozen-tissue-j4xccqxix.pdf"
+        },
+        {
+          "citation": "10x Genomics. Chromium Nuclei Isolation Kit: Sample Prep User Guide (CG000505, Rev A). 2022.",
+          "link": "https://cdn.10xgenomics.com/image/upload/v1660261285/support-documents/CG000505_Chromium_Nuclei_Isolation_KIT_UG_RevA.pdf"
+        }
+      ],
+      "word_file": "uploads/single-nucleus-rna-seq-nuclei-isolation.docx",
+      "pptx_file": "uploads/single-nucleus-rna-seq-nuclei-isolation.pptx",
+      "staged_dir": "review/2026-11-23/"
+    },
+    {
+      "title": "Surface Marker Staining for Flow Cytometry",
+      "category": "Immunology",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-23",
+      "duration": "1.5–2 h",
+      "summary": "Stain cell-surface antigens on live mammalian cells for flow cytometry: antibody titration, Fc block, 30 min cold staining in the dark, washes, viability dye, optional paraformaldehyde fixation, with unstained, FMO and compensation controls.",
+      "keywords": "flow cytometry surface staining FACS antibody titration Fc block viability dye 7-AAD compensation FMO paraformaldehyde immunophenotyping",
+      "sources": [
+        {
+          "citation": "Thermo Fisher Scientific. BestProtocols: Staining cell surface targets for flow cytometry.",
+          "link": "https://www.thermofisher.com/sg/en/home/references/protocols/cell-and-tissue-analysis/protocols/staining-cell-surface-targets-flow-cytometry.html"
+        },
+        {
+          "citation": "Yale University Research. Flow cytometry staining protocol: cell surface staining.",
+          "link": "https://research.yale.edu/documents/flow-cytometry-facs-surface-staining-analysis"
+        },
+        {
+          "citation": "MSKCC Flow Cytometry Core Facility (posted by the Whitehead Institute, MIT). Antibody titration for flow cytometry (Post-it guide). April 2020.",
+          "link": "https://wi.mit.edu/sites/default/files/2021-05/20200420_Post-it_Titration_Final.pdf"
+        },
+        {
+          "citation": "University of South Florida Health, Flow Cytometry Core. Cell staining (surface and indirect/intracellular staining).",
+          "link": "https://health.usf.edu/medicine/corefacilities/flowcytometry/methods-marisela"
+        }
+      ],
+      "word_file": "uploads/surface-marker-staining-for-flow-cytometry.docx",
+      "pptx_file": "uploads/surface-marker-staining-for-flow-cytometry.pptx",
+      "staged_dir": "review/2026-11-23/"
+    },
+    {
+      "title": "RNA Integrity Assessment by Bioanalyzer or TapeStation",
+      "category": "Molecular Biology",
+      "organism": "General Lab Methods",
+      "date": "2026-11-23",
+      "duration": "1–1.5 h",
+      "summary": "Assess RNA concentration and integrity on the Agilent Bioanalyzer (RNA 6000 Nano) or TapeStation (RNA and High Sensitivity RNA ScreenTape): sample and chip preparation, run settings, and interpretation of RIN, RINe and DV200 before RNA-seq.",
+      "keywords": "RNA integrity RIN RINe DV200 Bioanalyzer TapeStation RNA 6000 Nano ScreenTape RNA quality control electropherogram 28S 18S",
+      "sources": [
+        {
+          "citation": "Agilent Technologies. RNA 6000 Nano Kit for 2100 Bioanalyzer Systems: Kit Guide (SD-UF0000075 Rev. E.00). 2023.",
+          "link": "https://www.agilent.com/cs/library/usermanuals/public/G2938-90034_RNA6000Nano_KitGuide.pdf"
+        },
+        {
+          "citation": "Agilent Technologies. RNA ScreenTape Assay for TapeStation Systems: Quick Guide (G2991-90021 Rev. E). 2026.",
+          "link": "https://www.agilent.com/cs/library/usermanuals/public/RNA_QuickGuide.pdf"
+        },
+        {
+          "citation": "Agilent Technologies. High Sensitivity RNA ScreenTape Assay for TapeStation Systems: Quick Guide (G2991-90121 Rev. E). 2026.",
+          "link": "https://www.agilent.com/cs/library/usermanuals/public/HS-RNA_QuickGuide.pdf"
+        },
+        {
+          "citation": "Agilent Technologies. RNA quality assessment with the Agilent automated electrophoresis systems: a comparison of the RIN, RQN, and RINe. Technical overview 5994-7327EN. 2024.",
+          "link": "https://www.agilent.com/cs/library/technicaloverviews/public/overview-rna-quality-automated-electrophoresis-5994-7327EN-agilent.pdf"
+        },
+        {
+          "citation": "Walker JE, Oliver JC, et al. Measuring up: a comparison of TapeStation 4200 and Bioanalyzer 2100 as measurement tools for RNA quality in postmortem human brain samples. Int J Mol Sci. 2023;24(18):13795.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10531353"
+        },
+        {
+          "citation": "Agilent Technologies. A review of RNA analysis using the Agilent automated electrophoresis portfolio. White paper 5994-4629EN. 2022.",
+          "link": "https://www.agilent.com/cs/library/whitepaper/public/whitepaper-rna-analysis-fragment-analyzer-tapestation-bioanalyzer-5994-4629en-agilent.pdf"
+        }
+      ],
+      "word_file": "uploads/rna-integrity-assessment-by-bioanalyzer-or-tapestation.docx",
+      "pptx_file": "uploads/rna-integrity-assessment-by-bioanalyzer-or-tapestation.pptx",
+      "staged_dir": "review/2026-11-23/"
+    },
+    {
+      "title": "TA Cloning",
+      "category": "Cloning & CRISPR",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-23",
+      "duration": "1.5 h hands-on + overnight ligation and growth",
+      "summary": "Clone a Taq-amplified PCR product into a pGEM-T style T-vector: insert:vector calculation, optional A-tailing, ligation, heat-shock transformation of lacZΔM15 E. coli, blue/white screening and colony PCR confirmation.",
+      "keywords": "TA cloning PCR product cloning pGEM-T T-vector Taq 3' A overhang T4 DNA ligase blue white screening X-Gal IPTG lacZ colony PCR transformation JM109",
+      "sources": [
+        {
+          "citation": "Cold Spring Harbor Protocols. Cloning Polymerase Chain Reaction (PCR) Products: TA Cloning (Molecular Cloning collection; Green MR, Sambrook J, eds.).",
+          "link": "https://cshprotocols.cshlp.org/content/2021/6/pdb.prot101303.full"
+        },
+        {
+          "citation": "Promega Corporation. pGEM-T and pGEM-T Easy Vector Systems Technical Manual TM042 (Revised 5/07). Madison, WI.",
+          "link": "https://www.med.upenn.edu/robertsonlab/assets/user-content/documents/pgem-t-and-pgem-t-easy-vector-systems.pdf"
+        },
+        {
+          "citation": "Wagner T. PCR cloning with blue/white selection and easy insert excision. protocols.io, V.2 (2018).",
+          "link": "https://dx.doi.org/10.17504/protocols.io.t89erz6"
+        },
+        {
+          "citation": "ENS de Lyon, Groupe d'Information et de Soutien à la Vie (GISV). pGEM-T cloning (molecular biology protocols).",
+          "link": "https://www.ens-lyon.fr/LBMC/gisv/index.php/en/protocols/molecular-biology/184-pgem-t-cloning"
+        }
+      ],
+      "word_file": "uploads/ta-cloning.docx",
+      "pptx_file": "uploads/ta-cloning.pptx",
+      "staged_dir": "review/2026-11-23/"
+    },
+    {
+      "title": "Semi-Dry Transfer of Proteins",
+      "category": "Protein Analysis",
+      "organism": "General Lab Methods",
+      "date": "2026-11-23",
+      "duration": "About 1.5 h",
+      "summary": "Transfer SDS-PAGE proteins to PVDF or nitrocellulose in a plate-electrode semi-dry blotter: buffer recipes, membrane and stack assembly, voltage and time guidelines, Ponceau S verification and troubleshooting.",
+      "keywords": "semi-dry transfer western blot protein transfer PVDF nitrocellulose Bjerrum Schafer-Nielsen Towbin buffer Ponceau S Trans-Blot SD filter paper stack SDS-PAGE immunoblot",
+      "sources": [
+        {
+          "citation": "Bio-Rad Laboratories. Trans-Blot SD Semi-Dry Transfer Cell Instruction Manual, part M13512L.",
+          "link": "https://www.bio-rad.com/sites/default/files/2023-11/Trans-BlotSD_manual_M13512L.pdf"
+        },
+        {
+          "citation": "Abcam. Ponceau S staining: visualization and validation of western blot transfers (Knowledge Center).",
+          "link": "https://www.abcam.com/en-us/knowledge-center/western-blot/ponceau-s-staining-western-blot"
+        },
+        {
+          "citation": "SOP 0008 v1: Blotting, western, compact (semi-dry method). Laboratory SOP collection on GitHub Pages (benjbuch).",
+          "link": "https://benjbuch.github.io/assets/protocols/pdf/sop_0008-v1-blotting_western-compact.pdf"
+        },
+        {
+          "citation": "Bio-Rad Laboratories. Trans-Blot Turbo Transfer System Quick Start Guide, part 10016505 Rev D.",
+          "link": "https://commerce.bio-rad.com/webroot/web/pdf/lsr/literature/10016505D.pdf"
+        },
+        {
+          "citation": "Ding P. Bjerrum Schafer-Nielsen buffer, modified by DING LAB, v1.0. protocols.io (2022).",
+          "link": "https://www.protocols.io/view/bjerrum-schafer-nielsen-buffer-modified-by-ding-la-cdp9s5r6.html"
+        },
+        {
+          "citation": "Gravel P. Protein blotting by the semidry method. In: Walker JM, ed. The Protein Protocols Handbook. Humana Press; 2009.",
+          "link": "https://doi.org/10.1007/978-1-59745-198-7_59"
+        }
+      ],
+      "word_file": "uploads/semi-dry-transfer-of-proteins.docx",
+      "pptx_file": "uploads/semi-dry-transfer-of-proteins.pptx",
+      "staged_dir": "review/2026-11-23/"
+    },
+    {
+      "title": "MitoTracker Staining of Mitochondria",
+      "category": "Imaging & Microscopy",
+      "organism": "General Lab Methods",
+      "date": "2026-11-23",
+      "duration": "About 1.5 h (+1 h if fixed)",
+      "summary": "Label mitochondria in live cultured mammalian cells with MitoTracker dyes: stock preparation, working concentrations, staining and imaging, optional fixation, FCCP depolarization control and troubleshooting.",
+      "keywords": "MitoTracker mitochondria staining live cell imaging CMXRos Deep Red FM Green FM membrane potential FCCP fluorescence microscopy fixation TOM20 mitochondrial morphology",
+      "sources": [
+        {
+          "citation": "Molecular Probes, Thermo Fisher Scientific. MitoTracker Mitochondrion-Selective Probes, product information MP07510 (copy hosted by UMass).",
+          "link": "https://wahoo.cns.umass.edu/sites/default/files/2019-10/Mitotracker%20mp07510.pdf"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. MitoTracker Green FM, product page (catalog no. M7514).",
+          "link": "https://www.thermofisher.com/order/catalog/product/M7514"
+        },
+        {
+          "citation": "Michaelis JB, Bozkurt S, Schäfer JA, Münch C. Monitoring mitochondrial protein import using mitochondrial targeting sequence (MTS)-eGFP. Bio-protocol. 2022;12(24):e4578.",
+          "link": "https://bio-protocol.org/e4578"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Explore the powerhouse: probes for mitochondrial morphology and function. BioProbes 64, April 2011.",
+          "link": "https://www.thermofisher.com/us/en/home/references/newsletters-and-journals/bioprobes-journal-of-cell-biology-applications/bioprobes-issues-2011/bioprobes-64-april-2011/probes-for-mitochondrial-morphology-and-function-april-2011.html"
+        },
+        {
+          "citation": "AAT Bioquest. MitoTracker dyes: application note (document 02.0239.241210r1).",
+          "link": "https://www.aatbio.com/resources/application-notes/mitotracker"
+        }
+      ],
+      "word_file": "uploads/mitotracker-staining-of-mitochondria.docx",
+      "pptx_file": "uploads/mitotracker-staining-of-mitochondria.pptx",
+      "staged_dir": "review/2026-11-23/"
+    },
+    {
+      "title": "Aseptic Technique and Biosafety Cabinet Use",
+      "category": "Cell Culture",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-23",
+      "duration": "30 min + working time",
+      "summary": "Keep mammalian cell cultures sterile and the worker safe: Class II biosafety cabinet start-up, layout and airflow rules, sterile pipetting, waste handling, shutdown, contamination troubleshooting and cabinet certification.",
+      "keywords": "aseptic technique biosafety cabinet Class II BSC laminar flow cell culture sterile technique contamination mycoplasma 70% ethanol HEPA pipetting waste disinfection bleach",
+      "sources": [
+        {
+          "citation": "Centers for Disease Control and Prevention and National Institutes of Health. Biosafety in Microbiological and Biomedical Laboratories (BMBL), 6th ed., Appendix A: Primary Containment for Biohazards: Biosafety Cabinets (copy hosted by UCSB Environmental Health & Safety).",
+          "link": "https://www.ehs.ucsb.edu/sites/default/files/docs/bs/BMBL_6_Appendix_A.pdf"
+        },
+        {
+          "citation": "Thermo Fisher Scientific (Gibco). Cell Culture Basics: Aseptic technique.",
+          "link": "https://www.thermofisher.com/us/en/home/references/gibco-cell-culture-basics/aseptic-technique"
+        },
+        {
+          "citation": "American Type Culture Collection (ATCC). Animal Cell Culture Guide: tips and techniques for continuous cell lines.",
+          "link": "https://www.atcc.org/resources/culture-guides/animal-cell-culture-guide"
+        },
+        {
+          "citation": "Segeritz CP, Vallier L. Cell culture: growing cells as model systems in vitro. In: Basic Science Methods for Clinical Researchers. Elsevier; 2017:151–172.",
+          "link": "https://doi.org/10.1016/B978-0-12-803077-6.00009-6"
+        },
+        {
+          "citation": "European Collection of Authenticated Cell Cultures (ECACC). Aseptic technique. In: ECACC Laboratory Handbook, 4th ed. (hosted by Sigma-Aldrich).",
+          "link": "https://b2b.sigmaaldrich.com/technical-documents/protocol/cell-culture-and-cell-culture-analysis/mammalian-cell-culture/aseptic-technique"
+        },
+        {
+          "citation": "Unity Health Toronto. Cell Culture Guidelines, document UHT0001952 (revised 2022).",
+          "link": "https://research.unityhealth.to/wp-content/uploads/2023/03/Cell-Culture-Guidelines-SMH.pdf"
+        }
+      ],
+      "word_file": "uploads/aseptic-technique-and-biosafety-cabinet-use.docx",
+      "pptx_file": "uploads/aseptic-technique-and-biosafety-cabinet-use.pptx",
+      "staged_dir": "review/2026-11-23/"
+    },
+    {
+      "title": "Minimum Inhibitory Concentration (MIC) by Broth Microdilution",
+      "category": "Microbiology",
+      "organism": "General Lab Methods",
+      "date": "2026-11-24",
+      "duration": "2 h setup + 16–20 h incubation + 30 min reading",
+      "summary": "Determine the lowest antibiotic concentration that stops visible growth of an aerobic bacterial isolate: CAMHB 96-well 2-fold dilution series, 0.5 McFarland inoculum to 5 × 10⁵ CFU/mL, 16–20 h reading, growth/sterility/QC controls and troubleshooting.",
+      "keywords": "minimum inhibitory concentration MIC broth microdilution CAMHB Mueller-Hinton antibiotic susceptibility 96-well McFarland CLSI EUCAST QC strain ATCC 25922 growth control sterility control",
+      "sources": [
+        {
+          "citation": "National Centre for Disease Control, India. Standard Operating Procedure for Antimicrobial Resistance Surveillance, National AMR Surveillance Network (NARS-Net), 2nd ed. Ministry of Health and Family Welfare; January 2023 (broth microdilution, Chapters 2–3).",
+          "link": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/03/58495493521681880873.pdf"
+        },
+        {
+          "citation": "European Committee on Antimicrobial Susceptibility Testing (EUCAST). Reading guide for broth microdilution, version 4.0; January 2022.",
+          "link": "https://www.eucast.org/fileadmin/src/media/PDFs/EUCAST_files/Disk_test_documents/2022_manuals/Reading_guide_BMD_v_4.0_2022.pdf"
+        },
+        {
+          "citation": "Kavanagh A, Ramu S, Gong Y, Cooper MA, Blaskovich MAT. Effects of microplate type and broth additives on microdilution MIC susceptibility assays. Antimicrob Agents Chemother. 2019;63(1):e01760-18.",
+          "link": "https://doi.org/10.1128/AAC.01760-18"
+        },
+        {
+          "citation": "Swebocki T, Barras A, Kocot A, Plotka M, Boukherroub R. Minimum inhibitory concentration (MIC) and minimum bactericidal concentration (MBC) assays using broth microdilution method. protocols.io; 2023.",
+          "link": "https://www.protocols.io/view/minimum-inhibitory-concentration-mic-and-minimum-b-cvpyw5pw.pdf"
+        },
+        {
+          "citation": "Tiwari S, Nizet O, Dillon N. Development of a high-throughput minimum inhibitory concentration (HT-MIC) testing workflow. Front Microbiol. 2023;14:1079033.",
+          "link": "https://doi.org/10.3389/fmicb.2023.1079033"
+        }
+      ],
+      "word_file": "uploads/minimum-inhibitory-concentration-mic-by-broth-microdilution.docx",
+      "pptx_file": "uploads/minimum-inhibitory-concentration-mic-by-broth-microdilution.pptx",
+      "staged_dir": "review/2026-11-24/"
+    },
+    {
+      "title": "C. elegans RNAi by Feeding",
+      "category": "Model Organisms",
+      "organism": "C. elegans",
+      "date": "2026-11-24",
+      "duration": "3 days to prepare + 2–5 days of feeding and scoring",
+      "summary": "Knock down a C. elegans gene by feeding worms HT115(DE3) bacteria expressing dsRNA from L4440: IPTG-carbenicillin NGM plates, overnight induction, L1/L4 worm staging, scoring, controls (L4440, unc-22) and tissue limitations.",
+      "keywords": "C. elegans RNAi feeding HT115 L4440 IPTG carbenicillin NGM dsRNA knockdown unc-22 Ahringer library ORFeome eri-1 rrf-3 worm gene silencing",
+      "sources": [
+        {
+          "citation": "Conte D Jr, MacNeil LT, Walhout AJM, Mello CC. RNA interference in Caenorhabditis elegans. Curr Protoc Mol Biol. 2015;109:26.3.1–26.3.30.",
+          "link": "https://doi.org/10.1002/0471142727.mb2603s109"
+        },
+        {
+          "citation": "Kamath RS, Martinez-Campos M, Zipperlen P, Fraser AG, Ahringer J. Effectiveness of specific RNA-mediated interference through ingested double-stranded RNA in Caenorhabditis elegans. Genome Biol. 2001;2(1):research0002.",
+          "link": "https://doi.org/10.1186/gb-2000-2-1-research0002"
+        },
+        {
+          "citation": "Timmons L, Court DL, Fire A. Ingestion of bacterially expressed dsRNAs can produce specific and potent genetic interference in Caenorhabditis elegans. Gene. 2001;263(1–2):103–112.",
+          "link": "https://doi.org/10.1016/S0378-1119(00)00579-5"
+        },
+        {
+          "citation": "Kamath RS, Fraser AG, Dong Y, et al. Systematic functional analysis of the Caenorhabditis elegans genome using RNAi. Nature. 2003;421:231–237.",
+          "link": "https://doi.org/10.1038/nature01278"
+        },
+        {
+          "citation": "Schedl laboratory, Washington University in St. Louis. Bacteria-mediated (feeding) RNAi protocol (M.-H. Lee; modified by S. Nayak).",
+          "link": "https://sites.wustl.edu/tslab/?p=68"
+        }
+      ],
+      "word_file": "uploads/c-elegans-rnai-by-feeding.docx",
+      "pptx_file": "uploads/c-elegans-rnai-by-feeding.pptx",
+      "staged_dir": "review/2026-11-24/"
+    },
+    {
+      "title": "ChIP-seq Library Preparation",
+      "category": "Genomics & Sequencing",
+      "organism": "General Lab Methods",
+      "date": "2026-11-24",
+      "duration": "1.5 days (about 8–9 h hands-on)",
+      "summary": "Build barcoded Illumina libraries from 1–10 ng of ChIP and input DNA: end prep, adaptor titration, USER ligation, bead cleanup, input-based PCR cycle choice, QC and ENCODE depth/quality guidelines.",
+      "keywords": "ChIP-seq library preparation Illumina NEBNext Ultra II end repair adapter ligation AMPure SPRI PCR cycles Bioanalyzer ENCODE input control adapter dimer low input",
+      "sources": [
+        {
+          "citation": "Bowman SK, Simon MD, Deaton AM, Tolstorukov M, Borowsky ML, Kingston RE. Multiplexed Illumina sequencing libraries from picogram quantities of DNA. BMC Genomics. 2013;14:466.",
+          "link": "https://doi.org/10.1186/1471-2164-14-466"
+        },
+        {
+          "citation": "New England Biolabs. NEBNext Ultra II DNA Library Prep Kit for Illumina (E7645, E7103), instruction manual, version 7.0, September 2022 (copy hosted by Montana State University).",
+          "link": "https://www.montana.edu/mbi/delucalab/documents/manualE7103-E7645.pdf"
+        },
+        {
+          "citation": "Sundaram AYM, Hughes T, Biondi S, et al. A comparative study of ChIP-seq sequencing library preparation methods. BMC Genomics. 2016.",
+          "link": "https://doi.org/10.1186/s12864-016-3135-y"
+        },
+        {
+          "citation": "New England Biolabs. Protocol for use with NEBNext ChIP-seq Library Prep Master Mix Set for Illumina (E6240), 2014.",
+          "link": "https://neb.com/en/protocols/2014/05/23/protocol-for-use-with-nebnext-chip-seq-library-prep-master-mix-set-for-illumina-e6240"
+        },
+        {
+          "citation": "Landt SG, Marinov GK, Kundaje A, et al. ChIP-seq guidelines and practices of the ENCODE and modENCODE consortia. Genome Res. 2012;22(9):1813–1831.",
+          "link": "https://doi.org/10.1101/gr.136184.111"
+        },
+        {
+          "citation": "New England Biolabs. Troubleshooting guide for NEBNext Ultra II and Ultra DNA library prep kits.",
+          "link": "https://www.neb.com/en/tools-and-resources/troubleshooting-guides/troubleshooting-guide-for-nebnext-ultra-ii-and-ultra-dna-library-prep-kits"
+        }
+      ],
+      "word_file": "uploads/chip-seq-library-preparation.docx",
+      "pptx_file": "uploads/chip-seq-library-preparation.pptx",
+      "staged_dir": "review/2026-11-24/"
+    },
+    {
+      "title": "Dual-Luciferase Assay",
+      "category": "Biochemistry",
+      "organism": "General Lab Methods",
+      "date": "2026-11-24",
+      "duration": "2–3 days",
+      "summary": "Sequential firefly and Renilla luciferase readout from one lysate of co-transfected HEK293T cells, using Promega DLR reagents or an in-house alternative, with ratio normalization to correct well-to-well variation.",
+      "keywords": "dual-luciferase DLR firefly Renilla sequential readout normalization ratio HEK293T passive lysis buffer LAR II Stop & Glo injector luminometer pRL-TK co-transfection in-house reagent coelenterazine",
+      "sources": [
+        {
+          "citation": "Promega Corporation. Dual-Luciferase® Reporter Assay System, instructions for use of products E1910 and E1960. Technical Manual TM040, revised 8/23.",
+          "link": "https://www.promega.com/-/media/files/resources/protocols/technical-manuals/0/dual-luciferase-reporter-assay-system-protocol.pdf"
+        },
+        {
+          "citation": "Promega Corporation. Designing a Bioluminescent Reporter Assay: Normalization Options. Promega PubHub.",
+          "link": "https://ch.promega.com/resources/pubhub/bioluminescent-reporter-assay-normalization/"
+        },
+        {
+          "citation": "Winterer J, Schratt G (2022). Luciferase assay (dual-luciferase with in-house reagents). Bio-protocol Preprint.",
+          "link": "https://bio-protocol.org/prep1882"
+        },
+        {
+          "citation": "Branchini BR, Southworth TL, Fontaine DM, et al. (2018). A firefly luciferase dual color bioluminescence reporter assay using two substrates to simultaneously monitor two gene expression events. Scientific Reports 8:5990. doi:10.1038/s41598-018-24278-2",
+          "link": "https://doi.org/10.1038/s41598-018-24278-2"
+        }
+      ],
+      "word_file": "uploads/dual-luciferase-assay.docx",
+      "pptx_file": "uploads/dual-luciferase-assay.pptx",
+      "staged_dir": "review/2026-11-24/"
+    },
+    {
+      "title": "Cell Sorting by FACS",
+      "category": "Immunology",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-24",
+      "duration": "5–8 hours",
+      "summary": "Sort a defined live mammalian cell population by FACS: prepare a filtered single-cell suspension in sort buffer with viability dye, set nozzle and drop delay, gate out doublets, sort into serum-coated tubes and check purity.",
+      "keywords": "FACS cell sorting flow cytometry sorter nozzle drop delay purity yield doublet exclusion viability dye collection tube post-sort purity biosafety aerosol",
+      "sources": [
+        {
+          "citation": "University of Pennsylvania Cytomics Core. Preparing cells for cell sorting (sorter nozzle, buffer and collection guide).",
+          "link": "https://www.med.upenn.edu/cytomics/assets/user-content/flow-docs/preparing-cells-for-cell-sorting.pdf"
+        },
+        {
+          "citation": "Whitehead Institute Flow Cytometry Core. Cell sorting considerations: BD FACSAria. 2021.",
+          "link": "https://wi.mit.edu/sites/default/files/2021-05/Cell%20Sorting%20Considerations_BD%20FACSAria%202021.pdf"
+        },
+        {
+          "citation": "Arnold LW, Lannigan J (2010). Practical issues in high-speed cell sorting. Curr Protoc Cytom 51:1.24.1–1.24.30. doi:10.1002/0471142956.cy0124s51.",
+          "link": "https://doi.org/10.1002/0471142956.cy0124s51"
+        },
+        {
+          "citation": "Holmes KL, Fontes B, Hogarth P, et al. (2014). International Society for the Advancement of Cytometry cell sorter biosafety standards. Cytometry A 85(5):434–453. doi:10.1002/cyto.a.22454.",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/24634405/"
+        },
+        {
+          "citation": "Koch Institute Swanson Biotechnology Center Flow Cytometry Core, MIT. Sorting guidelines.",
+          "link": "https://ki-sbc.mit.edu/files/sbc/imce/flow-cytometry/Sorting%20Guidelines.pdf"
+        }
+      ],
+      "word_file": "uploads/cell-sorting-by-facs.docx",
+      "pptx_file": "uploads/cell-sorting-by-facs.pptx",
+      "staged_dir": "review/2026-11-24/"
+    },
+    {
+      "title": "DNase Treatment of RNA Samples",
+      "category": "Molecular Biology",
+      "organism": "General Lab Methods",
+      "date": "2026-11-24",
+      "duration": "1.5–2 hours",
+      "summary": "Remove contaminating genomic DNA from purified total RNA with RNase-free DNase I or TURBO DNase, inactivate the enzyme, and verify the RNA is DNA-free before RT-qPCR or RNA-seq.",
+      "keywords": "DNase I TURBO DNase genomic DNA removal RNA purification RT-qPCR RNA-seq no-RT control inactivation RNase-free",
+      "sources": [
+        {
+          "citation": "Thermo Fisher Scientific / Ambion. TURBO DNA-free Kit user guide, Publication 1907M (Rev. C, 2007; Cat. AM1907).",
+          "link": "https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2F1907M_turbodnafree_UG.pdf"
+        },
+        {
+          "citation": "New England Biolabs. A typical DNase I reaction protocol (M0303), DNase I (RNase-free).",
+          "link": "https://www.neb.com/en/protocols/a-typical-dnase-i-reaction-protocol-m0303"
+        },
+        {
+          "citation": "Promega Corporation (2018). RQ1 RNase-Free DNase Product Information, literature 9PIM610 (M6101); protocol per lab adaptation of the Promega instructions.",
+          "link": "https://be.promega.com/resources/protocols/product-information-sheets/g/rq1-rnasefree-dnase-protocol/"
+        },
+        {
+          "citation": "QIAGEN (2012). RNeasy Mini Handbook, 4th edition, Appendices D and E (on-column and in-solution DNase digestion with the RNase-Free DNase Set).",
+          "link": "https://plantpath.ifas.ufl.edu/classes/PLP4222-PLP6223/documents/RneasyPlantMiniExtractionHandbook.pdf"
+        },
+        {
+          "citation": "Hashemipetroudi SH, Nematzadeh G, Ahmadian G, Yamchi A, Kuhlmann M (2018). Assessment of DNA contamination in RNA samples based on ribosomal DNA. J Vis Exp 131:e55451.",
+          "link": "https://doi.org/10.3791/55451"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. DNase I demystified (Ambion Tech Support).",
+          "link": "https://www.thermofisher.com/us/en/home/references/ambion-tech-support/nuclease-enzymes/general-articles/dnase-i-demystified.html"
+        }
+      ],
+      "word_file": "uploads/dnase-treatment-of-rna-samples.docx",
+      "pptx_file": "uploads/dnase-treatment-of-rna-samples.pptx",
+      "staged_dir": "review/2026-11-24/"
+    },
+    {
+      "title": "TOPO Cloning",
+      "category": "Cloning & CRISPR",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-24",
+      "duration": "2 h hands-on + overnight",
+      "summary": "Insert a Taq-amplified PCR product into a TOPO TA vector in 5 minutes without ligase, transform One Shot TOP10 E. coli, and screen blue/white colonies by colony PCR or EcoRI digestion.",
+      "keywords": "TOPO TA cloning topoisomerase I PCR product A-overhang One Shot TOP10 blue white screening X-gal colony PCR",
+      "sources": [
+        {
+          "citation": "Invitrogen Corporation (2006). TOPO TA Cloning Kits: Five-minute cloning of Taq polymerase-amplified PCR products, manual Version U, document 25-0184.",
+          "link": "https://eagle.fish.washington.edu/trilobite/Sites_genefish_100112/Steven/Commercial%20Protocols/Invitrogen%20-%20TOPO%20TA%20Cloning%20Manual.pdf"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. TOPO TA Cloning Kit for Subcloning, with One Shot TOP10 chemically competent E. coli (K450001): frequently asked questions.",
+          "link": "https://www.thermofisher.com/store/v3/products/faqs/K450001"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. TOPO Cloning of blunt-end PCR products (protocol page; blunt-end variant used to cross-check reaction and transformation conditions).",
+          "link": "https://www.thermofisher.com/us/en/home/references/protocols/nucleic-acid-amplification-and-expression-profiling/pcr-protocol/cloning-of-blunt-end-pcr-products"
+        }
+      ],
+      "word_file": "uploads/topo-cloning.docx",
+      "pptx_file": "uploads/topo-cloning.pptx",
+      "staged_dir": "review/2026-11-24/"
+    },
+    {
+      "title": "Ponceau S Staining",
+      "category": "Protein Analysis",
+      "organism": "General Lab Methods",
+      "date": "2026-11-24",
+      "duration": "15–30 min",
+      "summary": "Stain proteins reversibly on nitrocellulose or PVDF with 0.1% Ponceau S in 5% acetic acid to check western blot transfer and loading, then destain before immunodetection.",
+      "keywords": "Ponceau S western blot transfer check total protein stain loading control nitrocellulose PVDF reversible",
+      "sources": [
+        {
+          "citation": "Abcam. Ponceau S staining: Visualization and validation of western blot transfers (Knowledge Center).",
+          "link": "https://www.abcam.com/en-us/knowledge-center/western-blot/ponceau-s-staining-western-blot"
+        },
+        {
+          "citation": "Staining membrane-bound proteins with Ponceau S (2006). Cold Spring Harb Protoc 2006(5):pdb.prot4543.",
+          "link": "https://www.pubmed.gov/22485938/"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Ponceau S Staining Solution, catalog A40000279 (product page).",
+          "link": "https://www.thermofisher.com/order/catalog/product/A40000279"
+        },
+        {
+          "citation": "Ponceau S Stain for Western blots (course handout, University of Washington; undated).",
+          "link": "https://gannet.fish.washington.edu/seashell/bu-owl-halfshell/bu-wikispaces/bio533/mainSpace/files/Ponceau-S-Stain.pdf"
+        }
+      ],
+      "word_file": "uploads/ponceau-s-staining.docx",
+      "pptx_file": "uploads/ponceau-s-staining.pptx",
+      "staged_dir": "review/2026-11-24/"
+    },
+    {
+      "title": "LysoTracker Staining of Lysosomes",
+      "category": "Imaging & Microscopy",
+      "organism": "General Lab Methods",
+      "date": "2026-11-24",
+      "duration": "1.5–3 h",
+      "summary": "Label acidic lysosomes in live cells with 50–75 nM LysoTracker probes, load 30 min to 2 h at 37 °C, and image promptly with appropriate controls.",
+      "keywords": "LysoTracker lysosome acidic organelles live-cell imaging fluorescence Red DND-99 bafilomycin LAMP1",
+      "sources": [
+        {
+          "citation": "Thermo Fisher Scientific. Probes for lysosomes, peroxisomes and yeast vacuoles, Section 12.3, The Molecular Probes Handbook.",
+          "link": "https://www.thermofisher.com/uk/en/home/references/molecular-probes-the-handbook/probes-for-organelles/probes-for-lysosomes-peroxisomes-and-yeast-vacuoles.html"
+        },
+        {
+          "citation": "AAT Bioquest. LysoTracker application note, document 02.0244.250106r1 (updated October 2025).",
+          "link": "https://www.aatbio.com/resources/application-notes/lysotracker"
+        },
+        {
+          "citation": "Molecular Probes, Inc. (1999). LysoTracker and LysoSensor probes, product information MP 07525 (revised 17 May 1999).",
+          "link": "https://homepage.ntu.edu.tw/~chien/TALKOLD/Confocal%20Homepage/Lysotracker.pdf"
+        },
+        {
+          "citation": "ApexBio. Lyso-Tracker Red (B8814) protocol.",
+          "link": "https://www.apexbt.com/downloader/document/B8814/Protocol.pdf"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. LysoTracker Red DND-99, catalog L7528 (product page).",
+          "link": "https://www.thermofisher.com/order/catalog/product/L7528"
+        }
+      ],
+      "word_file": "uploads/lysotracker-staining-of-lysosomes.docx",
+      "pptx_file": "uploads/lysotracker-staining-of-lysosomes.pptx",
+      "staged_dir": "review/2026-11-24/"
     }
-   ],
-   "word_file": "uploads/antibiotic-susceptibility-testing-by-disk-diffusion.docx",
-   "pptx_file": "uploads/antibiotic-susceptibility-testing-by-disk-diffusion.pptx",
-   "staged_dir": "review/2026-11-22/"
-  },
-  {
-   "title": "Luciferase Reporter Assay",
-   "category": "Biochemistry",
-   "organism": "General Lab Methods",
-   "date": "2026-11-22",
-   "duration": "2–3 days",
-   "summary": "Dual-luciferase reporter assay in transfected mammalian cells: co-transfect a firefly reporter and a Renilla control, lyse with passive lysis buffer, read both luciferases sequentially in a luminometer and normalize to calculate fold change.",
-   "keywords": "luciferase reporter assay dual-luciferase firefly Renilla HEK293T transfection promoter activity passive lysis buffer luminometer normalization",
-   "sources": [
-    {
-     "citation": "Promega Corporation. Dual-Luciferase Reporter Assay System, instructions for use of products E1910 and E1960. Technical Manual TM040, revised 8/23.",
-     "link": "https://www.promega.com/-/media/files/resources/protocols/technical-manuals/0/dual-luciferase-reporter-assay-system-protocol.pdf"
-    },
-    {
-     "citation": "Promega Corporation. Dual-Glo Luciferase Assay System, instructions for use of products E2920, E2940 and E2980. Technical Manual TM058, revised 1/23.",
-     "link": "https://promega.com/-/media/files/resources/protocols/technical-manuals/0/dual-glo-luciferase-assay-system-protocol.pdf"
-    },
-    {
-     "citation": "Tanas MR, Garcia K. Luciferase reporter assay. Bio-protocol Preprint. 2022 May 25.",
-     "link": "https://bio-protocol.org/prep1682"
-    }
-   ],
-   "word_file": "uploads/luciferase-reporter-assay.docx",
-   "pptx_file": "uploads/luciferase-reporter-assay.pptx",
-   "staged_dir": "review/2026-11-22/"
-  },
-  {
-   "title": "Single-Nucleus RNA-seq Nuclei Isolation",
-   "category": "Genomics & Sequencing",
-   "organism": "General Lab Methods",
-   "date": "2026-11-23",
-   "duration": "1.5–2 h",
-   "summary": "Isolate intact nuclei from flash-frozen tissue for single-nucleus RNA-seq: Dounce homogenization in cold sucrose-based buffer with RNase inhibitor, detergent lysis, BSA-cushion cleanup, filtration, and AO/PI counting to reach 700–1,200 nuclei/µL for droplet platforms such as 10x Chromium.",
-   "keywords": "single nucleus RNA-seq snRNA-seq nuclei isolation frozen tissue Dounce 10x Genomics Chromium RNase inhibitor nuclei counting AO/PI",
-   "sources": [
-    {
-     "citation": "Nadelmann ER, Gorham JM, Reichart D, et al. Isolation of nuclei from mammalian cells and tissues for single-nucleus molecular profiling. Current Protocols. 2021;1(5):e132.",
-     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8191490"
-    },
-    {
-     "citation": "Martelotto L. “Frankenstein” protocol for nuclei isolation from fresh and frozen tissue for snRNAseq. 10x Genomics customer-developed protocol.",
-     "link": "https://cdn.10xgenomics.com/image/upload/v1574849709/customer-developed-protocols/frankenstein-protocol-for-nuclei-isolation-from-fresh-and-frozen-tissue.pdf"
-    },
-    {
-     "citation": "Imperial College London, UK DRI Centre. Nuclei isolation method for 10x Single Cell Multiome ATAC + Gene Expression sequencing (sectioned frozen human brain tissue). SOP, 2023.",
-     "link": "https://www.imperial.ac.uk/media/imperial-college/medicine/-uk-dri-centre/SOP-Multiome-Nuclei-isolation-10x.pdf"
-    },
-    {
-     "citation": "Wu Y. P75 Isolation of single nuclei from frozen tissues (version 2). protocols.io, HHMI/Stanford University.",
-     "link": "https://www.protocols.io/view/p75-isolation-of-single-nuclei-from-frozen-tissue-j4xccqxix.pdf"
-    },
-    {
-     "citation": "10x Genomics. Chromium Nuclei Isolation Kit: Sample Prep User Guide (CG000505, Rev A). 2022.",
-     "link": "https://cdn.10xgenomics.com/image/upload/v1660261285/support-documents/CG000505_Chromium_Nuclei_Isolation_KIT_UG_RevA.pdf"
-    }
-   ],
-   "word_file": "uploads/single-nucleus-rna-seq-nuclei-isolation.docx",
-   "pptx_file": "uploads/single-nucleus-rna-seq-nuclei-isolation.pptx",
-   "staged_dir": "review/2026-11-23/"
-  },
-  {
-   "title": "Surface Marker Staining for Flow Cytometry",
-   "category": "Immunology",
-   "organism": "Mammalian Cells",
-   "date": "2026-11-23",
-   "duration": "1.5–2 h",
-   "summary": "Stain cell-surface antigens on live mammalian cells for flow cytometry: antibody titration, Fc block, 30 min cold staining in the dark, washes, viability dye, optional paraformaldehyde fixation, with unstained, FMO and compensation controls.",
-   "keywords": "flow cytometry surface staining FACS antibody titration Fc block viability dye 7-AAD compensation FMO paraformaldehyde immunophenotyping",
-   "sources": [
-    {
-     "citation": "Thermo Fisher Scientific. BestProtocols: Staining cell surface targets for flow cytometry.",
-     "link": "https://www.thermofisher.com/sg/en/home/references/protocols/cell-and-tissue-analysis/protocols/staining-cell-surface-targets-flow-cytometry.html"
-    },
-    {
-     "citation": "Yale University Research. Flow cytometry staining protocol: cell surface staining.",
-     "link": "https://research.yale.edu/documents/flow-cytometry-facs-surface-staining-analysis"
-    },
-    {
-     "citation": "MSKCC Flow Cytometry Core Facility (posted by the Whitehead Institute, MIT). Antibody titration for flow cytometry (Post-it guide). April 2020.",
-     "link": "https://wi.mit.edu/sites/default/files/2021-05/20200420_Post-it_Titration_Final.pdf"
-    },
-    {
-     "citation": "University of South Florida Health, Flow Cytometry Core. Cell staining (surface and indirect/intracellular staining).",
-     "link": "https://health.usf.edu/medicine/corefacilities/flowcytometry/methods-marisela"
-    }
-   ],
-   "word_file": "uploads/surface-marker-staining-for-flow-cytometry.docx",
-   "pptx_file": "uploads/surface-marker-staining-for-flow-cytometry.pptx",
-   "staged_dir": "review/2026-11-23/"
-  },
-  {
-   "title": "RNA Integrity Assessment by Bioanalyzer or TapeStation",
-   "category": "Molecular Biology",
-   "organism": "General Lab Methods",
-   "date": "2026-11-23",
-   "duration": "1–1.5 h",
-   "summary": "Assess RNA concentration and integrity on the Agilent Bioanalyzer (RNA 6000 Nano) or TapeStation (RNA and High Sensitivity RNA ScreenTape): sample and chip preparation, run settings, and interpretation of RIN, RINe and DV200 before RNA-seq.",
-   "keywords": "RNA integrity RIN RINe DV200 Bioanalyzer TapeStation RNA 6000 Nano ScreenTape RNA quality control electropherogram 28S 18S",
-   "sources": [
-    {
-     "citation": "Agilent Technologies. RNA 6000 Nano Kit for 2100 Bioanalyzer Systems: Kit Guide (SD-UF0000075 Rev. E.00). 2023.",
-     "link": "https://www.agilent.com/cs/library/usermanuals/public/G2938-90034_RNA6000Nano_KitGuide.pdf"
-    },
-    {
-     "citation": "Agilent Technologies. RNA ScreenTape Assay for TapeStation Systems: Quick Guide (G2991-90021 Rev. E). 2026.",
-     "link": "https://www.agilent.com/cs/library/usermanuals/public/RNA_QuickGuide.pdf"
-    },
-    {
-     "citation": "Agilent Technologies. High Sensitivity RNA ScreenTape Assay for TapeStation Systems: Quick Guide (G2991-90121 Rev. E). 2026.",
-     "link": "https://www.agilent.com/cs/library/usermanuals/public/HS-RNA_QuickGuide.pdf"
-    },
-    {
-     "citation": "Agilent Technologies. RNA quality assessment with the Agilent automated electrophoresis systems: a comparison of the RIN, RQN, and RINe. Technical overview 5994-7327EN. 2024.",
-     "link": "https://www.agilent.com/cs/library/technicaloverviews/public/overview-rna-quality-automated-electrophoresis-5994-7327EN-agilent.pdf"
-    },
-    {
-     "citation": "Walker JE, Oliver JC, et al. Measuring up: a comparison of TapeStation 4200 and Bioanalyzer 2100 as measurement tools for RNA quality in postmortem human brain samples. Int J Mol Sci. 2023;24(18):13795.",
-     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10531353"
-    },
-    {
-     "citation": "Agilent Technologies. A review of RNA analysis using the Agilent automated electrophoresis portfolio. White paper 5994-4629EN. 2022.",
-     "link": "https://www.agilent.com/cs/library/whitepaper/public/whitepaper-rna-analysis-fragment-analyzer-tapestation-bioanalyzer-5994-4629en-agilent.pdf"
-    }
-   ],
-   "word_file": "uploads/rna-integrity-assessment-by-bioanalyzer-or-tapestation.docx",
-   "pptx_file": "uploads/rna-integrity-assessment-by-bioanalyzer-or-tapestation.pptx",
-   "staged_dir": "review/2026-11-23/"
-  },
-  {
-   "title": "TA Cloning",
-   "category": "Cloning & CRISPR",
-   "organism": "E. coli & Bacteria",
-   "date": "2026-11-23",
-   "duration": "1.5 h hands-on + overnight ligation and growth",
-   "summary": "Clone a Taq-amplified PCR product into a pGEM-T style T-vector: insert:vector calculation, optional A-tailing, ligation, heat-shock transformation of lacZΔM15 E. coli, blue/white screening and colony PCR confirmation.",
-   "keywords": "TA cloning PCR product cloning pGEM-T T-vector Taq 3' A overhang T4 DNA ligase blue white screening X-Gal IPTG lacZ colony PCR transformation JM109",
-   "sources": [
-    {
-     "citation": "Cold Spring Harbor Protocols. Cloning Polymerase Chain Reaction (PCR) Products: TA Cloning (Molecular Cloning collection; Green MR, Sambrook J, eds.).",
-     "link": "https://cshprotocols.cshlp.org/content/2021/6/pdb.prot101303.full"
-    },
-    {
-     "citation": "Promega Corporation. pGEM-T and pGEM-T Easy Vector Systems Technical Manual TM042 (Revised 5/07). Madison, WI.",
-     "link": "https://www.med.upenn.edu/robertsonlab/assets/user-content/documents/pgem-t-and-pgem-t-easy-vector-systems.pdf"
-    },
-    {
-     "citation": "Wagner T. PCR cloning with blue/white selection and easy insert excision. protocols.io, V.2 (2018).",
-     "link": "https://dx.doi.org/10.17504/protocols.io.t89erz6"
-    },
-    {
-     "citation": "ENS de Lyon, Groupe d'Information et de Soutien à la Vie (GISV). pGEM-T cloning (molecular biology protocols).",
-     "link": "https://www.ens-lyon.fr/LBMC/gisv/index.php/en/protocols/molecular-biology/184-pgem-t-cloning"
-    }
-   ],
-   "word_file": "uploads/ta-cloning.docx",
-   "pptx_file": "uploads/ta-cloning.pptx",
-   "staged_dir": "review/2026-11-23/"
-  },
-  {
-   "title": "Semi-Dry Transfer of Proteins",
-   "category": "Protein Analysis",
-   "organism": "General Lab Methods",
-   "date": "2026-11-23",
-   "duration": "About 1.5 h",
-   "summary": "Transfer SDS-PAGE proteins to PVDF or nitrocellulose in a plate-electrode semi-dry blotter: buffer recipes, membrane and stack assembly, voltage and time guidelines, Ponceau S verification and troubleshooting.",
-   "keywords": "semi-dry transfer western blot protein transfer PVDF nitrocellulose Bjerrum Schafer-Nielsen Towbin buffer Ponceau S Trans-Blot SD filter paper stack SDS-PAGE immunoblot",
-   "sources": [
-    {
-     "citation": "Bio-Rad Laboratories. Trans-Blot SD Semi-Dry Transfer Cell Instruction Manual, part M13512L.",
-     "link": "https://www.bio-rad.com/sites/default/files/2023-11/Trans-BlotSD_manual_M13512L.pdf"
-    },
-    {
-     "citation": "Abcam. Ponceau S staining: visualization and validation of western blot transfers (Knowledge Center).",
-     "link": "https://www.abcam.com/en-us/knowledge-center/western-blot/ponceau-s-staining-western-blot"
-    },
-    {
-     "citation": "SOP 0008 v1: Blotting, western, compact (semi-dry method). Laboratory SOP collection on GitHub Pages (benjbuch).",
-     "link": "https://benjbuch.github.io/assets/protocols/pdf/sop_0008-v1-blotting_western-compact.pdf"
-    },
-    {
-     "citation": "Bio-Rad Laboratories. Trans-Blot Turbo Transfer System Quick Start Guide, part 10016505 Rev D.",
-     "link": "https://commerce.bio-rad.com/webroot/web/pdf/lsr/literature/10016505D.pdf"
-    },
-    {
-     "citation": "Ding P. Bjerrum Schafer-Nielsen buffer, modified by DING LAB, v1.0. protocols.io (2022).",
-     "link": "https://www.protocols.io/view/bjerrum-schafer-nielsen-buffer-modified-by-ding-la-cdp9s5r6.html"
-    },
-    {
-     "citation": "Gravel P. Protein blotting by the semidry method. In: Walker JM, ed. The Protein Protocols Handbook. Humana Press; 2009.",
-     "link": "https://doi.org/10.1007/978-1-59745-198-7_59"
-    }
-   ],
-   "word_file": "uploads/semi-dry-transfer-of-proteins.docx",
-   "pptx_file": "uploads/semi-dry-transfer-of-proteins.pptx",
-   "staged_dir": "review/2026-11-23/"
-  },
-  {
-   "title": "MitoTracker Staining of Mitochondria",
-   "category": "Imaging & Microscopy",
-   "organism": "General Lab Methods",
-   "date": "2026-11-23",
-   "duration": "About 1.5 h (+1 h if fixed)",
-   "summary": "Label mitochondria in live cultured mammalian cells with MitoTracker dyes: stock preparation, working concentrations, staining and imaging, optional fixation, FCCP depolarization control and troubleshooting.",
-   "keywords": "MitoTracker mitochondria staining live cell imaging CMXRos Deep Red FM Green FM membrane potential FCCP fluorescence microscopy fixation TOM20 mitochondrial morphology",
-   "sources": [
-    {
-     "citation": "Molecular Probes, Thermo Fisher Scientific. MitoTracker Mitochondrion-Selective Probes, product information MP07510 (copy hosted by UMass).",
-     "link": "https://wahoo.cns.umass.edu/sites/default/files/2019-10/Mitotracker%20mp07510.pdf"
-    },
-    {
-     "citation": "Thermo Fisher Scientific. MitoTracker Green FM, product page (catalog no. M7514).",
-     "link": "https://www.thermofisher.com/order/catalog/product/M7514"
-    },
-    {
-     "citation": "Michaelis JB, Bozkurt S, Schäfer JA, Münch C. Monitoring mitochondrial protein import using mitochondrial targeting sequence (MTS)-eGFP. Bio-protocol. 2022;12(24):e4578.",
-     "link": "https://bio-protocol.org/e4578"
-    },
-    {
-     "citation": "Thermo Fisher Scientific. Explore the powerhouse: probes for mitochondrial morphology and function. BioProbes 64, April 2011.",
-     "link": "https://www.thermofisher.com/us/en/home/references/newsletters-and-journals/bioprobes-journal-of-cell-biology-applications/bioprobes-issues-2011/bioprobes-64-april-2011/probes-for-mitochondrial-morphology-and-function-april-2011.html"
-    },
-    {
-     "citation": "AAT Bioquest. MitoTracker dyes: application note (document 02.0239.241210r1).",
-     "link": "https://www.aatbio.com/resources/application-notes/mitotracker"
-    }
-   ],
-   "word_file": "uploads/mitotracker-staining-of-mitochondria.docx",
-   "pptx_file": "uploads/mitotracker-staining-of-mitochondria.pptx",
-   "staged_dir": "review/2026-11-23/"
-  },
-  {
-   "title": "Aseptic Technique and Biosafety Cabinet Use",
-   "category": "Cell Culture",
-   "organism": "Mammalian Cells",
-   "date": "2026-11-23",
-   "duration": "30 min + working time",
-   "summary": "Keep mammalian cell cultures sterile and the worker safe: Class II biosafety cabinet start-up, layout and airflow rules, sterile pipetting, waste handling, shutdown, contamination troubleshooting and cabinet certification.",
-   "keywords": "aseptic technique biosafety cabinet Class II BSC laminar flow cell culture sterile technique contamination mycoplasma 70% ethanol HEPA pipetting waste disinfection bleach",
-   "sources": [
-    {
-     "citation": "Centers for Disease Control and Prevention and National Institutes of Health. Biosafety in Microbiological and Biomedical Laboratories (BMBL), 6th ed., Appendix A: Primary Containment for Biohazards: Biosafety Cabinets (copy hosted by UCSB Environmental Health & Safety).",
-     "link": "https://www.ehs.ucsb.edu/sites/default/files/docs/bs/BMBL_6_Appendix_A.pdf"
-    },
-    {
-     "citation": "Thermo Fisher Scientific (Gibco). Cell Culture Basics: Aseptic technique.",
-     "link": "https://www.thermofisher.com/us/en/home/references/gibco-cell-culture-basics/aseptic-technique"
-    },
-    {
-     "citation": "American Type Culture Collection (ATCC). Animal Cell Culture Guide: tips and techniques for continuous cell lines.",
-     "link": "https://www.atcc.org/resources/culture-guides/animal-cell-culture-guide"
-    },
-    {
-     "citation": "Segeritz CP, Vallier L. Cell culture: growing cells as model systems in vitro. In: Basic Science Methods for Clinical Researchers. Elsevier; 2017:151–172.",
-     "link": "https://doi.org/10.1016/B978-0-12-803077-6.00009-6"
-    },
-    {
-     "citation": "European Collection of Authenticated Cell Cultures (ECACC). Aseptic technique. In: ECACC Laboratory Handbook, 4th ed. (hosted by Sigma-Aldrich).",
-     "link": "https://b2b.sigmaaldrich.com/technical-documents/protocol/cell-culture-and-cell-culture-analysis/mammalian-cell-culture/aseptic-technique"
-    },
-    {
-     "citation": "Unity Health Toronto. Cell Culture Guidelines, document UHT0001952 (revised 2022).",
-     "link": "https://research.unityhealth.to/wp-content/uploads/2023/03/Cell-Culture-Guidelines-SMH.pdf"
-    }
-   ],
-   "word_file": "uploads/aseptic-technique-and-biosafety-cabinet-use.docx",
-   "pptx_file": "uploads/aseptic-technique-and-biosafety-cabinet-use.pptx",
-   "staged_dir": "review/2026-11-23/"
-  },
-  {
-   "title": "Minimum Inhibitory Concentration (MIC) by Broth Microdilution",
-   "category": "Microbiology",
-   "organism": "General Lab Methods",
-   "date": "2026-11-24",
-   "duration": "2 h setup + 16–20 h incubation + 30 min reading",
-   "summary": "Determine the lowest antibiotic concentration that stops visible growth of an aerobic bacterial isolate: CAMHB 96-well 2-fold dilution series, 0.5 McFarland inoculum to 5 × 10⁵ CFU/mL, 16–20 h reading, growth/sterility/QC controls and troubleshooting.",
-   "keywords": "minimum inhibitory concentration MIC broth microdilution CAMHB Mueller-Hinton antibiotic susceptibility 96-well McFarland CLSI EUCAST QC strain ATCC 25922 growth control sterility control",
-   "sources": [
-    {
-     "citation": "National Centre for Disease Control, India. Standard Operating Procedure for Antimicrobial Resistance Surveillance, National AMR Surveillance Network (NARS-Net), 2nd ed. Ministry of Health and Family Welfare; January 2023 (broth microdilution, Chapters 2–3).",
-     "link": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/03/58495493521681880873.pdf"
-    },
-    {
-     "citation": "European Committee on Antimicrobial Susceptibility Testing (EUCAST). Reading guide for broth microdilution, version 4.0; January 2022.",
-     "link": "https://www.eucast.org/fileadmin/src/media/PDFs/EUCAST_files/Disk_test_documents/2022_manuals/Reading_guide_BMD_v_4.0_2022.pdf"
-    },
-    {
-     "citation": "Kavanagh A, Ramu S, Gong Y, Cooper MA, Blaskovich MAT. Effects of microplate type and broth additives on microdilution MIC susceptibility assays. Antimicrob Agents Chemother. 2019;63(1):e01760-18.",
-     "link": "https://doi.org/10.1128/AAC.01760-18"
-    },
-    {
-     "citation": "Swebocki T, Barras A, Kocot A, Plotka M, Boukherroub R. Minimum inhibitory concentration (MIC) and minimum bactericidal concentration (MBC) assays using broth microdilution method. protocols.io; 2023.",
-     "link": "https://www.protocols.io/view/minimum-inhibitory-concentration-mic-and-minimum-b-cvpyw5pw.pdf"
-    },
-    {
-     "citation": "Tiwari S, Nizet O, Dillon N. Development of a high-throughput minimum inhibitory concentration (HT-MIC) testing workflow. Front Microbiol. 2023;14:1079033.",
-     "link": "https://doi.org/10.3389/fmicb.2023.1079033"
-    }
-   ],
-   "word_file": "uploads/minimum-inhibitory-concentration-mic-by-broth-microdilution.docx",
-   "pptx_file": "uploads/minimum-inhibitory-concentration-mic-by-broth-microdilution.pptx",
-   "staged_dir": "review/2026-11-24/"
-  },
-  {
-   "title": "C. elegans RNAi by Feeding",
-   "category": "Model Organisms",
-   "organism": "C. elegans",
-   "date": "2026-11-24",
-   "duration": "3 days to prepare + 2–5 days of feeding and scoring",
-   "summary": "Knock down a C. elegans gene by feeding worms HT115(DE3) bacteria expressing dsRNA from L4440: IPTG-carbenicillin NGM plates, overnight induction, L1/L4 worm staging, scoring, controls (L4440, unc-22) and tissue limitations.",
-   "keywords": "C. elegans RNAi feeding HT115 L4440 IPTG carbenicillin NGM dsRNA knockdown unc-22 Ahringer library ORFeome eri-1 rrf-3 worm gene silencing",
-   "sources": [
-    {
-     "citation": "Conte D Jr, MacNeil LT, Walhout AJM, Mello CC. RNA interference in Caenorhabditis elegans. Curr Protoc Mol Biol. 2015;109:26.3.1–26.3.30.",
-     "link": "https://doi.org/10.1002/0471142727.mb2603s109"
-    },
-    {
-     "citation": "Kamath RS, Martinez-Campos M, Zipperlen P, Fraser AG, Ahringer J. Effectiveness of specific RNA-mediated interference through ingested double-stranded RNA in Caenorhabditis elegans. Genome Biol. 2001;2(1):research0002.",
-     "link": "https://doi.org/10.1186/gb-2000-2-1-research0002"
-    },
-    {
-     "citation": "Timmons L, Court DL, Fire A. Ingestion of bacterially expressed dsRNAs can produce specific and potent genetic interference in Caenorhabditis elegans. Gene. 2001;263(1–2):103–112.",
-     "link": "https://doi.org/10.1016/S0378-1119(00)00579-5"
-    },
-    {
-     "citation": "Kamath RS, Fraser AG, Dong Y, et al. Systematic functional analysis of the Caenorhabditis elegans genome using RNAi. Nature. 2003;421:231–237.",
-     "link": "https://doi.org/10.1038/nature01278"
-    },
-    {
-     "citation": "Schedl laboratory, Washington University in St. Louis. Bacteria-mediated (feeding) RNAi protocol (M.-H. Lee; modified by S. Nayak).",
-     "link": "https://sites.wustl.edu/tslab/?p=68"
-    }
-   ],
-   "word_file": "uploads/c-elegans-rnai-by-feeding.docx",
-   "pptx_file": "uploads/c-elegans-rnai-by-feeding.pptx",
-   "staged_dir": "review/2026-11-24/"
-  },
-  {
-   "title": "ChIP-seq Library Preparation",
-   "category": "Genomics & Sequencing",
-   "organism": "General Lab Methods",
-   "date": "2026-11-24",
-   "duration": "1.5 days (about 8–9 h hands-on)",
-   "summary": "Build barcoded Illumina libraries from 1–10 ng of ChIP and input DNA: end prep, adaptor titration, USER ligation, bead cleanup, input-based PCR cycle choice, QC and ENCODE depth/quality guidelines.",
-   "keywords": "ChIP-seq library preparation Illumina NEBNext Ultra II end repair adapter ligation AMPure SPRI PCR cycles Bioanalyzer ENCODE input control adapter dimer low input",
-   "sources": [
-    {
-     "citation": "Bowman SK, Simon MD, Deaton AM, Tolstorukov M, Borowsky ML, Kingston RE. Multiplexed Illumina sequencing libraries from picogram quantities of DNA. BMC Genomics. 2013;14:466.",
-     "link": "https://doi.org/10.1186/1471-2164-14-466"
-    },
-    {
-     "citation": "New England Biolabs. NEBNext Ultra II DNA Library Prep Kit for Illumina (E7645, E7103), instruction manual, version 7.0, September 2022 (copy hosted by Montana State University).",
-     "link": "https://www.montana.edu/mbi/delucalab/documents/manualE7103-E7645.pdf"
-    },
-    {
-     "citation": "Sundaram AYM, Hughes T, Biondi S, et al. A comparative study of ChIP-seq sequencing library preparation methods. BMC Genomics. 2016.",
-     "link": "https://doi.org/10.1186/s12864-016-3135-y"
-    },
-    {
-     "citation": "New England Biolabs. Protocol for use with NEBNext ChIP-seq Library Prep Master Mix Set for Illumina (E6240), 2014.",
-     "link": "https://neb.com/en/protocols/2014/05/23/protocol-for-use-with-nebnext-chip-seq-library-prep-master-mix-set-for-illumina-e6240"
-    },
-    {
-     "citation": "Landt SG, Marinov GK, Kundaje A, et al. ChIP-seq guidelines and practices of the ENCODE and modENCODE consortia. Genome Res. 2012;22(9):1813–1831.",
-     "link": "https://doi.org/10.1101/gr.136184.111"
-    },
-    {
-     "citation": "New England Biolabs. Troubleshooting guide for NEBNext Ultra II and Ultra DNA library prep kits.",
-     "link": "https://www.neb.com/en/tools-and-resources/troubleshooting-guides/troubleshooting-guide-for-nebnext-ultra-ii-and-ultra-dna-library-prep-kits"
-    }
-   ],
-   "word_file": "uploads/chip-seq-library-preparation.docx",
-   "pptx_file": "uploads/chip-seq-library-preparation.pptx",
-   "staged_dir": "review/2026-11-24/"
-  },
-  {
-   "title": "Dual-Luciferase Assay",
-   "category": "Biochemistry",
-   "organism": "General Lab Methods",
-   "date": "2026-11-24",
-   "duration": "2–3 days",
-   "summary": "Sequential firefly and Renilla luciferase readout from one lysate of co-transfected HEK293T cells, using Promega DLR reagents or an in-house alternative, with ratio normalization to correct well-to-well variation.",
-   "keywords": "dual-luciferase DLR firefly Renilla sequential readout normalization ratio HEK293T passive lysis buffer LAR II Stop & Glo injector luminometer pRL-TK co-transfection in-house reagent coelenterazine",
-   "sources": [
-    {
-     "citation": "Promega Corporation. Dual-Luciferase® Reporter Assay System, instructions for use of products E1910 and E1960. Technical Manual TM040, revised 8/23.",
-     "link": "https://www.promega.com/-/media/files/resources/protocols/technical-manuals/0/dual-luciferase-reporter-assay-system-protocol.pdf"
-    },
-    {
-     "citation": "Promega Corporation. Designing a Bioluminescent Reporter Assay: Normalization Options. Promega PubHub.",
-     "link": "https://ch.promega.com/resources/pubhub/bioluminescent-reporter-assay-normalization/"
-    },
-    {
-     "citation": "Winterer J, Schratt G (2022). Luciferase assay (dual-luciferase with in-house reagents). Bio-protocol Preprint.",
-     "link": "https://bio-protocol.org/prep1882"
-    },
-    {
-     "citation": "Branchini BR, Southworth TL, Fontaine DM, et al. (2018). A firefly luciferase dual color bioluminescence reporter assay using two substrates to simultaneously monitor two gene expression events. Scientific Reports 8:5990. doi:10.1038/s41598-018-24278-2",
-     "link": "https://doi.org/10.1038/s41598-018-24278-2"
-    }
-   ],
-   "word_file": "uploads/dual-luciferase-assay.docx",
-   "pptx_file": "uploads/dual-luciferase-assay.pptx",
-   "staged_dir": "review/2026-11-24/"
-  },
-  {
-   "title": "Cell Sorting by FACS",
-   "category": "Immunology",
-   "organism": "Mammalian Cells",
-   "date": "2026-11-24",
-   "duration": "5–8 hours",
-   "summary": "Sort a defined live mammalian cell population by FACS: prepare a filtered single-cell suspension in sort buffer with viability dye, set nozzle and drop delay, gate out doublets, sort into serum-coated tubes and check purity.",
-   "keywords": "FACS cell sorting flow cytometry sorter nozzle drop delay purity yield doublet exclusion viability dye collection tube post-sort purity biosafety aerosol",
-   "sources": [
-    {
-     "citation": "University of Pennsylvania Cytomics Core. Preparing cells for cell sorting (sorter nozzle, buffer and collection guide).",
-     "link": "https://www.med.upenn.edu/cytomics/assets/user-content/flow-docs/preparing-cells-for-cell-sorting.pdf"
-    },
-    {
-     "citation": "Whitehead Institute Flow Cytometry Core. Cell sorting considerations: BD FACSAria. 2021.",
-     "link": "https://wi.mit.edu/sites/default/files/2021-05/Cell%20Sorting%20Considerations_BD%20FACSAria%202021.pdf"
-    },
-    {
-     "citation": "Arnold LW, Lannigan J (2010). Practical issues in high-speed cell sorting. Curr Protoc Cytom 51:1.24.1–1.24.30. doi:10.1002/0471142956.cy0124s51.",
-     "link": "https://doi.org/10.1002/0471142956.cy0124s51"
-    },
-    {
-     "citation": "Holmes KL, Fontes B, Hogarth P, et al. (2014). International Society for the Advancement of Cytometry cell sorter biosafety standards. Cytometry A 85(5):434–453. doi:10.1002/cyto.a.22454.",
-     "link": "https://pubmed.ncbi.nlm.nih.gov/24634405/"
-    },
-    {
-     "citation": "Koch Institute Swanson Biotechnology Center Flow Cytometry Core, MIT. Sorting guidelines.",
-     "link": "https://ki-sbc.mit.edu/files/sbc/imce/flow-cytometry/Sorting%20Guidelines.pdf"
-    }
-   ],
-   "word_file": "uploads/cell-sorting-by-facs.docx",
-   "pptx_file": "uploads/cell-sorting-by-facs.pptx",
-   "staged_dir": "review/2026-11-24/"
-  },
-  {
-   "title": "DNase Treatment of RNA Samples",
-   "category": "Molecular Biology",
-   "organism": "General Lab Methods",
-   "date": "2026-11-24",
-   "duration": "1.5–2 hours",
-   "summary": "Remove contaminating genomic DNA from purified total RNA with RNase-free DNase I or TURBO DNase, inactivate the enzyme, and verify the RNA is DNA-free before RT-qPCR or RNA-seq.",
-   "keywords": "DNase I TURBO DNase genomic DNA removal RNA purification RT-qPCR RNA-seq no-RT control inactivation RNase-free",
-   "sources": [
-    {
-     "citation": "Thermo Fisher Scientific / Ambion. TURBO DNA-free Kit user guide, Publication 1907M (Rev. C, 2007; Cat. AM1907).",
-     "link": "https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2F1907M_turbodnafree_UG.pdf"
-    },
-    {
-     "citation": "New England Biolabs. A typical DNase I reaction protocol (M0303), DNase I (RNase-free).",
-     "link": "https://www.neb.com/en/protocols/a-typical-dnase-i-reaction-protocol-m0303"
-    },
-    {
-     "citation": "Promega Corporation (2018). RQ1 RNase-Free DNase Product Information, literature 9PIM610 (M6101); protocol per lab adaptation of the Promega instructions.",
-     "link": "https://be.promega.com/resources/protocols/product-information-sheets/g/rq1-rnasefree-dnase-protocol/"
-    },
-    {
-     "citation": "QIAGEN (2012). RNeasy Mini Handbook, 4th edition, Appendices D and E (on-column and in-solution DNase digestion with the RNase-Free DNase Set).",
-     "link": "https://plantpath.ifas.ufl.edu/classes/PLP4222-PLP6223/documents/RneasyPlantMiniExtractionHandbook.pdf"
-    },
-    {
-     "citation": "Hashemipetroudi SH, Nematzadeh G, Ahmadian G, Yamchi A, Kuhlmann M (2018). Assessment of DNA contamination in RNA samples based on ribosomal DNA. J Vis Exp 131:e55451.",
-     "link": "https://doi.org/10.3791/55451"
-    },
-    {
-     "citation": "Thermo Fisher Scientific. DNase I demystified (Ambion Tech Support).",
-     "link": "https://www.thermofisher.com/us/en/home/references/ambion-tech-support/nuclease-enzymes/general-articles/dnase-i-demystified.html"
-    }
-   ],
-   "word_file": "uploads/dnase-treatment-of-rna-samples.docx",
-   "pptx_file": "uploads/dnase-treatment-of-rna-samples.pptx",
-   "staged_dir": "review/2026-11-24/"
-  }
- ]
+  ]
 }
