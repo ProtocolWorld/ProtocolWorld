@@ -568,19 +568,19 @@
     {
       "title": "Preparing Complete Culture Media",
       "category": "Cell Culture",
-      "status": "pending",
+      "status": "staged",
       "organism": "Mammalian Cells"
     },
     {
       "title": "Biofilm Crystal Violet Assay",
       "category": "Microbiology",
-      "status": "pending",
+      "status": "staged",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "C. elegans RNAi by Soaking",
       "category": "Model Organisms",
-      "status": "pending",
+      "status": "staged",
       "organism": "C. elegans"
     },
     {
