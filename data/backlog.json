@@ -604,19 +604,19 @@
   {
    "title": "cDNA Synthesis by Reverse Transcription",
    "category": "Molecular Biology",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "Gateway Cloning",
    "category": "Cloning & CRISPR",
-   "status": "pending",
+   "status": "staged",
    "organism": "E. coli & Bacteria"
   },
   {
    "title": "Coomassie Blue Staining",
    "category": "Protein Analysis",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {

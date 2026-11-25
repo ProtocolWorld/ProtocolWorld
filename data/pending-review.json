@@ -191,6 +191,112 @@
    "word_file": "uploads/magnetic-bead-cell-separation-macs.docx",
    "pptx_file": "uploads/magnetic-bead-cell-separation-macs.pptx",
    "staged_dir": "review/2026-11-25/"
+  },
+  {
+   "title": "cDNA Synthesis by Reverse Transcription",
+   "category": "Molecular Biology",
+   "organism": "General Lab Methods",
+   "date": "2026-11-25",
+   "duration": "About 1.5 h",
+   "summary": "A two-step, 20 µL first-strand cDNA synthesis from purified total RNA using oligo(dT), random hexamer or gene-specific priming, a thermostable reverse transcriptase and an RNase inhibitor. The cDNA is ready for qPCR or PCR, with no-RT and no-template controls.",
+   "keywords": "cDNA synthesis reverse transcription RT-qPCR first-strand oligo(dT) random hexamers gene-specific primer RNase inhibitor no-RT control gDNA removal molecular biology",
+   "sources": [
+    {
+     "citation": "New England Biolabs. LunaScript RT Master Mix Kit Protocols (NEB #E3025).",
+     "link": "https://international.neb.com/protocols/2021/06/02/lunascript-rt-master-mix-kit-protocols-neb-e3025"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. Introduction to RT-qPCR (Molecular Biology Learning Center).",
+     "link": "https://thermofisher.com/sa/en/home/brands/thermo-scientific/molecular-biology/molecular-biology-learning-center/basic-principles-rt-qpcr.html"
+    },
+    {
+     "citation": "Oswald N. How to Choose the Correct Reverse Transcription Method. Bitesize Bio.",
+     "link": "https://bitesizebio.com/33640/rt-qpcr-reverse-transcription-methods/"
+    },
+    {
+     "citation": "Merck (MilliporeSigma). Reverse Transcription, in A Technical Guide to PCR Technologies (technical article).",
+     "link": "https://www.merckmillipore.com/BM/en/technical-documents/technical-article/genomics/gene-expression-and-silencing/reverse-transcription"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. SuperScript IV First-Strand Synthesis System (18091050), FAQs.",
+     "link": "https://www.thermofisher.com/order/catalog/product/18091050/faqs"
+    }
+   ],
+   "word_file": "uploads/cdna-synthesis-by-reverse-transcription.docx",
+   "pptx_file": "uploads/cdna-synthesis-by-reverse-transcription.pptx",
+   "staged_dir": "review/2026-11-25/"
+  },
+  {
+   "title": "Gateway Cloning",
+   "category": "Cloning & CRISPR",
+   "organism": "E. coli & Bacteria",
+   "date": "2026-11-25",
+   "duration": "About 4 days",
+   "summary": "Two-step recombinational cloning: an attB-flanked PCR product is moved into a pDONR vector by a BP reaction, then into a destination vector by an LR reaction, with ccdB negative selection at both steps.",
+   "keywords": "gateway cloning BP reaction LR reaction BP Clonase II LR Clonase II attB attP attL attR entry clone destination vector pDONR ccdB recombination kanamycin ampicillin",
+   "sources": [
+    {
+     "citation": "Thermo Fisher Scientific. Gateway Cloning Protocols: BP reaction and LR reaction using Clonase II enzyme mixes (web page).",
+     "link": "https://www.thermofisher.com/us/en/home/life-science/cloning/gateway-cloning/protocols"
+    },
+    {
+     "citation": "Hartley JL, Temple GF, Brasch MA. DNA cloning using in vitro site-specific recombination. Genome Research. 2000;10(11):1788–1795.",
+     "link": "https://doi.org/10.1101/gr.143000"
+    },
+    {
+     "citation": "Invitrogen. Gateway Technology with Clonase (user manual with BP and LR reaction, transformation, ccdB and troubleshooting sections). Hosted by University of Kentucky.",
+     "link": "https://bio.as.uky.edu/sites/default/files/Gateway%20manual.pdf"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. Gateway BP Clonase II Enzyme mix, 100 reactions: FAQs.",
+     "link": "https://www.thermofisher.com/order/catalog/product/11789100/faqs"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. Gateway LR Clonase II Enzyme mix, 100 reactions: FAQs.",
+     "link": "https://www.thermofisher.com/order/catalog/product/11791100/faqs"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. One Shot ccdB Survival 2 T1R Competent Cells: FAQs.",
+     "link": "https://www.thermofisher.com/store/v3/products/faqs/A10460"
+    }
+   ],
+   "word_file": "uploads/gateway-cloning.docx",
+   "pptx_file": "uploads/gateway-cloning.pptx",
+   "staged_dir": "review/2026-11-25/"
+  },
+  {
+   "title": "Coomassie Blue Staining",
+   "category": "Protein Analysis",
+   "organism": "General Lab Methods",
+   "date": "2026-11-25",
+   "duration": "3–5 h or overnight",
+   "summary": "Visualize proteins separated by SDS-PAGE with classic Coomassie R-250 or colloidal G-250 stain. Covers fixing, staining, destaining, imaging, storage and mass spectrometry notes.",
+   "keywords": "Coomassie Brilliant Blue R-250 G-250 colloidal SDS-PAGE protein gel staining destain fixation mass spectrometry",
+   "sources": [
+    {
+     "citation": "Beer LA, Speicher DW. Protein detection in gels using fixation. Curr Protoc Protein Sci. 2002; Unit 10.5 (Coomassie R-250 and rapid G-250 protocols).",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5647780"
+    },
+    {
+     "citation": "Candiano G, Bruschi M, Musante L, et al. Blue silver: a very sensitive colloidal Coomassie G-250 staining for proteome analysis. Electrophoresis. 2004;25:1327–1333 (recipe as reproduced by the University of Hohenheim Life Science Center).",
+     "link": "https://lsc.uni-hohenheim.de/fileadmin/einrichtungen/lsc/Blue_Silver_Stain.pdf"
+    },
+    {
+     "citation": "Lawrence AM, Besir H. Staining of proteins in gels with Coomassie G-250 without organic solvent and acetic acid. J Vis Exp. 2009;(30):1350. doi:10.3791/1350.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3149912"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. Coomassie staining (SimplyBlue SafeStain, Colloidal Blue and R-250 protocols for Novex gels).",
+     "link": "https://thermofisher.com/de/de/home/references/protocols/proteins-expression-isolation-and-analysis/staining-protein-gels/coomassie-staining.html"
+    },
+    {
+     "citation": "AAT Bioquest. Protocol for Coomassie staining.",
+     "link": "https://www.aatbio.com/resources/application-notes/protocol-for-coomassie-staining"
+    }
+   ],
+   "word_file": "uploads/coomassie-blue-staining.docx",
+   "pptx_file": "uploads/coomassie-blue-staining.pptx",
+   "staged_dir": "review/2026-11-25/"
   }
  ]
 }
