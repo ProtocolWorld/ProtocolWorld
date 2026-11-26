@@ -730,19 +730,19 @@
   {
    "title": "SLIC Cloning",
    "category": "Cloning & CRISPR",
-   "status": "pending",
+   "status": "staged",
    "organism": "E. coli & Bacteria"
   },
   {
    "title": "Blocking and Antibody Incubation for Western Blots",
    "category": "Protein Analysis",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "FRAP (Fluorescence Recovery After Photobleaching)",
    "category": "Imaging & Microscopy",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {

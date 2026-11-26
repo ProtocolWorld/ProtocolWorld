@@ -403,6 +403,96 @@
    "word_file": "uploads/high-fidelity-pcr.docx",
    "pptx_file": "uploads/high-fidelity-pcr.pptx",
    "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "SLIC Cloning",
+   "category": "Cloning & CRISPR",
+   "organism": "E. coli & Bacteria",
+   "date": "2026-11-26",
+   "duration": "≈ 1 h hands-on + overnight growth",
+   "summary": "Join a PCR insert into a linearized vector without restriction enzymes or ligase: chew back ends with T4 DNA polymerase for 2.5 min, anneal 10 min on ice, and transform E. coli; includes a two-step dCTP variant.",
+   "keywords": "SLIC sequence ligation independent cloning T4 DNA polymerase overlap assembly seamless cloning E. coli plasmid",
+   "sources": [
+    {
+     "citation": "Jeong JY, Yim HS, Ryu JY, et al. (2012). One-step sequence- and ligation-independent cloning as a rapid and versatile cloning method for functional genomics studies. Appl Environ Microbiol 78(15):5440–5443.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3416421/"
+    },
+    {
+     "citation": "Hillson NJ, Fero MJ (2019). SLIC Protocol. protocols.io.",
+     "link": "https://www.protocols.io/view/slic-protocol-6t3heqn.pdf"
+    },
+    {
+     "citation": "Addgene blog. Plasmids 101: Sequence and Ligation Independent Cloning (SLIC).",
+     "link": "https://blog.addgene.org/plasmids-101-sequence-and-ligation-independent-cloning"
+    },
+    {
+     "citation": "Oswald N. Sequence and Ligation Independent Cloning (SLIC). Bitesize Bio.",
+     "link": "https://bitesizebio.com/10256/sequence-and-ligation-independent-cloning/"
+    }
+   ],
+   "word_file": "uploads/slic-cloning.docx",
+   "pptx_file": "uploads/slic-cloning.pptx",
+   "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "Blocking and Antibody Incubation for Western Blots",
+   "category": "Protein Analysis",
+   "organism": "General Lab Methods",
+   "date": "2026-11-26",
+   "duration": "≈ 5–6 h, or overnight",
+   "summary": "Block a western blot membrane with 5% milk or BSA in TBST, incubate primary and HRP or fluorescent secondary antibodies, wash, and detect, with troubleshooting for background and weak signal.",
+   "keywords": "western blot blocking primary antibody secondary antibody TBST milk BSA membrane immunodetection washing",
+   "sources": [
+    {
+     "citation": "Bio-Techne. Western Blot Protocol: Tips, Techniques & Videos.",
+     "link": "https://www.bio-techne.com/resources/protocols/western-blot"
+    },
+    {
+     "citation": "MilliporeSigma. Western Blot Protocol – Immunoblotting or Western Blot.",
+     "link": "https://www.sigmaaldrich.com/IT/en/technical-documents/protocol/protein-biology/western-blotting/western-blotting"
+    },
+    {
+     "citation": "Bernal RA. Western Blotting Protocol (standard operating procedure). University of Texas at El Paso.",
+     "link": "https://utminers.utep.edu/rbernal/Resources/SOPs/Documents/western_blot.pdf"
+    },
+    {
+     "citation": "Western blot protocol (institutional PDF). Northern Arizona University.",
+     "link": "https://jan.ucc.nau.edu/fpm/documents/WesterBlot.pdf"
+    }
+   ],
+   "word_file": "uploads/blocking-and-antibody-incubation-for-western-blots.docx",
+   "pptx_file": "uploads/blocking-and-antibody-incubation-for-western-blots.pptx",
+   "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "FRAP (Fluorescence Recovery After Photobleaching)",
+   "category": "Imaging & Microscopy",
+   "organism": "General Lab Methods",
+   "date": "2026-11-26",
+   "duration": "≈ 3–4 h + analysis",
+   "summary": "Measure protein mobility in live mammalian cells: bleach an EGFP-fusion ROI on a confocal microscope, image recovery, correct and normalize, and fit mobile fraction and half-time.",
+   "keywords": "FRAP fluorescence recovery after photobleaching confocal EGFP live cell diffusion mobile fraction half-time",
+   "sources": [
+    {
+     "citation": "Day CA, Kraft LJ, Kang M, Kenworthy AK (2026). Analysis of protein and lipid dynamics using confocal fluorescence recovery after photobleaching. Curr Protoc 6(1):e70298.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12801101"
+    },
+    {
+     "citation": "Snapp E, Altan N, Lippincott-Schwartz J. Measuring protein mobility by photobleaching GFP-chimeras in living cells (protocol unit). Einstein College of Medicine.",
+     "link": "https://einsteinmed.edu/labs/erik-snapp/publications/currentprotocolsfrap.pdf"
+    },
+    {
+     "citation": "Giakoumakis NN, Rapsomaniki MA, Lygerou Z (2017). Analysis of protein kinetics using fluorescence recovery after photobleaching (FRAP). In: Light Microscopy, Methods Mol Biol 1563:243–267. Humana Press.",
+     "link": "https://link.springer.com/doi/10.1007/978-1-4939-6810-7_16"
+    },
+    {
+     "citation": "Rapsomaniki MA, Kotsantis P, Symeonidou I-E, et al. (2012). easyFRAP: an interactive, easy-to-use tool for qualitative and quantitative analysis of FRAP data. Bioinformatics 28(13):1800–1801.",
+     "link": "https://eprints.lancs.ac.uk/id/eprint/200988"
+    }
+   ],
+   "word_file": "uploads/frap-fluorescence-recovery-after-photobleaching.docx",
+   "pptx_file": "uploads/frap-fluorescence-recovery-after-photobleaching.pptx",
+   "staged_dir": "review/2026-11-26/"
   }
  ]
 }
