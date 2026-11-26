@@ -1,3 +1,106 @@
 {
-  "pending": []
+ "pending": [
+  {
+   "title": "PBMC Isolation by Ficoll Gradient",
+   "category": "Immunology",
+   "organism": "Mammalian Cells",
+   "date": "2026-11-26",
+   "duration": "2–3 h",
+   "summary": "Isolate PBMCs from human whole blood on Ficoll-Paque (1.077 g/mL): dilute 1:1, layer, spin 400 × g for 30 min with the brake off, harvest the interface, wash, count, and optionally cryopreserve.",
+   "keywords": "PBMC Ficoll density gradient centrifugation human blood mononuclear cells lymphocytes monocytes isolation cryopreservation",
+   "sources": [
+    {
+     "citation": "Cytiva. Ficoll-Paque PLUS: cell preparation media, instructions for use (71716700 AH, 2020).",
+     "link": "https://cdn.cytivalifesciences.com/api/public/content/digi-12637-pdf"
+    },
+    {
+     "citation": "Sigma-Aldrich (Merck). Recommended standard method for isolating mononuclear cells (Ficoll-Paque PLUS and PREMIUM).",
+     "link": "https://www.sigmaaldrich.com/US/en/technical-documents/protocol/clinical-testing-and-diagnostics-manufacturing/hematology/recommended-standard-method"
+    },
+    {
+     "citation": "STEMCELL Technologies. How to isolate mononuclear cells from whole blood by density gradient centrifugation (PR00018, v1.1.0, 2024).",
+     "link": "https://www.stemcell.com/technical-resources/isolating-mononuclear-cells-from-whole-blood-by-density-gradient-centrifugation.html"
+    },
+    {
+     "citation": "Quataert SA. SOP HIC-1-0020: Isolation of human blood mononuclear cells using Ficoll-Hypaque density gradient centrifugation. Rochester Human Immunology Center, University of Rochester Medical Center (2007).",
+     "link": "https://www.urmc.rochester.edu/medialibraries/urmcmedia/rochester-human-immunology-center/documents/HIC-1-0020Approved.pdf"
+    },
+    {
+     "citation": "Moore H, Ivey R. Isolation of PBMCs by Ficoll gradient (SepMate variant), SOP-5. Paulovich Lab, Fred Hutchinson Cancer Center (2020).",
+     "link": "https://research.fredhutch.org/content/dam/stripe/paulovich/files/SOP-5_PBMC_Collection_Ficoll-SepMate_2020_01_24.pdf"
+    },
+    {
+     "citation": "Puleo A, Carroll C, Maecker HT, Gupta R (2017). Isolation of peripheral blood mononuclear cells using Vacutainer cellular preparation tubes (CPT). Bio-protocol 7(2):e2103.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8376597"
+    }
+   ],
+   "word_file": "uploads/pbmc-isolation-by-ficoll-gradient.docx",
+   "pptx_file": "uploads/pbmc-isolation-by-ficoll-gradient.pptx",
+   "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "Standard PCR Setup and Optimization",
+   "category": "Molecular Biology",
+   "organism": "General Lab Methods",
+   "date": "2026-11-26",
+   "duration": "2.5–3 h",
+   "summary": "Set up a 25 µL Taq PCR with a master mix and controls, run 30 cycles, check products on agarose, and optimize by annealing gradient, MgCl₂ titration, DMSO, hot start or touchdown.",
+   "keywords": "PCR polymerase chain reaction Taq setup optimization annealing temperature magnesium primers troubleshooting",
+   "sources": [
+    {
+     "citation": "New England Biolabs. Taq DNA Polymerase with Standard Taq (Mg-free) Buffer (M0320) protocol.",
+     "link": "https://www.neb.com/en-us/protocols/taq-dna-polymerase-with-standard-taq-mg-free-buffer-m0320"
+    },
+    {
+     "citation": "Addgene. How to run a PCR (protocol).",
+     "link": "https://www.addgene.org/protocols/pcr/"
+    },
+    {
+     "citation": "Lorenz TC (2012). Polymerase chain reaction: basic protocol plus troubleshooting and optimization strategies. J Vis Exp (63):e3998.",
+     "link": "https://doi.org/10.3791/3998"
+    },
+    {
+     "citation": "New England Biolabs. Taq PCR kit troubleshooting guide.",
+     "link": "https://www.neb.com/en-us/tools-and-resources/troubleshooting-guides/taq-pcr-kit-troubleshooting-guide"
+    }
+   ],
+   "word_file": "uploads/standard-pcr-setup-and-optimization.docx",
+   "pptx_file": "uploads/standard-pcr-setup-and-optimization.pptx",
+   "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "In-Fusion Cloning",
+   "category": "Cloning & CRISPR",
+   "organism": "E. coli & Bacteria",
+   "date": "2026-11-26",
+   "duration": "2 days (about 4 h hands-on)",
+   "summary": "Seamless cloning with In-Fusion Snap Assembly: design 15 bp overlap primers, linearize the vector, mix at a 2:1 insert:vector ratio, incubate at 50 °C for 15 min, transform Stellar cells and verify clones.",
+   "keywords": "In-Fusion cloning seamless cloning Takara Snap Assembly homologous recombination vector insert E. coli transformation",
+   "sources": [
+    {
+     "citation": "Takara Bio. In-Fusion Snap Assembly Multiple-Insert Cloning Protocol-At-A-Glance.",
+     "link": "https://www.takarabio.com/documents/User%20Manual/In/In-Fusion%20Snap%20Assembly%20Multiple-Insert%20Cloning%20Protocol-At-A-Glance.pdf"
+    },
+    {
+     "citation": "Takara Bio. In-Fusion Cloning tips and FAQs.",
+     "link": "https://takarabio.com/learning-centers/cloning/in-fusion-cloning-faqs"
+    },
+    {
+     "citation": "Takara Bio. In-Fusion Snap Assembly user manual (resource document x111002).",
+     "link": "https://takarabio.com/resourcedocument/x111002"
+    },
+    {
+     "citation": "Irwin CR, Farmer A, Willer DO, Evans DH (2012). In-Fusion cloning with vaccinia virus DNA polymerase. In: Vaccinia Virus and Poxvirology, Methods Mol Biol 890:23–35.",
+     "link": "https://link.springer.com/doi/10.1007/978-1-61779-876-4_2"
+    },
+    {
+     "citation": "Zhu B, Cai G, Hall EO, Freeman GJ (2007). In-Fusion assembly: seamless engineering of multidomain fusion proteins, modular vectors, and mutations. BioTechniques 43(3):354–359.",
+     "link": "https://doaj.org/article/6575d7a712554d2ebe6243cda7f109bb"
+    }
+   ],
+   "word_file": "uploads/in-fusion-cloning.docx",
+   "pptx_file": "uploads/in-fusion-cloning.pptx",
+   "staged_dir": "review/2026-11-26/"
+  }
+ ]
 }
