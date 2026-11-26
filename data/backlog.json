@@ -676,19 +676,19 @@
   {
    "title": "Silver Staining of Protein Gels",
    "category": "Protein Analysis",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "Time-Lapse Microscopy",
    "category": "Imaging & Microscopy",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "Coating Plates with Collagen or Fibronectin",
    "category": "Cell Culture",
-   "status": "pending",
+   "status": "staged",
    "organism": "Mammalian Cells"
   },
   {

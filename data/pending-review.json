@@ -101,6 +101,112 @@
    "word_file": "uploads/in-fusion-cloning.docx",
    "pptx_file": "uploads/in-fusion-cloning.pptx",
    "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "Silver Staining of Protein Gels",
+   "category": "Protein Analysis",
+   "organism": "General Lab Methods",
+   "date": "2026-11-26",
+   "duration": "4–5 h",
+   "summary": "Step-by-step silver staining of SDS-PAGE mini-gels, using a mass-spectrometry-compatible thiosulfate/formaldehyde recipe with notes on the classic glutaraldehyde variant. Detects low-nanogram protein bands.",
+   "keywords": "silver staining SDS-PAGE protein gel mass spectrometry compatible glutaraldehyde thiosulfate formaldehyde Blum Shevchenko low-nanogram detection",
+   "sources": [
+    {
+     "citation": "Chevallet M, Luche S, Rabilloud T. Silver staining of proteins in polyacrylamide gels. Nat Protoc. 2006;1(4):1852–1858. doi:10.1038/nprot.2006.288.",
+     "link": "https://www.nature.com/articles/nprot.2006.288"
+    },
+    {
+     "citation": "Shevchenko A, Wilm M, Vorm O, Mann M. Mass spectrometric sequencing of proteins from silver-stained polyacrylamide gels. Anal Chem. 1996;68(5):850–858. doi:10.1021/ac950914h.",
+     "link": "https://pubmed.ncbi.nlm.nih.gov/8779443/"
+    },
+    {
+     "citation": "Blum H, Beier H, Gross HJ. Improved silver staining of plant proteins, RNA and DNA in polyacrylamide gels. Electrophoresis. 1987;8(2):93–99. doi:10.1002/elps.1150080203.",
+     "link": "https://scilit.com/publications/517380f7831beb2f076a932cd7a2bfa0"
+    },
+    {
+     "citation": "Beer LA, Speicher DW. Protein detection in gels using fixation (Unit 10.5). Curr Protoc Protein Sci. 2018;91:10.5.1–10.5.20. doi:10.1002/cpps.48.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6016542"
+    },
+    {
+     "citation": "Shevchenko A, Tomas H, Havlis J, Olsen JV, Mann M. In-gel digestion for mass spectrometric characterization of proteins and proteomes. Nat Protoc. 2006;1(6):2856–2860.",
+     "link": "https://publications.mpi-cbg.de/Shevchenko_2006_1016.pdf"
+    },
+    {
+     "citation": "Southern Illinois University Mass Spectrometry Facility. Silver staining protocol compatible with mass spectrometry (modified from Shevchenko et al., 1996).",
+     "link": "https://mass-spec.siu.edu/_common/documents/silver-staining-protocol.pdf"
+    }
+   ],
+   "word_file": "uploads/silver-staining-of-protein-gels.docx",
+   "pptx_file": "uploads/silver-staining-of-protein-gels.pptx",
+   "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "Time-Lapse Microscopy",
+   "category": "Imaging & Microscopy",
+   "organism": "General Lab Methods",
+   "date": "2026-11-26",
+   "duration": "2–3 h setup + 12–48 h imaging",
+   "summary": "Live-cell time-lapse imaging of adherent mammalian cells on an inverted widefield or confocal microscope with a stage-top incubator (37 °C, 5% CO₂, humidified). Covers imaging medium, glass-bottom dishes, hardware autofocus, light-dose control, multi-position acquisition and basic drift correction.",
+   "keywords": "time-lapse microscopy live-cell imaging stage-top incubator glass-bottom dish phototoxicity autofocus FluoroBrite multi-position drift correction",
+   "sources": [
+    {
+     "citation": "Cole R. Live-cell imaging: the cell's perspective. Cell Adhesion & Migration. 2014;8(5):452–459.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4594455"
+    },
+    {
+     "citation": "Icha J, Weber M, Waters JC, Norden C. Phototoxicity in live fluorescence microscopy, and how to avoid it. BioEssays. 2017;39(8):1700003.",
+     "link": "https://www.pubmed.gov/28749075/"
+    },
+    {
+     "citation": "ibidi GmbH. The Live Cell Imaging Experiment (application guide).",
+     "link": "https://ibidi.com/content/338-the-live-cell-imaging-experiment"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. Optimizing conditions for time-lapse fluorescence microscopy. BioProbes 70.",
+     "link": "https://www.thermofisher.com/us/en/home/references/newsletters-and-journals/bioprobes-journal-of-cell-biology-applications/bioprobes-70/time-lapse-fluorescence-microscopy.html"
+    }
+   ],
+   "word_file": "uploads/time-lapse-microscopy.docx",
+   "pptx_file": "uploads/time-lapse-microscopy.pptx",
+   "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "Coating Plates with Collagen or Fibronectin",
+   "category": "Cell Culture",
+   "organism": "Mammalian Cells",
+   "date": "2026-11-26",
+   "duration": "2–3 h (collagen) or 1.5 h (fibronectin)",
+   "summary": "Coat plastic or glass culture surfaces with rat tail collagen I or fibronectin to improve attachment and spreading of adherent mammalian cells. Covers dilution, vessel volumes, incubation, rinsing, sterility, storage and seeding.",
+   "keywords": "collagen I rat tail fibronectin coating cell culture plates coverslips ECM attachment adherent cells thin film acetic acid PBS 6-well 24-well 96-well",
+   "sources": [
+    {
+     "citation": "Corning Life Sciences. Corning Collagen I, Rat Tail product page (cat. no. 354236): stock concentration, coating amount 5–10 µg/cm², storage.",
+     "link": "https://ecatalog.corning.com/life-sciences/b2b/US/en/p/354236"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. Collagen I, rat tail (A1048301) FAQs: thin coating, 20 mM acetic acid, 1 h at room temperature, PBS rinse.",
+     "link": "https://www.thermofisher.com/order/catalog/product/A1048301/faqs"
+    },
+    {
+     "citation": "MilliporeSigma. Fibronectin Coating Protocol: dose, drying, storage of coated cultureware.",
+     "link": "https://www.sigmaaldrich.com/US/en/technical-documents/protocol/cell-culture-and-cell-culture-analysis/cell-growth-and-maintenance/fibronectin-product-protocols"
+    },
+    {
+     "citation": "Corning Life Sciences. Application Note CLS-AN-122: Coating with Collagen I, rat tail (coating and wash volumes by vessel).",
+     "link": "https://www.corning.com/catalog/cls/documents/protocols/CLS-AN-122.pdf"
+    },
+    {
+     "citation": "MilliporeSigma. Collagen product protocols (culture ware coating, UV and rinse options).",
+     "link": "https://www.sigmaaldrich.com/technical-documents/articles/biofiles/collagen-product-protocols.html"
+    },
+    {
+     "citation": "ibidi GmbH. Application Note 08: Coating of ibidi labware with fibronectin and collagen I (doses, volumes, washing).",
+     "link": "https://ibidi.com/img/cms/downloads/an/AN08_Coating.pdf"
+    }
+   ],
+   "word_file": "uploads/coating-plates-with-collagen-or-fibronectin.docx",
+   "pptx_file": "uploads/coating-plates-with-collagen-or-fibronectin.pptx",
+   "staged_dir": "review/2026-11-26/"
   }
  ]
 }
