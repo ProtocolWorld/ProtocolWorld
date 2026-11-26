@@ -207,6 +207,108 @@
    "word_file": "uploads/coating-plates-with-collagen-or-fibronectin.docx",
    "pptx_file": "uploads/coating-plates-with-collagen-or-fibronectin.pptx",
    "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "Bacterial Conjugation",
+   "category": "Microbiology",
+   "organism": "E. coli & Bacteria",
+   "date": "2026-11-26",
+   "duration": "2–5 days",
+   "summary": "Transfer a mobilizable plasmid from an E. coli donor (WM3064/MFDpir DAP auxotroph, or a triparental helper format) into a recipient by plate mating, then select, counter-select and confirm exconjugants by PCR.",
+   "keywords": "bacterial conjugation plasmid transfer oriT RP4 WM3064 MFDpir DAP auxotroph triparental pRK2013 helper exconjugant counter-selection plate mating colony PCR",
+   "sources": [
+    {
+     "citation": "Karde A, Bernstein HC. Bi-parental conjugation protocol for non-model bacteria using E. coli WM3064 DAP auxotroph donor. protocols.io (2025).",
+     "link": "https://www.protocols.io/view/bi-parental-conjugation-protocol-for-non-model-bac-dx2g7qbw.html"
+    },
+    {
+     "citation": "Barrick Lab. General Conjugation Protocol. Barrick Lab wiki, University of Texas at Austin.",
+     "link": "https://barricklab.org/twiki/bin/view/Lab/ProtocolsConjugation"
+    },
+    {
+     "citation": "Raman V, Mysore KS. Engineering Agrobacterium tumefaciens with a type III secretion system to express type III effectors. Bio-protocol 13(15), 2023.",
+     "link": "https://bio-protocol.org/e4726"
+    },
+    {
+     "citation": "Long Lab, Stanford University. Triparental Matings (protocol PDF).",
+     "link": "https://longlab.stanford.edu/files/protocols/Triparental%20Matings.pdf"
+    },
+    {
+     "citation": "Erdogan F, Lento C, Yaseen A, Nowroozi-Dayeni R, Kheyson S, Audette GF. Conjugative mating assays for sequence-specific analysis of transfer proteins involved in bacterial conjugation. J Vis Exp 119:e54854, 2017.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5351875"
+    }
+   ],
+   "word_file": "uploads/bacterial-conjugation.docx",
+   "pptx_file": "uploads/bacterial-conjugation.pptx",
+   "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "C. elegans Gonad Immunostaining",
+   "category": "Model Organisms",
+   "organism": "C. elegans",
+   "date": "2026-11-26",
+   "duration": "1.5–2 days",
+   "summary": "Dissect adult C. elegans gonads, fix with PFA, freeze-crack, methanol permeabilize, and stain with primary and fluorescent secondary antibodies and DAPI to image germline protein localization and chromosomes.",
+   "keywords": "C. elegans gonad dissection immunostaining germline meiosis freeze-crack paraformaldehyde methanol DAPI antibody diakinesis pachytene levamisole egg buffer",
+   "sources": [
+    {
+     "citation": "Phillips CM, McDonald KL, Dernburg AF. Cytological analysis of meiosis in Caenorhabditis elegans. Methods Mol Biol 558:171–195, 2009.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3644504"
+    },
+    {
+     "citation": "Francis R (modified by Lee M-H, Nayak S). Gonad Fixation. Schedl Lab, Washington University in St. Louis, 2010.",
+     "link": "https://sites.wustl.edu/tslab/?p=49"
+    },
+    {
+     "citation": "Francis R (modified by Lee M-H, Nayak S). Antibody Staining of Dissected Gonads. Schedl Lab, Washington University in St. Louis, 2010.",
+     "link": "https://sites.wustl.edu/tslab/?p=54"
+    },
+    {
+     "citation": "Ananthaswamy D, Croft JC, Woozencroft N, Lee TW. C. elegans gonad dissection and freeze crack for immunofluorescence and DAPI staining. J Vis Exp (187):e64204, 2022.",
+     "link": "https://jove.com/pdf/64204"
+    },
+    {
+     "citation": "Immunofluorescence of C. elegans gonads (Dernburg lab protocol, modified by A. Sato, 2013). Ahmed Lab, University of North Carolina.",
+     "link": "https://tarheels.live/ahmedlab/wp-content/uploads/sites/3321/2024/07/Immunofluorescence.pdf"
+    }
+   ],
+   "word_file": "uploads/c-elegans-gonad-immunostaining.docx",
+   "pptx_file": "uploads/c-elegans-gonad-immunostaining.pptx",
+   "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "ATAC-seq",
+   "category": "Genomics & Sequencing",
+   "organism": "General Lab Methods",
+   "date": "2026-11-26",
+   "duration": "About 3 h hands-on",
+   "summary": "Omni-ATAC-seq library preparation from 50,000 cells: nuclei lysis with digitonin/Tween-20, Tn5 tagmentation, qPCR-guided amplification, cleanup, QC and sequencing guidance for mapping open chromatin.",
+   "keywords": "ATAC-seq Omni-ATAC chromatin accessibility Tn5 transposase tagmentation open chromatin library qPCR cycle number SPRI TSS enrichment FRiP ENCODE",
+   "sources": [
+    {
+     "citation": "Corces MR, Trevino AE, Hamilton EG, et al. An improved ATAC-seq protocol reduces background and enables interrogation of frozen tissues. Nat Methods 14:959–962, 2017.",
+     "link": "https://doi.org/10.1038/NMETH.4396"
+    },
+    {
+     "citation": "Buenrostro JD, Wu B, Chang HY, Greenleaf WJ. ATAC-seq: a method for assaying chromatin accessibility genome-wide. Curr Protoc Mol Biol, Unit 21.29, 2015 (protocol text from the Chang lab).",
+     "link": "https://changlab.stanford.edu/atac-seq.pdf"
+    },
+    {
+     "citation": "ENCODE Consortium. ATAC-seq data standards and processing pipeline (ATAC-ENCODE4).",
+     "link": "https://encodeproject.org/data-standards/atac-seq/atac-encode4"
+    },
+    {
+     "citation": "Kaestner Lab, University of Pennsylvania. ATAC-seq protocol (Omni), based on Buenrostro et al. with Omni-ATAC buffers.",
+     "link": "https://www.med.upenn.edu/kaestnerlab/assets/user-content/documents/ATAC-seq-Protocol-(Omni)-Kaestner-Lab.pdf"
+    },
+    {
+     "citation": "Monahan KG. Adapted ATAC-seq protocol (from Monahan et al., eLife 2017). Bio-protocol preprint, 2023.",
+     "link": "https://bio-protocol.org/prep2182"
+    }
+   ],
+   "word_file": "uploads/atac-seq.docx",
+   "pptx_file": "uploads/atac-seq.pptx",
+   "staged_dir": "review/2026-11-26/"
   }
  ]
 }

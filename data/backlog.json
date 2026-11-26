@@ -694,19 +694,19 @@
   {
    "title": "Bacterial Conjugation",
    "category": "Microbiology",
-   "status": "pending",
+   "status": "staged",
    "organism": "E. coli & Bacteria"
   },
   {
    "title": "C. elegans Gonad Immunostaining",
    "category": "Model Organisms",
-   "status": "pending",
+   "status": "staged",
    "organism": "C. elegans"
   },
   {
    "title": "ATAC-seq",
    "category": "Genomics & Sequencing",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
