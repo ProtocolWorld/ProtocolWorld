@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://protocolworld.github.io/ProtocolWorld/</loc><lastmod>2026-11-24</lastmod></url>
-<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/</loc><lastmod>2026-11-24</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/</loc><lastmod>2026-11-26</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/</loc><lastmod>2026-11-26</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/genomic-dna-extraction-from-mammalian-cells.html</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/protein-extraction-from-mammalian-cells-ripa-lysis.html</loc><lastmod>2026-11-14</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/thawing-cryopreserved-cells.html</loc><lastmod>2026-11-14</lastmod></url>
@@ -92,4 +92,19 @@
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/topo-cloning.html</loc><lastmod>2026-11-24</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/ponceau-s-staining.html</loc><lastmod>2026-11-24</lastmod></url>
 <url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/lysotracker-staining-of-lysosomes.html</loc><lastmod>2026-11-24</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/preparing-complete-culture-media.html</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/biofilm-crystal-violet-assay.html</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/c-elegans-rnai-by-soaking.html</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/cut-and-run.html</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/gfp-fluorescence-measurement.html</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/magnetic-bead-cell-separation-macs.html</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/cdna-synthesis-by-reverse-transcription.html</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/gateway-cloning.html</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/coomassie-blue-staining.html</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/live-cell-imaging-setup.html</loc><lastmod>2026-11-26</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/serum-heat-inactivation.html</loc><lastmod>2026-11-26</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/bacterial-motility-assays.html</loc><lastmod>2026-11-26</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/c-elegans-germline-dissection.html</loc><lastmod>2026-11-26</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/cut-and-tag.html</loc><lastmod>2026-11-26</lastmod></url>
+<url><loc>https://protocolworld.github.io/ProtocolWorld/protocols/fluorescence-polarization-assay.html</loc><lastmod>2026-11-26</lastmod></url>
 </urlset>

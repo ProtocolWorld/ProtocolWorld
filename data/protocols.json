@@ -2903,6 +2903,469 @@
       ],
       "word_file": "uploads/lysotracker-staining-of-lysosomes.docx",
       "pptx_file": "uploads/lysotracker-staining-of-lysosomes.pptx"
+    },
+    {
+      "title": "Preparing Complete Culture Media",
+      "category": "Cell Culture",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-25",
+      "duration": "1 h hands-on + overnight serum thaw",
+      "summary": "Prepare 500 mL of complete growth medium: thaw and optionally heat-inactivate FBS at 56 °C for 30 min, aliquot, add 10% FBS, pen-strep and L-glutamine as needed, label, store at 2–8 °C and quality-check.",
+      "keywords": "complete culture medium DMEM RPMI FBS heat inactivation penicillin streptomycin L-glutamine mammalian cell culture media preparation",
+      "sources": [
+        {
+          "citation": "Mullen P. Preparation of media with 10% FCS for cell culture. SASoM/METHOD/002, v5. University of St Andrews School of Medicine; 2021.",
+          "link": "https://med.st-andrews.ac.uk/wp-content/uploads/sites/27/2014/10/SASoM-METHOD-002-Preparation-of-media-with-10FCS-for-Cell-Culture.pdf"
+        },
+        {
+          "citation": "Mullen P. Preparation of heat inactivated FCS for cell culture. SASoM/METHOD/005, v5. University of St Andrews School of Medicine; 2021.",
+          "link": "https://med.st-andrews.ac.uk/wp-content/uploads/sites/27/2014/10/SASoM-METHOD-005-Preparation-of-Heat-Inactivated-FCS-for-Cell-Culture.pdf"
+        },
+        {
+          "citation": "Corning Incorporated. Heat inactivation of serum protocol. CLS-CG-AN-327 REV2; 2024.",
+          "link": "https://www.corning.com/catalog/cls/documents/protocols/CLS-CG-AN-327.pdf"
+        },
+        {
+          "citation": "ATCC. Animal Cell Culture Guide: tips and techniques for continuous cell lines (complete growth medium, serum, antibiotics and L-glutamine sections).",
+          "link": "https://www.atcc.org/resources/culture-guides/animal-cell-culture-guide"
+        }
+      ],
+      "word_file": "uploads/preparing-complete-culture-media.docx",
+      "pptx_file": "uploads/preparing-complete-culture-media.pptx"
+    },
+    {
+      "title": "Biofilm Crystal Violet Assay",
+      "category": "Microbiology",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-25",
+      "duration": "3 days (about 2 h hands-on)",
+      "summary": "Static 96-well biofilm assay: grow E. coli or other bacteria 24 h, wash away planktonic cells, stain with 0.1% crystal violet, dissolve in 30% acetic acid and read A550 to quantify biofilm biomass.",
+      "keywords": "biofilm crystal violet assay 96-well microtiter plate E. coli static biofilm biomass acetic acid OD550 O'Toole",
+      "sources": [
+        {
+          "citation": "O'Toole GA. Microtiter dish biofilm formation assay. J Vis Exp. 2011;(47):2437. doi:10.3791/2437.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3182663"
+        },
+        {
+          "citation": "Merritt JH, Kadouri DE, O'Toole GA. Growing and analyzing static biofilms. Curr Protoc Microbiol. 2005; Unit 1B.1. doi:10.1002/9780471729259.mc01b01s00.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4568995"
+        },
+        {
+          "citation": "Weil AA, Ng WL, Chac D. Crystal violet biomass assays. Bio-protocol Preprint; 2022.",
+          "link": "https://bio-protocol.org/prep1751"
+        }
+      ],
+      "word_file": "uploads/biofilm-crystal-violet-assay.docx",
+      "pptx_file": "uploads/biofilm-crystal-violet-assay.pptx"
+    },
+    {
+      "title": "C. elegans RNAi by Soaking",
+      "category": "Model Organisms",
+      "organism": "C. elegans",
+      "date": "2026-11-25",
+      "duration": "3–4 days (about 4 h hands-on)",
+      "summary": "Synthesize dsRNA from a T7/T3 template, soak L4 or L1 C. elegans for 24 h in spermidine-gelatin buffer, recover on OP50 and score P0 and F1 phenotypes with proper controls.",
+      "keywords": "C. elegans RNAi soaking dsRNA in vitro transcription spermidine gelatin L1 L4 knockdown gene silencing",
+      "sources": [
+        {
+          "citation": "Maeda I, Sugimoto A. RNAi-by-Soaking protocol. Nematode Expression Pattern Database, National Institute of Genetics, Japan; updated June 12, 2001.",
+          "link": "https://nematode.nig.ac.jp/db2/rnai_s/RNAiBySoaking.php"
+        },
+        {
+          "citation": "Conte D Jr, MacNeil LT, Walhout AJM, Mello CC. RNA interference in Caenorhabditis elegans. Curr Protoc Mol Biol. 2015;109:26.3.1–26.3.30. doi:10.1002/0471142727.mb2603s109.",
+          "link": "https://cms-tenant2.umassmed.edu/globalassets/mellolab/documents/publications/conteprotocol2015.pdf"
+        },
+        {
+          "citation": "Maeda I, et al. Large-scale analysis of gene function in Caenorhabditis elegans by high-throughput RNAi. Curr Biol. 2001;11(3):171–176. doi:10.1016/S0960-9822(01)00052-5.",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/11231151/"
+        },
+        {
+          "citation": "Kamath RS, Martinez-Campos M, Zipperlen P, Fraser AG, Ahringer J. Effectiveness of specific RNA-mediated interference through ingested double-stranded RNA in Caenorhabditis elegans. Genome Biol. 2001;2(1):research0002. doi:10.1186/gb-2000-2-1-research0002.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC17598"
+        },
+        {
+          "citation": "Zhuang JJ, Hunter CP. Tissue specificity of Caenorhabditis elegans enhanced RNA interference mutants. Genetics. 2011;188(1):235–237. doi:10.1534/genetics.111.127209.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3120140"
+        },
+        {
+          "citation": "Maher KN, Catanese M, Chase DL. Large-scale gene knockdown in C. elegans using dsRNA feeding libraries to generate robust loss-of-function phenotypes. J Vis Exp. 2013;(79):50693. doi:10.3791/50693.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3935773"
+        }
+      ],
+      "word_file": "uploads/c-elegans-rnai-by-soaking.docx",
+      "pptx_file": "uploads/c-elegans-rnai-by-soaking.pptx"
+    },
+    {
+      "title": "CUT&RUN",
+      "category": "Genomics & Sequencing",
+      "organism": "General Lab Methods",
+      "date": "2026-11-25",
+      "duration": "About 8 h (1–2 days)",
+      "summary": "Profile histone marks or transcription factors from up to 500,000 mammalian cells: bind digitonin-permeabilized cells to ConA beads, target pAG-MNase with an antibody, cut with Ca²⁺ at 0 °C, purify released fragments with spike-in and controls.",
+      "keywords": "CUT&RUN CUT&Tag chromatin profiling pAG-MNase digitonin concanavalin A beads histone modification transcription factor genome-wide ChIP-seq alternative",
+      "sources": [
+        {
+          "citation": "Janssens D, Henikoff S. CUT&RUN: Targeted in situ genome-wide profiling with high efficiency for low cell numbers. protocols.io, version 3; 2019. doi:10.17504/protocols.io.zcpf2vn.",
+          "link": "https://www.protocols.io/view/cut-amp-run-targeted-in-situ-genome-wide-profiling-zcpf2vn.html"
+        },
+        {
+          "citation": "Hainer SJ, Fazzio TG. High-resolution chromatin profiling using CUT&RUN. Curr Protoc Mol Biol. 2019;126(1):e85. doi:10.1002/cpmb.85.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6422702"
+        },
+        {
+          "citation": "Skene PJ, Henikoff JG, Henikoff S. Targeted in situ genome-wide profiling with high efficiency for low cell numbers. Nat Protoc. 2018;13(5):1006–1019. doi:10.1038/nprot.2018.015.",
+          "link": "https://www.nature.com/articles/nprot.2018.015"
+        },
+        {
+          "citation": "Janssens D, Henikoff S. CUT&RUN abbreviated protocol. protocols.io, version 1; 2024. doi:10.17504/protocols.io.8epv5rzo4g1b/v1.",
+          "link": "https://www.protocols.io/view/cut-amp-run-abbreviated-protocol-dcs52wg6.html"
+        }
+      ],
+      "word_file": "uploads/cut-and-run.docx",
+      "pptx_file": "uploads/cut-and-run.pptx"
+    },
+    {
+      "title": "GFP Fluorescence Measurement",
+      "category": "Biochemistry",
+      "organism": "General Lab Methods",
+      "date": "2026-11-25",
+      "duration": "3–4 h",
+      "summary": "Quantify GFP in bacterial cultures on a 96-well plate reader with blanks, non-fluorescent and positive controls, OD600 normalization and fluorescein plus microsphere calibration so values are comparable between runs.",
+      "keywords": "GFP fluorescence plate reader fluorescein calibration OD600 microsphere autofluorescence E. coli reporter expression quantification",
+      "sources": [
+        {
+          "citation": "Fedorec AJH, Robinson CM, Wen KY, Barnes CP. FlopR: An open source software package for calibration and normalization of plate reader and flow cytometry data. ACS Synth Biol. 2020. doi:10.1021/acssynbio.0c00296.",
+          "link": "https://discovery.ucl.ac.uk/10109549/1/acssynbio.0c00296.pdf"
+        },
+        {
+          "citation": "Baldwin G, Haddock-Angelli T, Beal J, et al. Calibration protocol – plate reader fluorescence calibration. protocols.io, version 3; 2019. doi:10.17504/protocols.io.6zrhf56.",
+          "link": "https://www.protocols.io/view/calibration-protocol-plate-reader-fluorescence-cal-6zrhf56.pdf"
+        },
+        {
+          "citation": "Kuiper S. GFP-RFP plate reader assay. protocols.io; 2019. doi:10.17504/protocols.io.784hryw.",
+          "link": "https://www.protocols.io/view/gfp-rfp-plate-reader-assay-784hryw.pdf"
+        },
+        {
+          "citation": "Beal J, Baldwin GS, Farny NG, et al. Comparative analysis of three studies measuring fluorescence from engineered bacterial genetic constructs. PLoS One. 2021;16(6):e0252263. doi:10.1371/journal.pone.0252263.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8183995"
+        },
+        {
+          "citation": "BioTek Instruments (Agilent). Excitation and emission of green fluorescent proteins. Technical overview, publication 5994-3413EN.",
+          "link": "https://www.agilent.com/cs/library/technicaloverviews/public/excitation-and-emission-green-fluorescent-proteins-5994-3413EN-agilent.pdf"
+        }
+      ],
+      "word_file": "uploads/gfp-fluorescence-measurement.docx",
+      "pptx_file": "uploads/gfp-fluorescence-measurement.pptx"
+    },
+    {
+      "title": "Magnetic Bead Cell Separation (MACS)",
+      "category": "Immunology",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-25",
+      "duration": "2–3 h",
+      "summary": "Purify mouse splenic B cells by CD43 depletion with MicroBeads on an LS column: MACS buffer, spleen prep, labeling, column loading, flow-through collection, positive-selection elution and purity checks.",
+      "keywords": "MACS magnetic bead cell separation MicroBeads LS column negative selection positive selection B cells spleen immunomagnetic",
+      "sources": [
+        {
+          "citation": "Ramezani-Rad P, Rickert RC. Quick and easy purification of murine untouched naive B cells or germinal center B cells by MACS. STAR Protocols. 2021;2(1):100369. doi:10.1016/j.xpro.2021.100369.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7933803"
+        },
+        {
+          "citation": "BioLegend. MojoSort Isolation Kits Column Protocol – 3 (vendor protocol).",
+          "link": "https://biolegend.com/fr-fr/protocols/mojosort-isolation-kits-column-protocol-3"
+        },
+        {
+          "citation": "Shillingford D, Radek A, Kupitz A, Thomas R, Connor C, Adams SP. Validation of a new high-throughput cell separation method for downstream molecular applications. Int J Mol Sci. 2025;26(14):6747. doi:10.3390/ijms26146747.",
+          "link": "https://discovery.ucl.ac.uk/10215484/1/Validation%20of%20a%20New%20High-Throughput%20Cell%20Separation%20Method%20for%20Downstream%20Molecular%20Applications.pdf"
+        },
+        {
+          "citation": "Weigmann B. Cell isolation of spleen mononuclear cells. Bio-protocol. 2013;3(9):e689. doi:10.21769/BioProtoc.689.",
+          "link": "https://bio-protocol.org/e689"
+        },
+        {
+          "citation": "Miltenyi Biotec GmbH. autoMACS Pro Separator user manual, version 3. Bergisch Gladbach, Germany; 2011.",
+          "link": "https://med.virginia.edu/flow-cytometry-facility/wp-content/uploads/sites/170/2015/10/automacs_pro_separartor_user_manual.pdf"
+        }
+      ],
+      "word_file": "uploads/magnetic-bead-cell-separation-macs.docx",
+      "pptx_file": "uploads/magnetic-bead-cell-separation-macs.pptx"
+    },
+    {
+      "title": "cDNA Synthesis by Reverse Transcription",
+      "category": "Molecular Biology",
+      "organism": "General Lab Methods",
+      "date": "2026-11-25",
+      "duration": "About 1.5 h",
+      "summary": "A two-step, 20 µL first-strand cDNA synthesis from purified total RNA using oligo(dT), random hexamer or gene-specific priming, a thermostable reverse transcriptase and an RNase inhibitor. The cDNA is ready for qPCR or PCR, with no-RT and no-template controls.",
+      "keywords": "cDNA synthesis reverse transcription RT-qPCR first-strand oligo(dT) random hexamers gene-specific primer RNase inhibitor no-RT control gDNA removal molecular biology",
+      "sources": [
+        {
+          "citation": "New England Biolabs. LunaScript RT Master Mix Kit Protocols (NEB #E3025).",
+          "link": "https://international.neb.com/protocols/2021/06/02/lunascript-rt-master-mix-kit-protocols-neb-e3025"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Introduction to RT-qPCR (Molecular Biology Learning Center).",
+          "link": "https://thermofisher.com/sa/en/home/brands/thermo-scientific/molecular-biology/molecular-biology-learning-center/basic-principles-rt-qpcr.html"
+        },
+        {
+          "citation": "Oswald N. How to Choose the Correct Reverse Transcription Method. Bitesize Bio.",
+          "link": "https://bitesizebio.com/33640/rt-qpcr-reverse-transcription-methods/"
+        },
+        {
+          "citation": "Merck (MilliporeSigma). Reverse Transcription, in A Technical Guide to PCR Technologies (technical article).",
+          "link": "https://www.merckmillipore.com/BM/en/technical-documents/technical-article/genomics/gene-expression-and-silencing/reverse-transcription"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. SuperScript IV First-Strand Synthesis System (18091050), FAQs.",
+          "link": "https://www.thermofisher.com/order/catalog/product/18091050/faqs"
+        }
+      ],
+      "word_file": "uploads/cdna-synthesis-by-reverse-transcription.docx",
+      "pptx_file": "uploads/cdna-synthesis-by-reverse-transcription.pptx"
+    },
+    {
+      "title": "Gateway Cloning",
+      "category": "Cloning & CRISPR",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-25",
+      "duration": "About 4 days",
+      "summary": "Two-step recombinational cloning: an attB-flanked PCR product is moved into a pDONR vector by a BP reaction, then into a destination vector by an LR reaction, with ccdB negative selection at both steps.",
+      "keywords": "gateway cloning BP reaction LR reaction BP Clonase II LR Clonase II attB attP attL attR entry clone destination vector pDONR ccdB recombination kanamycin ampicillin",
+      "sources": [
+        {
+          "citation": "Thermo Fisher Scientific. Gateway Cloning Protocols: BP reaction and LR reaction using Clonase II enzyme mixes (web page).",
+          "link": "https://www.thermofisher.com/us/en/home/life-science/cloning/gateway-cloning/protocols"
+        },
+        {
+          "citation": "Hartley JL, Temple GF, Brasch MA. DNA cloning using in vitro site-specific recombination. Genome Research. 2000;10(11):1788–1795.",
+          "link": "https://doi.org/10.1101/gr.143000"
+        },
+        {
+          "citation": "Invitrogen. Gateway Technology with Clonase (user manual with BP and LR reaction, transformation, ccdB and troubleshooting sections). Hosted by University of Kentucky.",
+          "link": "https://bio.as.uky.edu/sites/default/files/Gateway%20manual.pdf"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Gateway BP Clonase II Enzyme mix, 100 reactions: FAQs.",
+          "link": "https://www.thermofisher.com/order/catalog/product/11789100/faqs"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Gateway LR Clonase II Enzyme mix, 100 reactions: FAQs.",
+          "link": "https://www.thermofisher.com/order/catalog/product/11791100/faqs"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. One Shot ccdB Survival 2 T1R Competent Cells: FAQs.",
+          "link": "https://www.thermofisher.com/store/v3/products/faqs/A10460"
+        }
+      ],
+      "word_file": "uploads/gateway-cloning.docx",
+      "pptx_file": "uploads/gateway-cloning.pptx"
+    },
+    {
+      "title": "Coomassie Blue Staining",
+      "category": "Protein Analysis",
+      "organism": "General Lab Methods",
+      "date": "2026-11-25",
+      "duration": "3–5 h or overnight",
+      "summary": "Visualize proteins separated by SDS-PAGE with classic Coomassie R-250 or colloidal G-250 stain. Covers fixing, staining, destaining, imaging, storage and mass spectrometry notes.",
+      "keywords": "Coomassie Brilliant Blue R-250 G-250 colloidal SDS-PAGE protein gel staining destain fixation mass spectrometry",
+      "sources": [
+        {
+          "citation": "Beer LA, Speicher DW. Protein detection in gels using fixation. Curr Protoc Protein Sci. 2002; Unit 10.5 (Coomassie R-250 and rapid G-250 protocols).",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5647780"
+        },
+        {
+          "citation": "Candiano G, Bruschi M, Musante L, et al. Blue silver: a very sensitive colloidal Coomassie G-250 staining for proteome analysis. Electrophoresis. 2004;25:1327–1333 (recipe as reproduced by the University of Hohenheim Life Science Center).",
+          "link": "https://lsc.uni-hohenheim.de/fileadmin/einrichtungen/lsc/Blue_Silver_Stain.pdf"
+        },
+        {
+          "citation": "Lawrence AM, Besir H. Staining of proteins in gels with Coomassie G-250 without organic solvent and acetic acid. J Vis Exp. 2009;(30):1350. doi:10.3791/1350.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3149912"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Coomassie staining (SimplyBlue SafeStain, Colloidal Blue and R-250 protocols for Novex gels).",
+          "link": "https://thermofisher.com/de/de/home/references/protocols/proteins-expression-isolation-and-analysis/staining-protein-gels/coomassie-staining.html"
+        },
+        {
+          "citation": "AAT Bioquest. Protocol for Coomassie staining.",
+          "link": "https://www.aatbio.com/resources/application-notes/protocol-for-coomassie-staining"
+        }
+      ],
+      "word_file": "uploads/coomassie-blue-staining.docx",
+      "pptx_file": "uploads/coomassie-blue-staining.pptx"
+    },
+    {
+      "title": "Live-Cell Imaging Setup",
+      "category": "Imaging & Microscopy",
+      "organism": "General Lab Methods",
+      "date": "2026-11-26",
+      "duration": "2–3 h setup + imaging run",
+      "summary": "Set up cells and a microscope for time-lapse fluorescence imaging. Covers thermal equilibration, CO₂ and humidity control, phenol red–free medium, light-dose limits, focus drift and phototoxicity checks.",
+      "keywords": "live-cell imaging time-lapse fluorescence phototoxicity environmental chamber CO2 37 C HEPES FluoroBrite focus drift mitotic timing",
+      "sources": [
+        {
+          "citation": "Cole R. Live-cell imaging: the cell's perspective. Cell Adhes Migr. 2014;8(5):452–459. doi:10.4161/cam.28348.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4594455"
+        },
+        {
+          "citation": "Ettinger A, Wittmann T. Fluorescence live cell imaging. Methods Cell Biol. 2014;123:77–94. doi:10.1016/B978-0-12-420138-5.00005-7.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4198327"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Optimizing conditions for time-lapse fluorescence microscopy. BioProbes 70, Journal of Cell Biology Applications.",
+          "link": "https://www.thermofisher.com/us/en/home/references/newsletters-and-journals/bioprobes-journal-of-cell-biology-applications/bioprobes-70/time-lapse-fluorescence-microscopy.html"
+        },
+        {
+          "citation": "Saha S. Optimal conditions for live-cell imaging: 4 essential factors. Bitesize Bio (updated 2026).",
+          "link": "https://bitesizebio.com/42827/optimal-conditions-for-live-cell-imaging/"
+        }
+      ],
+      "word_file": "uploads/live-cell-imaging-setup.docx",
+      "pptx_file": "uploads/live-cell-imaging-setup.pptx"
+    },
+    {
+      "title": "Serum Heat Inactivation",
+      "category": "Cell Culture",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-26",
+      "duration": "2–3 h (plus overnight thaw)",
+      "summary": "Heat-inactivate fetal bovine serum at 56 °C for 30 minutes with a control bottle, correct timing, mixing, rapid cooling and aliquoting. Explains when it is, and is not, needed.",
+      "keywords": "serum heat inactivation FBS 56 C 30 minutes complement control bottle aliquot precipitate",
+      "sources": [
+        {
+          "citation": "Corning Life Sciences. Heat inactivation of serum. Application note CLS-CG-AN-327 REV2 (2024).",
+          "link": "https://www.corning.com/catalog/cls/documents/protocols/CLS-CG-AN-327.pdf"
+        },
+        {
+          "citation": "Thermo Scientific. Heat inactivation: are you wasting your time? Art to Science, vol. 15, no. 1 (application note).",
+          "link": "https://apps.thermoscientific.com/media/BID/BPP/Serum-Heat-Inactivation/Heat%20Inactivation%202008.pdf"
+        },
+        {
+          "citation": "Atlanta Biologicals. Technical bulletin: heat inactivation of serum (TB-HI), hosted by the University of Missouri.",
+          "link": "https://docs.research.missouri.edu/cic/tb-hi.pdf"
+        },
+        {
+          "citation": "St Andrews School of Medicine. SOP SASoM/METHOD/005: preparation of heat-inactivated FCS for cell culture (Mullen P; effective 2021).",
+          "link": "https://med.st-andrews.ac.uk/wp-content/uploads/sites/27/2014/10/SASoM-METHOD-005-Preparation-of-Heat-Inactivated-FCS-for-Cell-Culture.pdf"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Fetal bovine serum, qualified, heat inactivated, Australia, 500 mL: FAQs (cat. 10100147C).",
+          "link": "https://www.thermofisher.com/order/catalog/product/10100147C/faqs"
+        }
+      ],
+      "word_file": "uploads/serum-heat-inactivation.docx",
+      "pptx_file": "uploads/serum-heat-inactivation.pptx"
+    },
+    {
+      "title": "Bacterial Motility Assays",
+      "category": "Microbiology",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-26",
+      "duration": "1–2 days (media 3–4 h + incubation)",
+      "summary": "Measure swimming, swarming and twitching motility on semi-solid agar. Agar concentrations, plate drying, stab and spot inoculation, incubation, ImageJ measurement and controls for Pseudomonas, E. coli, Bacillus and Salmonella.",
+      "keywords": "bacterial motility swimming swarming twitching soft agar flagella type IV pili ImageJ Pseudomonas E. coli",
+      "sources": [
+        {
+          "citation": "Ha D-G, Kuchma SL, O'Toole GA. Plate-based assay for swimming motility in Pseudomonas aeruginosa. Methods Mol Biol. 2014;1149:59–65. doi:10.1007/978-1-4939-0473-0_7.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9007281"
+        },
+        {
+          "citation": "Morales-Soto N, Anyan ME, Mattingly AE, et al. Preparation, imaging, and quantification of bacterial surface motility assays. J Vis Exp. 2015;(98):52338. doi:10.3791/52338.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4541456"
+        },
+        {
+          "citation": "MIT OpenCourseWare. Motility assays (7.13 Experimental Microbial Genetics, Fall 2008, lab 11 handout).",
+          "link": "https://ocw.mit.edu/courses/7-13-experimental-microbial-genetics-fall-2008/506e0afecb948b9951cb8c692083186d_MIT7_13f08_lab11_Protocol_Motility.pdf"
+        },
+        {
+          "citation": "Mattingly AE, Weaver AA, Dimkovikj A, Shrout JD. Assessing travel conditions: environmental and host influences on bacterial surface motility. J Bacteriol. 2018;200(11):e00014-18. doi:10.1128/JB.00014-18.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5952383"
+        }
+      ],
+      "word_file": "uploads/bacterial-motility-assays.docx",
+      "pptx_file": "uploads/bacterial-motility-assays.pptx"
+    },
+    {
+      "title": "C. elegans Germline Dissection",
+      "category": "Model Organisms",
+      "organism": "C. elegans",
+      "date": "2026-11-26",
+      "duration": "2.5 h hands-on + overnight incubations",
+      "summary": "Extrude gonads from young adult hermaphrodites with two needles in levamisole/PBS, fix with 3% formaldehyde then −20 °C methanol, stain with antibodies and DAPI, and mount on agar pads to image the germline.",
+      "keywords": "C. elegans germline gonad dissection extrusion levamisole formaldehyde methanol immunostaining DAPI DABCO meiosis pachytene",
+      "sources": [
+        {
+          "citation": "Schedl Lab, Washington University in St. Louis (protocol by R. Francis, modified by S. Nayak and M.-H. Lee). Gonad Dissections; Gonad Fixation; Antibody Staining of Dissected Gonads; DAPI Staining (lab protocol pages, 2010).",
+          "link": "https://sites.wustl.edu/tslab/protocols/dissection-staining-in-situ/gonad-dissections/"
+        },
+        {
+          "citation": "Nayak Lab, The College of New Jersey. Worm Dissection (lab protocol page).",
+          "link": "https://owd.tcnj.edu/~nayaklab/protocols/dissection.htm"
+        },
+        {
+          "citation": "Hertz HL, Price IF, Tang W. Visualization and purification of Caenorhabditis elegans germ granule proteins using proximity labeling. Bio-protocol 12(8): e4386 (2022). DOI 10.21769/BioProtoc.4386.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9081476"
+        },
+        {
+          "citation": "Kropp PA, Rhodehouse K, Golden A. TUNEL labeling to detect double-stranded DNA breaks in Caenorhabditis elegans gonads. Bio-protocol 12(6): e4351 (2022). DOI 10.21769/BioProtoc.4351.",
+          "link": "https://bio-protocol.org/e4351"
+        }
+      ],
+      "word_file": "uploads/c-elegans-germline-dissection.docx",
+      "pptx_file": "uploads/c-elegans-germline-dissection.pptx"
+    },
+    {
+      "title": "CUT&Tag",
+      "category": "Genomics & Sequencing",
+      "organism": "General Lab Methods",
+      "date": "2026-11-26",
+      "duration": "2 days (about 8 h hands-on)",
+      "summary": "Bind up to 500,000 cells to ConA beads, permeabilize with digitonin, tether pA-Tn5 with primary and secondary antibodies, tagment at 37 °C with Mg²⁺, extract DNA, amplify 13 PCR cycles and check the library for sequencing.",
+      "keywords": "CUT&Tag chromatin profiling histone modification pA-Tn5 tagmentation concanavalin A digitonin epigenomics library sequencing H3K27me3",
+      "sources": [
+        {
+          "citation": "Kaya-Okur HS, Henikoff S. Bench top CUT&Tag. protocols.io (2020). DOI 10.17504/protocols.io.bcuhiwt6.",
+          "link": "https://www.protocols.io/view/bench-top-cut-amp-tag-bcuhiwt6.html"
+        },
+        {
+          "citation": "Kaya-Okur HS, Wu SJ, Codomo CA, Pledger ES, Bryson TD, Henikoff JG, Ahmad K, Henikoff S. CUT&Tag for efficient epigenomic profiling of small samples and single cells. Nat Commun 10: 1930 (2019). DOI 10.1038/s41467-019-09982-5.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6488672"
+        },
+        {
+          "citation": "Henikoff S, Henikoff JG, Ahmad K. Simplified epigenome profiling using antibody-tethered tagmentation. Bio-protocol 11(11): e4043 (2021). DOI 10.21769/BioProtoc.4043.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8250384"
+        },
+        {
+          "citation": "Akdogan-Ozdilek B, George-Alexander LMM, Scharer CD. Epigenomic profiling of B cell subsets by CUT&Tag. Methods Mol Biol 2826: 65–77 (2024). DOI 10.1007/978-1-0716-3950-4_6.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11753148"
+        }
+      ],
+      "word_file": "uploads/cut-and-tag.docx",
+      "pptx_file": "uploads/cut-and-tag.pptx"
+    },
+    {
+      "title": "Fluorescence Polarization Assay",
+      "category": "Biochemistry",
+      "organism": "General Lab Methods",
+      "date": "2026-11-26",
+      "duration": "Day 1: 3 h set-up and tracer tests; Day 2: 3–5 h binding or competition run",
+      "summary": "Calibrate the G factor, pick a tracer concentration, run a direct-binding titration for Kd and a competition titration for IC50 in black 384-well plates, and check mP window and Z′.",
+      "keywords": "fluorescence polarization FP assay mP tracer Kd IC50 binding competition G factor Z prime 384-well",
+      "sources": [
+        {
+          "citation": "LeBlanc EV, Shekhar-Guturja T, Whitesell L, Cowen LE. Fluorescence polarization-based measurement of protein-ligand interaction in fungal cell lysates. Current Protocols 1(1): e17 (2021). DOI 10.1002/cpz1.17.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7850327"
+        },
+        {
+          "citation": "Molecular Devices. Establishing and optimizing a fluorescence polarization assay (application note, 2020).",
+          "link": "https://www.moleculardevices.com/en/assets/app-note/br/establishing-and-optimizing-fluorescence-polarization-assay"
+        },
+        {
+          "citation": "Hall MD, Yasgar A, Peryea T, Braisted JC, Jadhav A, Simeonov A, Coussens NP. Fluorescence polarization assays in high-throughput screening and drug discovery: a review. Methods Appl Fluoresc 4(2): 022001 (2016). DOI 10.1088/2050-6120/4/2/022001.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5563979"
+        }
+      ],
+      "word_file": "uploads/fluorescence-polarization-assay.docx",
+      "pptx_file": "uploads/fluorescence-polarization-assay.pptx"
     }
   ]
 }
