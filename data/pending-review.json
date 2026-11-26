@@ -391,6 +391,92 @@
       "word_file": "uploads/bacterial-motility-assays.docx",
       "pptx_file": "uploads/bacterial-motility-assays.pptx",
       "staged_dir": "review/2026-11-26/"
+    },
+    {
+      "title": "C. elegans Germline Dissection",
+      "category": "Model Organisms",
+      "organism": "C. elegans",
+      "date": "2026-11-26",
+      "duration": "2.5 h hands-on + overnight incubations",
+      "summary": "Extrude gonads from young adult hermaphrodites with two needles in levamisole/PBS, fix with 3% formaldehyde then −20 °C methanol, stain with antibodies and DAPI, and mount on agar pads to image the germline.",
+      "keywords": "C. elegans germline gonad dissection extrusion levamisole formaldehyde methanol immunostaining DAPI DABCO meiosis pachytene",
+      "sources": [
+        {
+          "citation": "Schedl Lab, Washington University in St. Louis (protocol by R. Francis, modified by S. Nayak and M.-H. Lee). Gonad Dissections; Gonad Fixation; Antibody Staining of Dissected Gonads; DAPI Staining (lab protocol pages, 2010).",
+          "link": "https://sites.wustl.edu/tslab/protocols/dissection-staining-in-situ/gonad-dissections/"
+        },
+        {
+          "citation": "Nayak Lab, The College of New Jersey. Worm Dissection (lab protocol page).",
+          "link": "https://owd.tcnj.edu/~nayaklab/protocols/dissection.htm"
+        },
+        {
+          "citation": "Hertz HL, Price IF, Tang W. Visualization and purification of Caenorhabditis elegans germ granule proteins using proximity labeling. Bio-protocol 12(8): e4386 (2022). DOI 10.21769/BioProtoc.4386.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9081476"
+        },
+        {
+          "citation": "Kropp PA, Rhodehouse K, Golden A. TUNEL labeling to detect double-stranded DNA breaks in Caenorhabditis elegans gonads. Bio-protocol 12(6): e4351 (2022). DOI 10.21769/BioProtoc.4351.",
+          "link": "https://bio-protocol.org/e4351"
+        }
+      ],
+      "word_file": "uploads/c-elegans-germline-dissection.docx",
+      "pptx_file": "uploads/c-elegans-germline-dissection.pptx",
+      "staged_dir": "review/2026-11-26/"
+    },
+    {
+      "title": "CUT&Tag",
+      "category": "Genomics & Sequencing",
+      "organism": "General Lab Methods",
+      "date": "2026-11-26",
+      "duration": "2 days (about 8 h hands-on)",
+      "summary": "Bind up to 500,000 cells to ConA beads, permeabilize with digitonin, tether pA-Tn5 with primary and secondary antibodies, tagment at 37 °C with Mg²⁺, extract DNA, amplify 13 PCR cycles and check the library for sequencing.",
+      "keywords": "CUT&Tag chromatin profiling histone modification pA-Tn5 tagmentation concanavalin A digitonin epigenomics library sequencing H3K27me3",
+      "sources": [
+        {
+          "citation": "Kaya-Okur HS, Henikoff S. Bench top CUT&Tag. protocols.io (2020). DOI 10.17504/protocols.io.bcuhiwt6.",
+          "link": "https://www.protocols.io/view/bench-top-cut-amp-tag-bcuhiwt6.html"
+        },
+        {
+          "citation": "Kaya-Okur HS, Wu SJ, Codomo CA, Pledger ES, Bryson TD, Henikoff JG, Ahmad K, Henikoff S. CUT&Tag for efficient epigenomic profiling of small samples and single cells. Nat Commun 10: 1930 (2019). DOI 10.1038/s41467-019-09982-5.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6488672"
+        },
+        {
+          "citation": "Henikoff S, Henikoff JG, Ahmad K. Simplified epigenome profiling using antibody-tethered tagmentation. Bio-protocol 11(11): e4043 (2021). DOI 10.21769/BioProtoc.4043.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8250384"
+        },
+        {
+          "citation": "Akdogan-Ozdilek B, George-Alexander LMM, Scharer CD. Epigenomic profiling of B cell subsets by CUT&Tag. Methods Mol Biol 2826: 65–77 (2024). DOI 10.1007/978-1-0716-3950-4_6.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11753148"
+        }
+      ],
+      "word_file": "uploads/cut-and-tag.docx",
+      "pptx_file": "uploads/cut-and-tag.pptx",
+      "staged_dir": "review/2026-11-26/"
+    },
+    {
+      "title": "Fluorescence Polarization Assay",
+      "category": "Biochemistry",
+      "organism": "General Lab Methods",
+      "date": "2026-11-26",
+      "duration": "Day 1: 3 h set-up and tracer tests; Day 2: 3–5 h binding or competition run",
+      "summary": "Calibrate the G factor, pick a tracer concentration, run a direct-binding titration for Kd and a competition titration for IC50 in black 384-well plates, and check mP window and Z′.",
+      "keywords": "fluorescence polarization FP assay mP tracer Kd IC50 binding competition G factor Z prime 384-well",
+      "sources": [
+        {
+          "citation": "LeBlanc EV, Shekhar-Guturja T, Whitesell L, Cowen LE. Fluorescence polarization-based measurement of protein-ligand interaction in fungal cell lysates. Current Protocols 1(1): e17 (2021). DOI 10.1002/cpz1.17.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7850327"
+        },
+        {
+          "citation": "Molecular Devices. Establishing and optimizing a fluorescence polarization assay (application note, 2020).",
+          "link": "https://www.moleculardevices.com/en/assets/app-note/br/establishing-and-optimizing-fluorescence-polarization-assay"
+        },
+        {
+          "citation": "Hall MD, Yasgar A, Peryea T, Braisted JC, Jadhav A, Simeonov A, Coussens NP. Fluorescence polarization assays in high-throughput screening and drug discovery: a review. Methods Appl Fluoresc 4(2): 022001 (2016). DOI 10.1088/2050-6120/4/2/022001.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5563979"
+        }
+      ],
+      "word_file": "uploads/fluorescence-polarization-assay.docx",
+      "pptx_file": "uploads/fluorescence-polarization-assay.pptx",
+      "staged_dir": "review/2026-11-26/"
     }
   ]
 }
