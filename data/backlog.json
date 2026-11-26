@@ -712,19 +712,19 @@
   {
    "title": "Isothermal Titration Calorimetry",
    "category": "Biochemistry",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "Mouse Splenocyte Isolation",
    "category": "Immunology",
-   "status": "pending",
+   "status": "staged",
    "organism": "Mouse"
   },
   {
    "title": "High-Fidelity PCR",
    "category": "Molecular Biology",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {

@@ -309,6 +309,100 @@
    "word_file": "uploads/atac-seq.docx",
    "pptx_file": "uploads/atac-seq.pptx",
    "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "Isothermal Titration Calorimetry",
+   "category": "Biochemistry",
+   "organism": "General Lab Methods",
+   "date": "2026-11-26",
+   "duration": "About 3 h of run time plus overnight dialysis",
+   "summary": "Step-by-step ITC on a MicroCal ITC200: designing concentrations from the c value, buffer matching by dialysis, degassing, loading, a 19-injection titration with a buffer control, and One Set of Sites fitting for Kd, n, ΔH and ΔS.",
+   "keywords": "isothermal titration calorimetry ITC MicroCal ITC200 binding affinity Kd enthalpy stoichiometry c value dialysis heat of dilution One Set of Sites thermodynamics",
+   "sources": [
+    {
+     "citation": "Harvard Medical School Center for Macromolecular Interactions. ITC200: CMI Getting Started Guide to Isothermal Titration Calorimetry (last edited 2025).",
+     "link": "https://cmi.hms.harvard.edu/resource/cmi-itc200-getting-started-guide"
+    },
+    {
+     "citation": "Saponaro A. Isothermal titration calorimetry: a biophysical method to characterize the interaction between label-free biomolecules in solution. Bio-protocol 8(15):e2957, 2018.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8328675"
+    },
+    {
+     "citation": "Waschbüsch D, Khan A. Isothermal titration calorimetry (ITC). protocols.io, 2025 (Trinity College Dublin).",
+     "link": "https://www.protocols.io/view/isothermal-titration-calorimetry-itc-g37dbyri7.html"
+    },
+    {
+     "citation": "Penn State Huck Institutes, Automated Biological Calorimetry Facility. Isothermal titration calorimetry technical guide.",
+     "link": "https://www.huck.psu.edu/core-facilities/automated-biological-calorimetry-facility/technical-guides/isothermal-titration-calorimetry"
+    }
+   ],
+   "word_file": "uploads/isothermal-titration-calorimetry.docx",
+   "pptx_file": "uploads/isothermal-titration-calorimetry.pptx",
+   "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "Mouse Splenocyte Isolation",
+   "category": "Immunology",
+   "organism": "Mouse",
+   "date": "2026-11-26",
+   "duration": "About 1 h",
+   "summary": "Preparation of a single-cell suspension from a mouse spleen by mechanical dissociation through a 70 µm strainer, ACK red blood cell lysis, 40 µm filtration, counting and adjustment for staining or culture.",
+   "keywords": "mouse splenocyte isolation spleen single-cell suspension ACK lysis red blood cell lysis 70 µm strainer flow cytometry ELISpot lymphocytes",
+   "sources": [
+    {
+     "citation": "Thermo Fisher Scientific. Mouse spleen cell isolation protocol (BestProtocols).",
+     "link": "https://www.thermofisher.com/us/en/home/life-science/cell-analysis/cell-analysis-learning-center/immunology-at-work/immunology-protocols/mouse-spleen-cell-isolation-protocol.html"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. Red blood cell lysis protocols using eBioscience lysis buffers (BestProtocols).",
+     "link": "https://www.thermofisher.com/us/en/home/references/protocols/cell-and-tissue-analysis/protocols/red-blood-cell-lysis.html"
+    },
+    {
+     "citation": "STEMCELL Technologies. How to prepare a single-cell suspension from mouse spleen.",
+     "link": "https://www.stemcell.com/prepare-single-cell-suspension-from-mouse-spleen.html"
+    },
+    {
+     "citation": "Ainslie Lab, University of North Carolina. Spleen, lymph node, and BAL harvest protocol for ELISpot, cytokine ELISA, and flow (updated 2022).",
+     "link": "https://ainslielab.web.unc.edu/wp-content/uploads/sites/12416/2024/01/Spleen-Harvest-Protocol.pdf"
+    },
+    {
+     "citation": "Cold Spring Harbor Protocols. Corrigendum: Detection of apoptotic cells using propidium iodide staining (corrected ACK lysis buffer recipe), 2018; original article doi:10.1101/pdb.prot082545.",
+     "link": "https://cshprotocols.cshlp.org/content/2018/6/Corr104943.full"
+    },
+    {
+     "citation": "University of Pittsburgh General Surgery Laboratory. Mouse splenocyte separation, SOP, 2013.",
+     "link": "https://surgery.pitt.edu/sites/default/files/GSVLLabInternal/Info_handbook/SOPs/General/Splenocyte%20SOP.pdf"
+    }
+   ],
+   "word_file": "uploads/mouse-splenocyte-isolation.docx",
+   "pptx_file": "uploads/mouse-splenocyte-isolation.pptx",
+   "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "High-Fidelity PCR",
+   "category": "Molecular Biology",
+   "organism": "General Lab Methods",
+   "date": "2026-11-26",
+   "duration": "About 2 h",
+   "summary": "Proofreading-polymerase PCR with Q5 (and Phusion) for cloning-grade amplicons: 50 µL setup, nearest-neighbor annealing design, 98 °C cycling, extension times by template type, GC strategies and blunt-end product handling.",
+   "keywords": "high-fidelity PCR Q5 Phusion proofreading polymerase 3'-5' exonuclease error rate GC enhancer Tm calculator extension time blunt-end cloning amplicon",
+   "sources": [
+    {
+     "citation": "New England Biolabs. PCR using Q5 High-Fidelity DNA Polymerase (M0491), protocol.",
+     "link": "https://www.neb.com/protocols/2013/12/13/pcr-using-q5-high-fidelity-dna-polymerase-m0491"
+    },
+    {
+     "citation": "New England Biolabs. Guidelines for PCR optimization with Phusion High-Fidelity DNA Polymerase, protocol (2012).",
+     "link": "https://neb.com/protocols/2012/06/01/guidelines-for-pcr-optimization-with-phusion-high-fidelity-dna-polymerase"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. Phusion High-Fidelity DNA Polymerase product information sheet, Pub. No. MAN0012393 Rev. E.0, 2021 (copy hosted by the University of Massachusetts).",
+     "link": "https://wahoo.cns.umass.edu/sites/default/files/2024-09/Thermo%20Scientific%20Phusion%20High%E2%80%93Fidelity%20DNA%20Polymerase%20Product%20Information%20Sheet%20%28Pub.%20No.%20MAN0012393%20E.0%29.pdf"
+    }
+   ],
+   "word_file": "uploads/high-fidelity-pcr.docx",
+   "pptx_file": "uploads/high-fidelity-pcr.pptx",
+   "staged_dir": "review/2026-11-26/"
   }
  ]
 }
