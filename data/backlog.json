@@ -748,19 +748,19 @@
   {
    "title": "Lipofectamine Transfection",
    "category": "Cell Culture",
-   "status": "pending",
+   "status": "staged",
    "organism": "Mammalian Cells"
   },
   {
    "title": "Bacteriophage Plaque Assay",
    "category": "Microbiology",
-   "status": "pending",
+   "status": "staged",
    "organism": "E. coli & Bacteria"
   },
   {
    "title": "C. elegans Embryo Imaging",
    "category": "Model Organisms",
-   "status": "pending",
+   "status": "staged",
    "organism": "C. elegans"
   },
   {

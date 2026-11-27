@@ -493,6 +493,100 @@
    "word_file": "uploads/frap-fluorescence-recovery-after-photobleaching.docx",
    "pptx_file": "uploads/frap-fluorescence-recovery-after-photobleaching.pptx",
    "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "Lipofectamine Transfection",
+   "category": "Cell Culture",
+   "organism": "Mammalian Cells",
+   "date": "2026-11-26",
+   "duration": "≈ 1.5 h hands-on over 2 days + 24–72 h expression",
+   "summary": "Transfect adherent mammalian cells with plasmid DNA using Lipofectamine 3000 and P3000: seed to 70–90% confluence, form lipid–DNA complexes in Opti-MEM, add dropwise and assay at 24–72 h.",
+   "keywords": "Lipofectamine 3000 P3000 transfection plasmid DNA adherent mammalian cells Opti-MEM HEK293 cationic lipid transient expression",
+   "sources": [
+    {
+     "citation": "Thermo Fisher Scientific. Lipofectamine 3000 Reagent Protocol (User Guide), Pub. No. MAN0009872, Rev. C.0 (2016).",
+     "link": "https://assets.thermofisher.cn/TFS-Assets/LSG/manuals/lipofectamine3000_protocol.pdf"
+    },
+    {
+     "citation": "Thermo Fisher Scientific (2017). Transfection protocol: Lipofectamine 3000 Transfection Reagent, D17 lung cancer cells (COL31990 0917).",
+     "link": "https://assets.thermofisher.com/TFS-Assets/BID/manuals/lipofectamine3000-d17-protocol.pdf"
+    },
+    {
+     "citation": "Thermo Fisher Scientific (2018). Transfection protocol: Lipofectamine 3000 Transfection Reagent, NCI-H1299 lung cancer cells (COL15693 0218).",
+     "link": "https://documents.thermofisher.com/TFS-Assets/LSG/Methods-&-Protocols/lipofectamine3000-nci-h1299-protocol.pdf"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. Lipofectamine 3000 Transfection Reagent, 1.5 mL: frequently asked questions (product page L3000015).",
+     "link": "https://www.thermofisher.com/order/catalog/product/L3000015/faqs"
+    }
+   ],
+   "word_file": "uploads/lipofectamine-transfection.docx",
+   "pptx_file": "uploads/lipofectamine-transfection.pptx",
+   "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "Bacteriophage Plaque Assay",
+   "category": "Microbiology",
+   "organism": "E. coli & Bacteria",
+   "date": "2026-11-26",
+   "duration": "≈ 2–3 h hands-on + overnight incubation",
+   "summary": "Titer bacteriophage by the double agar overlay: dilute phage in SM buffer, mix with log-phase E. coli in soft agar, pour on bottom agar, count plaques and calculate PFU/mL.",
+   "keywords": "bacteriophage plaque assay double agar overlay top agar PFU/mL titer SM buffer E. coli phage",
+   "sources": [
+    {
+     "citation": "Panec M, Katz DS (2006). Plaque assay protocols. American Society for Microbiology (ASM Conference for Undergraduate Educators).",
+     "link": "https://asm.org/asm/media/protocol-images/plaque-assay-protocols.pdf?ext=.pdf"
+    },
+    {
+     "citation": "Francis F, Miller R, Nagra M (2017). Phage overlay assay for quantification of infectious bacteriophage particles. Undergraduate Methods Paper, vol 1:18–21, Department of Microbiology and Immunology, University of British Columbia.",
+     "link": "https://jemi.microbiology.ubc.ca/sites/default/files/Francis%20et%20al%20JEMI-methods%20Vol%201%20pg%2018-21.pdf"
+    },
+    {
+     "citation": "Kauffman KM, Polz MF (2018). Streamlining standard bacteriophage methods for higher throughput. MethodsX 5:159–172.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6318102"
+    },
+    {
+     "citation": "Tokman J (2016). Using and maintaining Listeriaphage, SOP 3.6. Food Safety Lab, Cornell University.",
+     "link": "https://confluence.cornell.edu/download/attachments/146903799/3.6-Listeria%20Phage%20Protocol_07292016.pdf?api=v2"
+    },
+    {
+     "citation": "Lawrence J. Genetics: quantitation of bacteriophage P1 (protocol G11). Roth lab, UC Davis (page updated 2024).",
+     "link": "https://rothlab.ucdavis.edu/protocols/G11.shtml"
+    }
+   ],
+   "word_file": "uploads/bacteriophage-plaque-assay.docx",
+   "pptx_file": "uploads/bacteriophage-plaque-assay.pptx",
+   "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "C. elegans Embryo Imaging",
+   "category": "Model Organisms",
+   "organism": "C. elegans",
+   "date": "2026-11-26",
+   "duration": "≈ 1 h setup + 1–4 h imaging",
+   "summary": "Mount and time-lapse image living C. elegans embryos on agar pads or 20 µm bead spacers, with low-phototoxicity settings, stage timing and troubleshooting.",
+   "keywords": "C. elegans embryo imaging time-lapse agar pad bead mount live imaging M9 egg salts 2-cell embryo phototoxicity",
+   "sources": [
+    {
+     "citation": "Walston T, Hardin J (2010). An agar mount for observation of Caenorhabditis elegans embryos. Cold Spring Harb Protoc 2010(12):pdb.prot5540.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4036621"
+    },
+    {
+     "citation": "Dutta P, Lehmann C, Odedra D, Singh D, Pohl C (2015). Tracking and quantifying developmental processes in C. elegans using open-source tools. J Vis Exp (106):53469.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4694029"
+    },
+    {
+     "citation": "Carvalho A, Olson SK, Gutierrez E, Zhang K, Noble LB, Zanin E, Desai A, Groisman A, Oegema K (2011). Acute drug treatment in the early C. elegans embryo. PLoS ONE 6(9):e24656.",
+     "link": "https://doi.org/10.1371/journal.pone.0024656"
+    },
+    {
+     "citation": "Stubbert CA, Soe C, Shah PK (2025). Long-term ex ovo culture of Caenorhabditis elegans embryos. bioRxiv preprint (not peer reviewed).",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12262650/"
+    }
+   ],
+   "word_file": "uploads/c-elegans-embryo-imaging.docx",
+   "pptx_file": "uploads/c-elegans-embryo-imaging.pptx",
+   "staged_dir": "review/2026-11-26/"
   }
  ]
 }
