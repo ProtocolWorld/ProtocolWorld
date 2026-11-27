@@ -826,7 +826,7 @@
     {
       "title": "Whole-Genome Bisulfite Sequencing",
       "category": "Genomics & Sequencing",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {
@@ -844,13 +844,13 @@
     {
       "title": "Touchdown PCR",
       "category": "Molecular Biology",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {
       "title": "Verification of Clones by Restriction Digest",
       "category": "Cloning & CRISPR",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {
