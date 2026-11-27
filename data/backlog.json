@@ -892,13 +892,13 @@
   {
    "title": "Electrophoretic Mobility Shift Assay (EMSA)",
    "category": "Biochemistry",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "Dendritic Cell Generation from Bone Marrow",
    "category": "Immunology",
-   "status": "pending",
+   "status": "staged",
    "organism": "Mouse"
   },
   {
@@ -910,7 +910,7 @@
   {
    "title": "Plasmid Sequence Verification",
    "category": "Cloning & CRISPR",
-   "status": "pending",
+   "status": "staged",
    "organism": "E. coli & Bacteria"
   },
   {
