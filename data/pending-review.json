@@ -1061,6 +1061,88 @@
    "word_file": "uploads/verification-of-clones-by-restriction-digest.docx",
    "pptx_file": "uploads/verification-of-clones-by-restriction-digest.pptx",
    "staged_dir": "review/2026-11-27/"
+  },
+  {
+   "title": "Fluorescent Western Blotting",
+   "category": "Protein Analysis",
+   "organism": "General Lab Methods",
+   "date": "2026-11-27",
+   "duration": "1.5 days",
+   "summary": "Detect and quantify one or two proteins per blot with near-infrared fluorescent secondaries: low-fluorescence membrane, detergent-free blocking, 1 h dark secondary incubation, two-channel scanning, and normalization to total protein.",
+   "keywords": "fluorescent western blot near-infrared multiplex IRDye PVDF nitrocellulose blocking Tween SDS quantification total protein",
+   "sources": [
+    {
+     "citation": "LI-COR Biosciences. Near-Infrared Western Blot Detection Protocol (technical protocol page).",
+     "link": "https://www.licorbio.com/support/contents/applications/western-blots/fluorescent-western-blot-detection-protocol.html"
+    },
+    {
+     "citation": "Biotium. Protocol: Fluorescent Western Blotting (technical protocol page).",
+     "link": "https://biotium.com/resource/protocol-fluorescent-western-blotting/"
+    },
+    {
+     "citation": "Silva JM, McMahon M. The Fastest Western in Town: A Contemporary Twist on the Classic Western Blot Analysis. J Vis Exp. 2014;(84):51149 (PMCID PMC4028330).",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4028330"
+    }
+   ],
+   "word_file": "uploads/fluorescent-western-blotting.docx",
+   "pptx_file": "uploads/fluorescent-western-blotting.pptx",
+   "staged_dir": "review/2026-11-27/"
+  },
+  {
+   "title": "Confocal Microscopy Sample Preparation",
+   "category": "Imaging & Microscopy",
+   "organism": "General Lab Methods",
+   "date": "2026-11-27",
+   "duration": "1.5 days",
+   "summary": "Prepare fixed, immunolabeled cultured cells on #1.5 coverslips for confocal imaging: fixation, quenching, permeabilization, blocking, antibody staining, DAPI, antifade mounting, and imaging tips.",
+   "keywords": "confocal microscopy sample preparation immunofluorescence coverslip #1.5 fixation permeabilization mounting antifade pinhole",
+   "sources": [
+    {
+     "citation": "Duke University Light Microscopy Core Facility. Introduction to Sample Preparation: Immunofluorescence (guide).",
+     "link": "https://microscopy.duke.edu/guides/intro-sample-prep-immunofluorescence"
+    },
+    {
+     "citation": "Stanford University Cell Sciences Imaging Facility. Sample preparation (light microscopy guide), RRID:SCR_017787.",
+     "link": "https://microscopy.stanford.edu/guides/light-microscopy/sample-preparation"
+    },
+    {
+     "citation": "University of Cambridge, Department of Pathology. Sample Preparation: immunofluorescence labelling protocol.",
+     "link": "https://www.path.cam.ac.uk/research/facilities/microscopy/sample-preparation"
+    },
+    {
+     "citation": "University of Pennsylvania CDB Microscopy Core. Sample Prep FAQs.",
+     "link": "https://www.med.upenn.edu/cdbmicroscopycore/sample-prep-faqs.html"
+    }
+   ],
+   "word_file": "uploads/confocal-microscopy-sample-preparation.docx",
+   "pptx_file": "uploads/confocal-microscopy-sample-preparation.pptx",
+   "staged_dir": "review/2026-11-27/"
+  },
+  {
+   "title": "Electroporation of Mammalian Cells",
+   "category": "Cell Culture",
+   "organism": "Mammalian Cells",
+   "date": "2026-11-27",
+   "duration": "2 h + 24–60 h recovery",
+   "summary": "Electroporate mammalian cells in 0.4 cm cuvettes: log-phase cells, ice-cold buffer, 10–40 µg DNA, cell-type starting pulse settings, recovery, and viability and efficiency checks.",
+   "keywords": "electroporation mammalian cells transfection cuvette square wave exponential decay plasmid HEK293 HeLa CHO Jurkat",
+   "sources": [
+    {
+     "citation": "Potter H, Heller R. Transfection by Electroporation. Curr Protoc Mol Biol. 2003;Unit 9.3 (PMCID PMC2975437).",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2975437"
+    },
+    {
+     "citation": "Jordan ET, Collins M, Terefe J, Ugozzoli L, Rubio T. Optimizing Electroporation Conditions in Primary and Other Difficult-to-Transfect Cells. J Biomol Tech. 2008;19(5):328–334. (PMCID PMC2628074)",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2628074"
+    },
+    {
+     "citation": "Roberts JP. Shocking: How to Optimize Your Electroporation. Biocompare (editorial article).",
+     "link": "https://www.biocompare.com/Editorial-Articles/142509-Shocking-How-to-Optimize-Your-Electroporation-Conditions/"
+    }
+   ],
+   "word_file": "uploads/electroporation-of-mammalian-cells.docx",
+   "pptx_file": "uploads/electroporation-of-mammalian-cells.pptx",
+   "staged_dir": "review/2026-11-27/"
   }
  ]
 }
