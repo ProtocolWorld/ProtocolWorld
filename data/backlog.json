@@ -874,19 +874,19 @@
   {
    "title": "P1 Transduction",
    "category": "Microbiology",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "C. elegans Brood Size Assay",
    "category": "Model Organisms",
-   "status": "pending",
+   "status": "staged",
    "organism": "C. elegans"
   },
   {
    "title": "Ribosome Profiling",
    "category": "Genomics & Sequencing",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {

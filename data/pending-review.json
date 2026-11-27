@@ -1143,6 +1143,96 @@
    "word_file": "uploads/electroporation-of-mammalian-cells.docx",
    "pptx_file": "uploads/electroporation-of-mammalian-cells.pptx",
    "staged_dir": "review/2026-11-27/"
+  },
+  {
+   "title": "P1 Transduction",
+   "category": "Microbiology",
+   "organism": "General Lab Methods",
+   "date": "2026-11-27",
+   "duration": "4–5 days (lysate 1 day, transduction 2–3 days)",
+   "summary": "Prepare and titer a P1vir lysate on a donor E. coli K-12 strain, then transduce a selectable marker into a recipient: Ca²⁺ adsorption, citrate stop, expression, selection and purification.",
+   "keywords": "P1 transduction P1vir lysate titer E. coli K-12 phage Keio knockout marker transfer sodium citrate",
+   "sources": [
+    {
+     "citation": "Thomason LC, Costantino N, Court DL. E. coli genome manipulation by P1 transduction. Curr Protoc Mol Biol. 2007;Unit 1.17 (Suppl 79):1.17.1–1.17.8.",
+     "link": "https://doi.org/10.1002/0471142727.mb0117s79"
+    },
+    {
+     "citation": "Saragliadis A, Trunk T, Leo JC. Producing gene deletions in Escherichia coli by P1 transduction with excisable antibiotic resistance cassettes. J Vis Exp. 2018;(139):58267.",
+     "link": "https://doi.org/10.3791/58267"
+    },
+    {
+     "citation": "University of Georgia CMBE. P1vir Transductions (laboratory protocol handout, no author listed).",
+     "link": "https://www.cmbe.engr.uga.edu/protocols/P1vir%20Transductions.pdf"
+    },
+    {
+     "citation": "Moore S, Sauer Lab. P1vir phage transduction. OpenWetWare (last edited 2 March 2011).",
+     "link": "https://openwetware.org/wiki/Sauer:P1vir_phage_transduction"
+    },
+    {
+     "citation": "Portland State University. Constructing E. coli strains by P1 transduction (course handout, no author listed).",
+     "link": "https://web.pdx.edu/~justc/courses/MicrobialGenetics/StrainConstruction.pdf"
+    }
+   ],
+   "word_file": "uploads/p1-transduction.docx",
+   "pptx_file": "uploads/p1-transduction.pptx",
+   "staged_dir": "review/2026-11-27/"
+  },
+  {
+   "title": "C. elegans Brood Size Assay",
+   "category": "Model Organisms",
+   "organism": "C. elegans",
+   "date": "2026-11-27",
+   "duration": "7–8 days (5 days of transfers + 2–3 days of counting)",
+   "summary": "Follow single C. elegans hermaphrodites from L4, transfer every 24 h for 5 days, count living progeny, dead eggs and unfertilized eggs, and compare brood size and embryonic lethality with wild type.",
+   "keywords": "C. elegans brood size fertility assay embryonic lethality self-progeny hermaphrodite N2 transfer 20 C",
+   "sources": [
+    {
+     "citation": "Cahoon CK, Libuda DE. Conditional immobilization for live imaging Caenorhabditis elegans using auxin-dependent protein depletion. G3 (Bethesda). 2021;11(11):jkab310.",
+     "link": "https://doi.org/10.1093/g3journal/jkab310"
+    },
+    {
+     "citation": "Muschiol D, Schroeder F, Traunspurger W. Life cycle and population growth rate of Caenorhabditis elegans studied by a new method. BMC Ecol. 2009;9:14.",
+     "link": "https://doi.org/10.1186/1472-6785-9-14"
+    },
+    {
+     "citation": "Lim J, Kim J, Lee J. Natural variations in reproductive timing of brood size and X-chromosome nondisjunction in Caenorhabditis elegans. bioRxiv preprint (v2, 28 July 2021).",
+     "link": "https://doi.org/10.1101/2021.04.08.439028"
+    }
+   ],
+   "word_file": "uploads/c-elegans-brood-size-assay.docx",
+   "pptx_file": "uploads/c-elegans-brood-size-assay.pptx",
+   "staged_dir": "review/2026-11-27/"
+  },
+  {
+   "title": "Ribosome Profiling",
+   "category": "Genomics & Sequencing",
+   "organism": "General Lab Methods",
+   "date": "2026-11-27",
+   "duration": "5–7 days for the library + 4–5 days for sequencing and analysis",
+   "summary": "Map translating ribosomes in cultured mammalian cells: cycloheximide lysis, RNase I footprinting, sucrose cushion, 26–34 nt size selection, linker ligation, circularization, rRNA subtraction and PCR for Illumina sequencing.",
+   "keywords": "ribosome profiling Ribo-seq ribosome footprint RNase I translation sucrose cushion cycloheximide HEK293 library Illumina",
+   "sources": [
+    {
+     "citation": "Ingolia NT, Brar GA, Rouskin S, McGeachy AM, Weissman JS. The ribosome profiling strategy for monitoring translation in vivo by deep sequencing of ribosome-protected mRNA fragments. Nat Protoc. 2012;7(8):1534–1550.",
+     "link": "https://doi.org/10.1038/nprot.2012.086"
+    },
+    {
+     "citation": "Ingolia NT, Brar GA, Rouskin S, McGeachy AM, Weissman JS. Genome-wide annotation and quantitation of translation by ribosome profiling. Curr Protoc Mol Biol. 2013;Unit 4.18.",
+     "link": "https://doi.org/10.1002/0471142727.mb0418s103"
+    },
+    {
+     "citation": "Ferguson L, Upton HE, Pimentel SC, et al. Streamlined and sensitive mono- and di-ribosome profiling in yeast and human cells. Nat Methods. 2023;20:1704–1715.",
+     "link": "https://doi.org/10.1038/s41592-023-02028-1"
+    },
+    {
+     "citation": "Johnson GE, Li GW. Genome-wide quantitation of protein synthesis rates in bacteria. Methods Enzymol. 2018;612:225–249.",
+     "link": "https://doi.org/10.1016/bs.mie.2018.08.031"
+    }
+   ],
+   "word_file": "uploads/ribosome-profiling.docx",
+   "pptx_file": "uploads/ribosome-profiling.pptx",
+   "staged_dir": "review/2026-11-27/"
   }
  ]
 }
