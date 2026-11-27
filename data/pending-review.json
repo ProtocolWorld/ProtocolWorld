@@ -771,6 +771,108 @@
    "word_file": "uploads/ecl-chemiluminescent-detection.docx",
    "pptx_file": "uploads/ecl-chemiluminescent-detection.pptx",
    "staged_dir": "review/2026-11-27/"
+  },
+  {
+   "title": "FRET Imaging",
+   "category": "Imaging & Microscopy",
+   "organism": "General Lab Methods",
+   "date": "2026-11-27",
+   "duration": "3 days (≈ 4 h imaging)",
+   "summary": "Live-cell sensitized-emission FRET imaging of a CFP/YFP-type pair in HEK293 cells: transfection, single-label and tandem controls, fixed acquisition settings, cross-talk correction, normalized FRET indices and troubleshooting.",
+   "keywords": "FRET sensitized emission CFP YFP Cerulean Venus biosensor live-cell imaging cross-talk correction DER AER tandem control acceptor photobleaching HEK293 confocal",
+   "sources": [
+    {
+     "citation": "Broussard JA, Rappaz B, Webb DJ, Brown CM. Fluorescence resonance energy transfer microscopy as demonstrated by measuring the activation of the serine/threonine kinase Akt. Nat Protoc. 2013;8(2):265–281. doi:10.1038/nprot.2012.147.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3756929"
+    },
+    {
+     "citation": "Berney C, Danuser G. FRET or no FRET: a quantitative comparison. Biophys J. 2003;84(6):3992–4010. doi:10.1016/S0006-3495(03)75126-1.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1302980"
+    },
+    {
+     "citation": "Elder AD, Domin A, Kaminski Schierle GS, et al. A quantitative protocol for dynamic measurements of protein interactions by Förster resonance energy transfer-sensitized fluorescence emission. J R Soc Interface. 2009;6(Suppl 1):S59–S81. doi:10.1098/rsif.2008.0381.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2706461"
+    },
+    {
+     "citation": "Koushik SV, Chen H, Thaler C, Puhl HL 3rd, Vogel SS. Cerulean, Venus, and VenusY67C FRET reference standards. Biophys J. 2006;91(12):L99–L101. doi:10.1529/biophysj.106.096206.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1779932"
+    }
+   ],
+   "word_file": "uploads/fret-imaging.docx",
+   "pptx_file": "uploads/fret-imaging.pptx",
+   "staged_dir": "review/2026-11-27/"
+  },
+  {
+   "title": "Calcium Phosphate Transfection",
+   "category": "Cell Culture",
+   "organism": "Mammalian Cells",
+   "date": "2026-11-27",
+   "duration": "≈ 1 h hands-on + 24–72 h expression",
+   "summary": "Transfect HEK293/293T cells with plasmid DNA using a calcium phosphate–DNA coprecipitate: buffer recipes and pH 7.05, 10-cm and 6-well volumes, timing, chloroquine option, controls and troubleshooting.",
+   "keywords": "calcium phosphate transfection HEK293 293T plasmid DNA HEPES buffered saline HBS CaCl2 coprecipitate chloroquine lentivirus packaging precipitate pH",
+   "sources": [
+    {
+     "citation": "Jordan M, Schallhorn A, Wurm FM. Transfecting mammalian cells: optimization of critical parameters affecting calcium-phosphate precipitate formation. Nucleic Acids Res. 1996;24(4):596–601. doi:10.1093/nar/24.4.596.",
+     "link": "https://infoscience.epfl.ch/record/105018"
+    },
+    {
+     "citation": "Chen C, Okayama H. High-efficiency transformation of mammalian cells by plasmid DNA. Mol Cell Biol. 1987;7(8):2745–2752. doi:10.1128/mcb.7.8.2745-2752.1987.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC367891"
+    },
+    {
+     "citation": "University of Virginia, Thaler Center. Calcium phosphate transfection (laboratory protocol).",
+     "link": "https://med.virginia.edu/thaler-center/data/protocols/calcium-phosphate-transfection"
+    },
+    {
+     "citation": "Marks Lab, University of Pennsylvania. Calcium phosphate transfection of adherent cells (laboratory protocol, PDF).",
+     "link": "https://www.med.upenn.edu/markslab/assets/user-content/documents/Calcium%20Phosphate%20Transfection%20of%20adherent%20cells.pdf"
+    },
+    {
+     "citation": "Ruthazer Lab, McGill University. Calcium phosphate transfection of 293T cells (laboratory protocol).",
+     "link": "https://ruthazerlab.mcgill.ca/protocols/Calcium_Phosphate_Transfection.htm"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. Gibco cell culture basics: What is calcium phosphate precipitation?",
+     "link": "https://thermofisher.com/uk/en/home/references/gibco-cell-culture-basics/transfection-basics/methods/calcium-phosphate-precipitation.html"
+    }
+   ],
+   "word_file": "uploads/calcium-phosphate-transfection.docx",
+   "pptx_file": "uploads/calcium-phosphate-transfection.pptx",
+   "staged_dir": "review/2026-11-27/"
+  },
+  {
+   "title": "Bacteriophage Lysate Preparation",
+   "category": "Microbiology",
+   "organism": "E. coli & Bacteria",
+   "date": "2026-11-27",
+   "duration": "2 days (plate lysate) or ≈ 1 day (liquid lysate)",
+   "summary": "Prepare a high-titer, cell-free bacteriophage lysate from E. coli by plate (web-lysis) or liquid-culture amplification: buffers, plating density, clarification, filtration, storage, titer check and troubleshooting.",
+   "keywords": "bacteriophage lysate high titer plate lysate liquid lysate top agar SM buffer web lysis chloroform E. coli T4 P1 lambda PFU filtration storage",
+   "sources": [
+    {
+     "citation": "Harvard Medical School phage laboratory. Preparing high titer lysates for DNA extraction (laboratory protocol).",
+     "link": "https://phages.hms.harvard.edu/labprotocols/protocol_08-lysates.html"
+    },
+    {
+     "citation": "Bonilla N, Rojas MI, Netto Flores Cruz G, Hung SH, Rohwer F, Barr JJ. Phage on tap: a quick and efficient protocol for the preparation of bacteriophage laboratory stocks. PeerJ. 2016;4:e2261.",
+     "link": "https://peerj.com/articles/2261"
+    },
+    {
+     "citation": "Thomason LC, Costantino N, Court DL. E. coli genome manipulation by P1 transduction. Curr Protoc Mol Biol. 2007;Unit 1.17 (P1 lysate preparation).",
+     "link": "https://ncifrederick.cancer.gov/fredi/sites/default/files/2024-01/thomason-2007-p1-prot.pdf"
+    },
+    {
+     "citation": "Barrick Lab, University of Texas at Austin. Phage lysate preparation (laboratory protocol).",
+     "link": "https://barricklab.org/twiki/bin/view/Lab/ProtocolPhageLysate"
+    },
+    {
+     "citation": "Gill JJ, Center for Phage Technology, Texas A&M University. Making plate lysates. OpenWetWare; last edited 13 Dec 2013.",
+     "link": "https://openwetware.org/wiki/Gill:Making_plate_lysates"
+    }
+   ],
+   "word_file": "uploads/bacteriophage-lysate-preparation.docx",
+   "pptx_file": "uploads/bacteriophage-lysate-preparation.pptx",
+   "staged_dir": "review/2026-11-27/"
   }
  ]
 }

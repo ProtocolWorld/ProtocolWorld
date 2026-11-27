@@ -802,19 +802,19 @@
   {
    "title": "FRET Imaging",
    "category": "Imaging & Microscopy",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
    "title": "Calcium Phosphate Transfection",
    "category": "Cell Culture",
-   "status": "pending",
+   "status": "staged",
    "organism": "Mammalian Cells"
   },
   {
    "title": "Bacteriophage Lysate Preparation",
    "category": "Microbiology",
-   "status": "pending",
+   "status": "staged",
    "organism": "E. coli & Bacteria"
   },
   {
