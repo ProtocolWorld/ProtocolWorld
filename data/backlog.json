@@ -820,7 +820,7 @@
   {
    "title": "C. elegans Lifespan Assay",
    "category": "Model Organisms",
-   "status": "pending",
+   "status": "staged",
    "organism": "C. elegans"
   },
   {
@@ -832,7 +832,7 @@
   {
    "title": "Microscale Thermophoresis",
    "category": "Biochemistry",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {

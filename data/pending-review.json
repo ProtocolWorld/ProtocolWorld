@@ -873,6 +873,62 @@
    "word_file": "uploads/bacteriophage-lysate-preparation.docx",
    "pptx_file": "uploads/bacteriophage-lysate-preparation.pptx",
    "staged_dir": "review/2026-11-27/"
+  },
+  {
+   "title": "C. elegans Lifespan Assay",
+   "category": "Model Organisms",
+   "organism": "C. elegans",
+   "date": "2026-11-27",
+   "duration": "≈ 1 week of setup, then 3–6 weeks of scoring",
+   "summary": "Measure survival of a synchronized C. elegans cohort at 20 °C on FUdR plates: NGM and OP50 preparation, egg-lay or bleach synchronization, L4 transfer, scoring and censoring rules, Kaplan–Meier/log-rank analysis, controls and troubleshooting.",
+   "keywords": "C. elegans lifespan assay survival aging longevity FUdR NGM OP50 synchronization censoring Kaplan-Meier log-rank daf-2 N2",
+   "sources": [
+    {
+     "citation": "Sutphin GL, Kaeberlein M. Measuring Caenorhabditis elegans life span on solid media. J Vis Exp. 2009;(27):1152.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2794294/"
+    },
+    {
+     "citation": "Cornwell AB, Llop JR, Salzman P, Thakar J, Samuelson AV. The replica set method: a high-throughput approach to quantitatively measure Caenorhabditis elegans lifespan. J Vis Exp. 2018;(136):57819.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6102014/"
+    },
+    {
+     "citation": "He F. Lifespan assay. Bio-protocol. 2011;1(7):e57.",
+     "link": "https://bio-protocol.org/pdf/bio-protocol57.pdf"
+    }
+   ],
+   "word_file": "uploads/c-elegans-lifespan-assay.docx",
+   "pptx_file": "uploads/c-elegans-lifespan-assay.pptx",
+   "staged_dir": "review/2026-11-27/"
+  },
+  {
+   "title": "Microscale Thermophoresis",
+   "category": "Biochemistry",
+   "organism": "General Lab Methods",
+   "date": "2026-11-27",
+   "duration": "≈ 4 h (including labeling and a 16-capillary run)",
+   "summary": "Measure binding affinity (Kd) between a fluorescently labeled target and an unlabeled ligand by microscale thermophoresis: labeling, 16-point 1:1 dilution series, capillary loading, instrument settings, data checks, Kd fitting and troubleshooting.",
+   "keywords": "microscale thermophoresis MST binding affinity Kd Monolith capillary Fnorm thermophoresis labeling Tween-20 dose-response protein interaction",
+   "sources": [
+    {
+     "citation": "Sparks RP, Fratti R. Use of microscale thermophoresis (MST) to measure binding affinities of components of the fusion machinery. Methods Mol Biol. 2019;1860:191–198.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8466250/"
+    },
+    {
+     "citation": "Magnez R, Thiroux B, Tardy M, Quesnel B, Thuru X. Measurement of protein–protein interactions through microscale thermophoresis (MST). Bio-protocol. 2020;10(7):e3574.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7842316/"
+    },
+    {
+     "citation": "Harvard Medical School Center for Macromolecular Interactions. Monolith NT.115pico: CMI getting started guide to MicroScale Thermophoresis (last edited December 10, 2024).",
+     "link": "https://cmi.hms.harvard.edu/resource/cmi-monolith-mst-getting-started-guide"
+    },
+    {
+     "citation": "Vanderbilt University Center for Structural Biology. MST guidelines (facility web page).",
+     "link": "https://www.vanderbilt.edu/csb/technologies/mst-guidelines/"
+    }
+   ],
+   "word_file": "uploads/microscale-thermophoresis.docx",
+   "pptx_file": "uploads/microscale-thermophoresis.pptx",
+   "staged_dir": "review/2026-11-27/"
   }
  ]
 }
