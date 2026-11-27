@@ -587,6 +587,96 @@
    "word_file": "uploads/c-elegans-embryo-imaging.docx",
    "pptx_file": "uploads/c-elegans-embryo-imaging.pptx",
    "staged_dir": "review/2026-11-26/"
+  },
+  {
+   "title": "Hi-C Library Preparation",
+   "category": "Genomics & Sequencing",
+   "organism": "General Lab Methods",
+   "date": "2026-11-27",
+   "duration": "≈ 6 days (4–5 days if condensed)",
+   "summary": "Prepare a biotin-enriched Hi-C sequencing library from about 5 × 10⁶ mammalian cells using formaldehyde plus DSG crosslinking, DdeI/DpnII digestion, in situ proximity ligation and streptavidin pulldown, with built-in gel QC.",
+   "keywords": "Hi-C chromosome conformation capture proximity ligation DpnII DdeI biotin streptavidin Illumina library 3D genome formaldehyde DSG",
+   "sources": [
+    {
+     "citation": "Lafontaine DL, Yang L, Dekker J, Gibcus JH (2021). Hi-C 3.0: Improved protocol for genome-wide chromosome conformation capture. Curr Protoc 1(7):e198.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8362010"
+    },
+    {
+     "citation": "Belaghzal H, Dekker J, Gibcus JH (2017). Hi-C 2.0: An optimized Hi-C procedure for high-resolution genome-wide mapping of chromosome conformation. Methods 123:56–65.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5522765"
+    },
+    {
+     "citation": "van Berkum NL, Lieberman-Aiden E, Williams L, Imakaev M, Gnirke A, Mirny LA, Dekker J, Lander ES (2010). Hi-C: a method to study the three-dimensional architecture of genomes. J Vis Exp (39):1869.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3149993"
+    },
+    {
+     "citation": "ENCODE Project. Hi-C Protocol (in situ Hi-C, adapted from Rao et al. 2014), ENCODE document.",
+     "link": "https://www.encodeproject.org/documents/0dd3624f-d1f9-4505-b97c-da01b90a70f4/@@download/attachment/Hi-C%20Protocol.pdf"
+    }
+   ],
+   "word_file": "uploads/hi-c-library-preparation.docx",
+   "pptx_file": "uploads/hi-c-library-preparation.pptx",
+   "staged_dir": "review/2026-11-27/"
+  },
+  {
+   "title": "Surface Plasmon Resonance Basics",
+   "category": "Biochemistry",
+   "organism": "General Lab Methods",
+   "date": "2026-11-27",
+   "duration": "≈ 1 day (surface preparation 2–3 h, kinetic run 3–5 h)",
+   "summary": "Measure label-free binding kinetics and affinity of a protein–protein interaction on a CM5 sensor chip: pH scouting, amine coupling, regeneration scouting, multi-cycle kinetics with reference subtraction, and 1:1 fitting.",
+   "keywords": "surface plasmon resonance SPR Biacore CM5 amine coupling EDC NHS HBS-EP+ kinetics KD kon koff regeneration reference subtraction 1:1 Langmuir",
+   "sources": [
+    {
+     "citation": "van der Merwe PA (2001). Surface plasmon resonance. In: Harding SE, Chowdhry BZ (eds) Protein–Ligand Interactions: Hydrodynamics and Calorimetry. Oxford University Press, pp. 137–170 (author PDF).",
+     "link": "https://www.path.ox.ac.uk/wp-content/uploads/2023/09/SPR-guidelines-1.pdf"
+    },
+    {
+     "citation": "Drescher DG, Ramakrishnan NA, Drescher MJ (2009). Surface plasmon resonance (SPR) analysis of binding interactions of proteins in inner-ear sensory epithelia. Methods Mol Biol 493:323–343.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2864718"
+    },
+    {
+     "citation": "Ndao DM, Hickman DT, Lopez-Deber MP, Davranche A, Pfeifer A, Muhs A (2014). Binding affinity measurement of antibodies from crude hybridoma samples by SPR. Bio-protocol 4(21):e1276.",
+     "link": "https://bio-protocol.org/e1276"
+    },
+    {
+     "citation": "GE Healthcare (2012). Biacore Assay Handbook, document 29-0194-00 AA. GE Healthcare Bio-Sciences AB, Uppsala, Sweden (university-hosted PDF copy).",
+     "link": "https://www.helsinki.fi/assets/drupal/2022-11/biacore_assay%5B1%5D.pdf"
+    }
+   ],
+   "word_file": "uploads/surface-plasmon-resonance-basics.docx",
+   "pptx_file": "uploads/surface-plasmon-resonance-basics.pptx",
+   "staged_dir": "review/2026-11-27/"
+  },
+  {
+   "title": "Bone Marrow Cell Isolation",
+   "category": "Immunology",
+   "organism": "Mouse",
+   "date": "2026-11-27",
+   "duration": "≈ 1.5–2 h per 4–6 mice",
+   "summary": "Isolate single-cell bone marrow suspensions from adult mouse femurs and tibias by syringe flushing, with ACK red-cell lysis, filtering and counting, plus a rapid centrifugation alternative.",
+   "keywords": "mouse bone marrow isolation femur tibia flushing ACK lysis 70 µm strainer hematopoietic cells flow cytometry BMDM",
+   "sources": [
+    {
+     "citation": "Liu X, Quan N (2015). Immune cell isolation from mouse femur bone marrow. Bio-protocol 5(20):e1631.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4948643"
+    },
+    {
+     "citation": "Amend SR, Valkenburg KC, Pienta KJ (2016). Murine hind limb long bone dissection and bone marrow isolation. J Vis Exp (110):53936.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4941920"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. Mouse bone marrow cell isolation protocol (web protocol, accessed 2026).",
+     "link": "https://www.thermofisher.com/ar/en/home/life-science/cell-analysis/cell-analysis-learning-center/immunology-at-work/immunology-protocols/mouse-bone-marrow-cell-isolation.html"
+    },
+    {
+     "citation": "STEMCELL Technologies. How to isolate and stain mouse bone marrow cells for flow cytometry (web protocol PR00030, 2020).",
+     "link": "https://www.stemcell.com/technical-resources/how-to-isolate-and-stain-mouse-bone-marrow-cells-for-flow-cytometry.html"
+    }
+   ],
+   "word_file": "uploads/bone-marrow-cell-isolation.docx",
+   "pptx_file": "uploads/bone-marrow-cell-isolation.pptx",
+   "staged_dir": "review/2026-11-27/"
   }
  ]
 }
