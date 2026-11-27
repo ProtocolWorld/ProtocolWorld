@@ -677,6 +677,100 @@
    "word_file": "uploads/bone-marrow-cell-isolation.docx",
    "pptx_file": "uploads/bone-marrow-cell-isolation.pptx",
    "staged_dir": "review/2026-11-27/"
+  },
+  {
+   "title": "Colony PCR",
+   "category": "Molecular Biology",
+   "organism": "E. coli & Bacteria",
+   "date": "2026-11-27",
+   "duration": "≈ 3 h",
+   "summary": "Screen bacterial colonies for the presence and size of a cloned insert by PCR directly from a picked colony, with a 20 µL reaction, cycling guidelines, a patch plate to keep the clone, and gel analysis.",
+   "keywords": "colony PCR E. coli screening transformants insert Taq master mix toothpick patch plate agarose gel cloning verification boil lysate",
+   "sources": [
+    {
+     "citation": "Xu Y (2018). Robust colony PCR from multiple E. coli strains using OneTaq Quick-Load master mixes. Application note, New England Biolabs.",
+     "link": "https://www.neb.com/en/-/media/nebus/files/application-notes/appnote_colony_pcr.pdf"
+    },
+    {
+     "citation": "McClean MN (2013). Colony PCR (E. coli). OpenWetWare protocol page.",
+     "link": "https://openwetware.org/wiki/McClean:Colony_PCR(E._coli)"
+    },
+    {
+     "citation": "MilliporeSigma (2022). Colony PCR. Technical article.",
+     "link": "https://b2b.sigmaaldrich.com/technical-documents/technical-article/genomics/pcr/colony-pcr"
+    },
+    {
+     "citation": "Lowe-Power T (2021). Colony PCR. Lowe-Power Lab protocols, UC Davis.",
+     "link": "https://lowepowerlab.ucdavis.edu/protocols/colony_pcr.html"
+    }
+   ],
+   "word_file": "uploads/colony-pcr.docx",
+   "pptx_file": "uploads/colony-pcr.pptx",
+   "staged_dir": "review/2026-11-27/"
+  },
+  {
+   "title": "Bacterial Glycerol Stocks",
+   "category": "Cloning & CRISPR",
+   "organism": "E. coli & Bacteria",
+   "date": "2026-11-27",
+   "duration": "≈ 20 min",
+   "summary": "Prepare long-term −80 °C glycerol stocks of E. coli strains and plasmid-carrying clones, label and record them, and revive them correctly by scraping without thawing.",
+   "keywords": "glycerol stock E. coli cryopreservation -80 freezer plasmid storage cryovial 25% glycerol 15% glycerol revive streak scrape",
+   "sources": [
+    {
+     "citation": "Addgene. Creating bacterial glycerol stocks for long-term storage of plasmids. Addgene protocol page.",
+     "link": "https://www.addgene.org/plasmid-protocols/create-glycerol-stock/"
+    },
+    {
+     "citation": "Sprouffske K, Aguilar-Rodríguez J, Wagner A (2016). How archiving by freezing affects the genome-scale diversity of Escherichia coli populations. Genome Biol Evol 8(5):1290–1298.",
+     "link": "https://doi.org/10.1093/gbe/evw054"
+    },
+    {
+     "citation": "Davidson College GCAT. Glycerolstocks: how to make glycerol stocks of bacteria. GcatWiki.",
+     "link": "https://gcat.davidson.edu/GcatWiki/index.php/Glycerolstocks_How_to_Make_Glycerol_Stocks_of_Bacteria"
+    },
+    {
+     "citation": "iGEM 2009. Preparing cryo stocks. iGEM 2009 wiki.",
+     "link": "https://2009.igem.org/Preparing_Cryo_stocks"
+    },
+    {
+     "citation": "Provost JJ, Wallert MA (2018). Bacterial glycerol stock protocol. Provost & Wallert Research Lab, University of San Diego.",
+     "link": "https://home.sandiego.edu/~josephprovost/Bacteria%20Glycerol%20Stock%20Protocol%202018.pdf"
+    }
+   ],
+   "word_file": "uploads/bacterial-glycerol-stocks.docx",
+   "pptx_file": "uploads/bacterial-glycerol-stocks.pptx",
+   "staged_dir": "review/2026-11-27/"
+  },
+  {
+   "title": "ECL Chemiluminescent Detection",
+   "category": "Protein Analysis",
+   "organism": "General Lab Methods",
+   "date": "2026-11-27",
+   "duration": "≈ 1.5 h",
+   "summary": "Detect HRP-labeled antibodies on a western blot with enhanced chemiluminescence (ECL): final washes, substrate preparation at 0.1 mL/cm², and film or digital imaging with exposure series and troubleshooting.",
+   "keywords": "ECL chemiluminescence western blot HRP luminol substrate film CCD imager exposure washes TBST stripping detection signal",
+   "sources": [
+    {
+     "citation": "Thermo Fisher Scientific. Chemiluminescent western blotting. Pierce protein methods, learning center web page.",
+     "link": "https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/chemiluminescent-western-blotting.html"
+    },
+    {
+     "citation": "Abcam. Chemiluminescent western blot guide. Knowledge center web page.",
+     "link": "https://www.abcam.com/en-us/knowledge-center/western-blot/chemiluminescence-western-blotting"
+    },
+    {
+     "citation": "Bio-Rad Laboratories. Clarity Western ECL Substrate instruction manual (document 10026389, Rev A).",
+     "link": "https://www.bio-rad.com/webroot/web/pdf/lsr/literature/10026389.pdf"
+    },
+    {
+     "citation": "Promega Corporation. ECL Western Blotting Substrate technical manual TM317 (revised 10/25).",
+     "link": "https://www.promega.com/resources/protocols/technical-manuals/101/ecl-western-blotting-substrate-protocol"
+    }
+   ],
+   "word_file": "uploads/ecl-chemiluminescent-detection.docx",
+   "pptx_file": "uploads/ecl-chemiluminescent-detection.pptx",
+   "staged_dir": "review/2026-11-27/"
   }
  ]
 }

@@ -784,19 +784,19 @@
   {
    "title": "Colony PCR",
    "category": "Molecular Biology",
-   "status": "pending",
+   "status": "staged",
    "organism": "E. coli & Bacteria"
   },
   {
    "title": "Bacterial Glycerol Stocks",
    "category": "Cloning & CRISPR",
-   "status": "pending",
+   "status": "staged",
    "organism": "E. coli & Bacteria"
   },
   {
    "title": "ECL Chemiluminescent Detection",
    "category": "Protein Analysis",
-   "status": "pending",
+   "status": "staged",
    "organism": "General Lab Methods"
   },
   {
