@@ -1,415 +1,570 @@
 {
- "pending": [
-  {
-   "title": "Bacterial Genomic DNA Isolation for Sequencing",
-   "category": "Microbiology",
-   "organism": "E. coli & Bacteria",
-   "date": "2026-11-28",
-   "duration": "2 days (about 6 h hands-on on day 2)",
-   "summary": "Isolate high-molecular-weight genomic DNA from E. coli and other bacteria for Illumina or nanopore sequencing: lysozyme, SDS and proteinase K lysis, RNase A, CTAB cleanup, chloroform and phenol extraction, isopropanol precipitation, and Qubit and gel quality control.",
-   "keywords": "bacterial genomic DNA extraction gDNA sequencing E. coli CTAB lysozyme proteinase K high molecular weight nanopore Illumina phenol chloroform Qubit",
-   "sources": [
+  "pending": [
     {
-     "citation": "Feil W, Feil H, Copeland A. Bacterial DNA isolation CTAB protocol. DOE Joint Genome Institute; 2012 (version 3).",
-     "link": "https://jgi.doe.gov/sites/default/files/2025-01/JGI-Bacterial-DNA-isolation-CTAB-Protocol.pdf"
+      "title": "Bacterial Genomic DNA Isolation for Sequencing",
+      "category": "Microbiology",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-28",
+      "duration": "2 days (about 6 h hands-on on day 2)",
+      "summary": "Isolate high-molecular-weight genomic DNA from E. coli and other bacteria for Illumina or nanopore sequencing: lysozyme, SDS and proteinase K lysis, RNase A, CTAB cleanup, chloroform and phenol extraction, isopropanol precipitation, and Qubit and gel quality control.",
+      "keywords": "bacterial genomic DNA extraction gDNA sequencing E. coli CTAB lysozyme proteinase K high molecular weight nanopore Illumina phenol chloroform Qubit",
+      "sources": [
+        {
+          "citation": "Feil W, Feil H, Copeland A. Bacterial DNA isolation CTAB protocol. DOE Joint Genome Institute; 2012 (version 3).",
+          "link": "https://jgi.doe.gov/sites/default/files/2025-01/JGI-Bacterial-DNA-isolation-CTAB-Protocol.pdf"
+        },
+        {
+          "citation": "New England Biolabs. Protocol for high molecular weight DNA (HMW DNA) extraction from bacteria (NEB #T3060); 2020.",
+          "link": "https://international.neb.com/protocols/2020/10/27/protocol-for-high-molecular-weight-dna-hmw-dna-extraction-from-bacteria"
+        },
+        {
+          "citation": "Oxford Nanopore Technologies. Bacteria gDNA extraction for Nanopore-only Microbial Isolate Sequencing Solution (NO-MISS); published 2024.",
+          "link": "https://nanoporetech.com/document/extraction-method/bact-gdna-no-miss"
+        },
+        {
+          "citation": "Stöckl RRKS. HMW gDNA extraction from prokaryotic cultures and cryo preservation stocks. protocols.io; 2023. doi:10.17504/protocols.io.3byl4q7nrvo5/v1.",
+          "link": "https://www.protocols.io/view/hmw-gdna-extraction-from-prokaryotic-cultures-and-cwumxeu6.pdf"
+        }
+      ],
+      "word_file": "uploads/bacterial-genomic-dna-isolation-for-sequencing.docx",
+      "pptx_file": "uploads/bacterial-genomic-dna-isolation-for-sequencing.pptx",
+      "staged_dir": "review/2026-11-28/"
     },
     {
-     "citation": "New England Biolabs. Protocol for high molecular weight DNA (HMW DNA) extraction from bacteria (NEB #T3060); 2020.",
-     "link": "https://international.neb.com/protocols/2020/10/27/protocol-for-high-molecular-weight-dna-hmw-dna-extraction-from-bacteria"
+      "title": "C. elegans Thrashing and Locomotion Assay",
+      "category": "Model Organisms",
+      "organism": "C. elegans",
+      "date": "2026-11-28",
+      "duration": "About 4 days (3 days of worm growth, 2–3 h for the assay)",
+      "summary": "Count swimming thrashes of synchronized day-1 adult C. elegans in M9 buffer: bleach synchronization, bacteria clearing, a fixed acclimation time, 30 s video counts, blinded scoring, optional automated analysis and statistics.",
+      "keywords": "C. elegans thrashing assay locomotion swimming body bends M9 buffer neuromuscular behavior N2 synchronization levamisole video analysis",
+      "sources": [
+        {
+          "citation": "Buckingham SD, Sattelle DB. Fast, automated measurement of nematode swimming (thrashing) without morphometry. BMC Neurosci. 2009;10:84. doi:10.1186/1471-2202-10-84",
+          "link": "https://link.springer.com/content/pdf/10.1186/1471-2202-10-84.pdf"
+        },
+        {
+          "citation": "Kudumala S, Sossi S, Carvelli L. Swimming induced paralysis is a valuable behavioral assay to assess dopamine signaling in Caenorhabditis elegans. J Vis Exp. 2019;(146):e59243. doi:10.3791/59243",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7263014"
+        },
+        {
+          "citation": "Walker AC, Bhargava R, Brust AS, Owji AA, Czyz DM. Time-off-pick assay to measure Caenorhabditis elegans motility. Bio-protocol. 2022;12(12):e4436. doi:10.21769/BioProtoc.4436",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9257836"
+        },
+        {
+          "citation": "Bio-protocol. Thrashing assay protocol, entry e253 (2012; title and authors not shown on the page).",
+          "link": "https://bio-protocol.org/e253"
+        }
+      ],
+      "word_file": "uploads/c-elegans-thrashing-and-locomotion-assay.docx",
+      "pptx_file": "uploads/c-elegans-thrashing-and-locomotion-assay.pptx",
+      "staged_dir": "review/2026-11-28/"
     },
     {
-     "citation": "Oxford Nanopore Technologies. Bacteria gDNA extraction for Nanopore-only Microbial Isolate Sequencing Solution (NO-MISS); published 2024.",
-     "link": "https://nanoporetech.com/document/extraction-method/bact-gdna-no-miss"
+      "title": "CLIP-seq",
+      "category": "Genomics & Sequencing",
+      "organism": "General Lab Methods",
+      "date": "2026-11-28",
+      "duration": "About 5–6 days (3–4 days hands-on)",
+      "summary": "Map where an RNA-binding protein contacts RNA in cultured mammalian cells: UV crosslinking, partial RNase digestion, immunoprecipitation, adapter ligation, SDS-PAGE and membrane transfer, cDNA library preparation, sequencing and crosslink-site analysis with controls.",
+      "keywords": "CLIP-seq iCLIP HITS-CLIP eCLIP seCLIP RNA-binding protein UV crosslinking immunoprecipitation RNase I adapter ligation crosslink sites PureCLIP library preparation sequencing",
+      "sources": [
+        {
+          "citation": "Huppertz I, Attig J, D'Ambrogio A, Easton LE, Sibley CR, Sugimoto Y, et al. iCLIP: protein–RNA interactions at nucleotide resolution. Methods. 2014;65(3):274–287. doi:10.1016/j.ymeth.2013.10.011",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3988997"
+        },
+        {
+          "citation": "Van Nostrand EL, Nguyen TB, Gelboin-Burkhart C, Wang R, Blue SM, Pratt GA, et al. Robust, cost-effective profiling of RNA binding protein targets with single-end enhanced crosslinking and immunoprecipitation (seCLIP). Methods Mol Biol. 2017;1648:177–200. doi:10.1007/978-1-4939-7204-3_14",
+          "link": "https://link.springer.com/protocol/10.1007/978-1-4939-7204-3_14"
+        },
+        {
+          "citation": "Biancon G, Busarello E, Joshi P, Lesch BJ, Halene S, Tebaldi T. Deconvolution of in vivo protein–RNA contacts using fractionated eCLIP-seq (freCLIP-seq). STAR Protoc. 2022;3(4):101823. doi:10.1016/j.xpro.2022.101823",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9676202"
+        },
+        {
+          "citation": "Lin C, Miles WO. Beyond CLIP: advances and opportunities to measure RBP–RNA and RNA–RNA interactions. Nucleic Acids Res. 2019;47(11):5490–5501. doi:10.1093/nar/gkz295",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6582316"
+        }
+      ],
+      "word_file": "uploads/clip-seq.docx",
+      "pptx_file": "uploads/clip-seq.pptx",
+      "staged_dir": "review/2026-11-28/"
     },
     {
-     "citation": "Stöckl RRKS. HMW gDNA extraction from prokaryotic cultures and cryo preservation stocks. protocols.io; 2023. doi:10.17504/protocols.io.3byl4q7nrvo5/v1.",
-     "link": "https://www.protocols.io/view/hmw-gdna-extraction-from-prokaryotic-cultures-and-cwumxeu6.pdf"
+      "title": "DNase I Footprinting",
+      "category": "Biochemistry",
+      "organism": "General Lab Methods",
+      "date": "2026-11-28",
+      "duration": "2–3 days (about 12 h hands-on)",
+      "summary": "Map where a DNA-binding protein, such as an E. coli transcription factor, sits on a 100–400 bp fragment: 32P end-label a PCR probe, bind the protein, digest lightly with DNase I, and read the protected ladder on a denaturing gel against a G+A sequence ladder, with optional affinity estimates from a titration.",
+      "keywords": "DNase I footprinting protein-DNA interaction transcription factor binding site 32P PCR probe denaturing gel G+A ladder titration E. coli",
+      "sources": [
+        {
+          "citation": "Gaugué I, Bréchemier-Baey D, Plumbridge J. DNase I footprinting to identify protein binding sites. Bio-protocol. 2013;3(14):e824.",
+          "link": "https://en.bio-protocol.org/pdf/Bio-protocol824.pdf"
+        },
+        {
+          "citation": "Hsieh M, Boulanger A, Knipling LG, Hinton DM. Combining gel retardation and footprinting to determine protein–DNA interactions of specific and/or less stable complexes. Bio-protocol. 2020;10(23):e3843. doi:10.21769/BioProtoc.3843.",
+          "link": "https://bio-protocol.org/e3843"
+        },
+        {
+          "citation": "Trauger JW, Dervan PB. Footprinting methods for analysis of pyrrole–imidazole polyamide/DNA complexes. Methods Enzymol. 2001;340:450–466.",
+          "link": "https://dervan.caltech.edu/documents/25079/1-s2.0-S0076687901404368-main.pdf"
+        }
+      ],
+      "word_file": "uploads/dnase-i-footprinting.docx",
+      "pptx_file": "uploads/dnase-i-footprinting.pptx",
+      "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "T Cell Isolation and Activation",
+      "category": "Immunology",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-28",
+      "duration": "1 day isolation + 3–5 days activation",
+      "summary": "Isolate primary T cells from human blood (Ficoll, CD8+ negative selection) or mouse spleen (CD4+ negative selection, about 95% pure), then activate them with plate-bound anti-CD3 plus soluble anti-CD28 or a ready-made activator, check CD69 and CD25 and expand with IL-2.",
+      "keywords": "T cell isolation activation PBMC Ficoll negative selection EasySep CD8 CD4 anti-CD3 anti-CD28 IL-2 splenocytes CD69 CD25 mouse human",
+      "sources": [
+        {
+          "citation": "Pohida K, Lake CM, Yee D, Snow AL. Restimulation-induced cell death (RICD): methods for modeling, investigating, and quantifying RICD sensitivity in primary human T cells via flow cytometric analysis. Bio-protocol. 2022;12(4):e4326. doi:10.21769/BioProtoc.4326.",
+          "link": "https://bio-protocol.org/e4326"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. T cell activation via anti-CD3 and anti-CD28 protocol. Immunology at Work, Protocols for Immunology.",
+          "link": "https://www.thermofisher.com/us/en/home/life-science/cell-analysis/cell-analysis-learning-center/immunology-at-work/immunology-protocols/t-cell-activation-anti-cd3-anti-cd28.html"
+        },
+        {
+          "citation": "STEMCELL Technologies. EasySep Mouse CD4+ T Cell Isolation Kit, product information sheet (document 10000003746, version 02); 2022.",
+          "link": "https://cdn.stemcell.com/media/files/pis/10000003746-PIS_02.pdf"
+        },
+        {
+          "citation": "Zheng N, Peng W. T cell differentiation from mice spleen tissue. protocols.io; 2024. doi:10.17504/protocols.io.261gedy8ov47/v1.",
+          "link": "https://www.protocols.io/view/t-cell-differentiation-from-mice-spleen-tissue-c9yiz7ue.html"
+        }
+      ],
+      "word_file": "uploads/t-cell-isolation-and-activation.docx",
+      "pptx_file": "uploads/t-cell-isolation-and-activation.pptx",
+      "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "Relative Quantification by the ΔΔCt Method",
+      "category": "Molecular Biology",
+      "organism": "General Lab Methods",
+      "date": "2026-11-28",
+      "duration": "1 day (plus 1 day for primer validation)",
+      "summary": "Quantify gene expression changes by real-time RT-qPCR: check RNA quality, validate primer efficiency and reference genes, then compute ΔCt, ΔΔCt and 2^(−ΔΔCt) fold change with error propagation, following MIQE reporting, with a worked example from the original paper.",
+      "keywords": "ddCt delta delta Ct 2^-ddCt relative quantification qPCR RT-qPCR reference gene normalization primer efficiency MIQE gene expression fold change Livak",
+      "sources": [
+        {
+          "citation": "Livak KJ, Schmittgen TD. Analysis of relative gene expression data using real-time quantitative PCR and the 2^(−ΔΔCT) method. Methods. 2001;25(4):402–408. doi:10.1006/meth.2001.1262.",
+          "link": "https://www.ffclrp.usp.br/divulgacao/emu/real_time/referencias/Delta-Delata%20Ct%20Methods_Livak.pdf"
+        },
+        {
+          "citation": "Bustin SA, Benes V, Garson JA, et al. The MIQE guidelines: minimum information for publication of quantitative real-time PCR experiments. Clin Chem. 2009;55(4):611–622. doi:10.1373/clinchem.2008.112797.",
+          "link": "https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/MIQE%20paper.pdf"
+        },
+        {
+          "citation": "Taylor SC, Mrkusich EM. The state of RT-quantitative PCR: firsthand observations of implementation of minimum information for the publication of quantitative real-time PCR experiments (MIQE). J Mol Microbiol Biotechnol. 2014;24:46–52. doi:10.1159/000356189.",
+          "link": "https://gene-quantification.de/taylor-mrkusich-rt-qpcr-miqe-2014.pdf"
+        }
+      ],
+      "word_file": "uploads/relative-quantification-by-the-ddct-method.docx",
+      "pptx_file": "uploads/relative-quantification-by-the-ddct-method.pptx",
+      "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "Lambda Red Recombineering",
+      "category": "Cloning & CRISPR",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-28",
+      "duration": "4–5 days (2 h hands-on on day 2)",
+      "summary": "Deleting an E. coli gene with a PCR-made resistance cassette and short homology arms using the Red recombination system, then curing pKD46 and removing the marker with FLP.",
+      "keywords": [
+        "lambda Red",
+        "recombineering",
+        "pKD46",
+        "gene knockout",
+        "Datsenko Wanner",
+        "E. coli",
+        "electroporation"
+      ],
+      "sources": [
+        {
+          "citation": "Datsenko KA, Wanner BL (2000). One-step inactivation of chromosomal genes in Escherichia coli K-12 using PCR products. Proc Natl Acad Sci USA 97(12):6640–6645.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC18686/"
+        },
+        {
+          "citation": "Sharan SK, Thomason LC, Kuznetsov SG, Court DL (2009). Recombineering: a homologous recombination-based method of genetic engineering. Nat Protoc 4(2):206–223.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2790811"
+        },
+        {
+          "citation": "Thomason LC, Sawitzke JA, Li X, Costantino N, Court DL (2014). Recombineering: genetic engineering in bacteria using homologous recombination. Curr Protoc Mol Biol 106:1.16.1–1.16.39.",
+          "link": "https://ncifrederick.cancer.gov/fredi/sites/default/files/2024-01/cpmb-2014.pdf"
+        },
+        {
+          "citation": "Lawrence Berkeley National Laboratory, CAF group. Protocol for gene knockout (Lambda Red, pKD3/pKD4, pCP20).",
+          "link": "https://cafgroup.lbl.gov/protocols/general-molecular-biology/genomic-gene-deletion-with-lambda-red/protocol-for-gene-knockout"
+        },
+        {
+          "citation": "OpenWetWare. Recombineering/Lambda red-mediated gene replacement (original protocol by S. Douglas, adapted from Datsenko and Wanner; last edited 2014).",
+          "link": "https://openwetware.org/wiki/Recombineering/Lambda_red-mediated_gene_replacement"
+        },
+        {
+          "citation": "Barrick Lab. Lambda Red Protocol (genome modification by the Datsenko–Wanner method).",
+          "link": "https://barricklab.org/twiki/bin/view/Lab/ProcedureGenomeModificationDatsenkoWanner"
+        }
+      ],
+      "word_file": "uploads/lambda-red-recombineering.docx",
+      "pptx_file": "uploads/lambda-red-recombineering.pptx",
+      "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "Immunoprecipitation",
+      "category": "Protein Analysis",
+      "organism": "General Lab Methods",
+      "date": "2026-11-28",
+      "duration": "1.5 days (4 h hands-on)",
+      "summary": "Pulling down a target protein and its partners from mammalian cell lysate with antibody and Protein A/G magnetic beads, with isotype and input controls, then Western blot.",
+      "keywords": [
+        "immunoprecipitation",
+        "co-IP",
+        "Protein A/G beads",
+        "lysis buffer",
+        "Western blot",
+        "antibody"
+      ],
+      "sources": [
+        {
+          "citation": "Cell Signaling Technology. Immunoprecipitation Protocol (Magnetic Beads).",
+          "link": "https://www.cellsignal.com/learn-and-support/protocols/protocol-ip-magnetic"
+        },
+        {
+          "citation": "Cell Signaling Technology. Native Protein Immunoprecipitation Protocol (agarose beads).",
+          "link": "https://www.cellsignal.com/learn-and-support/protocols/protocol-ip-native-protein"
+        },
+        {
+          "citation": "Abcam. Immunoprecipitation and co-immunoprecipitation protocol.",
+          "link": "https://www.abcam.com/en-us/technical-resources/protocols/immunoprecipitation"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Pierce Classic Magnetic IP/Co-IP Kit (88804) user guide, MAN0011737.",
+          "link": "https://assets.fishersci.com/TFS-Assets/LSG/manuals/MAN0011737_Pierce_Classic_Mag_IP_CoIP_UG.pdf"
+        },
+        {
+          "citation": "New England Biolabs. Immunoprecipitation using Protein A/G Magnetic Beads.",
+          "link": "https://www.neb.com/protocols/0001/01/01/immunoprecipitation-using-protein-ag-magnetic-beads"
+        },
+        {
+          "citation": "Burckhardt CJ, Minna JD, Danuser G (2021). Co-immunoprecipitation and semi-quantitative immunoblotting for the analysis of protein-protein interactions. STAR Protoc 2(3):100644.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8264609/"
+        }
+      ],
+      "word_file": "uploads/immunoprecipitation.docx",
+      "pptx_file": "uploads/immunoprecipitation.pptx",
+      "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "Super-Resolution (SIM) Sample Preparation",
+      "category": "Imaging & Microscopy",
+      "organism": "General Lab Methods",
+      "date": "2026-11-28",
+      "duration": "2 days (about 5 h hands-on)",
+      "summary": "Preparing fixed, immunolabeled cells on #1.5H coverslips, with matched mounting medium, for artifact-free 3D structured illumination microscopy.",
+      "keywords": [
+        "SIM",
+        "super-resolution",
+        "#1.5H coverslip",
+        "immunofluorescence",
+        "mounting medium",
+        "3D-SIM"
+      ],
+      "sources": [
+        {
+          "citation": "Kraus F, Miron E, Demmerle J, Chitiashvili T, Budco A, Alle Q, Matsuda A, Leonhardt H, Schermelleh L, Markaki Y (2017). Quantitative 3D structured illumination microscopy of nuclear structures. Nat Protoc 12(5):1011–1028.",
+          "link": "https://research.monash.edu/en/publications/quantitative-3d-structured-illumination-microscopy-of-nuclear-str/"
+        },
+        {
+          "citation": "Ball G, Demmerle J, Kaufmann R, Davis I, Dobbie IM, Schermelleh L (2015). SIMcheck: a toolbox for successful super-resolution structured illumination microscopy. Sci Rep 5:15915.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4648340"
+        },
+        {
+          "citation": "Plantard L. Sample preparation for SIM. Core Facility for Integrated Microscopy, University of Copenhagen (2016).",
+          "link": "https://cfim.ku.dk/equipment/light-microscopes/elyra/SIM_Sample_prep-20170802.pdf"
+        },
+        {
+          "citation": "Frikstad K-AM et al. (2022). 3D-SIM protocol for centrosome protein localization in fixed human cells. Bio-protocol 12(6):e4360.",
+          "link": "https://bio-protocol.org/e4360"
+        },
+        {
+          "citation": "IGMM Advanced Imaging Resource, University of Edinburgh. Nikon N-SIM technical notes and sample preparation.",
+          "link": "https://institute-genetics-cancer.ed.ac.uk/sites/default/files/2024-09/IGMM-AIR-SIM-tech-notes.pdf"
+        },
+        {
+          "citation": "Demmerle J, Innocent C, North AJ, Ball G, Müller M, Miron E, Matsuda A, Dobbie IM, Markaki Y, Schermelleh L (2017). Strategic and practical guidelines for successful structured illumination microscopy. Nat Protoc 12(5):988–1010 (abstract and figure legends only were accessible).",
+          "link": "https://www.nature.com/articles/nprot.2017.019.pdf"
+        }
+      ],
+      "word_file": "uploads/super-resolution-sim-sample-preparation.docx",
+      "pptx_file": "uploads/super-resolution-sim-sample-preparation.pptx",
+      "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "siRNA Transfection",
+      "category": "Cell Culture",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-28",
+      "duration": "About 1 h hands-on + 24–72 h incubation",
+      "summary": "Reverse transfection of siRNA with a lipid reagent in a 24-well plate, with dose titration, controls and knockdown validation by RT-qPCR and western blot.",
+      "keywords": [
+        "siRNA",
+        "transfection",
+        "knockdown",
+        "RNAiMAX",
+        "RNAi",
+        "controls"
+      ],
+      "sources": [
+        {
+          "citation": "Thermo Fisher Scientific. RNAiMAX Reverse Transfections (Lipofectamine RNAiMAX protocol page).",
+          "link": "https://www.thermofisher.com/us/en/home/references/protocols/cell-culture/transfection-protocol/rnaimax-reverse-transfections-lipofectamine"
+        },
+        {
+          "citation": "QIAGEN. Guidelines for transfection of siRNA (Transfection Bench Guide).",
+          "link": "https://www.qiagen.com/au/knowledge-and-support/knowledge-hub/bench-guide/transfection/guidelines-for-transfection/guidelines-for-transfection-of-sirna"
+        },
+        {
+          "citation": "QIAGEN. Performing appropriate RNAi control experiments (Transfection Bench Guide).",
+          "link": "https://www.qiagen.com/au/knowledge-and-support/knowledge-hub/bench-guide/transfection/guidelines-for-transfection/performing-appropriate-rnai-control-experiments"
+        },
+        {
+          "citation": "Han H (2018). RNA interference to knock down gene expression. Methods Mol Biol 1706:293–302. doi:10.1007/978-1-4939-7471-9_16.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6743327/"
+        }
+      ],
+      "word_file": "uploads/sirna-transfection.docx",
+      "pptx_file": "uploads/sirna-transfection.pptx",
+      "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "16S rRNA Gene PCR and Sequencing",
+      "category": "Microbiology",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-28",
+      "duration": "About 2 days library preparation + MiSeq run (about 65 h)",
+      "summary": "Two-step V3–V4 16S rRNA gene amplicon PCR, bead clean-up, dual indexing, pooling and MiSeq 2 × 300 sequencing, with blanks and a mock community.",
+      "keywords": [
+        "16S rRNA",
+        "V3–V4",
+        "amplicon",
+        "MiSeq",
+        "microbiome",
+        "library preparation"
+      ],
+      "sources": [
+        {
+          "citation": "Illumina, Inc. 16S Metagenomic Sequencing Library Preparation: Preparing 16S Ribosomal RNA Gene Amplicons for the Illumina MiSeq System. Illumina Demonstrated Protocol, Part 15044223 Rev. B (PDF hosted by Harvard Medical School Biopolymers Facility).",
+          "link": "https://genome.med.harvard.edu/documents/libraryPrep/16SMetagenomicsLibraryPrepProtocol.pdf"
+        },
+        {
+          "citation": "Emory Integrated Genomics Core. Amplicon (16S rRNA) sequencing service description (undated).",
+          "link": "https://www.cores.emory.edu/ecgc/_includes/documents/sections/resources/amplicon-16s-metagenomics.pdf"
+        },
+        {
+          "citation": "Michigan State University Genomics Core (RTSF). Amplicon/Metagenomics Guide, April 19, 2021.",
+          "link": "https://rtsf.natsci.msu.edu/sites/_rtsf/assets/File/amplicon_guide_website_20210416.pdf"
+        }
+      ],
+      "word_file": "uploads/16s-rrna-gene-pcr-and-sequencing.docx",
+      "pptx_file": "uploads/16s-rrna-gene-pcr-and-sequencing.pptx",
+      "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "C. elegans Chemotaxis Assay",
+      "category": "Model Organisms",
+      "organism": "C. elegans",
+      "date": "2026-11-28",
+      "duration": "1 day plate preparation + about 3 h assay and counting",
+      "summary": "Plate-based chemotaxis assay with azide trapping and a chemotaxis index for C. elegans attraction to a test odorant versus ethanol.",
+      "keywords": [
+        "C. elegans",
+        "chemotaxis",
+        "diacetyl",
+        "chemotaxis index",
+        "olfaction",
+        "sodium azide"
+      ],
+      "sources": [
+        {
+          "citation": "Margie O, Palmer C, Chin-Sang I (2013). C. elegans chemotaxis assay. J Vis Exp (74):50069. doi:10.3791/50069.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3667641/"
+        },
+        {
+          "citation": "Massachusetts Institute of Technology OpenCourseWare. 7.15 Experimental Molecular Genetics, Spring 2015: Chemotaxis assay (adapted from Hart AC, 2006, WormBook).",
+          "link": "https://ocw.mit.edu/courses/7-15-experimental-molecular-genetics-spring-2015/38c134212c536d7dfd33ab509430a09d_MIT7_15S15_Chemotaxis_assay.pdf"
+        },
+        {
+          "citation": "Bio-protocol (2018). Entry e2740, C. elegans chemotaxis protocols (quadrant-plate salt assay and square-plate 1-nonanol assay; adapted from Nishijima and Maruyama, 2017); title and authors not shown on the page we read.",
+          "link": "https://bio-protocol.org/e2740"
+        }
+      ],
+      "word_file": "uploads/c-elegans-chemotaxis-assay.docx",
+      "pptx_file": "uploads/c-elegans-chemotaxis-assay.pptx",
+      "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "Western Blot Detection of Low-Abundance Proteins in Mammalian Cell Lysates",
+      "category": "Protein Analysis",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-28",
+      "duration": "2 days (about 8 h hands-on)",
+      "summary": "Detect scarce proteins in mammalian lysates: RIPA lysis with inhibitors, 50–100 µg loading on gradient gels, PVDF or nitrocellulose transfer, optimized blocking and antibody dilutions, and ultrasensitive ECL substrate, with advice on avoiding saturation.",
+      "keywords": "western blot immunoblot low abundance protein RIPA PVDF nitrocellulose ECL SuperSignal Atto chemiluminescence sensitivity saturation mammalian cells",
+      "sources": [
+        {
+          "citation": "Abcam. Western blot protocol for low-abundance proteins (technical resource, undated).",
+          "link": "https://www.abcam.com/en-us/technical-resources/protocols/western-blot-protocol-for-low-abundance-proteins"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Detecting low abundance proteins in western blotting. Pierce protein methods (web page, undated).",
+          "link": "https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/detecting-low-abundance-proteins-in-western-blotting.html"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Chemiluminescent western blotting. Pierce protein methods (web page, undated).",
+          "link": "https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/chemiluminescent-western-blotting.html"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Key steps for achieving sensitive chemiluminescent quantitative western blots. Pierce protein methods (web page, undated).",
+          "link": "https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/quantitative-western-blot-analysis.html"
+        }
+      ],
+      "word_file": "uploads/western-blot-detection-of-low-abundance-proteins-in-mammalian-cell-lysates.docx",
+      "pptx_file": "uploads/western-blot-detection-of-low-abundance-proteins-in-mammalian-cell-lysates.pptx",
+      "staged_dir": "review/2026-11-28/",
+      "replaces": "Western Blotting for Low-Abundance Proteins"
+    },
+    {
+      "title": "Immunofluorescence Staining of Adherent Mammalian Cells",
+      "category": "Imaging & Microscopy",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-28",
+      "duration": "2–3 days (about 4 h hands-on after fixation)",
+      "summary": "Label a protein in adherent mammalian cells on coverslips: seed on poly-D-lysine, fix with 4% PFA, permeabilize with Triton X-100, block with BSA, apply primary and fluorescent secondary antibodies, counterstain with DAPI and mount, with controls and troubleshooting.",
+      "keywords": "immunofluorescence immunocytochemistry coverslip HeLa paraformaldehyde Triton X-100 BSA primary secondary antibody DAPI mounting fluorescence microscopy mammalian cells",
+      "sources": [
+        {
+          "citation": "Addgene. Immunocytochemistry (protocol; last updated January 20, 2022).",
+          "link": "https://www.addgene.org/protocols/immunocytochemistry/"
+        },
+        {
+          "citation": "MilliporeSigma. Immunofluorescence labeling of cells (technical document; 2025).",
+          "link": "https://www.sigmaaldrich.com/technical-documents/protocols/biology/immunofluorescence-labeling.html"
+        },
+        {
+          "citation": "Ferreira Lab, Northwestern University Feinberg School of Medicine. Immunocytochemistry – cultured cells (laboratory protocol, undated).",
+          "link": "https://labs.feinberg.northwestern.edu/ferreira/docs/Immunocytochemistry---Cultured-Cells.pdf"
+        },
+        {
+          "citation": "Roberts L. Protocol: immunofluorescence staining of cells for microscopy. Biotium; 2022.",
+          "link": "https://biotium.com/tech-tips/protocol-immunofluorescence-staining-of-cells-for-microscopy/"
+        }
+      ],
+      "word_file": "uploads/immunofluorescence-staining-of-adherent-mammalian-cells.docx",
+      "pptx_file": "uploads/immunofluorescence-staining-of-adherent-mammalian-cells.pptx",
+      "staged_dir": "review/2026-11-28/",
+      "replaces": "Immunofluorescence Staining of Cultured Cells"
+    },
+    {
+      "title": "Total RNA Extraction from Cultured Mammalian Cells with TRIzol Reagent",
+      "category": "Molecular Biology",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-28",
+      "duration": "About 3 h",
+      "summary": "Isolate total RNA from cultured mammalian cells with TRIzol: lyse in situ, separate phases with chloroform, precipitate with isopropanol, wash with 75% ethanol, dissolve in RNase-free water, and check quantity and quality.",
+      "keywords": "RNA extraction TRIzol total RNA chloroform isopropanol phase separation mammalian cells A260/A280 RNA integrity phenol guanidine",
+      "sources": [
+        {
+          "citation": "Thermo Fisher Scientific (Life Technologies). TRIzol Reagent user guide (Pub. No. MAN0001271, Rev. A.0); 2016.",
+          "link": "https://www.med.upenn.edu/robertsonlab/assets/user-content/documents/trizol-reagent.pdf"
+        },
+        {
+          "citation": "Transcription Regulation and Gene Expression Facility, Cornell University. RNA extraction protocol (TREx), version 1.8; April 2020.",
+          "link": "https://trex.biotech.cornell.edu/files/TREx_RNA_Extraction_Protocol_v1.8.pdf"
+        },
+        {
+          "citation": "UC Davis Gene Expression Resource. Total RNA isolation procedure (TRIzol) (protocol, undated).",
+          "link": "https://health.ucdavis.edu/cancer/research/pdf/total-rnaIsolation-using-trizol.pdf"
+        },
+        {
+          "citation": "Thermo Fisher Scientific (Life Technologies). TRIzol Plus RNA Purification Kit user guide (Pub. No. MAN0000561, Rev. A.0); 2016.",
+          "link": "https://documents.thermofisher.com/TFS-Assets/LSG/manuals/Trizol_Plus_man.pdf"
+        }
+      ],
+      "word_file": "uploads/total-rna-extraction-from-cultured-mammalian-cells-with-trizol-reagent.docx",
+      "pptx_file": "uploads/total-rna-extraction-from-cultured-mammalian-cells-with-trizol-reagent.pptx",
+      "staged_dir": "review/2026-11-28/",
+      "replaces": "Total RNA Extraction with TRIzol"
+    },
+    {
+      "title": "RT-qPCR Reaction Setup and Cycling with SYBR Green Detection",
+      "category": "Molecular Biology",
+      "organism": "General Lab Methods",
+      "date": "2026-11-28",
+      "duration": "About 3 h (one-step) or 4 h (two-step)",
+      "summary": "Set up a SYBR Green RT-qPCR plate: design and validate primers, plan replicates and controls (NTC and no-RT), assemble one-step or two-step master mixes with vendor example volumes, run cycling and a melt curve, and check the data before analysis.",
+      "keywords": "RT-qPCR SYBR Green qPCR setup one-step two-step master mix cycling melt curve no-template control no-RT Cq primers reaction volume",
+      "sources": [
+        {
+          "citation": "MilliporeSigma. Universal SYBR Green qPCR protocol (technical document; 2025).",
+          "link": "https://www.sigmaaldrich.com/US/en/technical-documents/protocol/genomics/qpcr/sybr-green-qpcr"
+        },
+        {
+          "citation": "MilliporeSigma. Reverse transcription protocol using SYBR Green dye detection (one-step; technical document; 2023).",
+          "link": "https://www.sigmaaldrich.com/technical-documents/protocol/genomics/pcr/reverse-transcription-one-step-sybr-green-i-dye-detection"
+        },
+        {
+          "citation": "Thermo Fisher Scientific (Life Technologies). VeriQuest SYBR Green One-Step qRT-PCR Master Mix (2×) brief protocol, product 75705; January 23, 2017.",
+          "link": "https://assets.thermofisher.com/TFS-Assets/LSG/manuals/75705B.pdf"
+        },
+        {
+          "citation": "CASRAI Editorial Board. SYBR Green real-time PCR protocol: setup, cycling and melt curve (secondary guide based on the Thermo Fisher PowerUp SYBR Green user guide); 2026.",
+          "link": "https://casrai.org/guides/sybr-green-real-time-pcr-protocol"
+        }
+      ],
+      "word_file": "uploads/rt-qpcr-reaction-setup-and-cycling-with-sybr-green-detection.docx",
+      "pptx_file": "uploads/rt-qpcr-reaction-setup-and-cycling-with-sybr-green-detection.pptx",
+      "staged_dir": "review/2026-11-28/",
+      "replaces": "Quantitative PCR (RT-qPCR) Setup"
+    },
+    {
+      "title": "Transformation of Chemically Competent E. coli by Heat Shock",
+      "category": "Cloning & CRISPR",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-28",
+      "duration": "2 days (about 2.5 h hands-on)",
+      "summary": "Transform chemically competent E. coli with plasmid DNA: thaw on ice, add DNA, heat shock 30 s at 42 °C, recover in SOC for 60 min at 37 °C, plate serial dilutions on selective agar and calculate efficiency with pUC19 and no-DNA controls.",
+      "keywords": "bacterial transformation heat shock chemically competent E. coli plasmid SOC recovery antibiotic selection transformation efficiency pUC19 NEB",
+      "sources": [
+        {
+          "citation": "New England Biolabs. High efficiency transformation protocol (web protocol, 2012).",
+          "link": "https://www.neb.com/protocols/2012/05/24/high-efficiency-transformation-protocol"
+        },
+        {
+          "citation": "New England Biolabs. Chemical transformation tips (usage guidelines, undated).",
+          "link": "https://www.neb.com/en/tools-and-resources/usage-guidelines/chemical-transformation-tips"
+        },
+        {
+          "citation": "New England Biolabs. High efficiency transformation. protocols.io; 2022. doi:10.17504/protocols.io.14egn2bdzg5d/v1.",
+          "link": "https://www.protocols.io/view/high-efficiency-transformation-cf83tryn.html"
+        },
+        {
+          "citation": "Green R, Rogers EJ. Chemical transformation of E. coli. Methods Enzymol. 2013;529:329–336. doi:10.1016/B978-0-12-418687-3.00028-8.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4037286"
+        }
+      ],
+      "word_file": "uploads/transformation-of-chemically-competent-e-coli-by-heat-shock.docx",
+      "pptx_file": "uploads/transformation-of-chemically-competent-e-coli-by-heat-shock.pptx",
+      "staged_dir": "review/2026-11-28/",
+      "replaces": "Bacterial Transformation by Heat Shock"
     }
-   ],
-   "word_file": "uploads/bacterial-genomic-dna-isolation-for-sequencing.docx",
-   "pptx_file": "uploads/bacterial-genomic-dna-isolation-for-sequencing.pptx",
-   "staged_dir": "review/2026-11-28/"
-  },
-  {
-   "title": "C. elegans Thrashing and Locomotion Assay",
-   "category": "Model Organisms",
-   "organism": "C. elegans",
-   "date": "2026-11-28",
-   "duration": "About 4 days (3 days of worm growth, 2–3 h for the assay)",
-   "summary": "Count swimming thrashes of synchronized day-1 adult C. elegans in M9 buffer: bleach synchronization, bacteria clearing, a fixed acclimation time, 30 s video counts, blinded scoring, optional automated analysis and statistics.",
-   "keywords": "C. elegans thrashing assay locomotion swimming body bends M9 buffer neuromuscular behavior N2 synchronization levamisole video analysis",
-   "sources": [
-    {
-     "citation": "Buckingham SD, Sattelle DB. Fast, automated measurement of nematode swimming (thrashing) without morphometry. BMC Neurosci. 2009;10:84. doi:10.1186/1471-2202-10-84",
-     "link": "https://link.springer.com/content/pdf/10.1186/1471-2202-10-84.pdf"
-    },
-    {
-     "citation": "Kudumala S, Sossi S, Carvelli L. Swimming induced paralysis is a valuable behavioral assay to assess dopamine signaling in Caenorhabditis elegans. J Vis Exp. 2019;(146):e59243. doi:10.3791/59243",
-     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7263014"
-    },
-    {
-     "citation": "Walker AC, Bhargava R, Brust AS, Owji AA, Czyz DM. Time-off-pick assay to measure Caenorhabditis elegans motility. Bio-protocol. 2022;12(12):e4436. doi:10.21769/BioProtoc.4436",
-     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9257836"
-    },
-    {
-     "citation": "Bio-protocol. Thrashing assay protocol, entry e253 (2012; title and authors not shown on the page).",
-     "link": "https://bio-protocol.org/e253"
-    }
-   ],
-   "word_file": "uploads/c-elegans-thrashing-and-locomotion-assay.docx",
-   "pptx_file": "uploads/c-elegans-thrashing-and-locomotion-assay.pptx",
-   "staged_dir": "review/2026-11-28/"
-  },
-  {
-   "title": "CLIP-seq",
-   "category": "Genomics & Sequencing",
-   "organism": "General Lab Methods",
-   "date": "2026-11-28",
-   "duration": "About 5–6 days (3–4 days hands-on)",
-   "summary": "Map where an RNA-binding protein contacts RNA in cultured mammalian cells: UV crosslinking, partial RNase digestion, immunoprecipitation, adapter ligation, SDS-PAGE and membrane transfer, cDNA library preparation, sequencing and crosslink-site analysis with controls.",
-   "keywords": "CLIP-seq iCLIP HITS-CLIP eCLIP seCLIP RNA-binding protein UV crosslinking immunoprecipitation RNase I adapter ligation crosslink sites PureCLIP library preparation sequencing",
-   "sources": [
-    {
-     "citation": "Huppertz I, Attig J, D'Ambrogio A, Easton LE, Sibley CR, Sugimoto Y, et al. iCLIP: protein–RNA interactions at nucleotide resolution. Methods. 2014;65(3):274–287. doi:10.1016/j.ymeth.2013.10.011",
-     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3988997"
-    },
-    {
-     "citation": "Van Nostrand EL, Nguyen TB, Gelboin-Burkhart C, Wang R, Blue SM, Pratt GA, et al. Robust, cost-effective profiling of RNA binding protein targets with single-end enhanced crosslinking and immunoprecipitation (seCLIP). Methods Mol Biol. 2017;1648:177–200. doi:10.1007/978-1-4939-7204-3_14",
-     "link": "https://link.springer.com/protocol/10.1007/978-1-4939-7204-3_14"
-    },
-    {
-     "citation": "Biancon G, Busarello E, Joshi P, Lesch BJ, Halene S, Tebaldi T. Deconvolution of in vivo protein–RNA contacts using fractionated eCLIP-seq (freCLIP-seq). STAR Protoc. 2022;3(4):101823. doi:10.1016/j.xpro.2022.101823",
-     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9676202"
-    },
-    {
-     "citation": "Lin C, Miles WO. Beyond CLIP: advances and opportunities to measure RBP–RNA and RNA–RNA interactions. Nucleic Acids Res. 2019;47(11):5490–5501. doi:10.1093/nar/gkz295",
-     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6582316"
-    }
-   ],
-   "word_file": "uploads/clip-seq.docx",
-   "pptx_file": "uploads/clip-seq.pptx",
-   "staged_dir": "review/2026-11-28/"
-  },
-  {
-   "title": "DNase I Footprinting",
-   "category": "Biochemistry",
-   "organism": "General Lab Methods",
-   "date": "2026-11-28",
-   "duration": "2–3 days (about 12 h hands-on)",
-   "summary": "Map where a DNA-binding protein, such as an E. coli transcription factor, sits on a 100–400 bp fragment: 32P end-label a PCR probe, bind the protein, digest lightly with DNase I, and read the protected ladder on a denaturing gel against a G+A sequence ladder, with optional affinity estimates from a titration.",
-   "keywords": "DNase I footprinting protein-DNA interaction transcription factor binding site 32P PCR probe denaturing gel G+A ladder titration E. coli",
-   "sources": [
-    {
-     "citation": "Gaugué I, Bréchemier-Baey D, Plumbridge J. DNase I footprinting to identify protein binding sites. Bio-protocol. 2013;3(14):e824.",
-     "link": "https://en.bio-protocol.org/pdf/Bio-protocol824.pdf"
-    },
-    {
-     "citation": "Hsieh M, Boulanger A, Knipling LG, Hinton DM. Combining gel retardation and footprinting to determine protein–DNA interactions of specific and/or less stable complexes. Bio-protocol. 2020;10(23):e3843. doi:10.21769/BioProtoc.3843.",
-     "link": "https://bio-protocol.org/e3843"
-    },
-    {
-     "citation": "Trauger JW, Dervan PB. Footprinting methods for analysis of pyrrole–imidazole polyamide/DNA complexes. Methods Enzymol. 2001;340:450–466.",
-     "link": "https://dervan.caltech.edu/documents/25079/1-s2.0-S0076687901404368-main.pdf"
-    }
-   ],
-   "word_file": "uploads/dnase-i-footprinting.docx",
-   "pptx_file": "uploads/dnase-i-footprinting.pptx",
-   "staged_dir": "review/2026-11-28/"
-  },
-  {
-   "title": "T Cell Isolation and Activation",
-   "category": "Immunology",
-   "organism": "Mammalian Cells",
-   "date": "2026-11-28",
-   "duration": "1 day isolation + 3–5 days activation",
-   "summary": "Isolate primary T cells from human blood (Ficoll, CD8+ negative selection) or mouse spleen (CD4+ negative selection, about 95% pure), then activate them with plate-bound anti-CD3 plus soluble anti-CD28 or a ready-made activator, check CD69 and CD25 and expand with IL-2.",
-   "keywords": "T cell isolation activation PBMC Ficoll negative selection EasySep CD8 CD4 anti-CD3 anti-CD28 IL-2 splenocytes CD69 CD25 mouse human",
-   "sources": [
-    {
-     "citation": "Pohida K, Lake CM, Yee D, Snow AL. Restimulation-induced cell death (RICD): methods for modeling, investigating, and quantifying RICD sensitivity in primary human T cells via flow cytometric analysis. Bio-protocol. 2022;12(4):e4326. doi:10.21769/BioProtoc.4326.",
-     "link": "https://bio-protocol.org/e4326"
-    },
-    {
-     "citation": "Thermo Fisher Scientific. T cell activation via anti-CD3 and anti-CD28 protocol. Immunology at Work, Protocols for Immunology.",
-     "link": "https://www.thermofisher.com/us/en/home/life-science/cell-analysis/cell-analysis-learning-center/immunology-at-work/immunology-protocols/t-cell-activation-anti-cd3-anti-cd28.html"
-    },
-    {
-     "citation": "STEMCELL Technologies. EasySep Mouse CD4+ T Cell Isolation Kit, product information sheet (document 10000003746, version 02); 2022.",
-     "link": "https://cdn.stemcell.com/media/files/pis/10000003746-PIS_02.pdf"
-    },
-    {
-     "citation": "Zheng N, Peng W. T cell differentiation from mice spleen tissue. protocols.io; 2024. doi:10.17504/protocols.io.261gedy8ov47/v1.",
-     "link": "https://www.protocols.io/view/t-cell-differentiation-from-mice-spleen-tissue-c9yiz7ue.html"
-    }
-   ],
-   "word_file": "uploads/t-cell-isolation-and-activation.docx",
-   "pptx_file": "uploads/t-cell-isolation-and-activation.pptx",
-   "staged_dir": "review/2026-11-28/"
-  },
-  {
-   "title": "Relative Quantification by the ΔΔCt Method",
-   "category": "Molecular Biology",
-   "organism": "General Lab Methods",
-   "date": "2026-11-28",
-   "duration": "1 day (plus 1 day for primer validation)",
-   "summary": "Quantify gene expression changes by real-time RT-qPCR: check RNA quality, validate primer efficiency and reference genes, then compute ΔCt, ΔΔCt and 2^(−ΔΔCt) fold change with error propagation, following MIQE reporting, with a worked example from the original paper.",
-   "keywords": "ddCt delta delta Ct 2^-ddCt relative quantification qPCR RT-qPCR reference gene normalization primer efficiency MIQE gene expression fold change Livak",
-   "sources": [
-    {
-     "citation": "Livak KJ, Schmittgen TD. Analysis of relative gene expression data using real-time quantitative PCR and the 2^(−ΔΔCT) method. Methods. 2001;25(4):402–408. doi:10.1006/meth.2001.1262.",
-     "link": "https://www.ffclrp.usp.br/divulgacao/emu/real_time/referencias/Delta-Delata%20Ct%20Methods_Livak.pdf"
-    },
-    {
-     "citation": "Bustin SA, Benes V, Garson JA, et al. The MIQE guidelines: minimum information for publication of quantitative real-time PCR experiments. Clin Chem. 2009;55(4):611–622. doi:10.1373/clinchem.2008.112797.",
-     "link": "https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/MIQE%20paper.pdf"
-    },
-    {
-     "citation": "Taylor SC, Mrkusich EM. The state of RT-quantitative PCR: firsthand observations of implementation of minimum information for the publication of quantitative real-time PCR experiments (MIQE). J Mol Microbiol Biotechnol. 2014;24:46–52. doi:10.1159/000356189.",
-     "link": "https://gene-quantification.de/taylor-mrkusich-rt-qpcr-miqe-2014.pdf"
-    }
-   ],
-   "word_file": "uploads/relative-quantification-by-the-ddct-method.docx",
-   "pptx_file": "uploads/relative-quantification-by-the-ddct-method.pptx",
-   "staged_dir": "review/2026-11-28/"
-  },
-  {
-   "title": "Lambda Red Recombineering",
-   "category": "Cloning & CRISPR",
-   "organism": "E. coli & Bacteria",
-   "date": "2026-11-28",
-   "duration": "4–5 days (2 h hands-on on day 2)",
-   "summary": "Deleting an E. coli gene with a PCR-made resistance cassette and short homology arms using the Red recombination system, then curing pKD46 and removing the marker with FLP.",
-   "keywords": [
-    "lambda Red",
-    "recombineering",
-    "pKD46",
-    "gene knockout",
-    "Datsenko Wanner",
-    "E. coli",
-    "electroporation"
-   ],
-   "sources": [
-    {
-     "citation": "Datsenko KA, Wanner BL (2000). One-step inactivation of chromosomal genes in Escherichia coli K-12 using PCR products. Proc Natl Acad Sci USA 97(12):6640–6645.",
-     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC18686/"
-    },
-    {
-     "citation": "Sharan SK, Thomason LC, Kuznetsov SG, Court DL (2009). Recombineering: a homologous recombination-based method of genetic engineering. Nat Protoc 4(2):206–223.",
-     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2790811"
-    },
-    {
-     "citation": "Thomason LC, Sawitzke JA, Li X, Costantino N, Court DL (2014). Recombineering: genetic engineering in bacteria using homologous recombination. Curr Protoc Mol Biol 106:1.16.1–1.16.39.",
-     "link": "https://ncifrederick.cancer.gov/fredi/sites/default/files/2024-01/cpmb-2014.pdf"
-    },
-    {
-     "citation": "Lawrence Berkeley National Laboratory, CAF group. Protocol for gene knockout (Lambda Red, pKD3/pKD4, pCP20).",
-     "link": "https://cafgroup.lbl.gov/protocols/general-molecular-biology/genomic-gene-deletion-with-lambda-red/protocol-for-gene-knockout"
-    },
-    {
-     "citation": "OpenWetWare. Recombineering/Lambda red-mediated gene replacement (original protocol by S. Douglas, adapted from Datsenko and Wanner; last edited 2014).",
-     "link": "https://openwetware.org/wiki/Recombineering/Lambda_red-mediated_gene_replacement"
-    },
-    {
-     "citation": "Barrick Lab. Lambda Red Protocol (genome modification by the Datsenko–Wanner method).",
-     "link": "https://barricklab.org/twiki/bin/view/Lab/ProcedureGenomeModificationDatsenkoWanner"
-    }
-   ],
-   "word_file": "uploads/lambda-red-recombineering.docx",
-   "pptx_file": "uploads/lambda-red-recombineering.pptx",
-   "staged_dir": "review/2026-11-28/"
-  },
-  {
-   "title": "Immunoprecipitation",
-   "category": "Protein Analysis",
-   "organism": "General Lab Methods",
-   "date": "2026-11-28",
-   "duration": "1.5 days (4 h hands-on)",
-   "summary": "Pulling down a target protein and its partners from mammalian cell lysate with antibody and Protein A/G magnetic beads, with isotype and input controls, then Western blot.",
-   "keywords": [
-    "immunoprecipitation",
-    "co-IP",
-    "Protein A/G beads",
-    "lysis buffer",
-    "Western blot",
-    "antibody"
-   ],
-   "sources": [
-    {
-     "citation": "Cell Signaling Technology. Immunoprecipitation Protocol (Magnetic Beads).",
-     "link": "https://www.cellsignal.com/learn-and-support/protocols/protocol-ip-magnetic"
-    },
-    {
-     "citation": "Cell Signaling Technology. Native Protein Immunoprecipitation Protocol (agarose beads).",
-     "link": "https://www.cellsignal.com/learn-and-support/protocols/protocol-ip-native-protein"
-    },
-    {
-     "citation": "Abcam. Immunoprecipitation and co-immunoprecipitation protocol.",
-     "link": "https://www.abcam.com/en-us/technical-resources/protocols/immunoprecipitation"
-    },
-    {
-     "citation": "Thermo Fisher Scientific. Pierce Classic Magnetic IP/Co-IP Kit (88804) user guide, MAN0011737.",
-     "link": "https://assets.fishersci.com/TFS-Assets/LSG/manuals/MAN0011737_Pierce_Classic_Mag_IP_CoIP_UG.pdf"
-    },
-    {
-     "citation": "New England Biolabs. Immunoprecipitation using Protein A/G Magnetic Beads.",
-     "link": "https://www.neb.com/protocols/0001/01/01/immunoprecipitation-using-protein-ag-magnetic-beads"
-    },
-    {
-     "citation": "Burckhardt CJ, Minna JD, Danuser G (2021). Co-immunoprecipitation and semi-quantitative immunoblotting for the analysis of protein-protein interactions. STAR Protoc 2(3):100644.",
-     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8264609/"
-    }
-   ],
-   "word_file": "uploads/immunoprecipitation.docx",
-   "pptx_file": "uploads/immunoprecipitation.pptx",
-   "staged_dir": "review/2026-11-28/"
-  },
-  {
-   "title": "Super-Resolution (SIM) Sample Preparation",
-   "category": "Imaging & Microscopy",
-   "organism": "General Lab Methods",
-   "date": "2026-11-28",
-   "duration": "2 days (about 5 h hands-on)",
-   "summary": "Preparing fixed, immunolabeled cells on #1.5H coverslips, with matched mounting medium, for artifact-free 3D structured illumination microscopy.",
-   "keywords": [
-    "SIM",
-    "super-resolution",
-    "#1.5H coverslip",
-    "immunofluorescence",
-    "mounting medium",
-    "3D-SIM"
-   ],
-   "sources": [
-    {
-     "citation": "Kraus F, Miron E, Demmerle J, Chitiashvili T, Budco A, Alle Q, Matsuda A, Leonhardt H, Schermelleh L, Markaki Y (2017). Quantitative 3D structured illumination microscopy of nuclear structures. Nat Protoc 12(5):1011–1028.",
-     "link": "https://research.monash.edu/en/publications/quantitative-3d-structured-illumination-microscopy-of-nuclear-str/"
-    },
-    {
-     "citation": "Ball G, Demmerle J, Kaufmann R, Davis I, Dobbie IM, Schermelleh L (2015). SIMcheck: a toolbox for successful super-resolution structured illumination microscopy. Sci Rep 5:15915.",
-     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4648340"
-    },
-    {
-     "citation": "Plantard L. Sample preparation for SIM. Core Facility for Integrated Microscopy, University of Copenhagen (2016).",
-     "link": "https://cfim.ku.dk/equipment/light-microscopes/elyra/SIM_Sample_prep-20170802.pdf"
-    },
-    {
-     "citation": "Frikstad K-AM et al. (2022). 3D-SIM protocol for centrosome protein localization in fixed human cells. Bio-protocol 12(6):e4360.",
-     "link": "https://bio-protocol.org/e4360"
-    },
-    {
-     "citation": "IGMM Advanced Imaging Resource, University of Edinburgh. Nikon N-SIM technical notes and sample preparation.",
-     "link": "https://institute-genetics-cancer.ed.ac.uk/sites/default/files/2024-09/IGMM-AIR-SIM-tech-notes.pdf"
-    },
-    {
-     "citation": "Demmerle J, Innocent C, North AJ, Ball G, Müller M, Miron E, Matsuda A, Dobbie IM, Markaki Y, Schermelleh L (2017). Strategic and practical guidelines for successful structured illumination microscopy. Nat Protoc 12(5):988–1010 (abstract and figure legends only were accessible).",
-     "link": "https://www.nature.com/articles/nprot.2017.019.pdf"
-    }
-   ],
-   "word_file": "uploads/super-resolution-sim-sample-preparation.docx",
-   "pptx_file": "uploads/super-resolution-sim-sample-preparation.pptx",
-   "staged_dir": "review/2026-11-28/"
-  },
-  {
-   "title": "siRNA Transfection",
-   "category": "Cell Culture",
-   "organism": "Mammalian Cells",
-   "date": "2026-11-28",
-   "duration": "About 1 h hands-on + 24–72 h incubation",
-   "summary": "Reverse transfection of siRNA with a lipid reagent in a 24-well plate, with dose titration, controls and knockdown validation by RT-qPCR and western blot.",
-   "keywords": [
-    "siRNA",
-    "transfection",
-    "knockdown",
-    "RNAiMAX",
-    "RNAi",
-    "controls"
-   ],
-   "sources": [
-    {
-     "citation": "Thermo Fisher Scientific. RNAiMAX Reverse Transfections (Lipofectamine RNAiMAX protocol page).",
-     "link": "https://www.thermofisher.com/us/en/home/references/protocols/cell-culture/transfection-protocol/rnaimax-reverse-transfections-lipofectamine"
-    },
-    {
-     "citation": "QIAGEN. Guidelines for transfection of siRNA (Transfection Bench Guide).",
-     "link": "https://www.qiagen.com/au/knowledge-and-support/knowledge-hub/bench-guide/transfection/guidelines-for-transfection/guidelines-for-transfection-of-sirna"
-    },
-    {
-     "citation": "QIAGEN. Performing appropriate RNAi control experiments (Transfection Bench Guide).",
-     "link": "https://www.qiagen.com/au/knowledge-and-support/knowledge-hub/bench-guide/transfection/guidelines-for-transfection/performing-appropriate-rnai-control-experiments"
-    },
-    {
-     "citation": "Han H (2018). RNA interference to knock down gene expression. Methods Mol Biol 1706:293–302. doi:10.1007/978-1-4939-7471-9_16.",
-     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6743327/"
-    }
-   ],
-   "word_file": "uploads/sirna-transfection.docx",
-   "pptx_file": "uploads/sirna-transfection.pptx",
-   "staged_dir": "review/2026-11-28/"
-  },
-  {
-   "title": "16S rRNA Gene PCR and Sequencing",
-   "category": "Microbiology",
-   "organism": "E. coli & Bacteria",
-   "date": "2026-11-28",
-   "duration": "About 2 days library preparation + MiSeq run (about 65 h)",
-   "summary": "Two-step V3–V4 16S rRNA gene amplicon PCR, bead clean-up, dual indexing, pooling and MiSeq 2 × 300 sequencing, with blanks and a mock community.",
-   "keywords": [
-    "16S rRNA",
-    "V3–V4",
-    "amplicon",
-    "MiSeq",
-    "microbiome",
-    "library preparation"
-   ],
-   "sources": [
-    {
-     "citation": "Illumina, Inc. 16S Metagenomic Sequencing Library Preparation: Preparing 16S Ribosomal RNA Gene Amplicons for the Illumina MiSeq System. Illumina Demonstrated Protocol, Part 15044223 Rev. B (PDF hosted by Harvard Medical School Biopolymers Facility).",
-     "link": "https://genome.med.harvard.edu/documents/libraryPrep/16SMetagenomicsLibraryPrepProtocol.pdf"
-    },
-    {
-     "citation": "Emory Integrated Genomics Core. Amplicon (16S rRNA) sequencing service description (undated).",
-     "link": "https://www.cores.emory.edu/ecgc/_includes/documents/sections/resources/amplicon-16s-metagenomics.pdf"
-    },
-    {
-     "citation": "Michigan State University Genomics Core (RTSF). Amplicon/Metagenomics Guide, April 19, 2021.",
-     "link": "https://rtsf.natsci.msu.edu/sites/_rtsf/assets/File/amplicon_guide_website_20210416.pdf"
-    }
-   ],
-   "word_file": "uploads/16s-rrna-gene-pcr-and-sequencing.docx",
-   "pptx_file": "uploads/16s-rrna-gene-pcr-and-sequencing.pptx",
-   "staged_dir": "review/2026-11-28/"
-  },
-  {
-   "title": "C. elegans Chemotaxis Assay",
-   "category": "Model Organisms",
-   "organism": "C. elegans",
-   "date": "2026-11-28",
-   "duration": "1 day plate preparation + about 3 h assay and counting",
-   "summary": "Plate-based chemotaxis assay with azide trapping and a chemotaxis index for C. elegans attraction to a test odorant versus ethanol.",
-   "keywords": [
-    "C. elegans",
-    "chemotaxis",
-    "diacetyl",
-    "chemotaxis index",
-    "olfaction",
-    "sodium azide"
-   ],
-   "sources": [
-    {
-     "citation": "Margie O, Palmer C, Chin-Sang I (2013). C. elegans chemotaxis assay. J Vis Exp (74):50069. doi:10.3791/50069.",
-     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3667641/"
-    },
-    {
-     "citation": "Massachusetts Institute of Technology OpenCourseWare. 7.15 Experimental Molecular Genetics, Spring 2015: Chemotaxis assay (adapted from Hart AC, 2006, WormBook).",
-     "link": "https://ocw.mit.edu/courses/7-15-experimental-molecular-genetics-spring-2015/38c134212c536d7dfd33ab509430a09d_MIT7_15S15_Chemotaxis_assay.pdf"
-    },
-    {
-     "citation": "Bio-protocol (2018). Entry e2740, C. elegans chemotaxis protocols (quadrant-plate salt assay and square-plate 1-nonanol assay; adapted from Nishijima and Maruyama, 2017); title and authors not shown on the page we read.",
-     "link": "https://bio-protocol.org/e2740"
-    }
-   ],
-   "word_file": "uploads/c-elegans-chemotaxis-assay.docx",
-   "pptx_file": "uploads/c-elegans-chemotaxis-assay.pptx",
-   "staged_dir": "review/2026-11-28/"
-  }
- ]
+  ]
 }
