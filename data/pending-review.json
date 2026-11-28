@@ -565,6 +565,104 @@
    "pptx_file": "uploads/transformation-of-chemically-competent-e-coli-by-heat-shock.pptx",
    "staged_dir": "review/2026-11-28/",
    "replaces": "Bacterial Transformation by Heat Shock"
+  },
+  {
+   "title": "Long-Read Sequencing DNA Preparation",
+   "category": "Genomics & Sequencing",
+   "organism": "General Lab Methods",
+   "date": "2026-11-28",
+   "duration": "2 days (overnight DNA elution; about 7 h hands-on)",
+   "summary": "Extract high-molecular-weight DNA from cultured human cells with glass-bead capture, verify it with three-point NanoDrop and Qubit readings and size analysis, then build an ultra-long-read Oxford Nanopore library (SQK-ULK114) with CoHex cleanup and load a MinION or PromethION flow cell.",
+   "keywords": "long-read sequencing HMW DNA extraction Oxford Nanopore ultra-long reads SQK-ULK114 Monarch glass beads CoHex Qubit NanoDrop PromethION MinION",
+   "sources": [
+    {
+     "citation": "Cahyani I, Tyson J, Holmes N, Quick J, Loman N, Loose M. FindingNemo (v.kit14): a toolkit for DNA extraction, library preparation and purification for ultra-long nanopore sequencing. protocols.io; 2024. doi:10.17504/protocols.io.5jyl8p38rg2w/v1 (supplemental protocol).",
+     "link": "https://genome.cshlp.org/content/suppl/2025/04/09/gr.279943.124.DC1/Supplemental_Protocol_FindingNemo.pdf"
+    },
+    {
+     "citation": "Cahyani I, Tyson J, Holmes N, Quick J, Moore C, Loman N, Loose M. An optimized toolkit for high-molecular-weight DNA extraction and ultra-long-read nanopore sequencing using glass beads and hexamminecobalt(III) chloride. Genome Res. 2025;35(5):1154–1166. doi:10.1101/gr.279943.124.",
+     "link": "https://genome.cshlp.org/content/35/5/1154"
+    },
+    {
+     "citation": "Cousson A, Pablo AL, Cournac L, Piton G, Dezette D, Robin A, Taschen E, Bernard L. Ultra pure high molecular weight DNA from soil for Nanopore shotgun metagenomics and metabarcoding sequencing. MethodsX. 2024;14:103134. doi:10.1016/j.mex.2024.103134.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11751509"
+    },
+    {
+     "citation": "Jones A, Torkel C, Stanley D, Nasim J, Borevitz J, Schwessinger B. High-molecular weight DNA extraction, clean-up and size selection for long-read sequencing. PLoS ONE. 2021;16(7):e0253830. doi:10.1371/journal.pone.0253830.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8282028"
+    },
+    {
+     "citation": "UTHealth Houston Cancer Genomics Core. Nanopore ligation sequencing of DNA: sample requirements (service page, undated).",
+     "link": "https://www.uth.edu/cgc/sequencing-service/nanopore-ligation-sequencing-dna"
+    }
+   ],
+   "word_file": "uploads/long-read-sequencing-dna-preparation.docx",
+   "pptx_file": "uploads/long-read-sequencing-dna-preparation.pptx",
+   "staged_dir": "review/2026-11-28/"
+  },
+  {
+   "title": "Filter Binding Assay",
+   "category": "Biochemistry",
+   "organism": "General Lab Methods",
+   "date": "2026-11-28",
+   "duration": "About 5 h (2 h membrane soak, 30–60 min binding, 1 h imaging exposure)",
+   "summary": "Measure protein–nucleic acid affinity with a double-filter dot-blot: equilibrate a protein titration with trace 32P-labeled probe, pull it through nitrocellulose over charged nylon, image, calculate fraction bound and fit Kd,app with the correct probe regime.",
+   "keywords": "filter binding assay nitrocellulose nylon double filter protein RNA DNA binding Kd dissociation constant 32P dot blot manifold phosphorimager",
+   "sources": [
+    {
+     "citation": "Altschuler SE, Lewis KA, Wuttke DS. Practical strategies for the evaluation of high-affinity protein/nucleic acid interactions. J Nucleic Acids Investig. 2013;4(1):19–28. doi:10.4081/jnai.2013.e3.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4155600"
+    },
+    {
+     "citation": "Read Lab, University at Buffalo. Filter binding assay (laboratory protocol page; undated).",
+     "link": "https://www.acsu.buffalo.edu/~lread/filterbindingassay.html"
+    },
+    {
+     "citation": "Vega-Badillo J, Zamore PD, Jouravleva K. Protocol to measure protein-RNA binding using double filter-binding assays followed by phosphorimaging or high-throughput sequencing. STAR Protoc. 2023;4(2):102336. doi:10.1016/j.xpro.2023.102336.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10276142"
+    },
+    {
+     "citation": "Rio DC. Filter-binding assay for analysis of RNA–protein interactions. Cold Spring Harb Protoc. 2012. doi:10.1101/pdb.prot071449.",
+     "link": "https://doi.org/10.1101/pdb.prot071449"
+    },
+    {
+     "citation": "Wong I, Lohman TM. A double-filter method for nitrocellulose-filter binding: application to protein-nucleic acid interactions. Proc Natl Acad Sci USA. 1993;90(12):5428–5432. doi:10.1073/pnas.90.12.5428.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC46733"
+    }
+   ],
+   "word_file": "uploads/filter-binding-assay.docx",
+   "pptx_file": "uploads/filter-binding-assay.pptx",
+   "staged_dir": "review/2026-11-28/"
+  },
+  {
+   "title": "T Cell Proliferation by CFSE Dilution",
+   "category": "Immunology",
+   "organism": "Mammalian Cells",
+   "date": "2026-11-28",
+   "duration": "5–6 days (about 3 h hands-on on day 0, 2 h on harvest day)",
+   "summary": "Label human PBMCs with 5 µM CFSE, stimulate with CD3/CD28 beads, and read stepwise dye dilution by flow cytometry (488 nm, 530/30 nm) with unlabeled and unstimulated controls, a viability gate and division-peak analysis.",
+   "keywords": "CFSE T cell proliferation dye dilution flow cytometry PBMC CD3 CD28 Dynabeads division peaks CellTrace carboxyfluorescein",
+   "sources": [
+    {
+     "citation": "Quah BJC, Parish CR. The use of carboxyfluorescein diacetate succinimidyl ester (CFSE) to monitor lymphocyte proliferation. J Vis Exp. 2010;(44):2259. doi:10.3791/2259.",
+     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3185625"
+    },
+    {
+     "citation": "Thermo Fisher Scientific. CellTrace CFSE Cell Proliferation Kit protocol (web protocol, undated).",
+     "link": "https://www.thermofisher.com/us/en/home/references/protocols/cell-and-tissue-analysis/protocols/celltrace-cfse-cell-proliferation-protocol"
+    },
+    {
+     "citation": "Life Technologies. CellTrace Cell Proliferation Kits user guide. Publication MAN0002595, Rev. E.00; 2017.",
+     "link": "https://qa1-assets.thermofisher.cn/TFS-Assets/LSG/manuals/MAN0002595_CellTrace_Cell_Proliferation_Kits_UG.pdf"
+    },
+    {
+     "citation": "Ainslie Lab, University of North Carolina. T cell CFSE staining (bench protocol, updated 2020).",
+     "link": "https://ainslielab.web.unc.edu/wp-content/uploads/sites/12416/2024/01/T-cell-CSFE-staining.pdf"
+    }
+   ],
+   "word_file": "uploads/t-cell-proliferation-by-cfse-dilution.docx",
+   "pptx_file": "uploads/t-cell-proliferation-by-cfse-dilution.pptx",
+   "staged_dir": "review/2026-11-28/"
   }
  ]
 }
