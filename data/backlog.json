@@ -658,247 +658,247 @@
     {
       "title": "PBMC Isolation by Ficoll Gradient",
       "category": "Immunology",
-      "status": "staged",
+      "status": "done",
       "organism": "Mammalian Cells"
     },
     {
       "title": "Standard PCR Setup and Optimization",
       "category": "Molecular Biology",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "In-Fusion Cloning",
       "category": "Cloning & CRISPR",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "Silver Staining of Protein Gels",
       "category": "Protein Analysis",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Time-Lapse Microscopy",
       "category": "Imaging & Microscopy",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Coating Plates with Collagen or Fibronectin",
       "category": "Cell Culture",
-      "status": "staged",
+      "status": "done",
       "organism": "Mammalian Cells"
     },
     {
       "title": "Bacterial Conjugation",
       "category": "Microbiology",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "C. elegans Gonad Immunostaining",
       "category": "Model Organisms",
-      "status": "staged",
+      "status": "done",
       "organism": "C. elegans"
     },
     {
       "title": "ATAC-seq",
       "category": "Genomics & Sequencing",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Isothermal Titration Calorimetry",
       "category": "Biochemistry",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Mouse Splenocyte Isolation",
       "category": "Immunology",
-      "status": "staged",
+      "status": "done",
       "organism": "Mouse"
     },
     {
       "title": "High-Fidelity PCR",
       "category": "Molecular Biology",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "SLIC Cloning",
       "category": "Cloning & CRISPR",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "Blocking and Antibody Incubation for Western Blots",
       "category": "Protein Analysis",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "FRAP (Fluorescence Recovery After Photobleaching)",
       "category": "Imaging & Microscopy",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Lipofectamine Transfection",
       "category": "Cell Culture",
-      "status": "staged",
+      "status": "done",
       "organism": "Mammalian Cells"
     },
     {
       "title": "Bacteriophage Plaque Assay",
       "category": "Microbiology",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "C. elegans Embryo Imaging",
       "category": "Model Organisms",
-      "status": "staged",
+      "status": "done",
       "organism": "C. elegans"
     },
     {
       "title": "Hi-C Library Preparation",
       "category": "Genomics & Sequencing",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Surface Plasmon Resonance Basics",
       "category": "Biochemistry",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Bone Marrow Cell Isolation",
       "category": "Immunology",
-      "status": "staged",
+      "status": "done",
       "organism": "Mouse"
     },
     {
       "title": "Colony PCR",
       "category": "Molecular Biology",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "Bacterial Glycerol Stocks",
       "category": "Cloning & CRISPR",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "ECL Chemiluminescent Detection",
       "category": "Protein Analysis",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "FRET Imaging",
       "category": "Imaging & Microscopy",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Calcium Phosphate Transfection",
       "category": "Cell Culture",
-      "status": "staged",
+      "status": "done",
       "organism": "Mammalian Cells"
     },
     {
       "title": "Bacteriophage Lysate Preparation",
       "category": "Microbiology",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "C. elegans Lifespan Assay",
       "category": "Model Organisms",
-      "status": "staged",
+      "status": "done",
       "organism": "C. elegans"
     },
     {
       "title": "Whole-Genome Bisulfite Sequencing",
       "category": "Genomics & Sequencing",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Microscale Thermophoresis",
       "category": "Biochemistry",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Bone Marrow-Derived Macrophage Differentiation",
       "category": "Immunology",
-      "status": "staged",
+      "status": "done",
       "organism": "Mouse"
     },
     {
       "title": "Touchdown PCR",
       "category": "Molecular Biology",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Verification of Clones by Restriction Digest",
       "category": "Cloning & CRISPR",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Fluorescent Western Blotting",
       "category": "Protein Analysis",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Confocal Microscopy Sample Preparation",
       "category": "Imaging & Microscopy",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Electroporation of Mammalian Cells",
       "category": "Cell Culture",
-      "status": "staged",
+      "status": "done",
       "organism": "Mammalian Cells"
     },
     {
       "title": "P1 Transduction",
       "category": "Microbiology",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "C. elegans Brood Size Assay",
       "category": "Model Organisms",
-      "status": "staged",
+      "status": "done",
       "organism": "C. elegans"
     },
     {
       "title": "Ribosome Profiling",
       "category": "Genomics & Sequencing",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Electrophoretic Mobility Shift Assay (EMSA)",
       "category": "Biochemistry",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Dendritic Cell Generation from Bone Marrow",
       "category": "Immunology",
-      "status": "staged",
+      "status": "done",
       "organism": "Mouse"
     },
     {
@@ -910,25 +910,25 @@
     {
       "title": "Plasmid Sequence Verification",
       "category": "Cloning & CRISPR",
-      "status": "staged",
+      "status": "done",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "Stripping and Reprobing Western Blot Membranes",
       "category": "Protein Analysis",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Super-Resolution (STORM) Sample Preparation",
       "category": "Imaging & Microscopy",
-      "status": "staged",
+      "status": "done",
       "organism": "General Lab Methods"
     },
     {
       "title": "Polyethylenimine (PEI) Transfection",
       "category": "Cell Culture",
-      "status": "staged",
+      "status": "done",
       "organism": "Mammalian Cells"
     },
     {
