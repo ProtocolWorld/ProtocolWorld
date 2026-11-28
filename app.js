@@ -110,6 +110,33 @@ document.addEventListener("click", (e) => {
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeComments(); });
 fetch("data/site.json", { cache: "no-cache" }).then((r) => r.json()).then((d) => (SITE = d)).catch(() => {});
 
+// "New" section: recent additions grouped by day, newest first (latest day marked NEW).
+function renderNews(sorted, latest) {
+  const box = $("news"); if (!box) return;
+  const days = [...new Set(sorted.map((p) => p.date).filter(Boolean))].slice(0, 5);
+  if (!days.length) { box.innerHTML = ""; return; }
+  box.innerHTML = `<h3 class="news-h">Recently added</h3>` + days.map((d) => {
+    const items = sorted.filter((p) => p.date === d).map((p) => {
+      const w = p.word_file ? `<a href="${esc(p.word_file)}" download>Word</a>` : "";
+      const x = p.pptx_file ? `<a href="${esc(p.pptx_file)}" download>PowerPoint</a>` : "";
+      return `<div class="news-item">${d === latest ? '<span class="newpill">NEW</span>' : ""}<b>${esc(p.title)}</b><em>${esc(p.category || "")}</em><span class="news-dl">${w}${x}</span></div>`;
+    }).join("");
+    return `<div class="news-day"><div class="news-date">${esc(fmtDate(d))}${d === latest ? "<span>Latest</span>" : ""}</div>${items}</div>`;
+  }).join("");
+}
+
+// Small pop-up announcing the latest additions (shown once per day per visitor).
+function showToast(today, latest) {
+  const t = $("toast"); if (!t || !today.length || !latest) return;
+  try { if (localStorage.getItem("pw_toast") === latest) return; } catch (e) {}
+  const names = today.slice(0, 4).map((p) => `<li>${esc(p.title)}</li>`).join("");
+  t.innerHTML = `<button class="x" aria-label="Close">×</button><div class="tt">New protocols</div><ul>${names}</ul><a href="#new">See what's new</a>`;
+  const hide = () => { t.classList.remove("show"); try { localStorage.setItem("pw_toast", latest); } catch (e) {} };
+  t.querySelector(".x").onclick = hide; t.querySelector("a").onclick = hide;
+  setTimeout(() => t.classList.add("show"), 1200);
+  setTimeout(hide, 12000);
+}
+
 function render() {
   const sorted = [...ALL].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
   const latest = sorted[0]?.date;
