@@ -63,17 +63,21 @@ function sourcesHtml(p) {
   return `<details class="src"><summary>Sources (${list.length})</summary><ol>${items}</ol></details>`;
 }
 
+// Reader page (full protocol text) built from the Word file by tools/build_seo.py
+const readUrl = (p) => (p.word_file ? "protocols/" + p.word_file.split("/").pop().replace(/\.docx$/i, "") + ".html" : "");
 function card(p) {
+  const rd = readUrl(p);
+  const read = rd ? `<a class="read" href="${esc(rd)}">📖 Read</a>` : "";
   const word = p.word_file ? `<a class="word" href="${esc(p.word_file)}" download>⬇ Word</a>` : `<span class="soon">Word · soon</span>`;
   const ppt = p.pptx_file ? `<a class="ppt" href="${esc(p.pptx_file)}" download>⬇ PowerPoint</a>` : `<span class="soon">PPTX · soon</span>`;
   const ph = photoUrl(p.category, 700, 360);
   const pic = ph ? `<div class="pic"><img src="${ph}" alt="${esc(p.category)}" loading="lazy" onerror="this.parentNode.remove()"></div>` : "";
   return `<article class="card${ph ? " has-pic" : ""}">
     ${pic}<div class="tags"><span class="tag">${esc(p.category || "Protocol")}</span><span class="tag org">${esc(orgOf(p))}</span></div>
-    <h3>${esc(p.title)}</h3>
+    <h3>${rd ? `<a class="tl" href="${esc(rd)}">${esc(p.title)}</a>` : esc(p.title)}</h3>
     <p>${esc(p.summary)}</p>
     <div class="meta">${esc(fmtDate(p.date))}${p.duration ? " · " + esc(p.duration) : ""}${p.updated ? ` · <span class="upd" title="${esc(p.revision_note || "")}">Updated ${esc(fmtDate(p.updated))}</span>` : ""}</div>
-    <div class="dl">${word}${ppt}</div>
+    <div class="dl">${read}${word}${ppt}</div>
     ${sourcesHtml(p)}
     <button class="cmt" data-t="${esc(p.title)}">💬 Comments &amp; suggestions</button>
   </article>`;
@@ -119,7 +123,7 @@ function renderNews(sorted, latest) {
     const items = sorted.filter((p) => p.date === d).map((p) => {
       const w = p.word_file ? `<a href="${esc(p.word_file)}" download>Word</a>` : "";
       const x = p.pptx_file ? `<a href="${esc(p.pptx_file)}" download>PowerPoint</a>` : "";
-      return `<div class="news-item">${d === latest ? '<span class="newpill">NEW</span>' : ""}<b>${esc(p.title)}</b><em>${esc(p.category || "")}</em><span class="news-dl">${w}${x}</span></div>`;
+      return `<div class="news-item">${d === latest ? '<span class="newpill">NEW</span>' : ""}<b>${readUrl(p) ? `<a href="${esc(readUrl(p))}">${esc(p.title)}</a>` : esc(p.title)}</b><em>${esc(p.category || "")}</em><span class="news-dl">${w}${x}</span></div>`;
     }).join("");
     return `<div class="news-day"><div class="news-date">${esc(fmtDate(d))}${d === latest ? "<span>Latest</span>" : ""}</div>${items}</div>`;
   }).join("");
