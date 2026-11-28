@@ -171,6 +171,142 @@
       "word_file": "uploads/relative-quantification-by-the-ddct-method.docx",
       "pptx_file": "uploads/relative-quantification-by-the-ddct-method.pptx",
       "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "Lambda Red Recombineering",
+      "category": "Cloning & CRISPR",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-28",
+      "duration": "4–5 days (2 h hands-on on day 2)",
+      "summary": "Deleting an E. coli gene with a PCR-made resistance cassette and short homology arms using the Red recombination system, then curing pKD46 and removing the marker with FLP.",
+      "keywords": [
+        "lambda Red",
+        "recombineering",
+        "pKD46",
+        "gene knockout",
+        "Datsenko Wanner",
+        "E. coli",
+        "electroporation"
+      ],
+      "sources": [
+        {
+          "citation": "Datsenko KA, Wanner BL (2000). One-step inactivation of chromosomal genes in Escherichia coli K-12 using PCR products. Proc Natl Acad Sci USA 97(12):6640–6645.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC18686/"
+        },
+        {
+          "citation": "Sharan SK, Thomason LC, Kuznetsov SG, Court DL (2009). Recombineering: a homologous recombination-based method of genetic engineering. Nat Protoc 4(2):206–223.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2790811"
+        },
+        {
+          "citation": "Thomason LC, Sawitzke JA, Li X, Costantino N, Court DL (2014). Recombineering: genetic engineering in bacteria using homologous recombination. Curr Protoc Mol Biol 106:1.16.1–1.16.39.",
+          "link": "https://ncifrederick.cancer.gov/fredi/sites/default/files/2024-01/cpmb-2014.pdf"
+        },
+        {
+          "citation": "Lawrence Berkeley National Laboratory, CAF group. Protocol for gene knockout (Lambda Red, pKD3/pKD4, pCP20).",
+          "link": "https://cafgroup.lbl.gov/protocols/general-molecular-biology/genomic-gene-deletion-with-lambda-red/protocol-for-gene-knockout"
+        },
+        {
+          "citation": "OpenWetWare. Recombineering/Lambda red-mediated gene replacement (original protocol by S. Douglas, adapted from Datsenko and Wanner; last edited 2014).",
+          "link": "https://openwetware.org/wiki/Recombineering/Lambda_red-mediated_gene_replacement"
+        },
+        {
+          "citation": "Barrick Lab. Lambda Red Protocol (genome modification by the Datsenko–Wanner method).",
+          "link": "https://barricklab.org/twiki/bin/view/Lab/ProcedureGenomeModificationDatsenkoWanner"
+        }
+      ],
+      "word_file": "uploads/lambda-red-recombineering.docx",
+      "pptx_file": "uploads/lambda-red-recombineering.pptx",
+      "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "Immunoprecipitation",
+      "category": "Protein Analysis",
+      "organism": "General Lab Methods",
+      "date": "2026-11-28",
+      "duration": "1.5 days (4 h hands-on)",
+      "summary": "Pulling down a target protein and its partners from mammalian cell lysate with antibody and Protein A/G magnetic beads, with isotype and input controls, then Western blot.",
+      "keywords": [
+        "immunoprecipitation",
+        "co-IP",
+        "Protein A/G beads",
+        "lysis buffer",
+        "Western blot",
+        "antibody"
+      ],
+      "sources": [
+        {
+          "citation": "Cell Signaling Technology. Immunoprecipitation Protocol (Magnetic Beads).",
+          "link": "https://www.cellsignal.com/learn-and-support/protocols/protocol-ip-magnetic"
+        },
+        {
+          "citation": "Cell Signaling Technology. Native Protein Immunoprecipitation Protocol (agarose beads).",
+          "link": "https://www.cellsignal.com/learn-and-support/protocols/protocol-ip-native-protein"
+        },
+        {
+          "citation": "Abcam. Immunoprecipitation and co-immunoprecipitation protocol.",
+          "link": "https://www.abcam.com/en-us/technical-resources/protocols/immunoprecipitation"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. Pierce Classic Magnetic IP/Co-IP Kit (88804) user guide, MAN0011737.",
+          "link": "https://assets.fishersci.com/TFS-Assets/LSG/manuals/MAN0011737_Pierce_Classic_Mag_IP_CoIP_UG.pdf"
+        },
+        {
+          "citation": "New England Biolabs. Immunoprecipitation using Protein A/G Magnetic Beads.",
+          "link": "https://www.neb.com/protocols/0001/01/01/immunoprecipitation-using-protein-ag-magnetic-beads"
+        },
+        {
+          "citation": "Burckhardt CJ, Minna JD, Danuser G (2021). Co-immunoprecipitation and semi-quantitative immunoblotting for the analysis of protein-protein interactions. STAR Protoc 2(3):100644.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8264609/"
+        }
+      ],
+      "word_file": "uploads/immunoprecipitation.docx",
+      "pptx_file": "uploads/immunoprecipitation.pptx",
+      "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "Super-Resolution (SIM) Sample Preparation",
+      "category": "Imaging & Microscopy",
+      "organism": "General Lab Methods",
+      "date": "2026-11-28",
+      "duration": "2 days (about 5 h hands-on)",
+      "summary": "Preparing fixed, immunolabeled cells on #1.5H coverslips, with matched mounting medium, for artifact-free 3D structured illumination microscopy.",
+      "keywords": [
+        "SIM",
+        "super-resolution",
+        "#1.5H coverslip",
+        "immunofluorescence",
+        "mounting medium",
+        "3D-SIM"
+      ],
+      "sources": [
+        {
+          "citation": "Kraus F, Miron E, Demmerle J, Chitiashvili T, Budco A, Alle Q, Matsuda A, Leonhardt H, Schermelleh L, Markaki Y (2017). Quantitative 3D structured illumination microscopy of nuclear structures. Nat Protoc 12(5):1011–1028.",
+          "link": "https://research.monash.edu/en/publications/quantitative-3d-structured-illumination-microscopy-of-nuclear-str/"
+        },
+        {
+          "citation": "Ball G, Demmerle J, Kaufmann R, Davis I, Dobbie IM, Schermelleh L (2015). SIMcheck: a toolbox for successful super-resolution structured illumination microscopy. Sci Rep 5:15915.",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4648340"
+        },
+        {
+          "citation": "Plantard L. Sample preparation for SIM. Core Facility for Integrated Microscopy, University of Copenhagen (2016).",
+          "link": "https://cfim.ku.dk/equipment/light-microscopes/elyra/SIM_Sample_prep-20170802.pdf"
+        },
+        {
+          "citation": "Frikstad K-AM et al. (2022). 3D-SIM protocol for centrosome protein localization in fixed human cells. Bio-protocol 12(6):e4360.",
+          "link": "https://bio-protocol.org/e4360"
+        },
+        {
+          "citation": "IGMM Advanced Imaging Resource, University of Edinburgh. Nikon N-SIM technical notes and sample preparation.",
+          "link": "https://institute-genetics-cancer.ed.ac.uk/sites/default/files/2024-09/IGMM-AIR-SIM-tech-notes.pdf"
+        },
+        {
+          "citation": "Demmerle J, Innocent C, North AJ, Ball G, Müller M, Miron E, Matsuda A, Dobbie IM, Markaki Y, Schermelleh L (2017). Strategic and practical guidelines for successful structured illumination microscopy. Nat Protoc 12(5):988–1010 (abstract and figure legends only were accessible).",
+          "link": "https://www.nature.com/articles/nprot.2017.019.pdf"
+        }
+      ],
+      "word_file": "uploads/super-resolution-sim-sample-preparation.docx",
+      "pptx_file": "uploads/super-resolution-sim-sample-preparation.pptx",
+      "staged_dir": "review/2026-11-28/"
     }
   ]
 }

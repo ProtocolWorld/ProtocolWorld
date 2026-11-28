@@ -970,19 +970,19 @@
     {
       "title": "Lambda Red Recombineering",
       "category": "Cloning & CRISPR",
-      "status": "pending",
+      "status": "staged",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "Immunoprecipitation",
       "category": "Protein Analysis",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {
       "title": "Super-Resolution (SIM) Sample Preparation",
       "category": "Imaging & Microscopy",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {
