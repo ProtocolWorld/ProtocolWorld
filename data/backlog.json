@@ -934,19 +934,19 @@
     {
       "title": "Bacterial Genomic DNA Isolation for Sequencing",
       "category": "Microbiology",
-      "status": "pending",
+      "status": "staged",
       "organism": "E. coli & Bacteria"
     },
     {
       "title": "C. elegans Thrashing and Locomotion Assay",
       "category": "Model Organisms",
-      "status": "pending",
+      "status": "staged",
       "organism": "C. elegans"
     },
     {
       "title": "CLIP-seq",
       "category": "Genomics & Sequencing",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {

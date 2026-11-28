@@ -1,3 +1,94 @@
 {
-  "pending": []
+  "pending": [
+    {
+      "title": "Bacterial Genomic DNA Isolation for Sequencing",
+      "category": "Microbiology",
+      "organism": "E. coli & Bacteria",
+      "date": "2026-11-28",
+      "duration": "2 days (about 6 h hands-on on day 2)",
+      "summary": "Isolate high-molecular-weight genomic DNA from E. coli and other bacteria for Illumina or nanopore sequencing: lysozyme, SDS and proteinase K lysis, RNase A, CTAB cleanup, chloroform and phenol extraction, isopropanol precipitation, and Qubit and gel quality control.",
+      "keywords": "bacterial genomic DNA extraction gDNA sequencing E. coli CTAB lysozyme proteinase K high molecular weight nanopore Illumina phenol chloroform Qubit",
+      "sources": [
+        {
+          "citation": "Feil W, Feil H, Copeland A. Bacterial DNA isolation CTAB protocol. DOE Joint Genome Institute; 2012 (version 3).",
+          "link": "https://jgi.doe.gov/sites/default/files/2025-01/JGI-Bacterial-DNA-isolation-CTAB-Protocol.pdf"
+        },
+        {
+          "citation": "New England Biolabs. Protocol for high molecular weight DNA (HMW DNA) extraction from bacteria (NEB #T3060); 2020.",
+          "link": "https://international.neb.com/protocols/2020/10/27/protocol-for-high-molecular-weight-dna-hmw-dna-extraction-from-bacteria"
+        },
+        {
+          "citation": "Oxford Nanopore Technologies. Bacteria gDNA extraction for Nanopore-only Microbial Isolate Sequencing Solution (NO-MISS); published 2024.",
+          "link": "https://nanoporetech.com/document/extraction-method/bact-gdna-no-miss"
+        },
+        {
+          "citation": "Stöckl RRKS. HMW gDNA extraction from prokaryotic cultures and cryo preservation stocks. protocols.io; 2023. doi:10.17504/protocols.io.3byl4q7nrvo5/v1.",
+          "link": "https://www.protocols.io/view/hmw-gdna-extraction-from-prokaryotic-cultures-and-cwumxeu6.pdf"
+        }
+      ],
+      "word_file": "uploads/bacterial-genomic-dna-isolation-for-sequencing.docx",
+      "pptx_file": "uploads/bacterial-genomic-dna-isolation-for-sequencing.pptx",
+      "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "C. elegans Thrashing and Locomotion Assay",
+      "category": "Model Organisms",
+      "organism": "C. elegans",
+      "date": "2026-11-28",
+      "duration": "About 4 days (3 days of worm growth, 2–3 h for the assay)",
+      "summary": "Count swimming thrashes of synchronized day-1 adult C. elegans in M9 buffer: bleach synchronization, bacteria clearing, a fixed acclimation time, 30 s video counts, blinded scoring, optional automated analysis and statistics.",
+      "keywords": "C. elegans thrashing assay locomotion swimming body bends M9 buffer neuromuscular behavior N2 synchronization levamisole video analysis",
+      "sources": [
+        {
+          "citation": "Buckingham SD, Sattelle DB. Fast, automated measurement of nematode swimming (thrashing) without morphometry. BMC Neurosci. 2009;10:84. doi:10.1186/1471-2202-10-84",
+          "link": "https://link.springer.com/content/pdf/10.1186/1471-2202-10-84.pdf"
+        },
+        {
+          "citation": "Kudumala S, Sossi S, Carvelli L. Swimming induced paralysis is a valuable behavioral assay to assess dopamine signaling in Caenorhabditis elegans. J Vis Exp. 2019;(146):e59243. doi:10.3791/59243",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7263014"
+        },
+        {
+          "citation": "Walker AC, Bhargava R, Brust AS, Owji AA, Czyz DM. Time-off-pick assay to measure Caenorhabditis elegans motility. Bio-protocol. 2022;12(12):e4436. doi:10.21769/BioProtoc.4436",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9257836"
+        },
+        {
+          "citation": "Bio-protocol. Thrashing assay protocol, entry e253 (2012; title and authors not shown on the page).",
+          "link": "https://bio-protocol.org/e253"
+        }
+      ],
+      "word_file": "uploads/c-elegans-thrashing-and-locomotion-assay.docx",
+      "pptx_file": "uploads/c-elegans-thrashing-and-locomotion-assay.pptx",
+      "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "CLIP-seq",
+      "category": "Genomics & Sequencing",
+      "organism": "General Lab Methods",
+      "date": "2026-11-28",
+      "duration": "About 5–6 days (3–4 days hands-on)",
+      "summary": "Map where an RNA-binding protein contacts RNA in cultured mammalian cells: UV crosslinking, partial RNase digestion, immunoprecipitation, adapter ligation, SDS-PAGE and membrane transfer, cDNA library preparation, sequencing and crosslink-site analysis with controls.",
+      "keywords": "CLIP-seq iCLIP HITS-CLIP eCLIP seCLIP RNA-binding protein UV crosslinking immunoprecipitation RNase I adapter ligation crosslink sites PureCLIP library preparation sequencing",
+      "sources": [
+        {
+          "citation": "Huppertz I, Attig J, D'Ambrogio A, Easton LE, Sibley CR, Sugimoto Y, et al. iCLIP: protein–RNA interactions at nucleotide resolution. Methods. 2014;65(3):274–287. doi:10.1016/j.ymeth.2013.10.011",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3988997"
+        },
+        {
+          "citation": "Van Nostrand EL, Nguyen TB, Gelboin-Burkhart C, Wang R, Blue SM, Pratt GA, et al. Robust, cost-effective profiling of RNA binding protein targets with single-end enhanced crosslinking and immunoprecipitation (seCLIP). Methods Mol Biol. 2017;1648:177–200. doi:10.1007/978-1-4939-7204-3_14",
+          "link": "https://link.springer.com/protocol/10.1007/978-1-4939-7204-3_14"
+        },
+        {
+          "citation": "Biancon G, Busarello E, Joshi P, Lesch BJ, Halene S, Tebaldi T. Deconvolution of in vivo protein–RNA contacts using fractionated eCLIP-seq (freCLIP-seq). STAR Protoc. 2022;3(4):101823. doi:10.1016/j.xpro.2022.101823",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9676202"
+        },
+        {
+          "citation": "Lin C, Miles WO. Beyond CLIP: advances and opportunities to measure RBP–RNA and RNA–RNA interactions. Nucleic Acids Res. 2019;47(11):5490–5501. doi:10.1093/nar/gkz295",
+          "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6582316"
+        }
+      ],
+      "word_file": "uploads/clip-seq.docx",
+      "pptx_file": "uploads/clip-seq.pptx",
+      "staged_dir": "review/2026-11-28/"
+    }
+  ]
 }
