@@ -89,6 +89,88 @@
       "word_file": "uploads/clip-seq.docx",
       "pptx_file": "uploads/clip-seq.pptx",
       "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "DNase I Footprinting",
+      "category": "Biochemistry",
+      "organism": "General Lab Methods",
+      "date": "2026-11-28",
+      "duration": "2–3 days (about 12 h hands-on)",
+      "summary": "Map where a DNA-binding protein, such as an E. coli transcription factor, sits on a 100–400 bp fragment: 32P end-label a PCR probe, bind the protein, digest lightly with DNase I, and read the protected ladder on a denaturing gel against a G+A sequence ladder, with optional affinity estimates from a titration.",
+      "keywords": "DNase I footprinting protein-DNA interaction transcription factor binding site 32P PCR probe denaturing gel G+A ladder titration E. coli",
+      "sources": [
+        {
+          "citation": "Gaugué I, Bréchemier-Baey D, Plumbridge J. DNase I footprinting to identify protein binding sites. Bio-protocol. 2013;3(14):e824.",
+          "link": "https://en.bio-protocol.org/pdf/Bio-protocol824.pdf"
+        },
+        {
+          "citation": "Hsieh M, Boulanger A, Knipling LG, Hinton DM. Combining gel retardation and footprinting to determine protein–DNA interactions of specific and/or less stable complexes. Bio-protocol. 2020;10(23):e3843. doi:10.21769/BioProtoc.3843.",
+          "link": "https://bio-protocol.org/e3843"
+        },
+        {
+          "citation": "Trauger JW, Dervan PB. Footprinting methods for analysis of pyrrole–imidazole polyamide/DNA complexes. Methods Enzymol. 2001;340:450–466.",
+          "link": "https://dervan.caltech.edu/documents/25079/1-s2.0-S0076687901404368-main.pdf"
+        }
+      ],
+      "word_file": "uploads/dnase-i-footprinting.docx",
+      "pptx_file": "uploads/dnase-i-footprinting.pptx",
+      "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "T Cell Isolation and Activation",
+      "category": "Immunology",
+      "organism": "Mammalian Cells",
+      "date": "2026-11-28",
+      "duration": "1 day isolation + 3–5 days activation",
+      "summary": "Isolate primary T cells from human blood (Ficoll, CD8+ negative selection) or mouse spleen (CD4+ negative selection, about 95% pure), then activate them with plate-bound anti-CD3 plus soluble anti-CD28 or a ready-made activator, check CD69 and CD25 and expand with IL-2.",
+      "keywords": "T cell isolation activation PBMC Ficoll negative selection EasySep CD8 CD4 anti-CD3 anti-CD28 IL-2 splenocytes CD69 CD25 mouse human",
+      "sources": [
+        {
+          "citation": "Pohida K, Lake CM, Yee D, Snow AL. Restimulation-induced cell death (RICD): methods for modeling, investigating, and quantifying RICD sensitivity in primary human T cells via flow cytometric analysis. Bio-protocol. 2022;12(4):e4326. doi:10.21769/BioProtoc.4326.",
+          "link": "https://bio-protocol.org/e4326"
+        },
+        {
+          "citation": "Thermo Fisher Scientific. T cell activation via anti-CD3 and anti-CD28 protocol. Immunology at Work, Protocols for Immunology.",
+          "link": "https://www.thermofisher.com/us/en/home/life-science/cell-analysis/cell-analysis-learning-center/immunology-at-work/immunology-protocols/t-cell-activation-anti-cd3-anti-cd28.html"
+        },
+        {
+          "citation": "STEMCELL Technologies. EasySep Mouse CD4+ T Cell Isolation Kit, product information sheet (document 10000003746, version 02); 2022.",
+          "link": "https://cdn.stemcell.com/media/files/pis/10000003746-PIS_02.pdf"
+        },
+        {
+          "citation": "Zheng N, Peng W. T cell differentiation from mice spleen tissue. protocols.io; 2024. doi:10.17504/protocols.io.261gedy8ov47/v1.",
+          "link": "https://www.protocols.io/view/t-cell-differentiation-from-mice-spleen-tissue-c9yiz7ue.html"
+        }
+      ],
+      "word_file": "uploads/t-cell-isolation-and-activation.docx",
+      "pptx_file": "uploads/t-cell-isolation-and-activation.pptx",
+      "staged_dir": "review/2026-11-28/"
+    },
+    {
+      "title": "Relative Quantification by the ΔΔCt Method",
+      "category": "Molecular Biology",
+      "organism": "General Lab Methods",
+      "date": "2026-11-28",
+      "duration": "1 day (plus 1 day for primer validation)",
+      "summary": "Quantify gene expression changes by real-time RT-qPCR: check RNA quality, validate primer efficiency and reference genes, then compute ΔCt, ΔΔCt and 2^(−ΔΔCt) fold change with error propagation, following MIQE reporting, with a worked example from the original paper.",
+      "keywords": "ddCt delta delta Ct 2^-ddCt relative quantification qPCR RT-qPCR reference gene normalization primer efficiency MIQE gene expression fold change Livak",
+      "sources": [
+        {
+          "citation": "Livak KJ, Schmittgen TD. Analysis of relative gene expression data using real-time quantitative PCR and the 2^(−ΔΔCT) method. Methods. 2001;25(4):402–408. doi:10.1006/meth.2001.1262.",
+          "link": "https://www.ffclrp.usp.br/divulgacao/emu/real_time/referencias/Delta-Delata%20Ct%20Methods_Livak.pdf"
+        },
+        {
+          "citation": "Bustin SA, Benes V, Garson JA, et al. The MIQE guidelines: minimum information for publication of quantitative real-time PCR experiments. Clin Chem. 2009;55(4):611–622. doi:10.1373/clinchem.2008.112797.",
+          "link": "https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/MIQE%20paper.pdf"
+        },
+        {
+          "citation": "Taylor SC, Mrkusich EM. The state of RT-quantitative PCR: firsthand observations of implementation of minimum information for the publication of quantitative real-time PCR experiments (MIQE). J Mol Microbiol Biotechnol. 2014;24:46–52. doi:10.1159/000356189.",
+          "link": "https://gene-quantification.de/taylor-mrkusich-rt-qpcr-miqe-2014.pdf"
+        }
+      ],
+      "word_file": "uploads/relative-quantification-by-the-ddct-method.docx",
+      "pptx_file": "uploads/relative-quantification-by-the-ddct-method.pptx",
+      "staged_dir": "review/2026-11-28/"
     }
   ]
 }

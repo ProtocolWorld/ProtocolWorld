@@ -952,19 +952,19 @@
     {
       "title": "DNase I Footprinting",
       "category": "Biochemistry",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {
       "title": "T Cell Isolation and Activation",
       "category": "Immunology",
-      "status": "pending",
+      "status": "staged",
       "organism": "Mammalian Cells"
     },
     {
       "title": "Relative Quantification by the ΔΔCt Method",
       "category": "Molecular Biology",
-      "status": "pending",
+      "status": "staged",
       "organism": "General Lab Methods"
     },
     {
